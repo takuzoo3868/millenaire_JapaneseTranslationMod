@@ -1,0 +1,15 @@
+version:4.3.0
+<darkblue>ビザンティン
+
+ローマ人の誇り高い立派な後継者、<ret>ビザンチウムの住民は、ワインと<ret>洗練された宗教的なアイコンを<ret>製作します。<ret><ret>彼らはギリシャ語は話す。プレーヤーは<ret>彼らと言葉を話すことを「学ぶ」ことで、<ret>彼らと会話できるようになります。
+
+<darkblue>固有アイテムとブロック
+
+-彼らはブドウを栽培し、ブドウを使って<ret>
+ワインを造ります。プレイヤーは<ret>シェフから栽培方法を「学ぶ」ことを頼むことができる。
+-建物に使うエレガントなビザンチウムタイルは<ret>粘土から作ります。<ret>
+-Their mastery of sericulture (カイコ飼育)<ret> allows them to produce the silk on which they paint their Byzantine Icons
+
+<darkblue>特定のレシピ
+
+-ブドウ3つ並べ、2つのラインで<ret>ワインを作ります
