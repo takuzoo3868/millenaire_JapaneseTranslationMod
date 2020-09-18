@@ -81,6 +81,7 @@ ui.clicktorequest=要求をクリック
 ui.scrollbought=<0>: 村の巻物を入手しました！
 ui.housebought=<0>: あなたの <1> の建設が間もなく開始されます！
 ui.inhabitantof=<0> の住人
+ui.resources=資材
 ui.inconstruction=建設中
 ui.nospace=スペースが足りません
 ui.reservedforvillager1=予約済
@@ -101,10 +102,12 @@ ui.goalscompleted2=目標達成
 ui.project=計画
 ui.noconstruction1=建設中無し
 ui.noconstruction2=建設中
+ui.xconstructions=<0> 件建設中
 ui.planinconstruction=Bld <0>
 ui.planupgrading=Upg <0> (<1>)
 ui.upgrading=アップグレード中 (<0>)
-ui.construction=建築工程 <0>:
+ui.progress=進捗: <0>%
+ui.progressnopercent=進行中
 ui.population=人口:
 ui.populationnumber=総人口: <0>
 ui.borderpost_visitorswelcome=ようこそ
@@ -114,6 +117,7 @@ ui.teens=若者: <0> (<1>/<2>)
 ui.children=子供: <0> (<1>/<2>)
 ui.villagemap=村の地図
 ui.nbbuildings=建物数 <0>
+ui.nbwalls=城壁数 <0>
 ui.wandwrongblock=この杖はとある村、もしくは一般的な黒曜石の上でのみ使用できます:
 ui.wandblocklist=<0> を生成 <1>
 ui.wandblocklistcontrolled=<0> を生成 <1> (この文化の中における指導者である必要があります)
@@ -134,10 +138,10 @@ ui.worldnotgenerated=このエリア周辺は正しく生成されませんで�
 ui.tooclosetospawn=スポーン地点に近すぎるため村を生成することができません。
 ui.generatenotenoughspace=町役場を作成するためのスペースがありません。
 ui.generatenotenoughspacevillage=村を作成するためのスペースがありません。
-ui.lackingresources=資源不足
+ui.lackingresources=資材不足
 ui.lockedchestwarning=警告: 鍵のついたチェストを破壊すると村が正常に機能しなくなります。 村を失っていい時のみ行ってください。
 ui.xoutofy=<1> の <0>
-ui.extraresneeded1=<0> その他の資源
+ui.extraresneeded1=<0> その他の資材
 ui.extraresneeded2=必須
 ui.woodforplanks=木材 (どれでも)
 ui.woodoak=樫の原木
@@ -203,7 +207,8 @@ ui.croplearn=学習 (<0>)
 ui.croplearned=<0>: あなたは <1> の栽培の秘密を解明しました！
 ui.huntingdropsknown=この文化で知られている狩猟法
 ui.huntingdropknown=あなたは <0>の狩猟法を会得しました。
-ui.huntingdropinsufficientreputation=この村の人々が <0> の狩猟法を伝授するにはあなたの評価は低すぎます。ui.huntingdropnotenoughmoney=<0> の狩猟法を学ぶには <1> が必要です。
+ui.huntingdropinsufficientreputation=この村の人々が <0> の狩猟法を伝授するにはあなたの評価は低すぎます。
+ui.huntingdropnotenoughmoney=<0> の狩猟法を学ぶには <1> が必要です。
 ui.huntingdropoktolearn=<0> の狩猟法を村から教わることができます
 ui.huntingdroplearn=学習 (<0>)
 ui.huntingdroplearned=<0>: あなたは <0> の解体方法を学びました！
@@ -213,7 +218,10 @@ ui.crop.rice=米
 ui.crop.turmeric=ターメリック
 ui.crop.maize=トウモロコシ
 ui.crop.grapes=ブドウ
+ui.crop.cotton=綿
 ui.crop.sapling_appletree=リンゴの木
+ui.crop.sapling_olivetree=オリーブの木
+ui.crop.sapling_pistachio=ピスタチオの木
 ui.raider=侵略者
 ui.communicationexplanations=村人とコミュニケーションをするには右クリックしてください。もしコミュニケーションが可能な村人であれば対応するウィンドウ(取引、 長老との会話、 雇用、 クエスト)が開きます。
 ui.helpbutton=Millénaireヘルプ
@@ -232,17 +240,24 @@ ui.relgood=和平
 ui.relneutral=中立
 ui.relbad=対立
 ui.raid=侵略計画
+ui.custombuilding_confirm=カスタム建築の生成を確認: <0>
+ui.custombuilding_cantconfirm=カスタム建築の生成が不可能: <0>
+ui.custombuilding_edit=カスタム建築を更新: <0>
+ui.custombuilding_resneededintro=必要な資材:
+ui.custombuilding_newvillage=中央施設をもつ新しい村が生成されました
+ui.custombuilding_signnumber=備考: 1行目に 1 から <0> の間の数字を入れることで、指示の順番を指定することができます。
+ui.custombuilding_radius=資材は半径 <0> ブロック(垂直方向に <1> ブロック)の範囲内で識別されます
 ui.close=閉じる
 ui.confirm=続ける
 ui.panelwalls=城壁
 ui.panelwallscomplete=完成
 ui.panelwallnowalls=この集落に城壁はありません。
 ui.panelwallslevel=レベル <0>: <1>/<2>
-ui.uluexplanations=ウルー(ナイフ)には2通りの使い方があります。①雪上あるいは氷上でのブロック切り出し　②作業台を用いて木材と粗い土から合板を生成
+ui.uluexplanations=イヌイットのナイフ(Ulu)には2通りの使い方があります。①雪上あるいは氷上でのブロック切り出し　②作業台を用いて木材と粗い土から合板を生成
 ui.ulunoplanks=作業台に木材がありません。
 ui.ulunodirt=作業台に粗い土がありません。
 ui.ulusodplanksleft=合板 残り: <0>
-ui.stealingsmelteditems=村人のかまどから資源を奪うのは窃盗だ! あなたは<0> 評判を落としました。
+ui.stealingsmelteditems=村人のかまどから資材を奪うのは窃盗だ! あなたは<0> 評判を落としました。
 ui.stealingcrops=村のものである農作物や果物を収穫するのは窃盗だ！ あなたは<0> 評判を落としました。
 
 custombuilding.chest=チェスト
@@ -262,7 +277,7 @@ custombuilding.squid=青い羊毛(イカのスポーンに代用され、消え�
 custombuilding.cacao=カカオ
 
 help.tab_1=村について
-help.tab_2=貿易について
+help.tab_2=交易について
 help.tab_3=評判（評価）と村長
 help.tab_4=村の成長
 help.tab_5=戦闘や襲撃
@@ -354,6 +369,7 @@ panels.goodstraded=この村で取引された物
 panels.goodsimported=この村に輸入された物
 panels.goodsexported=別の村に輸出した物
 panels.innvisitors=訪問者数 <0>
+panels.mapwarning=警告: 村の土地に建物を建てるのは危険です！村人はプレイヤーの建物の破壊を避けようとしますが、確実ではありません。村から土地の区画を購入して、建設を行ってください。
 panels.mappurple=紫: 建設中
 panels.mapblue=青: 他の建物
 panels.mapgreen=緑: 建設可能エリア
@@ -403,37 +419,45 @@ panels.nameand=<0> と
 panels.buildingproject=現在の計画:
 panels.currentconstruction=現在建設中:
 panels.villagesummary=重要な情報
+panels.marveldonationstitle=<0> への寄付
+panels.marveldonation=<0> は次のように述べている: <1>
+panels.marvelresources=大聖堂に必要な資材:
+panels.walls=村の城壁
+panels.wallslevel=現在のレベル: <0>、 <1>/<2> が建設完了
+panels.wallsres=現在のレベルに必要な資材:
+panels.wallssegments=城壁のパーツ:
 
-goal.gorest=休憩
+goal.gorest=休憩中
 goal.godrink=飲みに行く
 goal.gopray=祈りに行く
-goal.GatherGoods=アイテムを集める
-goal.BringBackResourcesHome=資源を持ち帰ってきた
-goal.GetTool=道具を取りに行く
-goal.huntMonster=狩猟
-goal.getGoodsHousehold=家事の道具を取りに行く
-goal.DeliverGoodsHousehold=家事の道具を届けに行く
-goal.GetHouseTHResources=家から資材を取ってくる
-goal.DeliverResourcesShop=資材を届ける
+goal.gathergoods=アイテムを集める
+goal.bringbackresourceshome=資材を持ち帰ってきた
+goal.gettool=道具を取りに行く
+goal.huntmonster=狩猟
+goal.getgoodshousehold=家事の道具を取りに行く
+goal.delivergoodshousehold=家事の道具を届けに行く
+goal.gethousethresources=家から資材を取ってくる
+goal.deliverresourcesshop=資材を届ける
 goal.raidvillage=村を襲撃
 goal.defendvillage=村を防衛
 goal.hide=避難
 goal.tendfurnace=かまどに向かう
+goal.takefrombuilding=建物から荷物を受け取る
 
-goal.CollectCrop=作物の採取
-goal.PlantSeeds=種まき
-goal.ChopTrees=伐採
-goal.PlantSaplings=苗植え
-goal.GetResourcesForBuild=建設資材準備
-goal.MakeBread=パン作成
-goal.makecake=ケーキを作成
+goal.collectcrop=作物の採取
+goal.plantseeds=種まき
+goal.choptrees=伐採
+goal.plantsaplings=苗植え
+goal.getresourcesforbuild=建設資材準備
+goal.makebread=パンを焼く
+goal.makecake=ケーキを作る
 goal.makesugar=製糖
-goal.BeSeller=プレイヤーに販売
-goal.MakeCider=りんご酒を醸造
-goal.MakeCalva=カルヴァドスを醸造
-goal.Construction=建設
-goal.GoPlay=遊ぶ
-goal.BecomeAdult=引越
+goal.beseller=プレイヤーに販売
+goal.makecider=りんご酒を醸造
+goal.makecalva=カルヴァドスを醸造
+goal.construction=建設中
+goal.goplay=遊ぶ
+goal.becomeadult=引越
 
 goal.childobserve=大人を観察中
 goal.childeatgrapes=ぶどうを頂く
@@ -441,97 +465,100 @@ goal.childeatsugarcane=サトウキビを噛じる
 goal.childeatapple=リンゴを噛じる
 goal.childeatcacaobeans=カカオ豆を食べている
 
-goal.MakeNormanTools=道具を作成
-goal.MakeNormanWeapons=武器を作成
-goal.makenormanaxe=ノルマンの斧を作成
-goal.makenormanhoe=ノルマンのクワを作成
-goal.makenormanpickaxe=ノルマンのつるはしを作成
-goal.makenormanshovel=ノルマンのシャベルを作成
-goal.makenormanboots=ノルマンのブーツを作成
-goal.makenormanhelmet=ノルマンのヘルメットを作成 
-goal.makenormanlegs=ノルマンのレギンスを作成
-goal.makenormanplate=ノルマンのチェストプレートを作成
-goal.makenormansword=ノルマンの剣を作成
+goal.makenormanaxe=ノルマンの斧を鍛造
+goal.makenormanhoe=ノルマンのクワを鍛造
+goal.makenormanpickaxe=ノルマンのつるはしを鍛造
+goal.makenormanshovel=ノルマンのシャベルを鍛造
+goal.makenormanboots=ノルマンのブーツを鍛造
+goal.makenormanhelmet=ノルマンのヘルメットを鍛造 
+goal.makenormanlegs=ノルマンのレギンスを鍛造
+goal.makenormanplate=ノルマンのチェストプレートを鍛造
+goal.makenormansword=ノルマンの剣を鍛造
 
+goal.patrol=パトロール
+goal.butcher=畜殺
+goal.makeboudin=ソーセージを作成
+goal.maketripes=トライプを作成
 
-goal.Patrol=パトロール
-goal.Butcher=畜殺
-goal.MakeBoudin=ソーセージを作成
-goal.MakeTripes=トライプを作成
-
-goal.Mining=採掘中
 goal.mineclay=粘土を採掘中
 goal.minegravel=砂利を採掘中
 goal.minesand=砂を採掘中
 goal.minesandstone=砂岩を採掘中
+goal.mineredsandstone=レッドストーンを採掘中
 goal.minestone=石を採掘中
-goal.minesnowbricks=雪を切り出し中
+goal.minesnowbricks=雪塊を切り出し中
 goal.minesnowpaths=雪の道を作成中
 goal.mineicebricks=氷塊を切り出し中C
 
-goal.Cooking=料理の材料
-goal.MakeBooks=羊皮紙を作成
-goal.MakeTapestry=織物を作成
-goal.VisitInn=宿に行く
-goal.VisitBuilding=店に行く
-goal.MakeAmulet=魔除けを作成
-goal.KeepStall=露天を所有
-goal.MakeTimberFrame=木製フレーム作成
+goal.cooking=料理の材料
+goal.makebooks=羊皮紙を作成
+goal.maketapestry=織物を作成
+goal.visitinn=宿に行く
+goal.visitbuilding=店に行く
+goal.makeamulet=魔除けを作成
+goal.keepstall=露天を所有
+goal.maketimberframe=木製フレーム作成
 
-goal.DryBrick=レンガを乾かす
-goal.GatherBrick=乾いたレンガを集める
-goal.CookBrick=レンガを焼く
-goal.PlantRice=米を植える
-goal.HarvestRice=米を収穫
-goal.PlantTurmeric=ターメリックを植える
-goal.HarvestTurmeric=ターメリックを収穫
-goal.SlaughterChicken=鶏を屠殺
-goal.PlantSugarCane=サトウキビを植える
-goal.HarvestSugarCane=サトウキビを収穫
-goal.MakeRasgulla=ラスグッラを作成
-goal.Makesteelaxe=鉄の斧を作成
-goal.Makesteelpickaxe=鉄のツルハシを作成
-goal.Makesteelshovel=鉄のシャベルを作成
-goal.Makesteelhoe=鉄のクワを作成
-goal.Makesteelsword=鉄の剣を作成
+goal.drybrick=レンガを乾かす
+goal.gatherbrick=乾いたレンガを集める
+goal.cookbrick=レンガを焼く
+goal.plantrice=米を植える
+goal.harvestrice=米を収穫
+goal.plantturmeric=ターメリックを植える
+goal.harvestturmeric=ターメリックを収穫
+goal.slaughterchicken=鶏を屠殺
+goal.plantsugarcane=サトウキビを植える
+goal.harvestsugarcane=サトウキビを収穫
+goal.makerasgulla=ラスグッラを作成
+goal.makesteelaxe=鉄の斧を作成
+goal.makesteelpickaxe=鉄のツルハシを作成
+goal.makesteelshovel=鉄のシャベルを作成
+goal.makesteelhoe=鉄のクワを作成
+goal.makesteelsword=鉄の剣を作成
 goal.makecauldron=大釜を作成
 goal.makesteelchest=鉄のチェストプレートを作成
 goal.makesteelhelmet=鉄のヘルメットを作成
 goal.makesteellegs=鉄のレギンスを作成
 goal.makesteelboots=鉄のブーツを作成
-goal.makeindianstatue=インドの像を作成
+goal.makeindianstatue=像を彫る
 goal.performpujas=祈祷する
 goal.bepujaperformer=祈祷の日
 goal.performsacrifices=供物の作成
 goal.besacrificeperformer=供物にできる
-goal.PlantMaize=トウモロコシを植える
-goal.HarvestMaize=トウモロコシを収穫
 
+goal.makecharpoybed=チャーポイを作成
+goal.makedecoratedbricks=ブロックを塗装
+goal.makepaintedbucketwhite=漆喰を作成
+goal.makewoodenbars=格子窓を作成
+goal.makewoodenbarsindian=窓枠を彫る
+goal.makewoodenbarsrosette=窓枠を彫る
+
+goal.plantmaize=トウモロコシを植える
+goal.harvestmaize=トウモロコシを収穫
 goal.makemayanGoldBlock=金の装飾を作成
-goal.makemayanstatue=マヤの像を作成
+goal.makemayanstatue=像を彫る
 
-goal.Makewoodenaxe=木の斧を作成
-goal.Makewoodenpickaxe=木のツルハシを作成
-goal.Makewoodenshovel=木のシャベルを作成
-goal.Makewoodenhoe=木のクワを作成
-goal.Makewoodensword=木の剣を作成
+goal.makewoodenaxe=木の斧を作成
+goal.makewoodenpickaxe=木のツルハシを作成
+goal.makewoodenshovel=木のシャベルを作成
+goal.makewoodenhoe=木のクワを作成
+goal.makewoodensword=木の剣を作成
+goal.makewoodenaxeinuit=木の斧を作成
+goal.makewoodenpickaxeinuit=木のツルハシを作成
+goal.makewoodenshovelinuit=木のシャベルを作成
+goal.makewoodenhoeinuit=木のクワを作成
+goal.makewoodenswordinuit=木の剣を作成
 
-goal.Makewoodenaxeinuit=木の斧を作成
-goal.Makewoodenpickaxeinuit=木のツルハシを作成
-goal.Makewoodenshovelinuit=木のシャベルを作成
-goal.Makewoodenhoeinuit=木のクワを作成
-goal.Makewoodenswordinuit=木の剣を作成
+goal.makestoneaxe=石の斧を作成
+goal.makestonepickaxe=石のツルハシを作成
+goal.makestoneshovel=石のシャベルを作成
+goal.makestonehoe=石のクワを作成
+goal.makestonesword=石の剣を作成
 
-goal.Makestoneaxe=石の斧を作成
-goal.Makestonepickaxe=石のツルハシを作成
-goal.Makestoneshovel=石のシャベルを作成
-goal.Makestonehoe=石のクワを作成
-goal.Makestonesword=石の剣を作成
 goal.makeleatherboots=皮のブーツを作成
 goal.makeleatherchest=皮のチェストプレートを作成
 goal.makeleatherhelmet=皮のヘルメットを作成
 goal.makeleatherlegs=皮のレギンスを作成
-
 goal.makeleatherboots_inuit=皮のブーツを作成
 goal.makeleatherchest_inuit=皮のチェストプレートを作成
 goal.makeleatherhelmet_inuit=皮のヘルメットを作成
@@ -559,13 +586,15 @@ goal.makepaperrice=紙を作成
 goal.makepaperwoodpulp=紙を作成
 goal.makepaperwall=障子を作成
 goal.cookfish=魚を調理
-goal.cooksteak=牛を調理
-goal.cooklamb=羊を調理
-goal.cookpork=豚を理
-goal.cookchicken=鶏を調理
+goal.cooksteak=ステーキを焼く
+goal.cooklamb=ラム肉を調理
+goal.cookpork=豚肉を調理
+goal.cookchicken=鶏肉を調理
+goal.cookbeef=牛肉を調理
+goal.cookmutton=マトンを調理
 goal.makeudon=うどんを作成
 goal.maketachi=太刀を作成
-goal.makejapaneseweapons=日本の兵器を作成
+goal.makejapaneseweapons=兵器を作成
 goal.makesake=日本酒を醸造
 goal.slaughtersquid=イカ釣り
 
@@ -587,22 +616,22 @@ goal.shoveldirt=土を掘る
 goal.makecarving=像を彫る
 goal.makeinuitcarving=像を彫る
 goal.packsnow=雪を積み重ねる
-goal.packOakSod=樫の合板を作成
-goal.packSpruceSod=マツの合板を作成
-goal.packBirchSod=シラカバの合板を作成
-goal.packsodspruce=マツの合板を作成
-goal.packsodbirch=シラカバの合板を作成
-goal.packJungleSod=ジャングルの合板を作成
+goal.packoaksod=樫の芝板を作成
+goal.packsprucesod=マツの芝板を作成
+goal.packbirchsod=シラカバの芝板を作成
+goal.packsodspruce=マツの芝板を作成
+goal.packsodbirch=シラカバの芝板を作成
+goal.packJungleSod=ジャングルの芝板を作成
 
-goal.plantPotatoHome=ジャガイモを植える
-goal.plantPotato=ジャガイモを植える
-goal.plantWheatHome=小麦を植える
-goal.plantWheat=小麦を植える
-goal.cookPotato=ジャガイモを調理
-goal.harvestPotatoHome=ジャガイモを収穫
-goal.harvestPotato=ジャガイモを収穫
-goal.harvestWheatHome=小麦を収穫
-goal.harvestWheat=小麦を収穫
+goal.plantpotatohome=ジャガイモを植える
+goal.plantpotato=ジャガイモを植える
+goal.plantwheathome=小麦を植える
+goal.plantwheat=小麦を植える
+goal.cookpotato=ジャガイモを調理
+goal.harvestpotatohome=ジャガイモを収穫
+goal.harvestpotato=ジャガイモを収穫
+goal.harvestwheathome=小麦を収穫
+goal.harvestwheat=小麦を収穫
 goal.packsnowblock=雪を固める
 goal.carveice=氷塊を削る
 
@@ -614,8 +643,8 @@ goal.plantwarts=ウォートを植える
 goal.plantvines=ブドウを植える
 goal.harvestvines=ブドウの収穫
 goal.gathersilk=絹糸を集める
-goal.makeicon=宗教画を作成
-goal.makewine=ワインを作成
+goal.makeicon=イコンを描く
+goal.makewine=ワインを製造
 goal.makebookshelves=本棚を作成
 goal.makebyzantinetiles=タイルを作成
 goal.makebrick=レンガを作成
@@ -641,12 +670,16 @@ goal.makeleather=革を作成
 goal.makehidehanging=革製品を作成
 
 goal.makebow=弓を作成
+goal.makeseljukbow=セルジュークの弓を作成
 goal.makeinuitbow=イヌイットの弓(pitiksi)を作成
 goal.makebowinuit=弓を作成
 goal.makespear=イヌイットの槍(kakivak)を作成
 goal.makerottenflesh=腐った肉を作成
 goal.makearrow=矢を作成
 goal.makearrowinuit=矢を作成
+goal.makewolfsteak=狼を精肉
+goal.makefirepit=焚き火台を作成
+goal.makedirtwallinuit=土壁を作成
 
 goal.sleep=睡眠中
 goal.sleep_travelling=寝に行く
@@ -660,8 +693,6 @@ goal.makecurry=ベジタリアンカレーを作成
 goal.makeclothes_byz_silk=絹の服を織る
 goal.slaughtersheep=羊を屠殺
 goal.slaughtercow=牛を屠殺
-goal.slaughtercowInuit=牛を屠殺
-goal.slaughtercownorman=牛を屠殺
 goal.breed=動物を繁殖させる
 goal.shearsheep=羊の毛刈り
 goal.makemurgh=チキンカレーを作成
@@ -704,7 +735,106 @@ goal.makefire_pit=焚き火台を作成
 goal.plantsaplingappletree=リンゴの木を植樹
 goal.gatherciderapples=青りんごの収穫
 
-//other
+goal.makeredsandstonecarved=赤土砂岩を削る
+goal.makesandstonecarved=砂岩を削る
+goal.makeochresandstonecarved=黄土砂岩を削る
+goal.mining=採掘中
+goal.harvestcotton=綿花を収穫
+goal.plantcotton=綿を植える
+goal.makewoolfromcotton=綿を織る
+goal.makebanner=バナーを作成
+
+goal.gathersand=砂を収集
+goal.gathergravel=砂利を収集
+goal.gatherclay=粘土を収集
+goal.makesandstone=砂岩を作成
+goal.makemosaic=モザイクを作成
+goal.polishdiorite=閃緑岩を研磨
+goal.makequartz=クォーツを研磨
+goal.makebookfancy=自叙伝を執筆
+goal.makeiconfancy=イコンを作成
+goal.makeclothessilk=絹の服を織る
+goal.makeclotheswool=羊毛の服を織る
+goal.minediorite=閃緑岩を採掘中
+goal.minestone2=石を採掘中
+goal.plantfloweryellow=ひまわりを植える
+goal.givespeech=演説を行う
+goal.listentospeech=演説を聴いている
+goal.teach=教えている
+goal.attendclass=授業へ出席
+goal.gardeningByz=庭仕事中
+goal.stealflower=花を摘む
+goal.gatherolives=オリーブを収穫
+goal.makeoliveoil=オリーブオイルの搾油
+goal.makefresco=フレスコ画を描く
+goal.makebyzantineaxe=ビザンティンの斧を鍛造
+goal.makebyzantinehoe=ビザンティンのクワを鍛造
+goal.makebyzantinepickaxe=ビザンティンのツルハシを鍛造
+goal.makebyzantineshovel=ビザンティンのシャベルを鍛造
+goal.gathersnails=カタツムリを集める
+goal.makeironbyzworkshop=鉄インゴットを鋳造
+goal.makeironbyz=鉄インゴットを鋳造
+goal.mineiron2=鉄塊を探す
+
+goal.gostudy=古文書を研究
+goal.gotreerelax=日陰でくつろぐ
+goal.relight=火を灯す
+goal.golookout=船を探す
+
+goal.makehay=干草の俵を作成
+goal.MakeArrowSeljuk=矢の製作
+goal.MakeAyranKitchen=アイランを作成
+goal.MakeBreadMill=パンを焼く
+goal.MakeCottonCloth=綿から布を作る
+goal.MakeHelva=ハルヴァを作成
+goal.MakeLokum=ロクムを作成
+goal.MakeMudbrickDecorated=装飾された泥レンガを作成
+goal.MakeMudbrickOrnamented=模様入りの泥レンガを作成
+goal.MakeMudbrickSandstone=砂岩から泥レンガを作成
+goal.MakeMudbrickSmooth=滑らかな泥レンガを作成
+goal.MakePideBeef=ピデを焼く
+goal.MakePideMutton=ピデを焼く
+goal.MakeScimitar=セルジューク・シミタール刀を作成
+goal.MakeSeljukBoots=セルジューク・ブーツを作成
+goal.MakeSeljukHelmet=セルジューク・ヘルメットを作成
+goal.MakeSeljukPlate=セルジューク・チェストプレートを作成
+goal.MakeSeljukLegs=セルジューク・レギンスを作成
+goal.MakeWallcarpetLarge=大きな壁掛け絨毯を織る
+goal.MakeWallcarpetMedium=壁掛け絨毯を織る
+goal.MakeWallcarpetSmall=小さな壁掛け絨毯を織る
+goal.PlantCottonHome=綿を植える
+goal.HarvestCottonHome=綿花を収穫
+goal.godrinkayran=アイランを飲みに行く
+goal.gopraymalemuslim=礼拝に行く
+goal.goprayfemalemuslim=礼拝に行く
+goal.MakeWoolCloth=ウールから布を作る
+goal.MakeWoolString=ウールを作成
+goal.MakeWoolCotton=ウールを作成
+goal.plantsaplingpistachioorchard=苗木を植える
+goal.gatherpistachioorchard=ピスタチオを収穫
+goal.gatherpistachio=ピスタチオを収穫
+goal.makeyogurt=ヨーグルトを作成
+goal.mineiron=鉄塊を持ち帰る
+goal.makeiron=鉄塊から鉄インゴットを精製
+goal.minegold=金塊を持ち帰る
+goal.makegold=金塊から金インゴットを精製
+goal.plantpistachio=苗木を植える
+goal.takebath=入浴する
+goal.takebathfemale=入浴する
+goal.makeseljukturban=セルジューク・ターバンを精製
+
+goal.bmakebow=弓を製作
+goal.bmakeleatherboots=皮のブーツを作成
+goal.bmakeleatherchest=皮のチェストプレートを作成
+goal.bmakeleatherlegs=皮のレギンスを作成
+goal.bmakeleatherhelmet=皮のヘルメットを作成
+goal.bmakesteelboots=鉄のブーツを作成
+goal.bmakesteelchest=鉄のチェストプレートを作成
+goal.bmakesteellegs=鉄のレギンスを作成
+goal.bmakesteelhelmet=鉄のヘルメットを作成
+goal.bmakesteelsword=鉄の剣を作成
+goal.bmakestonesword=石の剣を作成
+
 other.west=西
 other.east=東
 other.north=北
@@ -850,16 +980,16 @@ raid.historyraided=<0> による侵略。 戦利品: <1>
 raid.historyfailure=<0> への侵略は失敗しました。
 raid.historydefended=<0> からの襲撃に対し、防衛に成功しました。
 
-hof.hof=栄光の殿堂
+hof.hof=殿堂入り
 hof.modcreator=Mod製作者
 hof.creatorofmayan1=マヤ文明の
-hof.creatorofmayan2=創始者
+hof.creatorofmayan2=開発者
 hof.creatorofjapanese1=日本文明の
-hof.creatorofjapanese2=創始者
+hof.creatorofjapanese2=開発者
 hof.creatorofbyzantine1=ビザンティン文明の
-hof.creatorofbyzantine2=創始者
+hof.creatorofbyzantine2=開発者
 hof.creatorofindianskins1=インド文明の
-hof.creatorofindianskins2=創始者
+hof.creatorofindianskins2=開発者
 
 hof.skinmaker=スキンデザイナー
 hof.buildingmaker=建築物デザイナー
@@ -876,7 +1006,7 @@ hof.improvementsjapanese1=日本の村の
 hof.improvementsjapanese2=改善
 hof.lonebuildings=一軒家
 hof.obsidiantools1=黒曜石の道具
-hof.obsidiantools2=宗教画
+hof.obsidiantools2=イコン
 hof.forgecode1=Forge Sprite API用の
 hof.forgecode2=オリジナルプログラム
 hof.btw=(BTW 製作者)
@@ -890,8 +1020,9 @@ hof.variousimprovements2=改善事項
 hof.gradlebuild1=新要素
 hof.gradlebuild2=Gradle Build
 hof.112testing=1.12対応
-hof.communitywork=コミュニティへの貢献
+hof.communitywork=コミュニティ活動
 hof.development=開発
+hof.securityadvice=セキュリティに関するアドバイス
 
 marvel.norman.marvelbuilt=この偉大な大聖堂は我々ノルマン人によって建設されました！ このような建築技術の成功例は世界でも類を見ないものです！
 marvel.norman.morningbells=<0>の鐘の音が遠くまで鳴り響くことでしょう。幸運な一日でありますように！
@@ -969,23 +1100,22 @@ effect.irrigation=農業: <0>% 追加作物
 effect.pujalocation=祈祷をあげる
 effect.sacrificeslocation=供物を捧げる
 effect.healing=プレイヤーを治癒する
+effect.extraconstructionslot=追加の建築: <0>
+effect.extrawallconstructionslot=追加の城壁建築: <0>
 
 chunk.chunkmap=チャンクマップ
 chunk.caption=説明
-chunk.captiongeneral=全てのチャンクは 2x2 ピクセルのドットで<ret>表示されています。
-chunk.captiongreen=緑： ロードされたエリア。
+chunk.captiongeneral=各チャンクは 2x2 ピクセルの正方形で表示されています
+chunk.captiongreen=緑: ロードされたエリア。
 chunk.captionblue=青: 村のエリア内。
 chunk.captionpurple=紫: 一軒家などのエリア内。
-chunk.captionwhite=白: Mod(Millénaireや他のMod)による<ret>     常時読み込みエリア。
+chunk.captionwhite=白: Mod(Millénaireや他のMod)による常時読み込みエリア
 chunk.playerposition=プレイヤーの座標: <0>
-chunk.settings=村の読み込み半径: <0> m<ret>Forgeによって許可された最大チャンク数<ret>: <1>
-chunk.explanations=Millénaireの村は、村の部分のチャンク全てが<ret>読み込まれた時のみアクティブになります。<ret><ret>他の村の住民は普段は凍結されています。<ret><ret>Millénaireは、プレイヤーの周囲<ret>200m(値は変更可能です) 以内のチャンクにある<ret>村を常に読み込みます。 <ret><ret>Forgeの機能でデフォルトは 200m に制限<ret>されています。<ret>minecraft/config/forgeChunkLoading.cfg.<ret>ファイルでこの値を設定することができます。<ret><ret>警告: 常に読み込むチャンクを増やすと<ret>パフォーマンスが低下することがあります。
+chunk.settings=村の読み込み半径 <0>m。Forgeに許可された最大チャンク数 <1>。
+chunk.explanations=Millénaireの村はチャンクを全て読み込んでいる時のみアクティブになります。他の村の住民は休眠しています。Millénaireは、プレイヤーが読み込んだ200メートル以内のチャンクにある村を強制的に維持しようとします(この値は変更可能です) Forgeの機能でデフォルトは 200 に制限されています。この値はminecraft/config/forgeChunkLoading.cfgで設定できます。警告: 読み込むチャンクを増やすとパフォーマンスが低下します。
 chunk.chunkcoords=チャンク: <0>
 chunk.village=<0>
 chunk.chunkforced=強制読み込み
-
-
-
 
 config.pagetitle=Millénaire の設定
 config.page.uisettings=UI 設定
@@ -1005,22 +1135,22 @@ config.escort_key.label=スタンス変更 キー
 config.escort_key.desc=傭兵のスタンス(応戦or通常)を変更します。 デフォルト: <0>
 
 config.fallback_language.label=代替言語
-config.fallback_language.desc=代替の言語です、主言語に設定したものが<ret>利用できない場合変更されます。
+config.fallback_language.desc=代替の言語です、主言語に設定したものが利用できない場合変更されます。
 
-config.dynamic_textures.label=HD対応 テクスチャー
-config.dynamic_textures.desc=64xもしくはそれ以上のテクスチャーパックが<ret>導入されている場合、自動的に適応されます。
+config.hd_textures.label=HD対応 テクスチャー
+config.hd_textures.desc=64xもしくはそれ以上のテクスチャーパックが導入されている場合、自動的に適応されます。
 
-config.language_learning.label=言語学習
-config.language_learning.desc=言語を "学習" するかどうか<ret>(プレイヤーが学習すると翻訳文が表示)。
+config.language_learning.label=言語の習熟
+config.language_learning.desc=言語を "学習" するかどうか(プレイヤーが学習すると翻訳文が表示)。
 
-config.travel_book_learning.label=トラベルブック学習
-config.travel_book_learning.desc=トラベルブックに記載されている村人や建物等の説明が該当するアイテムの入手や出会いによって明らかになるかどうかを設定します。
+config.travel_book_learning.label=旅行記の習熟
+config.travel_book_learning.desc=旅行記に記載されている村人や建物などの記述が、該当する項目との出会いによって初めて明らかになるかどうか。
 
 config.load_all_languages.label=全ての言語を読み込む
-config.load_all_languages.desc=使用可能な言語を全て読み込みます。<ret>必要な翻訳があれば"はい"にしてください。
+config.load_all_languages.desc=使用可能な言語を全て読み込みます。必要な翻訳があれば"はい"にしてください。
 
 config.display_start.label=スタート時のテキスト表示
-config.display_start.desc=スタート時にMillénaireのバージョンと<ret>作成クエストの進行度を表示します。
+config.display_start.desc=スタート時にMillénaireのバージョンとクエストの進行度を表示します。
 
 config.display_names.label=村人の名前表示
 config.display_names.desc=村人の頭上に「名前、職業、現在の仕事」を表示します。
@@ -1029,7 +1159,7 @@ config.villagers_names_distance.label=名前表示の距離
 config.villagers_names_distance.desc=名前が表示されるまでの距離です。 デフォルト: <0>
 
 config.auto_convert_profiles.label=各村の支配権
-config.auto_convert_profiles.desc=(LANで開くを含めて)シングルモードで <ret> ワールドデータのロード時に、プレイヤーに現在のMillénaireプロファイル用いて、全ての村の支配権を譲渡します。
+config.auto_convert_profiles.desc=(LANを含めて)シングルモードでワールドデータのロード時に、プレイヤーに現在のMillénaireプロファイル用いて、全ての村の支配権を譲渡します。
 
 config.villagers_sentence_in_chat_distance_client.label=チャットの文章 (MP)
 config.villagers_sentence_in_chat_distance_client.desc=マルチプレイで村人の会話が表示されるまでの距離<ret>デフォルト: <0>
@@ -1042,6 +1172,9 @@ config.generate_villages.desc=新しいチャンクでMillénaireの村を生成
 
 config.generate_lone_buildings.label=一軒家の生成
 config.generate_lone_buildings.desc=新しいチャンクでMillénaireの一軒家を生成するかどうか。
+
+config.generate_hamlets.label=村落を持つ村の生成
+config.generate_hamlets.desc=周辺に村落を持つ村を生成するかどうか。広大な土地が必要です！
 
 config.keep_active_radius.label=チャンクの読み込み半径
 config.keep_active_radius.desc=プレイヤーを中心とした常に読み込むチャンクの半径<ret>(村をアクティブにする) デフォルト: <0>
@@ -1088,8 +1221,6 @@ config.bandit_raid_radius.desc=山賊が村を襲撃する半径 デフォルト
 config.raiding_rate.label=侵略の確率
 config.raiding_rate.desc=山賊が襲撃する確率 デフォルト: <0>(%)
 
-
-
 config.generate_colour_chart.label=カラーチャートを生成
 config.generate_colour_chart.desc=建設計画で利用できるカラーチャートを生成。
 
@@ -1105,8 +1236,8 @@ config.generate_help_data.desc=Millénaireコンテンツ制作者に<ret>有用
 config.generate_goods_list.label=アイテムリストの生成
 config.generate_goods_list.desc=Millénaireのアイテムリストを生成。
 
-config.valuetrue=はい
-config.valuefalse=いいえ
+config.valuetrue=ON
+config.valuefalse=OFF
 
 config.page.bonus=共同制作者ボーナス
 config.page.bonus.desc=Millénaireの協力者 <ret>(翻訳、建築デザイン、テクスチャー、wikiの編集者など) <ret>もしくは寄付してくれた方へのボーナス: 小さい家が村長からプレゼントされます。
@@ -1120,14 +1251,12 @@ config.invalidbonuscode=無効なコードです。 チェックしてみてく�
 config.page.system=システム設定
 config.page.system.desc=Millénaireに関する一般的な設定
 
-
 config.send_statistics.label=統計情報
 config.send_statistics.desc=Millénaireサーバへ<ret>匿名情報(使用バージョン、言語など)<ret>の送信を許可するか
 
 config.send_advancement_login.label=試験的な取り組み
-config.send_advancement_login.desc=Minecraftのログイン情報を<ret>millenaire.orgに表示できるよう、<ret>Millénaireサーバへ送信するかどうか、
+config.send_advancement_login.desc=Minecraftのログイン情報を<ret>millenaire.orgに表示できるよう、<ret>Millénaireサーバへ送信するかどうか
 
-// trade help (Ver.7.0.1 removed) travelbookへ移行
 
 tradehelp.title=<0> - 取引
 tradehelp.goodssold=売り切れ
@@ -1135,7 +1264,7 @@ tradehelp.goodsbought=買った品物
 tradehelp.buyingprice=購入:
 tradehelp.sellingprice=販売:
 tradehelp.helptitle=取引ルール
-tradehelp.helptext=それぞれの店では村に在庫のある物が<ret>商品として買うことができます。<ret><ret>例外として"無料"ブロック(道路用)や<ret>特別なアイテム(杖)などの、村で企画され<ret>作成された品物は購入すると"失われ"ます。<ret>Minecraftの村のように無限ではありません。<ret><ret>村人は自分たちが必要とするアイテムをほぼ<ret>全て作成できますが、資源を売って<ret>あげることで村の発展を少し助けます。
+tradehelp.helptext=それぞれの店では村に在庫のある物が<ret>商品として買うことができます。<ret><ret>例外として"無料"ブロック(道路用)や<ret>特別なアイテム(杖)などの、村で企画され<ret>作成された品物は購入すると"失われ"ます。<ret>Minecraftの村のように無限ではありません。<ret><ret>村人は自分たちが必要とするアイテムをほぼ<ret>全て作成できますが、資材を売って<ret>あげることで村の発展を少し助けます。
 
 tradehelp.freeblock=これらの類のブロックは村で「タダ同然」に作成しているため、無制限に取引できます。
 tradehelp.wood=村人は木立ちで木を作り出します。木は村の発展にかかせません。
@@ -1154,7 +1283,6 @@ tradehelp.purse=デニール袋はデニール通貨をまとめてしまうの�
 tradehelp.wand=召還の杖はあなたが新たな村を作ることを可能にします。
 tradehelp.parchments=羊皮紙にはMillénaireに関する情報が書かれています。いつでも購入可能です。
 
-
 tradehelp.normanwhitewool=羊毛はいくつかの建物で必要となり、ノルマン要塞ではタペストリーを作るために必要です。
 tradehelp.normantapestrywool=タペストリーを作るためには、グレー、ライトグレー、ブラック、ブラウンの羊毛が必要です。
 tradehelp.normanleather=修道士は革から製本をします。
@@ -1167,27 +1295,24 @@ tradehelp.normantapestry=ノルマンの女性は白・灰色・ライトグレ�
 tradehelp.normantimberframes=大工が木を使い材木枠を作り出します。
 tradehelp.normanwheat=パンを作ったり、小麦を家畜に与えたりします。
 
-
 tradehelp.byzantinetools=鍛冶職人は鉄と革を用いてビザンツ防具を作り出します。
 tradehelp.byzantinefeta=羊のミルクからフェタチーズを作ります。プレイヤーにとって回復と再生効果がある他に、村人の出産率を高めます。
 tradehelp.byzantinebooks=木と革から製本をします。
 tradehelp.byzantinewine=酒場にてブドウからマルヴァジア・ワインを醸造します。プレイヤーを回復したり、村人の出産率を高めます。また、再生効果もあります。
-tradehelp.byzantinesilk=ビザンツでは絹を生産し、それを使って絵画や宗教画、貴族のための衣服を作ります。
+tradehelp.byzantinesilk=ビザンツでは絹を生産し、それを使って絵画やイコン、貴族のための衣服を作ります。
 tradehelp.byzantineclothes=羊毛や絹から衣服を作り、外見を良くします。
-tradehelp.byzantinetiles=石と粘土からタイルを作ります。
+tradehelp.byzantine_tiles=石と粘土からタイルを作ります。
 tradehelp.byzantinefood=ラムチョップを調理し、フェタチーズを混ぜ合わせて美味しいスブラキを作ります。プレイヤーの体力を全回復したり、子供の成長を助けます。また、悪影響のある状態異常を治す効果もあります。
 tradehelp.byzantineweapons=鍛冶職人は鉄と革から強固で強靭な防具を作り出します。
 tradehelp.byzantinewheat=パンを作ったり、小麦を家畜に与えたりします。
 
-
-tradehelp.hinditools=鍛冶職人は鉄を防具や道具の作成に使います。
-tradehelp.hindigenericfood=様々な食物を与えることで子供の成長が良くなります。警告：インドの人々は牛肉や豚肉を食べません。
-tradehelp.hindigenericfoodsweet=菓子類が備蓄されることで村人は子供を授かりやすくなります。警告：インドの人々はアルコールを好みません。
-tradehelp.hindirasgulla=砂糖からあま〜いラスグッラを作ります。プレイヤーにとって回復と再生効果がある他に、村人の出産率を高めます。また一時的に移動速度上昇の効果もあります。
-tradehelp.hindicurry=お米とターメリックから野菜カレーを作ったり、チキンを加えてチキンカレーを調理します。これらの食べ物はプレイヤーの空腹を満たしたり、子供の成長を助けます。また、チキンカレーには一時的な火炎耐性もあります。
-tradehelp.hindibricks=日干しレンガを作るために、炎天下に泥レンガを置いておきます。レンガ型を買うことであなたも日干しレンガを作ることができます。
-tradehelp.hindistatue=インドの彫刻家は寺院の装飾用にヒンズー教の神々の彫像を制作します。
-
+tradehelp.indiantools=インドの鍛冶職人は鉄を使って道具や鎧を作ります。
+tradehelp.indiangenericfood=様々な食物を与えることで子供の成長が良くなります。警告：インドの人々は牛肉や豚肉を食べません。
+tradehelp.indiangenericfoodsweet=菓子類が備蓄されることで村人は子供を授かりやすくなります。警告：インドの人々はアルコールを好みません。
+tradehelp.indianrasgulla=砂糖からあま〜いラスグッラを作ります。プレイヤーにとって回復と再生効果がある他に、村人の出産率を高めます。また一時的に移動速度上昇の効果もあります。
+tradehelp.indiancurry=お米とターメリックから野菜カレーを作ったり、チキンを加えてチキンカレーを調理します。これらの食べ物はプレイヤーの空腹を満たしたり、子供の成長を助けます。また、チキンカレーには一時的な火炎耐性もあります。
+tradehelp.indianbricks=日干しレンガを作るために、炎天下に泥レンガを置いておきます。レンガ型を買うことであなたも日干しレンガを作ることができます。
+tradehelp.indianstatue=インドの彫刻家は寺院の装飾用にヒンズー教の神々の彫像を制作します。
 
 tradehelp.japanesegold=いくつかの建物を金で装飾します。
 tradehelp.japaneseudon=チキンと小麦からうどんを作ります。プレイヤーの空腹を満たしたり、子供の成長を助けます。
@@ -1197,10 +1322,9 @@ tradehelp.japanesepaper=職人は米から紙を作り、それを使って障�
 tradehelp.japaneseframes=職人は原木から木枠を作り、建材として用います。
 tradehelp.japaneserice=お米によって子供たちを養育したり、紙を作ったり、発酵させて日本酒を作ります
 tradehelp.japanesewheat=小麦を使ってうどんを調理します。
-tradehelp.japanesethatch=ワラを使って作ります。
+tradehelp.japanesethatch=わらを使って作ります。
 tradehelp.japanesesake=造り酒屋ではお米を使って日本酒を醸造します。プレイヤーにとって回復と再生効果がある他に、村人の出産率を高めます。また一時的に跳躍力上昇の効果もあります。
 tradehelp.japaneseikayaki=養殖したイカを使ってイカ焼きを作ります。プレイヤーの空腹を満たしたり、子供の成長を助けます。また一時的に水中呼吸の効果もあります。
-
 
 tradehelp.mayangold=職人が装飾ブロックを作る為に金が必要です。金のインゴットを寄こせと要求していますね...
 tradehelp.mayanfood=マヤではトウモロコシを栽培し、マサと呼ばれるトルティーヤや、(鶏肉を追加して)ワウと呼ばれる肉巻を作ります。プレイヤーの空腹を満たしたり、子供の成長を助けます。また、ワウには一時的な採掘速度上昇の効果があります。
@@ -1209,6 +1333,12 @@ tradehelp.mayanstonetools=黒曜石がなくとも職人たちは石を用いて
 tradehelp.mayanweapons=石の剣や革の鎧を作成します。黒曜石職人は強力なメイスを作成します。
 tradehelp.mayancocoa=マヤのカカオ農場では収穫したカカオ豆を用いてココアを作ります。プレイヤーにとって回復と再生効果がある他に、村人の出産率を高めます。また一時的な暗視効果もあります。
 
+tradehelp.inuitodding=イヌイットは踏み鋤を使って板の中に粗い土を入れ、板が完全に密閉されていることを確認し、暖房効果を高めています。
+tradehelp.leather=革は様々な文化で道具や防具などの生産に使われています。
+tradehelp.inuitfurarmor=毛皮商人は、風雨から身を守る特別な衣服を作り、精霊によって護られています。
+tradehelp.inuitgenericfoodraw=イヌイットは生食が美味しいと感じていますが、様々な調理によって、より栄養価の高い食事にすることもできます。
+tradehelp.inuitgenericfood=生の状態よりもはるかに満足度の高い特製料理。
+tradehelp.inuitblock=イヌイットは一般的な生活必需品を自然にあるものから生産したりします。
 
 importtable.title=インポートテーブル
 importtable.importfromculture=各文明からインポート
@@ -1238,11 +1368,12 @@ importtable.create=生成
 importtable.orientation=建物の方角: <0>
 importtable.startinglevel=生成する高さ: <0>
 importtable.exportsnow=雪をエクスポート: <0>
+importtable.exportregularchests=通常の(鍵のかかっていない)チェストとしてエクスポート: <0>
 importtable.importmockblocks=モックをインポート: <0>
 importtable.converttopreserveground=草と砂を地盤保護として変換: <0>
 importtable.minus=減少
 importtable.plus=増加
 
-// Travel Book (TBA)
-
-
+travelbook.reference_button=View Travel Book entry for <0>
+travelbook.reference_button_export=<0>
+travelbook.title=トラベルブック

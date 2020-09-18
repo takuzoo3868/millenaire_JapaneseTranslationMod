@@ -1,15 +1,14 @@
 version:4.3.0
-<darkblue>�r�U���e�B��
+<darkblue>ビザンティン文化
 
-���[�}�l�̌ւ荂�����h�Ȍ�p�ҁA<ret>�r�U���`�E���̏Z���́A���C����<ret>�������ꂽ�@���I�ȃA�C�R����<ret>���삵�܂��B<ret><ret>�ނ�̓M���V����͘b���B�v���[���[��<ret>�ނ�ƌ��t��b�����Ƃ��u�w�ԁv���ƂŁA<ret>�ނ�Ɖ�b�ł���悤�ɂȂ�܂��B
+ローマ人の後継者であるビザンティンは、ワインと洗練された神聖なイコンを生産しています。彼らはギリシャ語を話しますが、プレイヤーが彼らと会話することで彼らの言葉を「学習」していくので、彼らの会話は翻訳されます。
 
-<darkblue>�ŗL�A�C�e���ƃu���b�N
+<darkblue>固有オブジェクトとブロック
 
--�ނ�̓u�h�E���͔|���A�u�h�E���g����<ret>
-���C���𑢂�܂��B�v���C���[��<ret>�V�F�t����͔|���@���u�w�ԁv���Ƃ𗊂ނ��Ƃ��ł���B
--�����Ɏg���G���K���g�ȃr�U���`�E���^�C����<ret>�S�y������܂��B<ret>
--Their mastery of sericulture (�J�C�R����)<ret> allows them to produce the silk on which they paint their Byzantine Icons
+-ブドウを栽培し、そこからワインを生産しています。プレイヤーは調理人にこの植物の栽培方法を教わることができます。
+-粘土を使って優美なビザンティンタイルを作り、建物を装飾しています。
+-生糸生産（養蚕）に長けているため、イコンを描くための絹を生産することができます。
 
-<darkblue>����̃��V�s
+<darkblue>特別なレシピ
 
--�u�h�E3���ׁA2�̃��C����<ret>���C�������܂�
+-縦2行にブドウを配置することでワインを生産できます。

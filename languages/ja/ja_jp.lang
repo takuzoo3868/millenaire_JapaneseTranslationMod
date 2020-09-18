@@ -12,7 +12,7 @@
 #Item names
 
 itemGroup.millenaire=Millénaire
-itemGroup.millenaire_content_creator=Millenaire - For Content Creators
+itemGroup.millenaire_content_creator=Millenaire - コンテンツ制作者向け
 
 #The following items should not be translated
 #They are either proper names (the deniers)
@@ -20,9 +20,9 @@ itemGroup.millenaire_content_creator=Millenaire - For Content Creators
 #in other languages
 #I'm putting them for non-Latin alphabet languages,
 #so they can be written in other alphabets
-item.millenaire.denier.name=デニール
-item.millenaire.denieror.name=デニール金貨
-item.millenaire.denierargent.name=デニール銀貨
+item.millenaire.denier.name=ドゥニエ
+item.millenaire.denieror.name=ドゥニエ金貨
+item.millenaire.denierargent.name=ドゥニエ銀貨
 item.millenaire.calva.name=カルヴァドス(ブランデー)
 item.millenaire.tripes.name=トライプ(牛の胃袋)
 item.millenaire.boudin.name=ブーダン・ノワール(血のソーセージ)
@@ -51,10 +51,16 @@ tile.millenaire.timberframecross.name=頑丈な木枠
 tile.millenaire.wetbrick0.name=濡れたレンガ
 tile.millenaire.cookedbrick.name=日干しレンガ
 tile.millenaire.mudbrick.name=泥レンガ
+tile.millenaire.wall_mud_brick.name=泥レンガの塀
+tile.millenaire.mudbrick_smooth.name=滑らかな泥レンガ
+tile.millenaire.mudbrick_seljuk_decorated.name=装飾された泥レンガ
+tile.millenaire.mudbrick_seljuk_ornamented.name=模様入りの泥レンガ
 item.millenaire.indianstatue.name=ヒンズー教の彫像
 
 item.millenaire.ciderapple.name=青りんご
 item.millenaire.cider.name=りんご酒
+item.millenaire.olives.name=オリーブ
+item.millenaire.oliveoil.name=オリーブオイル
 item.millenaire.summoningwand.name=召喚の杖
 item.millenaire.negationwand.name=抹消の杖
 item.millenaire.parchment_normanvillagers.name=ノルマンの村人
@@ -74,6 +80,24 @@ item.millenaire.parchment_indianfull.name=完成したインドの巻物
 item.millenaire.unknownpowder.name=謎の粉
 tile.millenaire.alchemistexplosive.name=錬金術の爆薬
 
+tile.millenaire.stained_glass.white.name=白色のステンドグラス
+tile.millenaire.stained_glass.yellow.name=黄色のステンドグラス
+tile.millenaire.stained_glass.yellow_red.name=黄色と赤のステンドグラス
+tile.millenaire.stained_glass.red_blue.name=赤と青のステンドグラス
+tile.millenaire.stained_glass.green_blue.name=緑と青のステンドグラス
+tile.millenaire.rosette.name=バラ窓
+
+tile.millenaire.stairs_timberframe.name=木枠の階段
+tile.millenaire.stairs_thatch.name=わらの階段
+tile.millenaire.stairs_cookedbrick.name=日干しレンガの階段
+tile.millenaire.stairs_mudbrick.name=泥レンガの階段
+tile.millenaire.stairs_byzantine_tiles.name=ビザンティンタイルの階段
+
+tile.millenaire.slabs_timberframeplain.name=木枠のハーフブロック
+tile.millenaire.slabs_thatch.name=わらのハーフブロック
+tile.millenaire.slabs_cookedbrick.name=日干しレンガのハーフブロック
+tile.millenaire.slabs_mudbrick.name=泥レンガのハーフブロック
+
 item.millenaire.wah.name=肉巻
 item.millenaire.masa.name=トルティーヤ
 item.millenaire.maize.name=トウモロコシ
@@ -90,14 +114,18 @@ item.millenaire.mayanshovel.name=黒曜石のシャベル
 item.millenaire.mayanhoe.name=黒曜石のクワ
 item.millenaire.obsidianflake.name=黒曜石の薄片
 item.millenaire.cacauhaa.name=ココア
+
 tile.millenaire.paper_wall.name=障子
 item.millenaire.udon.name=うどん
 item.millenaire.thatched.name=わらぶき屋根
+
 item.millenaire.parchment_sadhu.name=導師の本
+
 item.millenaire.tachisword.name=太刀
 item.millenaire.yumibow.name=弓
 item.millenaire.sake.name=日本酒
 item.millenaire.ikayaki.name=イカ焼き
+
 item.millenaire.japanesebluelegs.name=青大鎧佩楯
 item.millenaire.japanesebluehelmet.name=青大鎧兜
 item.millenaire.japaneseblueplate.name=青大鎧胴衣
@@ -110,6 +138,7 @@ item.millenaire.japaneseguardlegs.name=稽古用佩楯
 item.millenaire.japaneseguardhelmet.name=稽古用兜
 item.millenaire.japaneseguardplate.name=稽古用胴衣
 item.millenaire.japaneseguardboots.name=稽古用脛当
+
 item.millenaire.parchment_japanesevillagers.name=日本の村人
 item.millenaire.parchment_japaneseitems.name=日本のアイテム
 item.millenaire.parchment_japanesebuildings.name=日本の建物
@@ -117,16 +146,20 @@ item.millenaire.parchment_japanesefull.name=完成した日本の巻物
 
 tile.millenaire.silkwormempty.name=空の養蚕ブロック
 tile.millenaire.silkwormfull.name=養蚕ブロック
+tile.millenaire.japanese_tiles.name=瓦
+tile.millenaire.japanese_tiles_slab.name=瓦のハーフブロック
+tile.millenaire.japanese_stone_tiles.name=石瓦
+
 tile.millenaire.byzantine_tiles.name=ビザンティンタイル
 tile.millenaire.byzantine_tiles_slab.name=ビザンティンタイルの石板
-tile.millenaire.byzantine_stone_tiles.name=ビザンティンのモザイクタイル
+tile.millenaire.byzantine_stone_tiles.name=ビザンティンモザイクタイル
 item.millenaire.grapes.name=ブドウ
 item.millenaire.vine.name=ブドウの木
 item.millenaire.winefancy.name=マルヴァジア・ワイン
 item.millenaire.silk.name=絹
-item.millenaire.byzantineiconsmall.name=小さなビザンティンの宗教画
-item.millenaire.byzantineiconmedium.name=中くらいのビザンティンの宗教画
-item.millenaire.byzantineiconlarge.name=大きなビザンティンの宗教画
+item.millenaire.byzantineiconsmall.name=小さなビザンティンのイコン
+item.millenaire.byzantineiconmedium.name=ビザンティンのイコン
+item.millenaire.byzantineiconlarge.name=大きなビザンティンのイコン
 item.millenaire.byzantineboots.name=ビザンティン・ブーツ
 item.millenaire.byzantinelegs.name=ビザンティン・レギンス
 item.millenaire.byzantineplate.name=ビザンティン・チェストプレート
@@ -138,32 +171,318 @@ item.millenaire.feta.name=フェタチーズ
 item.millenaire.winebasic.name=ワイン
 item.millenaire.clothes_byz_wool.name=羊毛のビザンティン服
 item.millenaire.clothes_byz_silk.name=絹のビザンティン服
+item.millenaire.clothes_seljuk_wool.name=羊毛のセルジューク服
+item.millenaire.clothes_seljuk_cotton.name=綿のセルジューク服
+item.millenaire.seljukbow.name=セルジュークの弓
+item.millenaire.seljukturban.name=セルジューク・ターバン
+
+tile.millenaire.snail_soil_empty.name=空の蝸牛ブロック
+tile.millenaire.snail_soil_full.name=蝸牛ブロック
+
 item.millenaire.souvlaki.name=スブラキ
-item.millenaire.purse.name=デニールの袋
+
+item.millenaire.byzantinepickaxe.name=ビザンティンのツルハシ
+item.millenaire.byzantineaxe.name=ビザンティンの斧
+item.millenaire.byzantineshovel.name=ビザンティンのシャベル
+item.millenaire.byzantinehoe.name=ビザンティンのクワ
+
+item.millenaire.purse.name=ドゥニエの袋
+
+item.millenaire.mayanquestcrown.name=マヤの王冠
+
 tile.millenaire.pathdirt.name=土の道
-tem.pathgravel=砂利の道
+tile.millenaire.pathgravel.name=砂利の道
 tile.millenaire.pathslabs.name=石の道
 tile.millenaire.pathsandstone.name=砂岩の道
 tile.millenaire.pathochretiles.name=石畳の道
-tile.millenaire.pathgravelslabs.name=ガタガタの道
+tile.millenaire.pathgravelslabs.name=石と砂利の道
+tile.millenaire.pathsnow.name=雪の道
 
+tile.millenaire.pathdirt_slab.name=土の道
+tile.millenaire.pathgravel_slab.name=砂利の道
+tile.millenaire.pathslabs_slab.name=石の道
+tile.millenaire.pathsandstone_slab.name=砂岩の道
+tile.millenaire.pathochretiles_slab.name=石畳の道
+tile.millenaire.pathgravelslabs_slab.name=石と砂利の道
+tile.millenaire.pathsnow_slab.name=雪の道
+
+tile.millenaire.markerblock.preserveground.name=Preserve Ground
+tile.millenaire.markerblock.sleepingpos.name=Sleeping Pos
+tile.millenaire.markerblock.sellingpos.name=Selling Pos
+tile.millenaire.markerblock.craftingpos.name=Crafting Pos
+tile.millenaire.markerblock.defendingpos.name=Defending Pos
+tile.millenaire.markerblock.shelterpos.name=Shelter Pos
+tile.millenaire.markerblock.pathstartpos.name=Path Start Pos
+tile.millenaire.markerblock.leisurepos.name=Leisure Pos
+tile.millenaire.markerblock.stall.name=Stall Pos
+tile.millenaire.markerblock.brickspot.name=Brick Drying Pos
+tile.millenaire.markerblock.healingspot.name=Healing Pos
+tile.millenaire.markerblock.fishingspot.name=Fishing Pos
+
+tile.millenaire.villagebannerstanding.name=Village Banner
+tile.millenaire.culturebannerstanding.name=Culture Banner
+
+tile.millenaire.animalspawn.cow.name=Cow Spawn Point
+tile.millenaire.animalspawn.pig.name=Pig Spawn Point
+tile.millenaire.animalspawn.sheep.name=Sheep Spawn Point
+tile.millenaire.animalspawn.chicken.name=Chicken Spawn Point
+tile.millenaire.animalspawn.squid.name=Squid Spawn Point
+tile.millenaire.animalspawn.wolf.name=Wolf Spawn Point
+tile.millenaire.animalspawn.polarbear.name=Polar Bear Spawn Point
+
+tile.millenaire.mainchest.name=Main Chest
+
+tile.millenaire.source.stone.name=Stone Source Block
+tile.millenaire.source.sand.name=Sand Source Block
+tile.millenaire.source.sandstone.name=Sandstone Source Block
+tile.millenaire.source.redsandstone.name=Red Sandstone Source Block
+tile.millenaire.source.clay.name=Clay Source Block
+tile.millenaire.source.gravel.name=Gravel Source Block
+tile.millenaire.source.granite.name=Granite Source Block
+tile.millenaire.source.diorite.name=Diorite Source Block
+tile.millenaire.source.andesite.name=Andesite Source Block
+tile.millenaire.source.quartz.name=Quartz Source Block
+tile.millenaire.source.snow.name=Snow Source Block
+tile.millenaire.source.ice.name=Ice Source Block
+
+tile.millenaire.freeblock.stone.name=Free Stone
+tile.millenaire.freeblock.sand.name=Free Sand
+tile.millenaire.freeblock.gravel.name=Free Gravel
+tile.millenaire.freeblock.sandstone.name=Free Sandstone
+tile.millenaire.freeblock.wool.name=Free Wool
+tile.millenaire.freeblock.cobblestone.name=Free Cobblestone
+tile.millenaire.freeblock.stonebrick.name=Free Stone Brick
+tile.millenaire.freeblock.grass_block.name=Free Grass Block
+
+tile.millenaire.treespawn.oak.name=Oak Spawn Point
+tile.millenaire.treespawn.pine.name=Pine Spawn Point
+tile.millenaire.treespawn.birch.name=Birch Spawn Point
+tile.millenaire.treespawn.jungle.name=Jungle Spawn Point
+tile.millenaire.treespawn.acacia.name=Acacia Spawn Point
+tile.millenaire.treespawn.darkoak.name=Dark Oak Spawn Point
+tile.millenaire.treespawn.appletree.name=Apple Tree Spawn Point
+tile.millenaire.treespawn.olivetree.name=Olive Tree Spawn Point
+tile.millenaire.treespawn.pistachiotree.name=Pistachio Tree Spawn Point
+
+tile.millenaire.soil.soil.name=Wheat Soil
+tile.millenaire.soil.ricesoil.name=Rice Soil
+tile.millenaire.soil.turmericsoil.name=Turmeric Soil
+tile.millenaire.soil.sugarcanesoil.name=Sugar Cane Soil
+tile.millenaire.soil.potatosoil.name=Potato Soil
+tile.millenaire.soil.netherwartsoil.name=Nether Wart Soil
+tile.millenaire.soil.vinesoil.name=Vine Soil
+tile.millenaire.soil.maizesoil.name=Maize Soil
+tile.millenaire.soil.cacaospot.name=Cacao Soil
+tile.millenaire.soil.carrotsoil.name=Carrot Soil
+tile.millenaire.soil.cottonsoil.name=Cotton Soil
+tile.millenaire.soil.flowersoil.name=Flower Soil
+
+tile.millenaire.decorblock.tapestry.name=ノルマンの織物
+tile.millenaire.decorblock.indianstatue.name=ヒンズー教の彫像
+tile.millenaire.decorblock.byzantineiconsmall.name=小さなビザンティンのイコン
+tile.millenaire.decorblock.byzantineiconmedium.name=ビザンティンのイコン
+tile.millenaire.decorblock.byzantineiconlarge.name=大きなビザンティンのイコン
+tile.millenaire.decorblock.mayanstatue.name=マヤの彫刻
+tile.millenaire.decorblock.hidehanging.name=毛皮の敷物
+tile.millenaire.decorblock.wallcarpetsmall.name=小さな壁掛け絨毯
+tile.millenaire.decorblock.wallcarpetmedium.name=壁掛け絨毯
+tile.millenaire.decorblock.wallcarpetlarge.name=大きな壁掛け絨毯
+
+tile.millenaire.bed_straw.name=わらのベッド
+tile.millenaire.bed_charpoy.name=チャーポイ
+tile.millenaire.bed_futon.name=ふとん
+
+item.millenaire.bearmeat_raw.name=生の熊肉
+item.millenaire.bearmeat_cooked.name=熊ステーキ
+item.millenaire.wolfmeat_raw.name=生の狼肉
+item.millenaire.wolfmeat_cooked.name=狼ステーキ
+tile.millenaire.sod_oak.name=オークの芝板
+tile.millenaire.sod_spruce.name=マツの芝板
+tile.millenaire.sod_birch.name=シラカバの芝板
+tile.millenaire.sod_jungle.name=ジャングルの芝板
+tile.millenaire.sod_acacia.name=アカシアの芝板
+tile.millenaire.sod_dark_oak.name=ダークオークの芝板
+tile.millenaire.icebrick.name=氷塊
+tile.millenaire.snowbrick.name=雪塊
+tile.millenaire.inuitcarving.name=イヌイットの彫刻
+tile.millenaire.snowwall.name=雪の塀
+
+item.millenaire.furhelmet.name=毛皮の帽子
+item.millenaire.furplate.name=毛皮のコート
+item.millenaire.furlegs.name=毛皮のレギンス
+item.millenaire.furboots.name=毛皮のブーツ
+item.millenaire.inuitbow.name=イヌイットの弓(Pitiksi)
+item.millenaire.ulu.name=イヌイットのナイフ(Ulu)
+item.millenaire.inuittrident.name=イヌイットの槍(Kakivak)
+item.millenaire.tannedhide.name=鞣した毛皮
+item.millenaire.hidehanging.name=毛皮の敷物
+tile.millenaire.fire_pit.name=焚き火台
+
+tile.millenaire.import_table.name=Import Table
+
+tile.millenaire.sapling_appletree.name=青りんごの苗木
+tile.millenaire.leaves_appletree.name=青りんごの葉
+
+tile.millenaire.sapling_olivetree.name=オリーブの苗木
+tile.millenaire.leaves_olivetree.name=オリーブの葉
+
+tile.millenaire.sapling_pistachio.name=ピスタチオの苗木
+tile.millenaire.leaves_pistachio.name=ピスタチオの葉
+
+item.millenaire.yogurt.name=ヨーグルト
+item.millenaire.ayran.name=アイラン
+item.millenaire.seljukscimitar.name=セルジューク・シミタール刀
+item.millenaire.pide.name=ピデ
+item.millenaire.lokum.name=ロクム
+item.millenaire.helva.name=ハルヴァ
+item.millenaire.pistachios.name=ピスタチオ
+item.millenaire.cotton.name=綿
+item.millenaire.wallcarpetlarge.name=大きな壁掛け絨毯
+item.millenaire.wallcarpetmedium.name=壁掛け絨毯
+item.millenaire.wallcarpetsmall.name=小さな壁掛け絨毯
+
+item.millenaire.seljuklegs.name=セルジューク・レギンス
+item.millenaire.seljukhelmet.name=セルジューク・ヘルメット
+item.millenaire.seljukplate.name=セルジューク・チェストプレート
+item.millenaire.seljukboots.name=セルジューク・ブーツ
+
+item.millenaire.paint_bucket_white.name=白色のペンキ
+item.millenaire.paint_bucket_black.name=黒色のペンキ
+item.millenaire.paint_bucket_blue.name=青色のペンキ
+item.millenaire.paint_bucket_brown.name=茶色のペンキ
+item.millenaire.paint_bucket_cyan.name=青緑色のペンキ
+item.millenaire.paint_bucket_gray.name=灰色のペンキ
+item.millenaire.paint_bucket_green.name=緑色のペンキ
+item.millenaire.paint_bucket_light_blue.name=空色のペンキ
+item.millenaire.paint_bucket_lime.name=黄緑色のペンキ
+item.millenaire.paint_bucket_magenta.name=赤紫色のペンキ
+item.millenaire.paint_bucket_orange.name=橙色のペンキ
+item.millenaire.paint_bucket_pink.name=桃色のペンキ
+item.millenaire.paint_bucket_purple.name=紫色のペンキ
+item.millenaire.paint_bucket_red.name=赤色のペンキ
+item.millenaire.paint_bucket_silver.name=銀色のペンキ
+item.millenaire.paint_bucket_yellow.name=黄色のペンキ
+
+tile.millenaire.painted_brick_black.name=黒色のレンガ
+tile.millenaire.painted_brick_blue.name=青色のレンガ
+tile.millenaire.painted_brick_brown.name=茶色のレンガ
+tile.millenaire.painted_brick_cyan.name=青緑色のレンガ
+tile.millenaire.painted_brick_gray.name=灰色のレンガ
+tile.millenaire.painted_brick_green.name=緑色のレンガ
+tile.millenaire.painted_brick_light_blue.name=空色のレンガ
+tile.millenaire.painted_brick_lime.name=黄緑色のレンガ
+tile.millenaire.painted_brick_magenta.name=赤紫色のレンガ
+tile.millenaire.painted_brick_orange.name=橙色のレンガ
+tile.millenaire.painted_brick_pink.name=桃色のレンガ
+tile.millenaire.painted_brick_purple.name=紫色のレンガ
+tile.millenaire.painted_brick_red.name=赤色のレンガ
+tile.millenaire.painted_brick_silver.name=銀色のレンガ
+tile.millenaire.painted_brick_white.name=白色のレンガ
+tile.millenaire.painted_brick_yellow.name=黄色のレンガ
+
+tile.millenaire.painted_brick_decorated_black.name=黒色の装飾レンガ
+tile.millenaire.painted_brick_decorated_blue.name=青色の装飾レンガ
+tile.millenaire.painted_brick_decorated_brown.name=茶色の装飾レンガ
+tile.millenaire.painted_brick_decorated_cyan.name=青緑色の装飾レンガ
+tile.millenaire.painted_brick_decorated_gray.name=灰色の装飾レンガ
+tile.millenaire.painted_brick_decorated_green.name=緑色の装飾レンガ
+tile.millenaire.painted_brick_decorated_light_blue.name=空色の装飾レンガ
+tile.millenaire.painted_brick_decorated_lime.name=黄緑色の装飾レンガ
+tile.millenaire.painted_brick_decorated_magenta.name=赤紫色の装飾レンガ
+tile.millenaire.painted_brick_decorated_orange.name=橙色の装飾レンガ
+tile.millenaire.painted_brick_decorated_pink.name=桃色の装飾レンガ
+tile.millenaire.painted_brick_decorated_purple.name=紫色の装飾レンガ
+tile.millenaire.painted_brick_decorated_red.name=赤色の装飾レンガ
+tile.millenaire.painted_brick_decorated_silver.name=銀色の装飾レンガ
+tile.millenaire.painted_brick_decorated_white.name=白色の装飾レンガ
+tile.millenaire.painted_brick_decorated_yellow.name=黄色の装飾レンガ
+
+tile.millenaire.stairs_painted_brick_black.name=黒色レンガの階段
+tile.millenaire.stairs_painted_brick_blue.name=青色レンガの階段
+tile.millenaire.stairs_painted_brick_brown.name=茶色レンガの階段
+tile.millenaire.stairs_painted_brick_cyan.name=青緑色レンガの階段
+tile.millenaire.stairs_painted_brick_gray.name=灰色レンガの階段
+tile.millenaire.stairs_painted_brick_green.name=緑色レンガの階段
+tile.millenaire.stairs_painted_brick_light_blue.name=空色レンガの階段
+tile.millenaire.stairs_painted_brick_lime.name=黄緑色レンガの階段
+tile.millenaire.stairs_painted_brick_magenta.name=赤紫色レンガの階段
+tile.millenaire.stairs_painted_brick_orange.name=橙色レンガの階段
+tile.millenaire.stairs_painted_brick_pink.name=桃色のレンガの階段
+tile.millenaire.stairs_painted_brick_purple.name=紫色レンガの階段
+tile.millenaire.stairs_painted_brick_red.name=赤色レンガの階段
+tile.millenaire.stairs_painted_brick_silver.name=銀色レンガの階段
+tile.millenaire.stairs_painted_brick_white.name=白色レンガの階段
+tile.millenaire.stairs_painted_brick_yellow.name=黄色レンガの階段
+
+tile.millenaire.slab_painted_brick_black.name=黒色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_blue.name=青色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_brown.name=茶色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_cyan.name=青緑色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_gray.name=灰色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_green.name=緑色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_light_blue.name=空色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_lime.name=黄緑色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_magenta.name=赤紫色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_orange.name=橙色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_pink.name=桃色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_purple.name=紫色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_red.name=赤色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_silver.name=銀色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_white.name=白色レンガのハーフブロック
+tile.millenaire.slab_painted_brick_yellow.name=黄色レンガのハーフブロック
+
+tile.millenaire.wall_painted_brick_black.name=黒色レンガの塀
+tile.millenaire.wall_painted_brick_blue.name=青色レンガの塀
+tile.millenaire.wall_painted_brick_brown.name=茶色レンガの塀
+tile.millenaire.wall_painted_brick_cyan.name=青緑色レンガの塀
+tile.millenaire.wall_painted_brick_gray.name=灰色レンガの塀
+tile.millenaire.wall_painted_brick_green.name=緑色レンガの塀
+tile.millenaire.wall_painted_brick_light_blue.name=空色レンガの塀
+tile.millenaire.wall_painted_brick_lime.name=黄緑色レンガの塀
+tile.millenaire.wall_painted_brick_magenta.name=赤紫色レンガの塀
+tile.millenaire.wall_painted_brick_orange.name=橙色レンガの塀
+tile.millenaire.wall_painted_brick_pink.name=桃色レンガの塀
+tile.millenaire.wall_painted_brick_purple.name=紫色レンガの塀
+tile.millenaire.wall_painted_brick_red.name=赤色レンガの塀
+tile.millenaire.wall_painted_brick_silver.name=銀色レンガの塀
+tile.millenaire.wall_painted_brick_white.name=白色レンガの塀
+tile.millenaire.wall_painted_brick_yellow.name=黄色レンガの塀
+
+tile.millenaire.sandstone_carved.name=彫り砂岩
+tile.millenaire.stairs_sandstone_carved.name=彫り砂岩の階段
+tile.millenaire.slab_sandstone_carved.name=彫り砂岩のハーフブロック
+tile.millenaire.wall_sandstone_carved.name=彫り砂岩の塀
+
+tile.millenaire.sandstone_red_carved.name=彫り赤土砂岩
+tile.millenaire.stairs_sandstone_red_carved.name=彫り赤土砂岩の階段
+tile.millenaire.slab_sandstone_red_carved.name=彫り赤土砂岩のハーフブロック
+tile.millenaire.wall_sandstone_red_carved.name=彫り赤土砂岩の塀
+
+tile.millenaire.sandstone_ochre_carved.name=彫り黄土砂岩
+tile.millenaire.stairs_sandstone_ochre_carved.name=彫り黄土砂岩の階段
+tile.millenaire.slab_sandstone_ochre_carved.name=彫り黄土砂岩のハーフブロック
+tile.millenaire.wall_sandstone_ochre_carved.name=彫り黄土砂岩の塀
+
+tile.millenaire.wooden_bars.name=木の格子窓
+tile.millenaire.wooden_bars_indian.name=インドの彫刻窓
+tile.millenaire.wooden_bars_rosette.name=インドの彫刻窓枠
 
 advancements.firstcontact.name=Millénaire
 advancements.firstcontact.desc=初めての村人との出会い
 advancements.cresus.name=大富豪
-advancements.cresus.desc=デニール金貨を稼ぐ
+advancements.cresus.desc=ドゥニエ金貨を稼ぐ
 advancements.summoningwand.name=召喚
 advancements.summoningwand.desc=召喚の杖を買い、村を呼び出す
-advancements.villageleader.name=村長
-advancements.villageleader.desc=文化の指導者となり、支配下の村を建てる
+
+advancements.amateurarchitect.name=見習い建築士
+advancements.amateurarchitect.desc=カスタムしたタウンホールのある村を生成する
+advancements.medievalmetropolis.name=中世の大都市
+advancements.medievalmetropolis.desc=100人以上の村人がいる村を支配する
+
 advancements.thequest.name=クエスト
 advancements.thequest.desc=村人からのクエストを達成
 advancements.maitreapenser.name=指導者
 advancements.maitreapenser.desc=導師か錬金術師に会う
-advancements.forbiddenknwoledge.name=禁じられた知識
-advancements.forbiddenknwoledge.desc=作成クエストの二つの章を完了
-advancements.puja.name=神からの小さな助け
-advancements.puja.desc=祈祷を行うための費用を払う
 advancements.explorer.name=探検家
 advancements.explorer.desc=一軒家を探す
 advancements.marcopolo.name=マルコポーロ
@@ -178,12 +497,18 @@ advancements.pantheon.desc=パンテオン神殿を訪れる
 advancements.darkside.name=悪に染まる
 advancements.darkside.desc=村人を殺害する
 advancements.scipio.name=カルタゴ滅ぶべし
-advancements.scipio.desc=抹消のワンドで村を破壊する
+advancements.scipio.desc=抹消の杖で村を破壊する
 advancements.attila.name=アッティラ
 advancements.attila.desc=3つの文化で "神の災い" の評判を得る
-advancements.cheers.name=Minecraftのためにバンザイ三唱!
+
+advancements.cheers.name=Minecraftに歓呼三唱!
 advancements.cheers.desc=Millénaireのお酒を飲む
 advancements.hired.name=雇い主
 advancements.hired.desc=村人を雇う
 advancements.masterfarmer.name=熟練の農夫
 advancements.masterfarmer.desc=Millénaireの作物を植える
+advancements.greathunter.name=無駄にしない
+advancements.greathunter.desc=イヌイットの教えを活用して、ありそうでなかったところから肉を集める
+
+advancements.friendindeed.name=友よ
+advancements.friendindeed.desc=村での評判が「村の友人」に至る
