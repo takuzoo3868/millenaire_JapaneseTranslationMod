@@ -17,19 +17,19 @@ command.minecraftpathing=Minecraft方式で探索します。
 command.inactive=停止中
 command.active=動作中
 command.frozen=凍結
-command.villagelist=<4>: <0> 村(<1>)は <2> メートル先 <3>あります
-command.villagelisttranslated=<4> (<5>): <0> 村(<1>) <2> メートル先 <3>あります
+command.villagelist=<4>: <0> 村(<1>)は <2> メートル先 <3>にあります
+command.villagelisttranslated=<4> (<5>): <0> 村(<1>) <2> メートル先 <3>にあります
 command.villagelistkeylonebuilding= <0> は <1> メートル先 <2> 方向にあります。
 command.noknowvillage=2キロ以内に村は存在していません。探索を継続してください！
 command.newvillagefound=新しい村を発見: <0>村、 <1>タイプ <2>文化で <3>メートル <4>方向にあります。
 command.newvillagefoundtranslated=新しい村を発見: <0>村、 <1> (<5>)タイプ <2>文化で <3>メートル <4>方向にあります。
 command.newlonebuildingfound=新しい建物を発見しました: <0>は <1>メートル先 <2>方向にあります。
 command.pathrebuild=マップと <0> のパスが再構築されました。
-command.facingdirection=<0>向いています。
+command.facingdirection=<0>を向いています。
 command.renamevillage_notification=<0> 村の名前を <1> から <2> へ変更しました。
 command.listactivevillages_list=<0>村は動作中です。<1>人の村人がいます (<2>人がアーカイブ中)。直近20回の命令では、建築の扱いに <3> ms、村人の扱いに <4> msかかりました。残りは以下のとおりです: <5>.
 command.tp_nomatchingvillage=該当する村は見つかりませんでした。
-command.tp_multiplematchingvillages=該当する <0>　件の村があります。
+command.tp_multiplematchingvillages=該当する <0> 件の村があります。
 command.giverep_notification=<0> has given <2> reputation to <1> with village <3>.
 command.importculture_importingbuilding=建造物 <0> をインポート中
 command.spawnvillage_unknownvillage=設定されていない村タイプ: <0>
@@ -56,14 +56,14 @@ ui.trade_buying=商品を売却 (デニールと少しの信頼を獲得)
 ui.buybuilding=<0> を購入する (<1>)
 ui.buybonusbuilding=ボーナスギフト: <0>
 ui.sellercoming=<0>: 今行きますよ、$name！
-ui.tradecomplete=<0>: あなたがここでの取引を気に入ってくれたら嬉しい！　よい一日を。
-ui.sellerboycott=<0>: 我々は二度とあなたとは取引をしない。　この無法者！
+ui.tradecomplete=<0>: あなたがここでの取引を気に入ってくれたら嬉しい！よい一日を。
+ui.sellerboycott=<0>: 我々は二度とあなたとは取引をしない。この無法者！
 ui.sellernotcurrently possible=<0>: 私たちの村が荒廃したらどうやって取引するの？
 ui.wesell=販売中
 ui.webuy=買取中
 ui.isell=売ります
 ui.inventory=インベントリ
-ui.villagechief=<0> 村の長
+ui.villagechief=<0> 村長
 ui.yourstatus=ステータス
 ui.possiblehousing=購入可能な家
 ui.alreadybuilt=建築済
@@ -176,8 +176,8 @@ ui.obsoleteplan=廃止された計画
 ui.nbinhabitants=住民数: <0>
 ui.wandnocontrol=このタイプの村はあなたが <0> 文明の指導者ではないので作成できません。
 ui.control_ok=あなたは <0> の人々にとっての指導者として認められました！ 正式に認められたあなたは自分の村を建てることができるようになりました。
-ui.control_noreputation=あなたの評価は <0> の人々の指導者として<ret>認められるには不足しています。<ret><ret>必要な評価を得るには評判を改善したり<ret>追加で仕事をしてみてください。
-ui.control_alreadydone=あなたはすでに <0> の人々の指導者として<ret>認められています。
+ui.control_noreputation=あなたの評価は <0> の指導者として認められるためには十分ではありません。評判を改善したり、新しく別のクエストに挑戦してください。
+ui.control_alreadydone=あなたはすでに <0> の指導者として認められています。
 ui.control_get=指導者として認めてもらえるか聞く。
 ui.control_gotten=<0>: 私は正式にあなたを我々 <1> の指導者としてふさわしいと認めましょう！ これからは自分の村を建てることもできますよ。
 ui.selectavillage=建てる村のタイプを選択する
@@ -193,11 +193,11 @@ ui.relationlist=他の村との関係
 ui.relationpraise=賞賛
 ui.relationslander=中傷
 ui.relationpoints=利用可能な外交ポイント: <0>
-ui.villagerelationsnobutton=村に影響を与えるには外交ポイントと<ret>良好な評価が必要です。
-ui.relationhelp=外交ヘルプ<ret><ret>村と相互協力するか、もしくはしないかを決定します。<ret><ret>取引(資材商人の間で)は、同じ文化のそこそこ良好な<ret>関係性の村同士で行われるか、関係がとても良好になった<ret>別の文化の村と行われます。<ret><ret>関係が最良な文化の違う村同士ではそれぞれの村に<ret>お互いの文化の出張市を設営します。<ret><ret>関係が最良の同じ文化の村同士ではお互いの村の<ret>若者が出稼ぎすることがあります。<ret><ret><ret><ret>村同士の外交は同じ文化であれば<ret>村落に対しては「最良」<ret>村自体に対しては「良好」からはじまります。<ret>それ以外の場合は中立から開始されます。<ret><ret>毎日、プレイヤーは村に影響を与える外交ポイントを<ret>5ポイント取得します。<ret><ret>賞賛や中傷の有効度は村での評判に依存します。
+ui.villagerelationsnobutton=村に影響を与えるには外交ポイントと良好な関係が必要です。
+ui.relationhelp=外交ヘルプ<ret><ret>村どうしの関係が、お互いに協力するかを決定します。<ret><ret>地域における交易(商人による資材運搬)は、同じ文化の良好な関係の村か、異文化のとても良好な関係の村で実施されます。<ret><ret>異文化で非常に良好な関係を築いている村は、市場がある場合に他文化の商人を受け入れます。<ret><ret>同じ文化で良好な関係を築いている村は、仕事があれば若者が出稼ぎすることもあります。<ret><ret>村どうしの外交は同じ文化であれば、村落は「最良」、村は「良好」からはじまります。それ以外は「中立」からはじまります。<ret><ret>プレイヤーは毎日外交ポイントを5つ得て、村の関係に影響を与えることができます。賞賛や中傷の効果は、その村でのあなたの評判に左右されます。
 ui.relationfriendly=最近の <0> 村と <1> 村の関係は改善されました。 彼らの関係性は現在 <2> です。
 ui.relationunfriendly=最近の <0> 村と <1> 村の衝突があり関係が悪化しています。 彼らの関係性は現在 <2> です。
-ui.cropplantingknowledge=あなたは <0> の栽培方法を知りません。 長老に方法について聞いてください。
+ui.cropplantingknowledge=あなたはこの作物の栽培方法を知りません。村長に栽培方法を聞いてください。
 ui.cropsknown=この文化で知られている作物
 ui.cropknown=あなたは <0> の栽培方法を学習しました。
 ui.cropinsufficientreputation=この村の人々が <0> の栽培方法を教えるにはあなたの評価は低すぎます。
@@ -253,7 +253,7 @@ ui.panelwalls=城壁
 ui.panelwallscomplete=完成
 ui.panelwallnowalls=この集落に城壁はありません。
 ui.panelwallslevel=レベル <0>: <1>/<2>
-ui.uluexplanations=イヌイットのナイフ(Ulu)には2通りの使い方があります。①雪上あるいは氷上でのブロック切り出し　②作業台を用いて木材と粗い土から合板を生成
+ui.uluexplanations=イヌイットのナイフ(Ulu)には2通りの使い方があります。①雪上あるいは氷上でのブロック切り出し②作業台を用いて木材と粗い土から合板を生成
 ui.ulunoplanks=作業台に木材がありません。
 ui.ulunodirt=作業台に粗い土がありません。
 ui.ulusodplanksleft=合板 残り: <0>
@@ -352,7 +352,7 @@ panels.constructions=建設物
 panels.upgrade=アップグレード
 panels.buildingprojects=建設計画
 panels.notyetbuilt=未建設
-panels.nbupgradesleft=<ret>建設完了まであと <0> 回の<ret>アップグレードが必要です。
+panels.nbupgradesleft=建設完了まであと <0> 回のアップグレードが必要
 panels.finished=完了
 panels.obsolete=廃止
 panels.houseunoccupied=この家は空き家です。 若者が引っ越してきて家庭を築くでしょう。
@@ -484,7 +484,7 @@ goal.mineclay=粘土を採掘中
 goal.minegravel=砂利を採掘中
 goal.minesand=砂を採掘中
 goal.minesandstone=砂岩を採掘中
-goal.mineredsandstone=レッドストーンを採掘中
+goal.mineredsandstone=赤土砂岩を採掘中
 goal.minestone=石を採掘中
 goal.minesnowbricks=雪塊を切り出し中
 goal.minesnowpaths=雪の道を作成中
@@ -748,7 +748,7 @@ goal.gathersand=砂を収集
 goal.gathergravel=砂利を収集
 goal.gatherclay=粘土を収集
 goal.makesandstone=砂岩を作成
-goal.makemosaic=モザイクを作成
+goal.makemosaic=モザイクタイルを作成
 goal.polishdiorite=閃緑岩を研磨
 goal.makequartz=クォーツを研磨
 goal.makebookfancy=自叙伝を執筆
@@ -982,47 +982,79 @@ raid.historydefended=<0> からの襲撃に対し、防衛に成功しました�
 
 hof.hof=殿堂入り
 hof.modcreator=Mod製作者
-hof.creatorofmayan1=マヤ文明の
+hof.creatorofnorman1=ノルマン文化の
+hof.creatorofnorman2=開発者
+hof.creatorofindian1=インド文化の
+hof.creatorofindian2=開発者
+hof.creatorofmayan1=マヤ文化の
 hof.creatorofmayan2=開発者
-hof.creatorofjapanese1=日本文明の
+hof.creatorofjapanese1=日本文化の
 hof.creatorofjapanese2=開発者
-hof.creatorofbyzantine1=ビザンティン文明の
+hof.creatorofbyzantine1=ビザンティン文化の
 hof.creatorofbyzantine2=開発者
-hof.creatorofindianskins1=インド文明の
+hof.creatorofinuits1=イヌイット文化の
+hof.creatorofinuits2=開発者
+hof.creatorofindianskins1=インドスキンの
 hof.creatorofindianskins2=開発者
+hof.reserved1=未実装文化のための
+hof.reserved2=予約領域
 
-hof.skinmaker=スキンデザイナー
-hof.buildingmaker=建築物デザイナー
+hof.dedication1=このMODに
+hof.dedication2=貢献された
+hof.dedication3=すべての人を
+hof.dedication4=称えます
+hof.inscription1=パリの
+hof.inscription2=パンテオン神殿が
+hof.inscription3=モデル
+hof.redesigner=再設計
+hof.inscription4=March 9, AD 2019
+hof.inscription5=April 17, AD 2019
+
+hof.skinmaker=スキン製作者
+hof.buildingmaker=建築物のデザイナー
 hof.wikiadmin=Wiki管理者
-hof.armouricons=アーマーデザイン
-hof.normanarmour1=ノルマン武具
+hof.armouricons=防具アイコンのデザイナー
+hof.normanarmour1=ノルマン防具
 hof.normanarmour2=グラフィックス
 hof.support1=フォーラム
 hof.support2=サポート
-hof.frenchversion1=フランス語版
-hof.frenchversion2=作成補助
-hof.wikicontributions=Wiki貢献者
-hof.improvementsjapanese1=日本の村の
+hof.frenchversion1=フランス版
+hof.frenchversion2=サポート
+hof.wikicontributions=Wikiコントリビュータ
+hof.improvementsjapanese1=日本村の
 hof.improvementsjapanese2=改善
 hof.lonebuildings=一軒家
-hof.obsidiantools1=黒曜石の道具
-hof.obsidiantools2=イコン
+hof.obsidiantools1=黒曜石の道具の
+hof.obsidiantools2=アイコン
 hof.forgecode1=Forge Sprite API用の
-hof.forgecode2=オリジナルプログラム
+hof.forgecode2=ソースコード
 hof.btw=(BTW 製作者)
 hof.forgehelp1=Forge Sprite API
 hof.forgehelp2=についての補助
-hof.hofidea1=栄光の殿堂
-hof.hofidea2=のアイディア
+hof.hofidea1=殿堂入りの
+hof.hofidea2=考案
 hof.donor=提供者
 hof.variousimprovements1=様々な
-hof.variousimprovements2=改善事項
-hof.gradlebuild1=新要素
-hof.gradlebuild2=Gradle Build
+hof.variousimprovements2=改善
+hof.gradlebuild1=新しい
+hof.gradlebuild2=Gradleによるビルド
 hof.112testing=1.12対応
 hof.communitywork=コミュニティ活動
 hof.development=開発
 hof.securityadvice=セキュリティに関するアドバイス
+hof.normtap=ノルマン・タペストリー
+hof.byzicon=ビザンティンのアイコン
+hof.hindustatues=ヒンドゥー教の像
+hof.mayanstatue=マヤ文明の像
+hof.inuithide1=イヌイットの
+hof.inuithide2=毛皮の敷物
+hof.donate1=あなたの名前が
+hof.donate2=ここに掲載されるかもしれません
+hof.donate3=寄付をお願いします！
+hof.contribute1=Millénaireへ
+hof.contribute2=貢献したい方は
+hof.contribute3=Discord nCXjd4s
+hof.contribute4=へ参加してください
 
 marvel.norman.marvelbuilt=この偉大な大聖堂は我々ノルマン人によって建設されました！ このような建築技術の成功例は世界でも類を見ないものです！
 marvel.norman.morningbells=<0>の鐘の音が遠くまで鳴り響くことでしょう。幸運な一日でありますように！
@@ -1092,7 +1124,7 @@ import.doublevertical=垂直の高さを倍にする
 import.buildinglevel=建設レベル: <0>
 import.errorunknownwoodtype=不明な木の種類: <0>
 import.copyingfrom=建物を <0> かmillenaire-custom/exportsフォルダへコピーしています。
-import.missingmockblock=特殊ケース <0> に対応するモックブロックがありません。この建物は正しくエクスポートされません。モックブロックを無効化する場合は、行末に「nomock」を追記してください。Missing "Mock Block" for special type <0>. 
+import.missingmockblock=特殊なケース <0> に対応するモックブロックがありません。この建物は正しくエクスポートされません。モックブロックを無効化する場合は、行末に「nomock」を追記してください。
 
 effect.towncentre=村の中心
 effect.shop=店: <0>
@@ -1105,14 +1137,14 @@ effect.extrawallconstructionslot=追加の城壁建築: <0>
 
 chunk.chunkmap=チャンクマップ
 chunk.caption=説明
-chunk.captiongeneral=各チャンクは 2x2 ピクセルの正方形で表示されています
-chunk.captiongreen=緑: ロードされたエリア。
-chunk.captionblue=青: 村のエリア内。
-chunk.captionpurple=紫: 一軒家などのエリア内。
-chunk.captionwhite=白: Mod(Millénaireや他のMod)による常時読み込みエリア
+chunk.captiongeneral=各チャンクは 2x2 ピクセルの正方形で表示
+chunk.captiongreen=緑: ロードされたチャンク
+chunk.captionblue=青: 村領域のチャンク
+chunk.captionpurple=紫: 一軒家などのチャンク
+chunk.captionwhite=白: Millénaireや他のModによる読込チャンク
 chunk.playerposition=プレイヤーの座標: <0>
-chunk.settings=村の読み込み半径 <0>m。Forgeに許可された最大チャンク数 <1>。
-chunk.explanations=Millénaireの村はチャンクを全て読み込んでいる時のみアクティブになります。他の村の住民は休眠しています。Millénaireは、プレイヤーが読み込んだ200メートル以内のチャンクにある村を強制的に維持しようとします(この値は変更可能です) Forgeの機能でデフォルトは 200 に制限されています。この値はminecraft/config/forgeChunkLoading.cfgで設定できます。警告: 読み込むチャンクを増やすとパフォーマンスが低下します。
+chunk.settings=村の読み込み半径 <0>m Forgeによる最大チャンク数 <1>
+chunk.explanations=Millénaireの村はチャンクを全て読み込んでいる時のみアクティブになります。他の村の住民は休眠しています。Millénaireは、プレイヤーが読み込んだ200メートル以内のチャンクにある村を強制的に維持しようとします(この値は変更可能です) Forgeの機能で既定値は 200 に制限されています。この値はminecraft/config/forgeChunkLoading.cfgで設定できます。警告: 読み込むチャンクを増やすとパフォーマンスが低下します。
 chunk.chunkcoords=チャンク: <0>
 chunk.village=<0>
 chunk.chunkforced=強制読み込み
@@ -1120,142 +1152,142 @@ chunk.chunkforced=強制読み込み
 config.pagetitle=Millénaire の設定
 config.page.uisettings=UI 設定
 config.page.worldgeneration=World 設定
-config.page.worldgeneration.desc=この設定はローカルでしか動作しません<ret>(サーバーでは不適応)。
+config.page.worldgeneration.desc=この設定はローカル限定(サーバでは非動作)です。
 config.page.villagebehaviour=村の設定
-config.page.villagebehaviour.desc=この設定はローカルでしか動作しません<ret>(サーバーでは不適応)。
+config.page.villagebehaviour.desc=この設定はローカル限定(サーバでは非動作)です。
 config.page.devtools=開発ツール
 
 config.village_list_key.label=村リスト キー
-config.village_list_key.desc=周囲にある村のリストを表示します。 デフォルト: <0>
+config.village_list_key.desc=周囲にある村のリストを表示します。 既定値: <0>
 
 config.quest_list_key.label=情報パネル キー
-config.quest_list_key.desc=Millénaireの情報パネルを開きます。 デフォルト: <0>
+config.quest_list_key.desc=Millénaireの情報パネルを開きます。 既定値: <0>
 
 config.escort_key.label=スタンス変更 キー
-config.escort_key.desc=傭兵のスタンス(応戦or通常)を変更します。 デフォルト: <0>
+config.escort_key.desc=傭兵のスタンス(応戦or通常)を変更します。 既定値: <0>
 
 config.fallback_language.label=代替言語
-config.fallback_language.desc=代替の言語です、主言語に設定したものが利用できない場合変更されます。
+config.fallback_language.desc=設定した言語が利用できない場合に変更
 
 config.hd_textures.label=HD対応 テクスチャー
 config.hd_textures.desc=64xもしくはそれ以上のテクスチャーパックが導入されている場合、自動的に適応されます。
 
 config.language_learning.label=言語の習熟
-config.language_learning.desc=言語を "学習" するかどうか(プレイヤーが学習すると翻訳文が表示)。
+config.language_learning.desc=言語の"学習"(学習により翻訳文を表示)
 
-config.travel_book_learning.label=旅行記の習熟
-config.travel_book_learning.desc=旅行記に記載されている村人や建物などの記述が、該当する項目との出会いによって初めて明らかになるかどうか。
+config.travel_book_learning.label=トラベルブックの習熟
+config.travel_book_learning.desc=トラベルブックに記載されている、村人や建物などの記述が該当する項目との出会いによって出現
 
 config.load_all_languages.label=全ての言語を読み込む
-config.load_all_languages.desc=使用可能な言語を全て読み込みます。必要な翻訳があれば"はい"にしてください。
+config.load_all_languages.desc=翻訳を行うために使用可能な言語を全て読込
 
-config.display_start.label=スタート時のテキスト表示
-config.display_start.desc=スタート時にMillénaireのバージョンとクエストの進行度を表示します。
+config.display_start.label=プレイ開始時のテキスト表示
+config.display_start.desc=開始時にMillénaireのバージョンとクエストの進行度を表示
 
 config.display_names.label=村人の名前表示
-config.display_names.desc=村人の頭上に「名前、職業、現在の仕事」を表示します。
+config.display_names.desc=村人の頭上に「名前、職業、現在の仕事」を表示
 
 config.villagers_names_distance.label=名前表示の距離
-config.villagers_names_distance.desc=名前が表示されるまでの距離です。 デフォルト: <0>
+config.villagers_names_distance.desc=名前が表示されるまでの距離 既定値: <0>
 
 config.auto_convert_profiles.label=各村の支配権
-config.auto_convert_profiles.desc=(LANを含めて)シングルモードでワールドデータのロード時に、プレイヤーに現在のMillénaireプロファイル用いて、全ての村の支配権を譲渡します。
+config.auto_convert_profiles.desc=(LANを含めて)シングルモードでワールドデータをロードする際に、現在のMillénaireプロファイルを用いて、プレイヤーに全ての村のコントロールを引き継ぐ
 
 config.villagers_sentence_in_chat_distance_client.label=チャットの文章 (MP)
-config.villagers_sentence_in_chat_distance_client.desc=マルチプレイで村人の会話が表示されるまでの距離<ret>デフォルト: <0>
+config.villagers_sentence_in_chat_distance_client.desc=マルチプレイで会話が表示されるまでの距離 既定値: <0>
 
 config.villagers_sentence_in_chat_distance_sp.label=チャットの文章 (SP)
-config.villagers_sentence_in_chat_distance_sp.desc=シングルプレイで村人の会話が表示されるまでの距離<ret>デフォルト: <0>
+config.villagers_sentence_in_chat_distance_sp.desc=シングルプレイで会話が表示されるまでの距離 既定値: <0>
 
 config.generate_villages.label=村の生成
-config.generate_villages.desc=新しいチャンクでMillénaireの村を生成するかどうか。
+config.generate_villages.desc=新しいチャンクでMillénaireの村を生成
 
 config.generate_lone_buildings.label=一軒家の生成
-config.generate_lone_buildings.desc=新しいチャンクでMillénaireの一軒家を生成するかどうか。
+config.generate_lone_buildings.desc=新しいチャンクでMillénaireの一軒家を生成
 
 config.generate_hamlets.label=村落を持つ村の生成
-config.generate_hamlets.desc=周辺に村落を持つ村を生成するかどうか。広大な土地が必要です！
+config.generate_hamlets.desc=周辺に村落を持つ村の生成(広大な土地が必要！)
 
 config.keep_active_radius.label=チャンクの読み込み半径
-config.keep_active_radius.desc=プレイヤーを中心とした常に読み込むチャンクの半径<ret>(村をアクティブにする) デフォルト: <0>
+config.keep_active_radius.desc=プレイヤーを中心とした常時読込チャンクの半径 既定値: <0>
 
 config.min_village_distance.label=村間の最短距離
-config.min_village_distance.desc=村と村の間の最短距離 デフォルト: <0>
+config.min_village_distance.desc=村と村の間の最短距離 既定値: <0>
 
 config.min_village_lonebuilding_distance.label=村と一軒家の最短距離
-config.min_village_lonebuilding_distance.desc=村と一軒家の間の最短距離 デフォルト: <0>
+config.min_village_lonebuilding_distance.desc=村と一軒家の間の最短距離 既定値: <0>
 
 config.min_lonebuilding_distance.label=一軒家の最短距離
-config.min_lonebuilding_distance.desc=一軒家と一軒家の間の最短距離 デフォルト: <0>
+config.min_lonebuilding_distance.desc=一軒家と一軒家の間の最短距離 既定値: <0>
 
 config.spawn_protection_radius.label=スポーンプロテクション半径
-config.spawn_protection_radius.desc=スポーンポイントを中心としたプロテクト半径の設定　<ret>デフォルト: <0>
+config.spawn_protection_radius.desc=スポーンポイントを中心としたプロテクト半径の設定 既定値: <0>
 
 config.village_spawn_completion_max_percentage.label=村生成時の完成度
-config.village_spawn_completion_max_percentage.desc=スポーンポイントから遠く離れて村が生成されたとき<ret>その村の完成度の最大値　<ret>デフォルト: <0>
+config.village_spawn_completion_max_percentage.desc=スポーンポイントから遠く離れて村が生成されたとき、その村の完成度の最大値 既定値: <0>
 
 config.village_spawn_completion_min_distance.label=完成度が初期状態の村の生成距離
-config.village_spawn_completion_min_distance.desc=初期状態の村が生成されるスポーンポイントからの距離　<ret>デフォルト: <0>
+config.village_spawn_completion_min_distance.desc=初期状態の村が生成されるスポーンポイントからの距離 既定値: <0>
 
 config.village_spawn_completion_max_distance.label=完成度が最大状態の村の生成距離
-config.village_spawn_completion_max_distance.desc=設定した完成度が最大値の状態で生成されるまでの<ret>スポーンポイントからの距離　<ret>デフォルト: <0>
+config.village_spawn_completion_max_distance.desc=設定した完成度が最大値の状態で生成されるまでのスポーンポイントからの距離 既定値: <0>
 
 config.village_radius.label=村の半径
-config.village_radius.desc=一般的な村の半径 (村落は例外)。 デフォルト: <0>
+config.village_radius.desc=一般的な村の半径 (村落は例外) 既定値: <0>
 
 config.min_distance_between_buildings.label=建設物間の最短距離
-config.min_distance_between_buildings.desc=建物と建物の間の最短距離　<ret>デフォルト: <0>
+config.min_distance_between_buildings.desc=建物と建物の間の最短距離 既定値: <0>
 
 config.village_paths.label=村の道路の作成
-config.village_paths.desc=村に道路を生成し、必要に応じて村人が<ret>アップグレードする。
+config.village_paths.desc=村に道を生成し、必要に応じて村人がアップグレード
 
 config.max_children_number.label=子供の最大人数
-config.max_children_number.desc=村が許容できる子供の最大人数　デフォルト: <0>
+config.max_children_number.desc=村が許容できる子供の最大人数 既定値: <0>
 
 config.background_radius.label=村の評価の半径
-config.background_radius.desc=村同士の評価(外交、貿易、侵略)が影響する半径　<ret>デフォルト: <0>
+config.background_radius.desc=村同士の評価(外交、貿易、侵略)が影響する半径 既定値: <0>
 
 config.bandit_raid_radius.label=山賊の襲撃半径
-config.bandit_raid_radius.desc=山賊が村を襲撃する半径 デフォルト: <0>
+config.bandit_raid_radius.desc=山賊が村を襲撃する半径 既定値: <0>
 
 config.raiding_rate.label=侵略の確率
-config.raiding_rate.desc=山賊が襲撃する確率 デフォルト: <0>(%)
+config.raiding_rate.desc=山賊が襲撃する確率 既定値: <0>%
 
 config.generate_colour_chart.label=カラーチャートを生成
-config.generate_colour_chart.desc=建設計画で利用できるカラーチャートを生成。
+config.generate_colour_chart.desc=建築で活用できるカラーチャートを生成
 
 config.generate_building_res.label=資材リストの生成
-config.generate_building_res.desc=建設に利用する資材リストを生成。
+config.generate_building_res.desc=建設に利用する資材リストを生成
 
 config.generate_translation_gap.label=翻訳不足分のログを生成
-config.generate_translation_gap.desc=不足リストとして各言語の翻訳テキストのレポートログを生成。
+config.generate_translation_gap.desc=各言語の翻訳テキストの不足レポートを生成
 
 config.generate_help_data.label=ヘルプデータの生成
-config.generate_help_data.desc=Millénaireコンテンツ制作者に<ret>有用な情報(カラーチャート、商品リスト、進捗リスト)<ret>を生成します。
+config.generate_help_data.desc=開発者に役立つ情報(カラーシート、商品リスト、目標の情報)を生成
 
 config.generate_goods_list.label=アイテムリストの生成
-config.generate_goods_list.desc=Millénaireのアイテムリストを生成。
+config.generate_goods_list.desc=Millénaireのアイテムリストを生成
 
 config.valuetrue=ON
 config.valuefalse=OFF
 
 config.page.bonus=共同制作者ボーナス
-config.page.bonus.desc=Millénaireの協力者 <ret>(翻訳、建築デザイン、テクスチャー、wikiの編集者など) <ret>もしくは寄付してくれた方へのボーナス: 小さい家が村長からプレゼントされます。
+config.page.bonus.desc=Millénaireの協力者(翻訳、建築デザイン、テクスチャー、wikiの編集者など)、または寄付してくれた方へのボーナス: 小さい家が村長からプレゼントされます。
 
 config.bonus_code.label=ボーナスコード
-config.bonus_code.desc=ボーナスを受け取るためのコード。<ret> 自動的にインターネットから取得します。
+config.bonus_code.desc=ボーナスを有効にするためのコード。可能であればインターネットから自動的に取得します。
 
 config.validbonuscode=有効なコードです！ ボーナスが適応されました。
-config.invalidbonuscode=無効なコードです。 チェックしてみてください。
+config.invalidbonuscode=無効なコードです。再確認してください。
 
 config.page.system=システム設定
 config.page.system.desc=Millénaireに関する一般的な設定
 
-config.send_statistics.label=統計情報
-config.send_statistics.desc=Millénaireサーバへ<ret>匿名情報(使用バージョン、言語など)<ret>の送信を許可するか
+config.send_statistics.label=統計情報の送信許可
+config.send_statistics.desc=Millénaireサーバへ統計情報(バージョン、言語など)を送信
 
 config.send_advancement_login.label=試験的な取り組み
-config.send_advancement_login.desc=Minecraftのログイン情報を<ret>millenaire.orgに表示できるよう、<ret>Millénaireサーバへ送信するかどうか
+config.send_advancement_login.desc=Minecraftのログイン情報をmillenaire.orgに表示できるようMillénaireサーバへ送信
 
 
 tradehelp.title=<0> - 取引
@@ -1264,7 +1296,7 @@ tradehelp.goodsbought=買った品物
 tradehelp.buyingprice=購入:
 tradehelp.sellingprice=販売:
 tradehelp.helptitle=取引ルール
-tradehelp.helptext=それぞれの店では村に在庫のある物が<ret>商品として買うことができます。<ret><ret>例外として"無料"ブロック(道路用)や<ret>特別なアイテム(杖)などの、村で企画され<ret>作成された品物は購入すると"失われ"ます。<ret>Minecraftの村のように無限ではありません。<ret><ret>村人は自分たちが必要とするアイテムをほぼ<ret>全て作成できますが、資材を売って<ret>あげることで村の発展を少し助けます。
+tradehelp.helptext=それぞれの店では、村に在庫がある商品を購入できます。一部の無料なブロック(道ブロック)や特別なアイテム(杖など)を除いて、表示されている商品は村で生産されたもので、Minecraftの村の物々交換とは異なり、購入するとその分だけ"無くなり"ます。<ret><ret>必要な資材の多くは村人でも生産できますが、一部の資材を売ることで村の発展が加速する場合が多いです。
 
 tradehelp.freeblock=これらの類のブロックは村で「タダ同然」に作成しているため、無制限に取引できます。
 tradehelp.wood=村人は木立ちで木を作り出します。木は村の発展にかかせません。
@@ -1374,6 +1406,9 @@ importtable.converttopreserveground=草と砂を地盤保護として変換: <0>
 importtable.minus=減少
 importtable.plus=増加
 
-travelbook.reference_button=View Travel Book entry for <0>
+
+travelbook.reference_button=<0> の項目を表示
 travelbook.reference_button_export=<0>
 travelbook.title=トラベルブック
+travelbook.culture_unlocked=<0> / <1> の文化を把握しています。
+travelbook.contentlocked=Millénaireは遭遇したコンテンツ（村人、建物など）の情報のみを表示するように設定されています。

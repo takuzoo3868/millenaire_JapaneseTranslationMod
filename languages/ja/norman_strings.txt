@@ -8,9 +8,9 @@ village.controlled=controlled village
 village.customcontrolled=custom controlled village
 village.ecclesiastique=宗教村
 village.grosbourg=街
-village.hameau_abbatiale=衛星村(宗教)
-village.hameau_agricole=衛星村(農業)
-village.hameau_artisans=衛星村(職人)
+village.hameau_abbatiale=村落(宗教)
+village.hameau_agricole=村落(農業)
+village.hameau_artisans=村落(職人)
 village.notredame=大聖堂
 village.militaire=軍事村
 
