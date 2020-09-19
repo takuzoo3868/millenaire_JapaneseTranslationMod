@@ -37,11 +37,13 @@ language=ja
 自分なりに気になった言葉もISSUEへ記載するようにしています．
 
 ## スクリーンショット
+
 TBA
 
 ## 更新履歴
-2020/9/20 Ver8.1.0対応スタート [gap ja_jp: 59%]
+
+2020/9/20 Ver8.1.0対応スタート [gap ja_jp: 59%]  
 一般的な表示(strings.txt, ja_jp.lang)，アイテムリスト，ヘルプ改善
 
-2018/2/15 Ver7.1.2対応スタート [gap ja_jp: 54%]
+2018/2/15 Ver7.1.2対応スタート [gap ja_jp: 54%]  
 一般的な表示(strings.txt)，ヘルプ，ノルマン(buildings,reputation,sentence,strings)，クエスト関連
