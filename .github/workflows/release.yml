@@ -1,0 +1,17 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+        - name: Archive Release
+          uses: thedoctor0/zip-release@master
+          with:
+            filename: 'Millenaire_JapaneseTranslation.zip'
+            exclusions: '*.git*'
