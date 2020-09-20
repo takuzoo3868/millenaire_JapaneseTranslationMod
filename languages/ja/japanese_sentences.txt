@@ -1,4 +1,4 @@
-﻿villager.greeting=Konnichiwa, $name-san! / こんにちは、 $nameさん!
+villager.greeting=Konnichiwa, $name-san! / こんにちは、 $nameさん!
 villager.greeting=Oi. / おい。
 villager.greeting=Ogenki desuka, $name-san  / げんきかい、 $nameさん?
 villager.greeting=Kawatta koto aru? / 変わったことある？

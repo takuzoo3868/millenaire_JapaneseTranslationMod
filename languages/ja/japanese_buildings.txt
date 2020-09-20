@@ -1,4 +1,4 @@
-﻿japanesegrove_A0=木立
+japanesegrove_A0=木立
 japanesegrove_B0=木立
 japanesegrove_C0=木立
 japanesepeasanth_A0=百姓の家

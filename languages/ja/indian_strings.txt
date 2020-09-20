@@ -1,4 +1,4 @@
-﻿﻿culture.indian=インド
+culture.indian=インド
 villager.indian_boy=男の子
 villager.indian_girl=女の子
 villager.indian_teenagerMale=少年

@@ -1,4 +1,4 @@
-﻿culture.mayan=マヤ
+culture.mayan=マヤ
 villager.mayan_boy=男の子
 villager.mayan_girl=女の子
 villager.mayan_teenagerMale=少年

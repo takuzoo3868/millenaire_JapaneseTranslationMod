@@ -1,4 +1,4 @@
-﻿culture.japanese=日本
+culture.japanese=日本
 
 villager.japanese_boy=男の子
 villager.japanese_girl=女の子

@@ -1,4 +1,4 @@
-﻿mayanplayerestate_A0=大ピラミッド
+mayanplayerestate_A0=大ピラミッド
 mayancrafter_A0=職人の家
 armyforge_A0=狩人の鍛冶場
 mayansculptorhouse_A0=彫刻家の家

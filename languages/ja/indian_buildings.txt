@@ -1,4 +1,4 @@
-﻿playerestate_A0=別荘
+playerestate_A0=別荘
 forge_A0=鍛冶場
 armyforge_A0=軍事鉄工所
 scultorhouse_A0=彫刻家の家

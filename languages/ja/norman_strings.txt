@@ -84,7 +84,7 @@ villager.orderguard=
 villager.ordervicar=騎士団長
 villager.vicar=牧師
 
-shop.alchemyworkshop=錬金術店
+shop.alchemyworkshop=錬金術工房
 shop.armoury=武具屋
 shop.bakery=パン屋
 shop.cattlefarm=牛製品店

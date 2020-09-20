@@ -1,4 +1,4 @@
-﻿villager.greeting=Xaire, $name! / ハーイ、$name!
+villager.greeting=Xaire, $name! / ハーイ、$name!
 villager.greeting=Omorfi mera, etsi den einai? / なんと美しい日だ、そう思わないか?
 villager.greeting=Tha brexei. Syntoma.  / もうすぐ、雨が降るな。
 villager.greeting=Kamia polh ston kosmo den sygrinete me thn Kwnstantinoupolh./ この大都市と比べられる都市は世界中を探してもないだろう。

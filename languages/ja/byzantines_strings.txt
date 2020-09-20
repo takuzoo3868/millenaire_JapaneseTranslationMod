@@ -1,4 +1,4 @@
-﻿culture.byzantines=ビザンティン
+culture.byzantines=ビザンティン
 villager.teenagerMale=少年
 villager.teenagerFemale=少女
 villager.boy_byzantine=男の子
