@@ -1,14 +1,12 @@
-
-
 alchemist_1_introb_0_label=錬金術師
-alchemist_1_introb_0_description=私の息子よ、あなたが神が与えてくださった知識を<ret>超え更なる深遠を求めていると、我々の耳に届いています。<ret><ret>異教に落ちないでください!<ret>手引きが必要ならば、あなたは修道院へ退き、それを祈願し<ret>なければなりません。<ret><ret>神は、賢い人々に微笑みます。しかし、あなたはまだ若く愚<ret>かです。<ret>あなたは自身の教訓を学ぶまで、私のアドバイスには耳を傾<ret>けてはくれないのでしょうね。<ret>若者たちは常にそうだ!<ret><ret>あなた会わせたい人が居ます。<ret>その人は、あなたを助け、探求の無益さを納得させることが<ret>できるかも知れません。<ret>理解し得ないものにも手を出しますが彼は博識で賢い人です<ret><ret>彼のところに案内しましょうか?
-alchemist_1_introb_0_description_success=<ret>彼の名前は、Guillaume Vif-argentです。<ret>彼は"錬金術師"と名乗っています。<ret>私は彼の正確な居場所を知りませんが、彼は最高の星を観測<ret>するため、山中に仕事場があると言われています。
-alchemist_1_introb_0_description_refuse=あなたは見かけより賢いですね。
+alchemist_1_introb_0_description=やぁ、あなたは神が与えてくださった知識を超えて更なる深遠を求めていると我々の耳に届いています。どうか異端に堕ちないで！導きが必要なら、あなたは修道院で引き籠って祈りを捧げているべきです。神は賢明な人に微笑みかけてくださることでしょう。しかし、あなたはまだ若く愚かであり、身を持って知るまで私のアドバイスなど耳に入ってこないでしょう。若者ってのはいつもそうだ！<ret><ret>あなたの助けとなり、探求は無駄だったと納得できるような、逢いに行くことのできる人物に心当たりがあります。彼は理解し難い事象にも手を出していますが、博識で賢い人です。彼の元へ案内しましょうか?
+alchemist_1_introb_0_description_success=彼の名は、Guillaume Vif-argentです。"錬金術師"と名乗っています。私は彼の正確な居場所を知らないのですが、最高の環境で星を観測するために、山中に工房があるそうです。
+alchemist_1_introb_0_description_refuse=あなたは見かけによらず賢いのですね。
 alchemist_1_introb_1_label=$startvillager_villagerrole$に報告する。
-alchemist_1_introb_1_description=あなたは彼を見つけることができましたか？<ret>彼について何か言うことはありますか？
-alchemist_1_introb_1_description_success=彼の知識はあなたに感銘を与えたようですね。<ret>$name、用心してください。
-alchemist_1_introb_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-alchemist_1_introb_1_listing=・山岳地帯にある錬金術師の塔を見つけ、<ret>$startvillager_villagename$の<ret>$startvillager_villagerrole$に報告する。
+alchemist_1_introb_1_description=彼は見つかりましたか？彼についてどう思いましたか？
+alchemist_1_introb_1_description_success=彼の知識に感銘を受けたようですね。$name、用心は忘れないでください。
+alchemist_1_introb_1_description_refuse=私はここに留まって、$nameの心変わりを祈りましょう。
+alchemist_1_introb_1_listing=山岳地帯にある錬金術師の塔を見つけ、$startvillager_villagename$の<ret>$startvillager_villagerrole$に報告する。
 
 alchemist_1_introguildmasterb_0_label=錬金術師
 alchemist_1_introguildmasterb_0_description=$name、あなたが知識を求めて、世界中を旅していると<ret>聞いています。<ret><ret>早く私のところに来るべきでしたね。<ret>私は、今までで最も偉大な偉人を知っています。<ret><ret>錬金術師 "Guillaume Vif-argent" です。<ret>彼の評判は思想家や哲学者の間では誰にも引けを取りません<ret><ret>彼と会って見ますか?
@@ -18,7 +16,7 @@ alchemist_1_introguildmasterb_1_label=ギルドマスターに報告
 alchemist_1_introguildmasterb_1_description=あなたは、偉大な錬金術師の情報を何か持っていますか?
 alchemist_1_introguildmasterb_1_description_success=彼の判断は、いつも見識がありますね。<ret>若者よ、彼から聞き、そして学んでください。
 alchemist_1_introguildmasterb_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-alchemist_1_introguildmasterb_1_listing=・山岳地帯にある錬金術師の塔を見つけ、<ret>$startvillager_villagename$の<ret>$startvillager_villagerrole$に報告する。
+alchemist_1_introguildmasterb_1_listing=山岳地帯にある錬金術師の塔を見つけ、$startvillager_villagename$の<ret>$startvillager_villagerrole$に報告する。
 
 alchemist_1_introknight_0_label=錬金術師
 alchemist_1_introknight_0_description=私たちの国でこの世界のあらゆる知識を持った人物が誰か<ret>知りたいですか？<ret><ret>聖職者やギルドマスターには用心してください。彼らは<ret>常に常人より知識があると主張してきます。<ret><ret>多分、あなたを助けることができる男が一人だけ居ます。<ret>彼は自分が学者であり、過去、我々の王に鉛を金に変える<ret>学問を提供したと主張しました。<ret>私は彼が疑わしい人物だと常に思っていますが、多分、<ret>彼には何かがあるのでしょう。彼と会って見ますか？
@@ -28,7 +26,7 @@ alchemist_1_introknight_1_label=$startvillager_villagerrole$に報告
 alchemist_1_introknight_1_description=彼に会えましたか?
 alchemist_1_introknight_1_description_success=彼は、あなたに誠実でしたか？<ret>さて、彼が我が君の目に留まらなければ問題では...
 alchemist_1_introknight_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-alchemist_1_introknight_1_listing=・山岳地帯にある錬金術師の塔を見つけ、<ret>$startvillager_villagename$の<ret>$startvillager_villagerrole$に報告する。
+alchemist_1_introknight_1_listing=山岳地帯にある錬金術師の塔を見つけ、$startvillager_villagename$の<ret>$startvillager_villagerrole$に報告する。
 
 alchemist_2_meeting_0_label=ようこそ
 alchemist_2_meeting_0_description=$name、<ret>あなたは知識を得るために私のところに来たのですか？<ret>あなたは賢いかたですね。<ret>私は神に見捨てられた世界で唯一本当の錬金術師です。<ret>私から何か学びたいなら、私の手伝いをしてください。<ret>私はどんな時でも、あなたに手伝いを言い渡します。<ret>そしてあなたは、多くの純粋な知識を積極的に得なけれ<ret>ばなりません。私はまだ、鉛を金に変える事に成功して<ret>いませんが、なんとか宮廷では錬金術を使いコインに変<ret>えることができました。
@@ -84,7 +82,6 @@ alchemist_6_boreholec_1_description=実際に縦穴を進めていますか？�
 alchemist_6_boreholec_1_description_success=気を付けてください、そして幸運を！
 alchemist_6_boreholec_1_description_refuse=私はマスターに<ret>知らせなければなりません。
 alchemist_6_boreholec_1_listing=・錬金術師の助手から爆発ツールを受け取る。
-
 alchemist_6_boreholec_2_label=錬金術師に報告する
 alchemist_6_boreholec_2_description=私は爆発ツールを使用することで、<ret>簡単に仕事が完了すると信じています。
 alchemist_6_boreholec_2_description_success=実に素晴らしい仕事だ！<ret>$name、あなたは素晴らしい！<ret>錬金術師の全ての意思を持っている。君自身が吹き飛ばさ<ret>れる事なくこの仕事を果たすとは素晴らしいとしか言えん<ret><ret>私は、岩盤を突破する計画をまとめている。<ret>少し休んでから、また戻ってきてください。
@@ -96,12 +93,10 @@ alchemist_7_boreholetnt_0_description=$name、素晴らしい一日が来た!<re
 alchemist_7_boreholetnt_0_description_refuse=なぜ、私を煩わせるのですか?
 alchemist_7_boreholetnt_0_description_success=助手のRobertは、あなたに爆発物を渡します。縦穴の底に<ret>爆発物を設置し、その上に黒曜石のブロックを置いてくだ<ret>さい。私の計算では結果を得るには少なくとも、20個の爆<ret>発物が必要でしょう。
 alchemist_7_boreholetnt_1_label=爆発物を受け取る
-
 alchemist_7_boreholetnt_1_description=あなたに必要な準備は全てここにあります！爆発物と黒曜<ret>石、安全に起爆できるようにするための十分な導火線も。
 alchemist_7_boreholetnt_1_description_success=私はあなたが羨ましい、私の友人よ、あなたは未知なる<ret>領域隠されたものを見る、この世界で最初の<ret>人物です！
 alchemist_7_boreholetnt_1_description_refuse=私はマスターに<ret>知らせなければなりません。
 alchemist_7_boreholetnt_1_listing=・錬金術師の助手から、爆発物を受け取る。
-
 alchemist_7_boreholetnt_2_label=錬金術師に報告する
 alchemist_7_boreholetnt_2_description=それで、$name!<ret>全ての作業は完了しましたか？あなたは下にどんな素晴らしい物があるかわかりましたか？
 alchemist_7_boreholetnt_2_description_success=<ret>なぜ？ なぜですか？ いったいどうすれば？どうすればそ<ret>んな圧縮爆発に耐えられるのですか？それはあなたが手順<ret>を間違っている！不可能だ! 論外だ!<ret><ret>わ、わかった、私が悪かった謝罪しよう、<ret>$name。<ret>あなたの仕事は、常に非の打ち所がない。この爆薬は、こ<ret>の仕事に十分だと勝手に信じ込んでいた。私はもう一度、<ret>勉強し直さなければなりません。<ret>きっと別な解決策があるに違いありません。また、どれく<ret>らい価値があるのか考えると、非常によく保護されている<ret>ため、真下にあるものはこの世の全てであるに違いない。
@@ -152,6 +147,7 @@ alchemist_11b_guildmaster_0_label=ギルドマスターと話します
 alchemist_11b_guildmaster_0_description=Guillaume Vif-argentが錬金術を再開することに<ret>に成功しました。彼は本当に並外れた男です！<ret>私は彼の仕事を調査し、その中に十分有能な若者<ret>に教示することを名誉に思うでしょう！
 alchemist_11b_guildmaster_0_description_success=私のためにマスターに<ret>私の称賛を伝えてください。
 alchemist_11b_guildmaster_0_description_refuse=なぜ、私を煩わせるのですか?
+
 alchemist_11b_knightseneschal_0_label=リーダーである村長と話します
 alchemist_11b_knightseneschal_0_description=年老いた錬金術師は驚くべき発見をした、<ret>もう一度聞く？驚くべきことにそれらの知識を手放<ret>した...私の親友 $name<ret>私にはあまり残された時間がありません。しかし、<ret>村の若者がこれに対する関心を示す場合、私は彼と<ret>その本を共有しましょう
 alchemist_11b_knightseneschal_0_description_success=彼が鉛を金に変えることがでた場合は、また会いま<ret>しょう。彼は何年も前にそれを約束しています！
@@ -167,7 +163,6 @@ alchemist_12_theexperiment_1_description_success=すべてが上手く行けば�
 alchemist_12_theexperiment_1_description_refuse=私はマスターに知らせなければなりません。
 alchemist_12_theexperiment_1_listing=・錬金術師の助手から、資材を受け取る
 alchemist_12_theexperiment_2_label=錬金術師に報告する
-
 alchemist_12_theexperiment_2_description=あなたの表情は、今まで見たことがありません、<ret>$name...
 alchemist_12_theexperiment_2_description_success=空...従ってこの世界は何もない空虚に基づいている...<ret>そこは現実ですか？この世界で固体でないものを測定でき<ret>ますか？<ret>$name、この世界は<ret>私たち錬金術師向けではありません...それは、<ret>影と幻想の世界です ...
 alchemist_12_theexperiment_2_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。

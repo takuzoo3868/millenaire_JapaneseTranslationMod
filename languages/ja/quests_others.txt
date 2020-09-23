@@ -287,49 +287,49 @@ potatofarm_1_description_timeup=季節が変わってしまったので、栽培
 potatofarm_1_listing=8個のジャガイモを育てて、$startvillager_villagername$へ渡し、美味しいシチューを作ってもらいましょう。
 
 //Seljuk Basic:
-ayranpidesoldier_0_label=Soldiers's Lunch
-ayranpidesoldier_0_description=It is finally time for lunch break, but I forgot to bring my lunch with me... Could you please bring me a pide and an ayran?
-ayranpidesoldier_0_description_success=Thank you. I can go back to work now and finish my morning patrol.
-ayranpidesoldier_0_description_refuse=That's alright. I must be strong and endure this hunger.
+ayranpidesoldier_0_label=兵士のお昼
+ayranpidesoldier_0_description=やっとお昼休みの時間になりましたが、お弁当を忘れてしまいました...ピデとアイランを持ってきてくれませんか？
+ayranpidesoldier_0_description_success=ありがとう。これで午前の巡回を終了できます。
+ayranpidesoldier_0_description_refuse=えぇ大丈夫ですよ。この空腹にも耐えてみせます。
 
-cottonweaver_0_label=Cotton Harvest
-cottonweaver_0_description=Hello $name, have you heard about the cotton disaster? The extreme hot weather has caused this year's cotton harvest to all burn up. We are in dire need of cotton to prepare for the next Winter...
-cottonweaver_0_description_success=That is really kind of you. We will make good use of this cotton.
-cottonweaver_0_description_refuse=What will we do... Our children don't have enough clothes for the winter...
+cottonweaver_0_label=綿の収穫
+cottonweaver_0_description=こんにちは、$name。綿花災害をご存知ですか？今年の収穫分は酷暑で全て燃え尽きてしまいました。来年の冬に向けて綿が必要なんです...
+cottonweaver_0_description_success=本当に優しいですね。この綿は大切に使いますね。
+cottonweaver_0_description_refuse=どうしよう...我が家の子供たちは冬用の服が足りないのに...
 
-helvachild_0_label=Delicious Sweets
-helvachild_0_description=I remember eating some sweets made from pistachios and wheat, but I can't for the life of me remember it's name. Was it hava..? No, hela? No, lale...?
-helvachild_0_description_success=Now I remember! It is called helva. You should try some yourself next time. I can't wait to eat this...
-helvachild_0_description_refuse=Oh, how I yearn to be able to eat some sweets right now...
+helvachild_0_label=美味しいお菓子
+helvachild_0_description=ピスタチオと小麦を使ったお菓子を食べた記憶があるのですが、名前が思い出せません。ハバ...だったかな？いいえ、ヘラ？違う、ラレ...？
+helvachild_0_description_success=思い出した！ハルヴァといいます。今度ご自身でも食べてみてくださいね。早く食べたい...
+helvachild_0_description_refuse=ああ、今すぐにでも甘いものが食べたい...
 
-imambook_0_label=The Imam's Book
-imambook_0_description=Do you know my husband, the imam? He forgot to take this book with him when he left the house this morning. Could you please deliver it to him?
-imambook_0_description_success=Thank you, that book is very important for the imam to do his job properly.
-imambook_0_description_refuse=I will bring the book to him myself...
-imambook_1_label=The Imam's Book
-imambook_1_description_success=Thank you, now i can finally continue my research.
+imambook_0_label=イマームの本
+imambook_0_description=私の夫は導師(イマーム)なのをご存知ですか？今朝、家を出る時にこの本を持って行くのを忘れたんです。彼に届けてもらえますか?
+imambook_0_description_success=ありがとうございます、この本は導師がきちんと仕事をするためにとても重要な本です。
+imambook_0_description_refuse=自分で届けにいきますとも...
+imambook_1_label=イマームの本
+imambook_1_description_success=ありがとう、これでようやく研究を続けることができます。
 
-irontoolsmith_0_label=The Ironsmith
-irontoolsmith_0_description=I am the best iron smith you will ever find. Unfortunately I am running low on iron. If you bring me 8 iron ingots I can show you my true skills...
-irontoolsmith_0_description_success=Great, now wait untill I finish smithing this iron. It will be a true masterpiece...
-irontoolsmith_0_description_refuse=Whatever, I will go find my own iron then.
+irontoolsmith_0_label=鍛冶屋
+irontoolsmith_0_description=私は腕の確かな鍛冶職人ですよ。残念なことに鉄が不足しているんです。鉄インゴットを8個いただけたら、私の腕前をお見せしましょう...
+irontoolsmith_0_description_success=いいですね、鍛造するのでしばしお待ちを。傑作になりますよ。
+irontoolsmith_0_description_refuse=どっちにしろ鉄は探しに行ってきますよ。
 
-lightbluedyeweaver_0_label=Light Blue Dye
-lightbluedyeweaver_0_description=Hello $name, I have searched through the whole bazaar, but I couldn't find any. Do you think you could find 16 pieces of light blue dye for me please? I need it to craft colored wool...
-lightbluedyeweaver_0_description_success=Yes that's it! I can craft beautiful carpets from these.
-lightbluedyeweaver_0_description_refuse=It looks like you couldn't find any dye either. That's too bad...
+lightbluedyeweaver_0_label=空色の染料
+lightbluedyeweaver_0_description=こんにちは，$name。市場を隅々まで探したのですが、欲しかった染料を見つけられなかったんです。空色の染料を16個探してもらえませんか。羊毛を染めるのに必要なんです...
+lightbluedyeweaver_0_description_success=それです！これで綺麗な絨毯が作れます。
+lightbluedyeweaver_0_description_refuse=染料は見つからなかったようですね、残念です...
 
-loneminerayran_0_label=Need a Break
-loneminerayran_0_description=You know what would really be refreshing to drink right now? A cold glass of ayran. Could you bring me this drink please?
-loneminerayran_0_description_success=Ah, this is what I really needed to drink right now. Thank you $name. You are a good person...
-loneminerayran_0_description_refuse=All I asked for was a glass of ayran. I wish I could have drank that right now...
+loneminerayran_0_label=休憩が必要
+loneminerayran_0_description=何を飲んだら気分爽快になれると思います？それはね、冷たいグラスに注いだアイランなんですよ。...持ってきてもらえませんか？
+loneminerayran_0_description_success=ああ、これが今どうしても飲みたかったんだ。ありがとう、$name。あなたはいい人ですね...
+loneminerayran_0_description_refuse=私がお願いしたのはアイランたった一杯ですよ。今すぐにでも飲みたかったなぁ...
 
-mudbrickminer_0_label=Under the Sun
-mudbrickminer_0_description=I have a lot of work to do today, but I have no time to watch these mudbricks dry. Can you gather a few dry mudbricks for me while I finish my other work?
-mudbrickminer_0_description_success=Excellent, we can use these bricks for the next construction.
-mudbrickminer_0_description_refuse=I guess watching mudbricks dry is too boring for you...
+mudbrickminer_0_label=太陽の下で
+mudbrickminer_0_description=今日はやることがいっぱいあって、泥レンガが乾く様子を眺めてる暇はないんです。私はちょっと別の用事を済ませるので、その間に渇いた泥レンガを集めてくれませんか？
+mudbrickminer_0_description_success=素晴らしいです、次の建築にこのレンガを使うことができます。
+mudbrickminer_0_description_refuse=泥レンガが乾くのを見てもつまらないんだろうな...
 
-ornamentedstonecrafter_0_label=Ornamented Mud Bricks
-ornamentedstonecrafter_0_description=Our leader asked me to bring him beautiful ornamented mud bricks, but I am completely out of those... Could you please find another stonecrafter and bring me more of those ornamented mud bricks?
-ornamentedstonecrafter_0_description_success=Thank you $name, this good deed will not be forgotten my friend.
-ornamentedstonecrafter_0_description_refuse=That's not good, now how will I ever find more of these ornamented mud bricks...
+ornamentedstonecrafter_0_label=模様入りの泥レンガ
+ornamentedstonecrafter_0_description=村の長から美しい装飾の施された泥レンガを持ってくるよう頼まれたんだが、私の手元には満足いく出来栄えのレンガがないんだよな。なぁ、他の石工をまわって、もっと模様入りの泥レンガを集めてきてくれないか？
+ornamentedstonecrafter_0_description_success=ありがとう、$name。この行いは決して忘れませんよ。
+ornamentedstonecrafter_0_description_refuse=まずいな、何とかして模様入りの泥レンガを探さないと。
