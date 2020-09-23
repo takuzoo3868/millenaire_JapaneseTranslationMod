@@ -1,236 +1,335 @@
 //normanbasic:
 
 guardwife_0_label=夫のお弁当
-guardwife_0_description=夫のお弁当を忘れてしまったの。夫はこの町で<ret>衛兵をしている$guard_villagername$と言います。<ret>お弁当を私の代わりに届けてくれませんか？
-guardwife_0_description_success=届けてくれたのね、ありがとう。
+guardwife_0_description=夫のお弁当を忘れてしまったの。夫はこの町で衛兵をしている$guard_villagername$と言いいます。私の代わりにお弁当を届けてくれませんか？
+guardwife_0_description_success=届けてくれるのね、ありがとう。
 guardwife_0_description_refuse=あなたも忙しいのね。他に誰かいないかしら。
-guardwife_1_label=腹減った!
-guardwife_1_description=家の嫁さん、また弁当忘れやがった!
+guardwife_1_label=腹減った！
+guardwife_1_description=妻がまた弁当忘れちゃってる！
 guardwife_1_description_success=あなたはとても親切な人だ。
-guardwife_1_description_refuse=人を見たら泥棒と思えってね。
-guardwife_1_description_timeup=もう少し早く届けてほしかった。<ret>$guard_villagename$はあなたの事を忘れません。
-guardwife_1_listing=・$guard_villagename$の$guard_villagername$にお弁当を渡す
-
+guardwife_1_description_refuse=他人を信用しちゃいけないね。
+guardwife_1_description_timeup=もう少し早く届けてほしかった。$guard_villagename$村の人はあなたの事を忘れないでしょう。
+guardwife_1_listing=$guard_villagename$の$guard_villagername$にお弁当を渡す。
 
 lumbermancider_0_label=のどが渇いた!
-lumbermancider_0_description=ああ～、毎日木を切るのは本当に大変だなあ。<ret>こんなに頑張ってる自分へのご褒美に、誰か、<ret>「リンゴ発泡酒」を持ってきてくれないかなあ
-lumbermancider_0_description_success=え、これ貰っていいの？本当にありがとう、大事に頂くよ。
-lumbermancider_0_description_refuse=木こりの仕事はキツ過ぎる。<ret>もうこんな仕事やめてやる。
+lumbermancider_0_description=薪割りって大変だなぁ。こんなに頑張ってる自分へのご褒美に、誰かりんご酒を持ってきてくれないかなあ。
+lumbermancider_0_description_success=そう、それが欲しかったんだよ、本当にありがとう、大切に飲むよ。
+lumbermancider_0_description_refuse=次に木材が必要になっても、俺の所にくるんじゃないぞ。
 
 lonelumbermancalva_0_label=お酒を持ってきて!
-lonelumbermancalva_0_description=この森は何でこんなに寒いんだ？カルヴァドス<ret>(Calva)を作るりんごも見つからないし。<ret>あと少しの酒で足りるのに死んじまうよ!
-lonelumbermancalva_0_description_success=信じられない！本当かい？<ret>グラスもあるし、一緒に祝いましょう！
-lonelumbermancalva_0_description_refuse=再度訪問してみると、彼は分け前の酒すら<ret>持っていませんでした。
+lonelumbermancalva_0_description=この森は何でこんなに寒いんだ？カルヴァドス(Calva)を作るりんごも見つからないし。ほんのちょっとで助かるんだけどなぁ！
+lonelumbermancalva_0_description_success=信じられない！本当かい？ちょうどグラスもあるから、一緒に一杯やりましょう！
+lonelumbermancalva_0_description_refuse=年にたった1人の訪問者でしたが、彼は私にワイン一杯すら恵んでくれませんでした。
 
 loneminerfood_0_label=本当の食事
-loneminerfood_0_description=もう何ヶ月も美味い飯を食ってない。いつも古<ret>くなったパンばっかりだ。もうこんな食事は嫌<ret>だ、美味い飯が食いたい!
-loneminerfood_0_description_success=こんなに美味いノルマンの食事は久しぶりだ!
+loneminerfood_0_description=もう何ヶ月も美味い飯を食ってない。ここで採掘しながら湿気たパンばっかり生活はもう嫌だ！
+loneminerfood_0_description_success=これぞノルマンの食事だよ！
 loneminerfood_0_description_refuse=さて、それなら戻ってパンでも食うか。
 
-knightstonedelivery_0_label=石はまだか!
-knightstonedelivery_0_description=$name、<ret>私には$startvillager_villagename$を守るために、<ret>もっと沢山の石が必要なんだ!<ret>$miner_direction$から$miner_distance$の近くの丘で働いている<ret>$miner_villagername$は、<ret>まとめて沢山持ってくる言っていたのに一向に<ret>持ってこない。<ret>彼が何をしているのか、確認してきてくれない<ret>か？
-knightstonedelivery_0_description_success=よい旅を!
-knightstonedelivery_0_description_refuse=その話なら部下を１人確認に向かわせた！
-knightstonedelivery_1_label=石の収集
-knightstonedelivery_1_description=ああはい、$startvillager_villagename$の石ですね！<ret>今ちょうど送ろうとしてたんですよ。<ret>全部で４スタック程ですが、持っていけるなら<ret>届けてくれませんか。
-knightstonedelivery_1_description_success=じゃあ、私は採掘に戻りますね。
-knightstonedelivery_1_description_refuse=わざわざ遠くから催促しに来たくせに・・・
+knightstonedelivery_0_label=石が欲しい
+knightstonedelivery_0_description=$nameさん、この$startvillager_villagename$村の守備を固めるために、もっと沢山の石が必要なんです！$miner_direction$に$miner_distance$あたりの丘で働いている$miner_villagername$は、まとめて沢山持ってくると約束していたのに一向に戻ってくる気配がないんです。ちょっと彼の様子を確認してきてくれませんか？
+knightstonedelivery_0_description_success=ありがとう、気をつけて行ってらっしゃい！
+knightstonedelivery_0_description_refuse=では、私の部下を送ろうか。
+knightstonedelivery_1_label=石の採掘
+knightstonedelivery_1_description=あぁ、$startvillager_villagename$村の石ですね！ちょうど今出荷しようとしていたところです。全部で4スタックありますが、あなたが持っていけるなら村まで届けてくれませんか。
+knightstonedelivery_1_description_success=それじゃあ、私は採掘に戻りますね。
+knightstonedelivery_1_description_refuse=わざわざ遠くから催促しに来たくせに。
 knightstonedelivery_1_description_timeup=時間内に$miner_villagername$を見つけることができませんでした。
-knightstonedelivery_1_listing=・$startvillager_villagername$'sの石について、<ret>$startvillager_villagename$から$startvillager_miner_direction$へ$startvillager_miner_distanceshort$進んだところに住んでいる$miner_villagername$を見に行く。
-
-
+knightstonedelivery_1_listing=$startvillager_villagename$村の$startvillager_miner_direction$へ$startvillager_miner_distanceshort$ほどの所に住んでいる鉱夫$miner_villagername$へ会いに行き、$startvillager_villagername$の依頼していた石について尋ねましょう。
 knightstonedelivery_2_label=石の配達
-knightstonedelivery_2_description=あなたが石を持ってきただって？<ret>パーフェクトすばらしい！！ノルマンの王は、<ret>この事を決して忘れないでしょう。
-knightstonedelivery_2_description_success=あなたには感謝してもしきれません。
-knightstonedelivery_2_description_refuse=貴様、何という事を！殺されないだけありがたく<ret>思え！
-knightstonedelivery_2_description_timeup=時間内に、$startvillager_villagername$へ石を渡せませんでした。
-knightstonedelivery_2_listing=・$startvillager_villagername$の石を持って、$startvillager_villagename$にもって行く。
+knightstonedelivery_2_description=まさかあなたが石を持ってきたのか？すばらしい！ノルマン王家は、この事を決して忘れないでしょう。
+knightstonedelivery_2_description_success=あなたには感謝しています。
+knightstonedelivery_2_description_refuse=裏切りだ！殺されないだけありがたく思え！
+knightstonedelivery_2_description_timeup=時間内に$startvillager_villagername$へ石を渡せませんでした。
+knightstonedelivery_2_listing=$startvillager_villagername$の石を持って、$startvillager_villagename$村へ向かう。
 
 abbotbooksdelivery_0_label=誰か手紙を
-
-abbotbooksdelivery_0_description=$nameよ、あなたに会えてとても幸せです。<ret>私が調べているものは、$loneabbot_villagename$の修道院にある<ret>何冊かの貴重な本が必要なのです。<ret>年老いてしまった私の代わりに、私の旧友でも<ret>ある$loneabbot_villagername$の修道院長に<ret>本を送ってくれるよう頼んできてはくれません<ret>か？あなたの紹介状もお渡しします。<ret>修道院は$loneabbot_direction$に$loneabbot_distance$ほど<ret>進んだ所にあるはずです。
-abbotbooksdelivery_0_description_success=神はあなたと供にあります。
-abbotbooksdelivery_0_description_refuse=どこかに心優しい若者は居ないものか。
+abbotbooksdelivery_0_description=やぁ$name、あなたに会えて嬉しいです。$loneabbot_villagename$の修道院に保管されている貴重な本が私の研究にどうしても必要なのです。年老いてしまった私の代わりに、私の旧友$loneabbot_villagername$修道院長もとへ伺っていただけませんか？紹介状もお渡しします。彼の修道院は$loneabbot_direction$に$loneabbot_distance$ほど向かった先にあるはずです。
+abbotbooksdelivery_0_description_success=あなたの旅に神のご加護がありますように。
+abbotbooksdelivery_0_description_refuse=どこかに心優しい若者は居ないものでしょうか。
 abbotbooksdelivery_1_label=手紙の配達
-abbotbooksdelivery_1_description=私の旧友$startvillager_villagername$神父からの手紙だって？<ret>ありがとう。<ret>なるほど、ここの本が必要なんだな。<ret>もちろん本を送るよう手配しよう！<ret>そうだついでに彼にこの本を持っていってくれ
-abbotbooksdelivery_1_description_success=よい旅を。
-abbotbooksdelivery_1_description_refuse=他の方法を見つけなければなりませんね。
-abbotbooksdelivery_1_description_timeup=時間内に、$loneabbot_villagername$に手紙を渡せませんでした。
-abbotbooksdelivery_1_listing=・$loneabbot_villagername$の修道院長に$startvillager_villagername$からの手紙を届ける。<ret>彼の修道院は、$startvillager_villagename$から$startvillager_loneabbot_direction$へ$startvillager_loneabbot_distanceshort$のところにあります。
+abbotbooksdelivery_1_description=旧友である神父$startvillager_villagername$から私宛の手紙ですか？届けてくれてありがとう。もちろん、彼に本を貸しましょう。彼にどうぞよろしくと伝えてください。
+abbotbooksdelivery_1_description_success=お気をつけて、よい旅を。
+abbotbooksdelivery_1_description_refuse=神は他の道を探せと仰っている。
+abbotbooksdelivery_1_description_timeup=時間内に$loneabbot_villagername$へ手紙を渡せませんでした。
+abbotbooksdelivery_1_listing=$loneabbot_villagername$修道院長に$startvillager_villagername$からの手紙を届ける。彼の修道院は、$startvillager_villagename$から$startvillager_loneabbot_direction$へ$startvillager_loneabbot_distanceshort$のところにあります。
 abbotbooksdelivery_2_label=本の配達
-abbotbooksdelivery_2_description=まさにその本です。<ret>こんなに早く持ってきて頂けるとは、本当に<ret>ありがとう。これは少しばかりのお礼です。
-abbotbooksdelivery_2_description_success=あなたに平和が訪れますように。
-abbotbooksdelivery_2_description_refuse=あなたが持ってきてはくれなかったのですね。<ret>では、届くのを待つとしましょう。
-abbotbooksdelivery_2_description_timeup=時間内に、$startvillager_villagername$に本を渡せませんでした。
-abbotbooksdelivery_2_listing=・$loneabbot_villagename$の本を、$startvillager_villagename$にいる$startvillager_villagername$修道院長に渡す。
+abbotbooksdelivery_2_description=まさにその本です！こんなに早く持ってきてくださるとは！元の世界なら莫大な報酬を渡すところなのですが、このささやかなお礼でどうか許してください。
+abbotbooksdelivery_2_description_success=神のご加護があらんことを。
+abbotbooksdelivery_2_description_refuse=おや、私をからかうために戻ってきたのですか？
+abbotbooksdelivery_2_description_timeup=時間内に$startvillager_villagername$へ本を渡せませんでした。
+abbotbooksdelivery_2_listing=$loneabbot_villagename$の本を$startvillager_villagename$村の$startvillager_villagername$神父に渡す。
 
 //hindibasic:
 
-rajadiamondsword_0_label=秘密のミッション
-rajadiamondsword_0_description=ナマステ、 $name。<ret>あなたは$startvillager_villagename$の友人なのですね。<ret>私は特別な使命のために信頼できる方の協力が<ret>必要なのです。<ret>$general_villagername$の将軍は、非常に有能で忠実な兵士であることを<ret>証明してくれました。<ret><ret>私は彼に褒美を与えようと思っています。<ret>$general_villagename$から$general_direction$へ$general_distance$行った砦にいる彼に、<ret>この貴重なダイヤモンドの剣を持って行って<ret>貰えないでしょうか。
-rajadiamondsword_0_description_success=あなたの命をこの剣と共にお守りください。
-rajadiamondsword_0_description_refuse=我々は、このことを忘れないでしょう。
-rajadiamondsword_1_label=剣を届ける
-rajadiamondsword_1_description=あなたは誰ですか？何のためにここに来たのですか？
-rajadiamondsword_1_description_success=$startvillager_villagername$殿下、私は更なる忠誠を誓います。<ret>殿下は偉大な指導者。確かに受け取りました。<ret>殿下、そしてあなたも、ありがとう。
-rajadiamondsword_1_description_refuse=汚い盗人が！
-rajadiamondsword_1_description_timeup=時間内に、$general_villagername$に剣を渡すことができませんでした。<ret>王はあなたに激怒しています。
-rajadiamondsword_1_listing=・$general_villagename$の砦にいる$general_villagername$将軍に剣を届ける。
+rajadiamondsword_0_label=極秘の依頼
+rajadiamondsword_0_description=こんにちは(Namaste)、$name。あなたは$startvillager_villagename$の友人であると行動で示してくれました、そして、たった今、私は特別な任務を遂行するために信頼できる人物を必要としています。将軍$general_villagername$は、忠実で有能な兵士であることを証明してくれました。今こそ彼の恩に報いる時なのです。$general_villagename$から$general_direction$へ$general_distance$向かった先の砦にいる彼へ、この貴重なダイヤモンドの剣を届けて貰えないでしょうか。
+rajadiamondsword_0_description_success=あなたは命懸けでこの剣を届けてください！
+rajadiamondsword_0_description_refuse=我々はあなたが拒んだことを忘れませんよ。
+rajadiamondsword_1_label=剣の配達
+rajadiamondsword_1_description=見知らぬ人よ、何をしにここへ来たのだ？
+rajadiamondsword_1_description_success=$startvillager_villagername$殿下は私に敬意を示してくださった！殿下は偉大な指導者です。あなたと殿下へ深く感謝します。
+rajadiamondsword_1_description_refuse=この汚い盗人が！
+rajadiamondsword_1_description_timeup=時間内に$general_villagername$へ剣を渡せませんでした。王(Raja)はあなたに激怒しています。
+rajadiamondsword_1_listing=$general_villagename$の砦にいる$general_villagername$将軍に剣を届ける。
 
-adivasifarmdelivery_0_label=品物の配達
-adivasifarmdelivery_0_description=私たちはここで米とターメリックを育てています。<ret>とても貧しい生活です。こんな貧乏人を助けてくれま<ret>せんか？<ret>$peasant_villagername$の村の人は、<ret>うちで取れた作物を鶏肉とラスグッラに交換してくれます。<ret>ここから$peasant_direction$に$peasant_distance$ほど行った所にある<ret>$peasant_villagename$の村に持っていって<ret>くれませんか。お願いします。
-adivasifarmdelivery_0_description_success=ありがとうございます。
+adivasifarmdelivery_0_label=届けてほしい
+adivasifarmdelivery_0_description=ここには自分たちで育てた米とターメリックしかないので、生活が苦しいです...どうか貧しい私たちを助けてくれませんか？$peasant_villagername$村の農家の人が、私たちの作物を肉やラッスグラと物々交換してくれます。$peasant_villagername$村まで作物を運んで貰えるとすごくありがたいです。その村はここから$peasant_direction$に$peasant_distance$ほど歩いた先にあります。
+adivasifarmdelivery_0_description_success=ありがとう(Shukriya)、我が友よ。 
 adivasifarmdelivery_0_description_refuse=こんな貧乏人は誰も助けてくれないのか...
-adivasifarmdelivery_1_label=作物を届ける
-adivasifarmdelivery_1_description=$startvillager_villagername$から来たのですか？<ret>なるほど、わかりました。<ret>品物はあるんですが鳥は絞めないといけません。<ret>捕まえに行きますか。
-adivasifarmdelivery_1_description_success=注意: 牧場は$startvillager_direction$へ$startvillager_distanceshort$の所にあります。
-adivasifarmdelivery_1_description_refuse=そうですかそれは彼らには気の毒だ
-adivasifarmdelivery_1_description_timeup=時間内に、$peasant_villagername$に作物を届けることができませんでした。
-adivasifarmdelivery_1_listing=・$peasant_villagename$の$peasant_villagername$にインド村の作物を届ける。
-adivasifarmdelivery_2_label=品物を届ける
-adivasifarmdelivery_2_description=ありがとう、$name<ret>これです、この品物が欲しかったんです。<ret>$peasant_villagername$は、あなたを快く受け入れてくれましたか？
+adivasifarmdelivery_1_label=作物の配送
+adivasifarmdelivery_1_description=おや、$startvillager_villagername$から来たのですか？えぇ、在庫はありますよ。持ってきましょう。
+adivasifarmdelivery_1_description_success=注意: 牧場は$startvillager_direction$へ$startvillager_distanceshort$歩いた所にあります。
+adivasifarmdelivery_1_description_refuse=そうですか、彼らにとって残念なことです。
+adivasifarmdelivery_1_description_timeup=時間内に$peasant_villagername$へ作物を届けることができませんでした。
+adivasifarmdelivery_1_listing=$peasant_villagename$の$peasant_villagername$へ村の作物を届ける。
+adivasifarmdelivery_2_label=食料の配達
+adivasifarmdelivery_2_description=ありがとう(Shukriya)、$name。この食料を待ち望んでいました。$peasant_villagername$村は、あなたを快く受け入れてくれましたか？
 adivasifarmdelivery_2_description_success=女神の祝福がありますように。
-adivasifarmdelivery_2_description_refuse=こんな貧乏人から盗んでいくなんて。
-adivasifarmdelivery_2_description_timeup=時間内に、$startvillager_villagername$に品物を届けることができませんでした。
-adivasifarmdelivery_2_listing=・$peasant_villagename$から$startvillager_villagername$'sの農家へ品物を届ける。<ret>場所は、$peasant_villagename$から$peasant_startvillager_distance$へ$peasant_startvillager_direction$のところ。
-
+adivasifarmdelivery_2_description_refuse=こんな貧乏人からも盗みを働くなんて天罰が下りますよ。
+adivasifarmdelivery_2_description_timeup=時間内に$startvillager_villagername$へ食料を届けることができませんでした。
+adivasifarmdelivery_2_listing=$peasant_villagename$から$startvillager_villagername$の農家へ食料を届ける。場所は$peasant_villagename$から$peasant_startvillager_distance$へ$peasant_startvillager_direction$。
 
 traderdiamonds_0_label=宝石の配達
-traderdiamonds_0_description=ナマステ、$name。<ret>あなたが信頼できる人だと、ヒンズー教の友人に聞きました。<ret>ぜひあなたに、この高価な宝石を届ける仕事をお願いしたい。<ret>$rani_villagename$の美しい女王$rani_villagername$は、<ret>新しい宝飾品の為に、私に貴重な宝石を持ってくるよう<ret>命じました。彼女の宮殿は、$rani_direction$に$rani_distance$の<ret>所にあります。もちろん報酬はお支払いいたします、<ret>この宝石を2つ差し上げましょう。<ret>お願いしてもよろしいでしょうか? 
-traderdiamonds_0_description_success=あんまりこのダイヤモンドを見せびらかさないで下さいね。
-traderdiamonds_0_description_refuse=とても用心深い人ですね、私を信用していない。
-traderdiamonds_1_label=ダイヤモンドを届ける
-traderdiamonds_1_description=やっと届きましたか。<ret>少しせっかちになっていたようです。<ret>あなたは、$startvillager_villagername$の使いの者ですね。
-traderdiamonds_1_description_success=これは素晴らしい。早速試してみましょう。
-traderdiamonds_1_description_refuse=お前の人生終わらせてやる。
-traderdiamonds_1_description_timeup=時間内に、$rani_villagername$女王にダイヤモンドを届けることができませんでした。<ret>インド村のあなたの評判は大きく低下しました。
-traderdiamonds_1_listing=・$rani_villagename$の女王$rani_villagername$に、$startvillager_villagername$からのダイヤモンドを届ける。
+traderdiamonds_0_description=こんにちは(Namaste)、$name。あなたは信頼できる人だと、ヒンドゥー教の友人に聞きました。ぜひあなたにこの高価な宝石を届ける仕事をお願いしたい。$rani_villagename$の美しい女王$rani_villagername$は、新しい宝飾品用として私に宝石を注文しました。彼女の宮殿は$rani_direction$に$rani_distance$歩いた場所にあります。報酬としてこの宝石を2つ差し上げましょう。お願いできますか? 
+traderdiamonds_0_description_success=盗まれるのが怖いので、他の人にはこのダイヤモンドを見せびらかさないで下さいね。
+traderdiamonds_0_description_refuse=少々危険すぎたでしょうか？
+traderdiamonds_1_label=ダイヤモンドの輸送
+traderdiamonds_1_description=ようやく届きましたか。少々焦り過ぎたかもしれないですね。$startvillager_villagername$は私の怒り顔を見たくなかったのでしょう。
+traderdiamonds_1_description_success=これは素晴らしい。早速試着しましょう！
+traderdiamonds_1_description_refuse=貴様、王家の巨象で踏み潰してやる！
+traderdiamonds_1_description_timeup=時間内に$rani_villagername$女王へダイヤモンドを届けることができませんでした。インドの村々で、あなたの評判は酷く低下したようです。
+traderdiamonds_1_listing=$rani_villagename$の女王$rani_villagername$へ$startvillager_villagername$からのダイヤモンドを届ける。
 
 //mystery basic:
 
 normanrasgullas_0_label=病気の子供
-normanrasgullas_0_description=私の息子$child_villagername$は、<ret>最近、顔色が悪いんです。あんなに大好きだった、<ret>黒ソーセージや牛モツ鍋を食べたくないだなんて。<ret>あなたはあちこち旅をしているみたいだし、<ret>何か甘い食べ物を知らないかしら？
-normanrasgullas_0_description_success=甘いお菓子が欲しかったのね。<ret>よかった、これで元気になってね。
-normanrasgullas_0_description_refuse=ご存じないのね。<ret>しょうがないわ、後でリンゴ蒸留酒を試してみましょう。
+normanrasgullas_0_description=私の息子、$child_villagername$は最近顔色が悪いんです。あんなに大好きだった、ブーダン・ノワールやトライプを食べたくないだなんて。あなたはあちこち旅をしているみたいだし、何かお勧めのものを知らないかしら？
+normanrasgullas_0_description_success=甘いお菓子が欲しかったのね。つまみ食いしちゃおうかしら。
+normanrasgullas_0_description_refuse=ご存じないのね。しょうがないわ、後でリンゴ酒を試してみましょう。
 
 mayanlumbermanaxe_0_label=落胆した木こり
-mayanlumbermanaxe_0_description=しかしこの斧は酷いな。<ret>丈夫な斧を作れる職人はいないのか？<ret>斧がよければもっと木を切れるのに。<ret>誰か素晴らしい斧を持ってきてくれないかな。
-mayanlumbermanaxe_0_description_success=この斧は素晴らしい！<ret>まるで魔法でもかかっているようだ！<ret>まさか神が作ったものか?
+mayanlumbermanaxe_0_description=しかしこの斧は酷いな。丈夫な斧を作れるマヤの職人はいないのか？斧が良ければもっと木を切れるのに。
+mayanlumbermanaxe_0_description_success=この斧には秘められた魔力を感じる！まさか神様が作ったのか?
 mayanlumbermanaxe_0_description_refuse=さて、仕事に戻るか。
 
 losttapestry_0_label=失われたタペストリー
-losttapestry_0_description=こんにちは、$name！<ret>私この前タペストリーを見つけたの！<ret>ねえ、誰のか知ってる?
-losttapestry_0_description_success=ありがとう $name!
-losttapestry_0_description_refuse=やだ、あなた怖い！<ret>お母さんに言いつけてやる！
+losttapestry_0_description=こんにちは、$name！私この前ね、畑でタペストリーを見つけたの！ねえ、誰のものか知ってる?
+losttapestry_0_description_success=ありがとう、$name！
+losttapestry_0_description_refuse=ひどい！お母さんに言いつけてやる！
 losttapestry_1_label=見つからないタペストリー
-losttapestry_1_description=私のタペストリーがあああああ<ret>ねえ誰か、私のタペストリーが<ret>何処に行ったか知らない？
+losttapestry_1_description=タペストリーをなくしちゃった！ねえ、私のタペストリーを見なかった？
 losttapestry_1_description_success=見つけてくれたのね、ありがとう。
-losttapestry_1_description_refuse=あなた、何か隠してるわね！<ret>私知ってるんだから！
-losttapestry_1_listing=・タペストリーの所有者を見つける。
-
+losttapestry_1_description_refuse=あなた、何か隠してるわね！私わかるんだから！
+losttapestry_1_listing=タペストリーの所有者を見つける。
 
 spiders_0_label=行方不明の友人
-spiders_0_description=私の友人の$miner_villagername$は、<ret>いつも同じ時間に、家に来るんですが今日は一向に<ret>来ないんです。いつもの時間はとっくに過ぎてるの<ret>に･･･。<ret>$nameさん、私、少し心配なんです。<ret>$miner_villagername$はいつも危険な道を<ret>通るんです。<ret>彼がいつも通る道をお教えしますので、無事かどう<ret>か見て来てもらえませんか？
-spiders_0_description_success=ありがとう、私の友よ!
-spiders_0_description_refuse=彼は必ず来てくれると信じましょう。
+spiders_0_description=$miner_villagername$という私の友人は、いつも決まった時間に我が家にやってきます。おかしなことに今日はまだ来ていないのです。いつもの時間はとっくに過ぎてるのに。$nameさん、私は少し心配なんです。$miner_villagername$は長い時間鉱山で働います。その危険性はあなたもおわかりでしょう。たまたま通る機会でもあれば、彼のことを気にかけてもらえないでしょうか？
+spiders_0_description_success=ありがとう、友よ!
+spiders_0_description_refuse=彼は必ず戻ってくると信じましょう。
 spiders_1_label=見つけてくれた。うれしいです。
-spiders_1_description=うわーーーー！！<ret>近くの洞窟を探検してたら、毒蜘蛛に噛まれたー！<ret>あなた、妻の$wife_villagername$に伝えてください。<ret>彼女なら何とかしてくれるはずです。<ret>お願いします。私を助けてください。
+spiders_1_description=うぐ...この近くの洞窟を探検していたら、毒蜘蛛に噛まれてしまいました。きっとひどい毒を盛られたんだと思います。お願いです私を助けてください。妻の$wife_villagername$へ私のことを伝えてください。彼女なら何とかしてくれるはずです。
 spiders_1_description_success=急いで... めまいがしてき... 
-spiders_1_description_refuse=うわーーーーーー!!
-spiders_1_listing=・鉱山で、$miner_villagername$を見つける。
-spiders_2_label=解毒剤を作る
-spiders_2_description=夫を救うにはあまり時間がないです！<ret>私は解毒剤の作り方を知っています。でも、それを<ret>作るには、赤キノコ2個と茶キノコ2個にイカ墨が必<ret>要なんです。
-spiders_2_description_success=時間がありません、$name 急いでください。
-spiders_2_description_refuse=わかりました。私が自分で取ってきます。
-spiders_2_listing=・$wife_villagername$に、解毒剤のことを尋ねる。
-spiders_3_label=$wife_villagername$'sの解毒剤
-spiders_3_description=時間内に、$wife_villagername$'sの解毒剤を、$miner_villagername$に渡してください。
-spiders_3_description_success=ああ、$wife_villagername$はいつも私を助けてくれる!<ret>($miner_villagername$は解毒剤を飲んだ)<ret>私がトラブルに巻き込まれると、<ret>いつも$wife_villagername$が<ret>助けてくれるんです。
-spiders_3_description_refuse=あなたは、私に死ねと言うんですね。
-spiders_3_description_timeup=時間内に、$wife_villagername$'sの解毒剤を、$miner_villagername$に渡せませんでした。
-spiders_3_listing=・$miner_villagername$に、$wife_villagername$'sの解毒剤を持っていく。
+spiders_1_description_refuse=置き去りにしないでくれ、うぅ...
+spiders_1_listing=鉱山で$miner_villagername$を見つける。
+spiders_2_label=解毒剤の作成
+spiders_2_description=夫を救うにはあまり時間がないです！私はこの毒に良く効く解毒剤の作り方を知っています。しかし、材料が手元にありません。赤色のキノコ2個と茶色のキノコ2個にイカ墨が必要なんです。
+spiders_2_description_success=時間がありません、$name、急いでください。
+spiders_2_description_refuse=わかりました。自分で採ってきます。。
+spiders_2_listing=$wife_villagername$に解毒剤のことを尋ねる。
+spiders_3_label=$wife_villagername$の解毒剤
+spiders_3_description=時間内に$wife_villagername$の解毒剤を、$miner_villagername$へ渡してください。
+spiders_3_description_success=あぁ、やっぱり$wife_villagername$が何とかしてくれると思ったよ！($miner_villagername$は解毒剤を飲んだ) 私はしょっちゅう厄介事に巻き込まれますが、$wife_villagername$が助けてもらってばかりですね。
+spiders_3_description_refuse=あなたは私に死ねと言うんですね。
+spiders_3_description_timeup=時間内に$wife_villagername$の解毒剤を、$miner_villagername$に渡せませんでした。
+spiders_3_listing=$miner_villagername$へ$wife_villagername$の解毒剤を持っていく。
 
+findtheegg_0_label=卵を探す
+findtheegg_0_description=この辺りはニワトリが多すぎる！繁殖を止めるために、卵を集めないと...あなたも手伝ってくれますか？
+findtheegg_0_description_success=$name、ありがとう。できれば孵化させてやりたいですが、取りあえず家に持って帰ります。手伝ってくれた御礼です。どうぞ受け取って下さい。
+findtheegg_0_description_refuse=もっと卵が沢山集まったら、また来てね！
 
+feathercrafter_0_label=もっと羽毛を
+feathercrafter_0_description=私の妻は貧しい人々のために枕を作ってるんです。沢山の羽毛が必要なんですが、余っていたりしませんか？
+feathercrafter_0_description_success=$name、ありがとう。妻に渡してきます。
+feathercrafter_0_description_refuse=それじゃ、堅い木の枕で寝るとするか。
 
-findtheegg_0_label=卵を集める。
-findtheegg_0_description=ここは鶏が多すぎる!<ret>繁殖を止めるために、卵を集めないと...あなたも<ret>手伝ってくれますか？
-findtheegg_0_description_success=$nameありがとう。<ret>できれば孵化させてやりたいですが取りあえず家に<ret>持って行きましょう。手伝ってくれた御礼です。<ret>どうぞこれを受け取って下さい。
-findtheegg_0_description_refuse=あなたが持っている沢山の卵は返してください！
-
-
-feathercrafter_0_label=沢山の羽毛
-feathercrafter_0_description=私の妻は貧しい人々のために枕を作ってるんです。<ret>それで沢山の羽毛が必要なんですが、余った羽毛は<ret>ありませんか?
-feathercrafter_0_description_success=$nameありがとう。妻にこれを渡してきす。本当に<ret>ありがとう。
-feathercrafter_0_description_refuse=仕事に戻ろう。
-
-
-watersample_0_label=奇妙なレポート
-watersample_0_description=うちの家内が、井戸水で子供たちの具合が悪くなっ<ret>ているという報告書を、村の人から受け取ったんで<ret>す。このバケツを使って水のサンプルを採って来て<ret>くれませんか。
+watersample_0_label=奇妙な報告
+watersample_0_description=私の妻が、井戸水で子供たちの具合が悪くなっているという話を村の人から聞いたそうです。このバケツを使って、水のサンプルを採ってきてもらえませんか。
 watersample_0_description_success=急いで...子供たちが病気になる前に。
-watersample_0_description_refuse=私が次、あなたに頼むときは、非常に危険な状況に<ret>なっているかもしれません。
+watersample_0_description_refuse=これは警告ですが、次にあなたへ頼むときは、もっと危険な状況になっているかもしれません。
 watersample_1_label=水のサンプル
-watersample_1_description=水のサンプルは持って来ましたか?
-watersample_1_description_success=ありがとう！<ret>これで原因を見つけることができるかも<ret>知れません。
-watersample_1_description_refuse=あなたに警告しましょう。<ret>あなたに次に助けを求めるときは、あなた自身が<ret>犠牲になるかもしれないですね。$name!
-watersample_1_description_timeup=時間内に、$startvillager_villagername$'sの水のサンプルを持って来れませんでした。
-watersample_1_listing=・$startvillager_villagename$の$startvillager_villagername$の水のサンプルを持って来て欲しい。
+watersample_1_description=水のサンプルは回収できましたか？
+watersample_1_description_success=ありがとう！これで原因がわかるかも知れません。
+watersample_1_description_refuse=これは警告ですが、今度はあなたが私に助けを必要とするかもしれませんよ、$name！
+watersample_1_description_timeup=時間内に$startvillager_villagername$の水のサンプルを回収できませんでした。
+watersample_1_listing=$startvillager_villagename$の$startvillager_villagername$へ水のサンプルを渡す。
 
 lordssword_0_label=壊れた剣
-lordssword_0_description=私の夫は、また、$knight_villagername$の<ret>剣を壊してしまいました。<ret>彼にこの剣を渡して来て貰えませんか？
+lordssword_0_description=私の夫$knight_villagername$はまた剣を壊してしまいました！彼にこの新しい剣を渡して来て貰えませんか？
 lordssword_0_description_success=ありがとう！あなた本当にいい男ね。
-lordssword_0_description_refuse=そうあなたも忙しいのね。他に誰かいないかしら。
+lordssword_0_description_refuse=そう、あなたも忙しいのね。他に誰かいないかしら。
 lordssword_1_label=失われた剣
-lordssword_1_description=妻の$startvillager_villagename$は、<ret>剣を持ってくると言っていたんですが、あなたが<ret>代わりに持って来てくれたのですか？
-lordssword_1_description_success=ありがとう、あなたのおかげで<ret>助かりました。
-lordssword_1_description_refuse=私が剣を持っていない間、あなたが助けてくれるのですね？
-lordssword_1_description_timeup=時間内に、$knight_villagername$に剣を届けられませんでした。<ret>村人たちは、決して忘れないでしょう。
-lordssword_1_listing=・$startvillager_villagename$の$startvillager_villagername$に、新しい剣を届けて欲しい。
+lordssword_1_description=私の妻$startvillager_villagename$は、今日新しい剣を持っていくよと言っていました。あなたが代わりに持って来てくれたのですか？
+lordssword_1_description_success=ありがとう、あなたのおかげでまた助かりました。
+lordssword_1_description_refuse=剣がないのにどうやって戦えばよいのでしょうな？
+lordssword_1_description_timeup=時間内に$knight_villagername$へ剣を届けられませんでした。村人たちは、この出来事を決して忘れないでしょう。
+lordssword_1_listing=$startvillager_villagename$の$startvillager_villagername$へ新しい剣を届ける。
 
 sweettrader_0_label=いとこの誕生日
-sweettrader_0_description=私のいとこの$girl_villagername$は、今日誕生日なんです。<ret>私の代わりに、このケーキを届けてもらえませんか?
+sweettrader_0_description=私のいとこの$girl_villagername$は、今日誕生日なんです。このケーキを届けてもらえませんか？
 sweettrader_0_description_success=協力してくれてありがとう。
 sweettrader_0_description_refuse=薄情なヤツだな！
-sweettrader_1_label=ケーキを届ける
-sweettrader_1_description=誰も、私の誕生日なんか祝ってくれないのね...
+sweettrader_1_label=ケーキの配達
+sweettrader_1_description=誰も私の誕生日なんか祝ってくれないのね...
 sweettrader_1_description_success=ありがとう! 本当にありがとう!
 sweettrader_1_description_refuse=みんな、私のことなんか嫌いなのね。
-sweettrader_1_listing=・彼女の誕生日に、ケーキを$startvillager_villagename$から$girl_villagername$に<ret>届けてください。
+sweettrader_1_listing=誕生日を祝うためにケーキを$startvillager_villagename$の所から$girl_villagername$の所へ配達する。
 
 fishingfrenzy_0_label=釣りに熱狂
-fishingfrenzy_0_description=こんにちは、私は$startvillager_villagername$といいます。<ret>なかなか魚が釣れなくて、今日のノルマがまだ終わらないんです。<ret>私を助けてくれませんか?
-fishingfrenzy_0_description_success=ありがとう。<ret>あと4匹で十分ですので、家内に渡してください。<ret>お代はお支払いいたします。
+fishingfrenzy_0_description=こんにちは、私は$startvillager_villagername$といいます。なかなか魚が釣れなくて、今日のノルマがまだ終わらないんです。手伝ってもらえませんか？
+fishingfrenzy_0_description_success=ありがとう。あと4匹で十分ですので、終わったら妻に渡してください。お代は彼女が払います。
 fishingfrenzy_0_description_refuse=そうですか、今日はみんな忙しいですからね。
 fishingfrenzy_1_label=釣りに熱狂
-fishingfrenzy_1_description=ああ、あなたは$startvillager_villagername$が話してくれた旅の方ですね。<ret>魚は捕まえられましたか?
-fishingfrenzy_1_description_success=これはずいぶん立派な魚ですね。<ret>村のみんなも、あなたに感謝しなければなりませんね。
-fishingfrenzy_1_description_refuse=漁師じゃないの?まあ、邪魔しないように、静かにしてて下さいね。
-fishingfrenzy_1_description_timeup=時間内に、魚を捕まえることができませんでした。<ret>$startvillager_villagename$の村の人たちは、あなたを疎んじています。
-fishingfrenzy_1_listing=・４匹の魚を捕まえて、$wife_villagername$に渡してください。
+fishingfrenzy_1_description=ああ、あなたは$startvillager_villagername$が話していた旅の方ですね。魚は釣れましたか？
+fishingfrenzy_1_description_success=これはずいぶん立派な魚ですね。村のみんなも、あなたに感謝しないといけませんね。
+fishingfrenzy_1_description_refuse=え、魚釣りはいまいちですって？まあ、他に役立つ仕事もあるでしょう。
+fishingfrenzy_1_description_timeup=時間内に十分な魚を釣れませんでした。$startvillager_villagename$村の人たちは、あなたを疎んじています。
+fishingfrenzy_1_listing=４匹の魚を釣り上げ、$wife_villagername$に渡す。
 
-poems_0_label=ポエムが書きたい!!!
-poems_0_description=そこのあなた助けてくださいよ！<ret>私は友達と家族を恋しく思っています。<ret>詩を書くことが待ち遠しいです。<ret>準備してください。 <ret>私のために集めてもらえますか？
-poems_0_description_success=大変ありがとうございます！<ret>ここに報酬があります。私はありがたく思っている!!!
-poems_0_description_refuse=私は男性たちの詩を書くでしょう。
+poems_0_label=詩を書きたい
+poems_0_description=助けてくれませんか、$name。<ret>私にはこの街に友達や家族がいないので寂しい思いをしています。昔は詩や手紙を書いてお互いにやりとりをするのが好きでした。またいつかそうした交流をしたいと思っています。そこで、その日のために準備しておきたいのです。<ret>材料を集めていただけませんか？紙が10枚、黒、黄、赤の染料をそれぞれ2つずつお願いします。
+poems_0_description_success=ありがとうございます！<ret>いやぁ助かりました、報酬はこちらです。
+poems_0_description_refuse=そうですか、とあるわがままな男性について詩でも書こうと思います。
 
+startingtrader_0_label=高い志を持った貿易商人
+startingtrader_0_description=ねぇ、あなたは商人ですか？何か良い取引をお探しではありませんか？<ret>貿易商人として生計を立てるのは大変なことです。なんたって安く買って高く売らなきゃ意味ないから。わはは、もぅ笑っちゃうね！<ret>しかも、私なんかより農民のほうが尊敬されるんですよ。ですがまぁ、私には他の村とぜいたく品を取引する計画があるんですよ。ただ在庫が少ないんです。<ret><ret>ダイヤモンド2つと金インゴット8つが足りていないんです。ねぇ私に売ってくれませんか？
+startingtrader_0_description_success=いやぁ実に良い。私の計画も上手くいきそうです。ありがとうございます！
+startingtrader_0_description_refuse=こんな美味しい話なのに、あなたには取引の才能がないのでは？
 
-startingtrader_0_label=高い志を持った貿易商
-startingtrader_0_description=ねね！あなたは貿易商ですか..？色々探してます？<ret>貿易商は生計を立てることは難しいです。<ret>安く買って高く売る! ははは！<ret>それにも拘わらず農民は私に多くの敬意を払います。<ret>私は他の村と取引する新しい計画を持っています。<ret>ぜいたく品を扱います！ ただストックがありません。<ret><ret>私はダイヤモンド２つと金インゴット８つが欲しいです。<ret>私に売ってくださいませんか？<ret>
-startingtrader_0_description_success=これは非常に良い。本当にありがとうございます！
-startingtrader_0_description_refuse=あなたは貿易の才能を持っていません！
-
-
-architectwife_0_label=夫のランチ
-architectwife_0_description=私の夫 $architect_villagername$ (建築師)の<ret>お弁当の食材を忘れました。彼のために魚を届けてほしいです！
+architectwife_0_label=夫のお弁当
+architectwife_0_description=夫のお弁当を忘れてしまったの。彼はこの町で建築士をしている$architect_villagername$といいます。彼のためにこの焼き魚を届けてほしいです！
 architectwife_0_description_success=ありがとう親切なお方
-architectwife_0_description_refuse=You are really not the helpful kind.
-architectwife_1_label=空腹だ!
-architectwife_1_description=私の妻は再び、私の食事を忘れました
-architectwife_1_description_success=あなたはなんて親切な方だ
-architectwife_1_description_refuse=人を見たら泥棒と思え
-architectwife_1_description_timeup=時間通りに食事を行えませんでした。<ret> 村 $architect_villagename$ 忘れません
-architectwife_1_listing=・Give $architect_villagername$ 村 $architect_villagename$ 彼のランチ
+architectwife_0_description_refuse=あなたも忙しいのね。他に誰かいないかしら。
+architectwife_1_label=腹減った！
+architectwife_1_description=妻がまた弁当忘れちゃってる！
+architectwife_1_description_success=あなたはとても親切な人だ。
+architectwife_1_description_refuse=他人を信用しちゃいけないね。
+architectwife_1_description_timeup=食事の時間に間に合いませんでした。$architect_villagename$村の人はこの出来事を忘れないでしょう。
+architectwife_1_listing=$architect_villagename$村の$architect_villagername$にお弁当を渡す。
 
-lumbermanwine_0_label=渇望します!あああ飲みたい
-lumbermanwine_0_description=森林を伐採切り開くことは大変な仕事です..よ？<ret>もし、誰かが私に1本のワインを持って<ret>来たならば！私と奥で...(チラッチラッ)
-lumbermanwine_0_description_success=ああ、私はそれが欲しかったんだ！<ret>本当にありがとう（感度が上がった）
-lumbermanwine_0_description_refuse=木材を必要とする時は私をあてにするな!<ret>（感度が下がった）
+lumbermanwine_0_label=のどが渇いた！
+lumbermanwine_0_description=薪割りって大変だなぁ。誰かワインを一杯恵んでくれないかなぁ。
+lumbermanwine_0_description_success=あぁ、それが欲しかったんだ！いい人だね、本当にありがとう。
+lumbermanwine_0_description_refuse=次に木材が必要になっても、俺の所にくるんじゃないぞ。
+
+thehunt_0_label=狩り
+thehunt_0_description=おいあんた！俺達は食料の調達で狩りに行きたいんだが、準備のための物資が不足してるんだ。なぁ助けてくれないか？
+thehunt_0_description_success=ありがとう、足りないのは弓が4つと革が8つだ。恵んでくれないか？
+thehunt_0_description_refuse=おいおい、装備なしで狩りしろってか。
+thehunt_1_label=物資を持ってくる
+thehunt_1_description=狩りはどうなる？
+thehunt_1_description_success=おぉ素晴らしい！協力してくれてありがとう。食料の調達に行ってくるよ。
+thehunt_1_description_refuse=残念だけど、そのうち良くなるかもしれないな。
+thehunt_1_description_timeup=時間内に助けられませんでした。$startvillager_villagename$はあなたに失望しています。
+thehunt_1_listing=$startvillager_villagername$に4本の弓と8つの革を渡して、狩りができるようにしてあげてください。
+
+enderhunt_0_label=影の人
+enderhunt_0_description=勇敢なる戦士よ。Sedna(イヌイット神話の女神)によって呪われているであろう影の人々の数が異常に多いと我々は気づきました。彼らは大変強く、我々は守りを固めるだけで精一杯ですが、彼らは倒されると、この奇妙なオーブを落とすようです。このオーブ集めを手伝ってもらえませんか？
+enderhunt_0_description_success=素晴らしい！すぐお願いします、頼みましたよ。この世界の人々が彼らのことを「エンダーマン」と呼ぶのを聞いていた者がいます。奴らをさらに研究できるように、オーブを6つ持ってきてください。
+enderhunt_0_description_refuse=おい、我々を見捨てるのか？！奴らに殺されてしまう！
+enderhunt_1_label=戦利品を携えて
+enderhunt_1_description=彼らを少し追い払うことはできましたか？
+enderhunt_1_description_success=Sednaも喜んでいるでしょう。オーブは研究に値する珍しい特性を持っているようです。更に必要になるかもしれません。
+enderhunt_1_description_refuse=オーブの数は足りませんが、頑張ってる方だと思いますよ。
+enderhunt_1_description_timeup=時間内に十分な数のエンダーマンを倒せませんでした。$startvillager_villagename$村の人々は彼らに敗北してしまったのだと悲しんでいます。
+enderhunt_1_listing=エンダーマンを倒し、エンダーパールを6個手に入れ、$startvillager_villagername$の元へ持ち帰る。
+
+enderhunt0_0_label=影の人
+enderhunt0_0_description=勇敢なる戦士よ。Sedna(イヌイット神話の女神)によって呪われているであろう影の人々の数が異常に多いと我々は気づきました。彼らは大変強く、我々は守りを固めるだけで精一杯ですが、彼らは倒されると、この奇妙なオーブを落とすようです。このオーブ集めを手伝ってもらえませんか？
+enderhunt0_0_description_success=素晴らしい！すぐお願いします、頼みましたよ。この世界の人々が彼らのことを「エンダーマン」と呼ぶのを聞いていた者がいます。奴らをさらに研究できるように、オーブを6つ持ってきてください。
+enderhunt0_0_description_refuse=おい、我々を見捨てるのか？！奴らに殺されてしまう！
+enderhunt0_1_label=戦利品を携えて
+enderhunt0_1_description=彼らを少し追い払うことはできましたか？
+enderhunt0_1_description_success=Sednaも喜んでいるでしょう。オーブは研究に値する珍しい特性を持っているようです。更に必要になるかもしれません。
+enderhunt0_1_description_refuse=オーブの数は足りませんが、頑張ってる方だと思いますよ。
+enderhunt0_1_description_timeup=時間内に十分な数のエンダーマンを倒せませんでした。$startvillager_villagename$村の人々は彼らに敗北してしまったのだと悲しんでいます。
+enderhunt0_1_listing=エンダーマンを倒し、エンダーパールを6個手に入れ、$startvillager_villagername$の元へ持ち帰る。
+
+bonefetch_0_label=取り返せ！
+bonefetch_0_description=うさぎの頭蓋骨で遊んでいたら、ママに取り上げられてしまった！ママと話して取り返してもらえないかな？
+bonefetch_0_description_success=ありがとう！
+bonefetch_0_description_refuse=偉そうなこと言わないで！
+bonefetch_1_label=彼女の母親と話す
+bonefetch_1_description=頭蓋骨で遊びたいって？あれは夕食に必要なのであの子から取り上げたんです。だから、彼女には返してあげられないと伝えてちょうだい。
+bonefetch_1_description_success=きっとわかってくれるでしょう。
+bonefetch_1_description_refuse=わかりません、なぜ手伝ってくれないのですか？
+bonefetch_2_label=少女と話す
+bonefetch_2_description=なんとまぁ！返してくれないの！？それじゃぁ一緒に遊ぶおもちゃを見つけてきてよ！
+bonefetch_2_description_success=骨とかどうかしら？
+bonefetch_2_description_refuse=うわーーん！！！！！
+bonefetch_3_label=彼女に骨を渡す
+bonefetch_3_description=やったわ！新しいおもちゃね！
+bonefetch_3_description_success=最高よ！このおもちゃとっても楽しそう！
+bonefetch_3_description_refuse=偉そうなこと言わないで！
+bonefetch_3_description_timeup=約束の骨2つを彼女に渡せませんでした。$startvillager_villagername$はあなたに少し失望したようです。
+bonefetch_3_listing=$startvillager_villagername$にスケルトンの骨2つを渡す。
+
+potatofarm_0_label=大量栽培
+potatofarm_0_description=やぁ友よ。農業という変わった風習はご存知ですか？この辺の土地は恵まれていて、地面をちょっと耕すだけで作物が育ちます。私が聞いたのはジャガイモと呼ばれる作物でした、あなたも試してみませんか。
+potatofarm_0_description_success=いいですね！たくさん作るんじゃないかって、そんながっかりしないでください。あなたが育てたジャガイモのうち8つを私にください。それでシチューを作ってみたいんです。
+potatofarm_0_description_refuse=まぁそうですね、あなたに農業は難しいようなので。
+potatofarm_1_label=収穫を携えて
+potatofarm_1_description=ポテトシチューのことを考えて思わず涎が。農業はうまくいきましたか？
+potatofarm_1_description_success=すごい！これだけあれば十分な量が作れますね、あなたもどうぞ！
+potatofarm_1_description_refuse=なんてこった、足りないですね。農業を一から説明しましょうか？
+potatofarm_1_description_timeup=季節が変わってしまったので、栽培には適さないでしょう。また別の機会にチャレンジしてみてはいかがでしょうか。
+potatofarm_1_listing=8個のジャガイモを育てて、$startvillager_villagername$へ渡し、美味しいシチューを作ってもらいましょう。
+
+//Seljuk Basic:
+ayranpidesoldier_0_label=Soldiers's Lunch
+ayranpidesoldier_0_description=It is finally time for lunch break, but I forgot to bring my lunch with me... Could you please bring me a pide and an ayran?
+ayranpidesoldier_0_description_success=Thank you. I can go back to work now and finish my morning patrol.
+ayranpidesoldier_0_description_refuse=That's alright. I must be strong and endure this hunger.
+
+cottonweaver_0_label=Cotton Harvest
+cottonweaver_0_description=Hello $name, have you heard about the cotton disaster? The extreme hot weather has caused this year's cotton harvest to all burn up. We are in dire need of cotton to prepare for the next Winter...
+cottonweaver_0_description_success=That is really kind of you. We will make good use of this cotton.
+cottonweaver_0_description_refuse=What will we do... Our children don't have enough clothes for the winter...
+
+helvachild_0_label=Delicious Sweets
+helvachild_0_description=I remember eating some sweets made from pistachios and wheat, but I can't for the life of me remember it's name. Was it hava..? No, hela? No, lale...?
+helvachild_0_description_success=Now I remember! It is called helva. You should try some yourself next time. I can't wait to eat this...
+helvachild_0_description_refuse=Oh, how I yearn to be able to eat some sweets right now...
+
+imambook_0_label=The Imam's Book
+imambook_0_description=Do you know my husband, the imam? He forgot to take this book with him when he left the house this morning. Could you please deliver it to him?
+imambook_0_description_success=Thank you, that book is very important for the imam to do his job properly.
+imambook_0_description_refuse=I will bring the book to him myself...
+imambook_1_label=The Imam's Book
+imambook_1_description_success=Thank you, now i can finally continue my research.
+
+irontoolsmith_0_label=The Ironsmith
+irontoolsmith_0_description=I am the best iron smith you will ever find. Unfortunately I am running low on iron. If you bring me 8 iron ingots I can show you my true skills...
+irontoolsmith_0_description_success=Great, now wait untill I finish smithing this iron. It will be a true masterpiece...
+irontoolsmith_0_description_refuse=Whatever, I will go find my own iron then.
+
+lightbluedyeweaver_0_label=Light Blue Dye
+lightbluedyeweaver_0_description=Hello $name, I have searched through the whole bazaar, but I couldn't find any. Do you think you could find 16 pieces of light blue dye for me please? I need it to craft colored wool...
+lightbluedyeweaver_0_description_success=Yes that's it! I can craft beautiful carpets from these.
+lightbluedyeweaver_0_description_refuse=It looks like you couldn't find any dye either. That's too bad...
+
+loneminerayran_0_label=Need a Break
+loneminerayran_0_description=You know what would really be refreshing to drink right now? A cold glass of ayran. Could you bring me this drink please?
+loneminerayran_0_description_success=Ah, this is what I really needed to drink right now. Thank you $name. You are a good person...
+loneminerayran_0_description_refuse=All I asked for was a glass of ayran. I wish I could have drank that right now...
+
+mudbrickminer_0_label=Under the Sun
+mudbrickminer_0_description=I have a lot of work to do today, but I have no time to watch these mudbricks dry. Can you gather a few dry mudbricks for me while I finish my other work?
+mudbrickminer_0_description_success=Excellent, we can use these bricks for the next construction.
+mudbrickminer_0_description_refuse=I guess watching mudbricks dry is too boring for you...
+
+ornamentedstonecrafter_0_label=Ornamented Mud Bricks
+ornamentedstonecrafter_0_description=Our leader asked me to bring him beautiful ornamented mud bricks, but I am completely out of those... Could you please find another stonecrafter and bring me more of those ornamented mud bricks?
+ornamentedstonecrafter_0_description_success=Thank you $name, this good deed will not be forgotten my friend.
+ornamentedstonecrafter_0_description_refuse=That's not good, now how will I ever find more of these ornamented mud bricks...
