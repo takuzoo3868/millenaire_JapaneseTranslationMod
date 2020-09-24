@@ -1,9 +1,10 @@
-abbey_A0=大寺院
-abbey_A_altar_A0=祭壇
+abbey_A0=大修道院
 abbey_A_cell_0_A0=庵室
 abbey_A_cell_1_A0=庵室
 abbey_A_cell_2_A0=庵室
+abbey_A_altar_A0=祭壇
 abbey_A_tower_A0=修道院の塔
+abbey_A_tower_B0=修道院の塔
 alchemyworkshop_A0=錬金工房
 archives_A0=資料館
 armoury_A0=武器庫
@@ -18,8 +19,8 @@ farm_A0=農家
 farm_B0=農家
 forge_A0=鍛冶場
 fort_A0=砦
-fort_A_lefttower_A0=砦
-fort_A_righttower_A0=砦
+fort_A_lefttower_A0=守衛塔
+fort_A_righttower_A0=守衛塔
 fountain_A0=噴水
 grove_A0=木立
 grove_B0=木立
@@ -73,7 +74,7 @@ lonegrove_A0=離れた砦
 lonegrovetaiga_A0=離れた砦
 loneinn_A0=離れた宿屋
 loneinn_A_stall_0_A0=宿の畜舎
-loneinn_A_stall_0_A1=宿の畜舎
+loneinn_A_stall_1_A0=宿の畜舎
 loneroadhouse_A0=街道の酒場
 lonelumbermanhut_A0=離れた木こり小屋
 lonelumbermantaigahut_A0=離れた木こり小屋
@@ -89,6 +90,7 @@ gifthouse_a0=ギフトハウス
 
 glassblower_a0=ガラス工房
 weaverhouse_a0=織物工房
+
 smallorchard_a0=小さな果樹園
 largeorchard_a0=醸造所
 
@@ -132,3 +134,22 @@ residence_a0=司教邸
 residence_a_orderoutpost_a0=騎士団司令部
 residence_a_priest_a0=司祭室
 residence_a_vicar_a0=牧師室
+
+full_wall_gateway_a0=楼門
+full_wall_a0=城壁
+full_wall_slope_right1_a0=城壁
+full_wall_slope_right2_a0=城壁
+full_wall_slope_left3_a0=城壁
+full_wall_slope_left2_a0=城壁
+full_wall_slope_left1_a0=城壁
+full_wall_slope_right3_a0=城壁
+
+full_wall_tower_a0=側壁塔
+full_wall_cap_both_a0=末端壁
+full_wall_cap_right_a0=末端壁
+full_wall_cap_left_a0=末端壁
+full_wall_corner_a0=角塔
+
+borderpost_a0=境界碑
+borderpost_corner_a0=境界碑(角)
+borderpost_gate_a0=境界碑(玄関口)

@@ -1,145 +1,116 @@
-art_merchant.KeepStall=彼らが言うように、豚に真珠だ
-art_merchant.greeting=ここの人は、野蛮人です
-art_merchant.greeting=どんな都市も、コンスタンティノープルには敵わないね
-art_merchant.greeting=我々は東ローマ帝国最後の真のローマ人である。我々の文明の栄光に浸ろう
 
-boy.greeting=大きくなったら、お父さんの様になりたい！
-
-farmer.BringBackResourcesHome=黄金色に実った小麦を収穫しようぜ
-farmer.CollectCrop=小麦が豊作なんじゃぁ
-farmer.PlantSeeds=私は種を蒔いてねぇ、収穫するんだぁ
-
-guard.greeting=少し痩せましたか、$name。困っている事があれば、私に言ってください
-guildmaster.greeting=職人を管理する人がいないと駄目なんだよなぁ
-
-knight.greeting=$name、あなたは、私がヘイスティングズで戦ったことを知っていますか？
-knight.greeting=私は、ノルマンディー公爵のために、この土地を要求します！
-knight.greeting=私はキングウィリアムとノルマンディー公爵、そして、神に従う。その順序で。
-knight.patrol=力は正義であり、私はアイアンストロングザンユー！
-knight.patrol=私がこの土地を支配しているのだ
-
-lady.MakeTapestry=多分、ここは壁のせいで薄黒くなったわけではない
-lady.MakeTapestry=誰も私の芸術を評価してくれない、我が素晴らしきこの美学
-lady.greeting=あなたは、私の父の城を見てないんですか?それは見事な要塞でした。
-lady.greeting=私の姉妹は公爵と結婚しました。私はここで生活しています。
-
-lumberman.BringBackResourcesHome=妻も木がいっぱいあると認めたよ
-lumberman.ChopTrees=伐採する瞬間を見ててくれ！
-lumberman.GatherGoods=あそこの苗木は素晴らしいな、いいな、うらやましいな
-lumberman.PlantSaplings=これはすぐ大きな木になるよ！ 私が伐採しちゃうけどさ！
-
-miner.Cooking=それは料理にも当てはまります
-miner.Mining=採掘は芸術である、あんびりーばーぼー
-miner.Mining=村の人は誰もこの仕事の大変さを知りません。みんな感謝していると思う?
-
-monk.greeting=神はあなたと共にいます
-monk.makebooks=うぬぼれが罪でないならば、私は写経が地上で最も素晴らしいと言うでしょう
-
-orderguard.patrol=神のみに従います。
-orderguard.calltoarms=悪魔どもは過ぎ去った！
-orderguard.patrol=我々の義務はこの聖地を守ることです。
-orderguard.calltoarms=新世界秩序の怒りを恐れよ！
-orderguard.greetings=騎士団と領主を代表してあなたへ敬意を表します。
-orderguard.greetings=敬礼！
-
-oriental_merchant.KeepStall=贅沢な夢を見に来てください
-oriental_merchant.greeting=あなたは、コルドバに行ったことがありますか？ 今は文化的な場所です
-oriental_merchant.greeting=この国は豊かです。そんなに寒いですか?
-
-plant_merchant.KeepStall=あなたが必要なハーブを売りますよ
-plant_merchant.greeting=私を夢想家だと言うが、私は一人じゃない... 
-
-priest.gopray.chosen=祈ることは、見た目より大変な仕事です、腰が
-priest.greeting=あなたに祝福を、私の息子
-priest.makeamulets=これは部外者に見せるべきではありません...
-
-seneschal.greeting=私は、宮廷に戻ってすることがある
-seneschal.greeting=私は王のためにこの土地を管理している
-
-smith.MakeNormanWeapons=私によって武装させられた男と戦おうとしないでください。
-smith.MakeTools=ノルマンの道具は世界で最も素晴らしいものだ
-
-viking_merchant.KeepStall=ぜひ買いに来てください。強力な護符を作るために必要な犠牲は話せませんが
-viking_merchant.KeepStall=バイキングの魔法は、強力です。
-viking_merchant.greeting=この土地はバイキング土地である。イングランドはバイキング土地である。シチリア島はバイキング土地である。我々の土地だ！
-viking_merchant.greeting=今日は取引します。明日は...
-
-villager.BecomeAdult=時はきた！
-villager.GoPlay=外に遊びに行きたいよ！遊んでー
-villager.MakeBoudin=この材料や調理法を知れば、あなたは食べないでしょう。ふふっ
-
-villager.brewpotions=いつか私は錬金術師をマスターしたい．
-villager.calltoarms=我らの喜び聖Denisよ！！
-villager.calltoarms=市民に武器を！
-villager.calltoarms=心をひとつに！
-villager.calltoarms=戦闘用意！ 戦闘用意！
-
-villager.childeatapple=リンゴは美味しいけれど、何で誰もアップルパイの作り方を知らないの？
-villager.childobserveagriculture=農業は崇高なお仕事って言う割に，貴族がクワを持ってる光景を見たことがないよ！
-villager.childobserveconstruction=うちの村じゃ女性ばっかり建築するよね，不思議〜〜
-villager.childobserveproducealcohol=赤ん坊の頃は，眠れるようにってお母さんがミルクにカルヴァドスを混ぜていたよ...ﾋｯｸ
-villager.childobserveproducefood=作り方を見ちゃったから，トライプってあまり好きじゃないんだよね
-villager.childobservesmithing=ドン！ドンッ！鉄は熱いうちに打て！
-
-villager.godrink=のどが渇いた！
-villager.godrink=リンゴ酒はみんなの味方だ
-
-villager.goholdaservice=父と子と聖霊のみ名によって...
-villager.goholdaservice=私はあなたではなく神へ祈っているのです。
-
-villager.goonpilgrimage=素晴らしい！
-villager.goonpilgrimage=長い道のりを歩んできました
-villager.goonpilgrimage=あぁ，神を近しくに感じます。
-villager.goonpilgrimage=はぁ〜！なんて壮大！！
-villager.goonpilgrimage=神はこの大聖堂を，我らノルマン人を祝福してくださるだろう！
-
-villager.goplayorgan=私は寂しい、とても寂しい...
-villager.goplayorgan=なぜ誰も歌っていないのですか...？
-
-villager.gopray.chosen=私が最後に祈った時から、長い時間...
-villager.gopray=私はあなたではなく神へ祈っているのです。
-
-//villager.gopreachonpulpit= ((TBA))
-
-villager.gorest=ここの生活は少し退屈です
-villager.gorest=休みが欲しいです...
-villager.gorest=刺激的なことなんて何もないわ！うんざりよ！
-villager.gorest=疲れましたァーーー
-
-villager.greeting=ぐっすり寝てスッキリしました！
-villager.greeting=いい天気ですね
-villager.greeting=こんにちは、$name！
-villager.greeting=なんか、雨が降ってきそうですね
-villager.greeting=実はノルマンディーに居た頃のことはあまり覚えていません。
-
-villager.harvestwarts=手袋しといて良かった。
-villager.inspectconstruction=無知な農民が自分でこれほどの建築ができるとお思いですか？勿論違いますよ！
-villager.makeglassbottles=よくできたボトルだと出来のいいポーションを作れます。
-
-// villager.plantwarts= ((TBA))
-
-weapon_merchant.KeepStall=私に傷をつけた人に何があったかは教えませんが、私が使った剣は買うことができます
-weapon_merchant.greeting=私が商品を持って旅をしている間、どうやって生き残ってきたか知りたいですか?
-
-wife.DeliverGoodsHousehold="あれを取って、これを取って"と旦那は言うけれど、私は嫌よ！絶対に！
-wife.GetHouseTHResources=今でこそ怠け者な私の夫も昔はよく働いたのよ。
-wife.GetResourcesForBuild=1～2tくらいの建材なら持てます。見た目以上に力持ちでしょ
-wife.MakeBread=私のパンは村で一番のうまさです
-wife.MakeCalva=木こりでさえリンゴ酒は作れるけれど，カルヴァドスはちょっとコツがいるの。
-wife.MakeCider=リンゴ酒を準備するのは、大変ですが遣り甲斐のある仕事です
-
-villager.gatherciderappleschildren=母さんがリンゴ拾ってと言ってたけど，昨日もやったんだよねぇ。
-villager.gatherciderappleschildren=僕たちリンゴ酒飲めないのに，何で青リンゴ拾ってるんだろう。
-villager.gatherciderapples=リンゴ拾いは子供の遊びさ！
-
-// villager.plantsaplingappletree= ((TBA))
-
-
-wife.construction=これは立派な建物になるだろうね
-wife.construction=建築なら私達だけでも出来ちゃうわ！
-wife.construction=男って作業をしても片付けはしないのよ〜
-
-wife.getGoodsHousehold=なぜ私はいつも物拾いに行かせられるんですか?
-
-wool_merchant.KeepStall=このピンクの羊毛はあなたのために
-wool_merchant.greeting=オランダの織物は、中国西部産の素晴らしい物です。
+art_merchant.keepstall=Des perles pour des cochons, comme ils disent ici. / 彼らが言うように、豚に真珠だ
+art_merchant.greeting=Les gens ici sont des barbares. / ここの人は、野蛮人ですね
+art_merchant.greeting=Aucune ville dans le monde n'est comparable à Constantinople. / どんな都市だろうとコンスタンティノープルには敵わないね
+art_merchant.greeting=Nous les byzantins sommes les derniers vrais romans. Admirez notre civilisation! / 我々は東ローマ帝国の末裔である。我が文明に栄光あれ
+boy.greeting=Quand je serai grand, je veux être comme papa. / 大きくなったら、お父さんの様になりたい！
+farmer.bringbackresourceshome=Récoltons ce blé doré. / 黄金色に実った小麦を収穫しよう
+farmer.collectcrop=On dirait que le blé est mûr. / 小麦が豊作だよ
+farmer.plantseeds=Je plante, et je récolterai. / 種を蒔いて、収穫するのさ
+guard.greeting=Vous avez l'air un peu faible, $name. Je vous protègerais si vous avez des ennuis. / 少し痩せましたか、$name。困っている事があれば、私に言ってください
+guildmaster.greeting=Les artisans ne valent rien sans quelqu'un pour les superviser. / 職人を管理する人がいないと駄目なんだよなぁ
+knight.greeting=$name, saviez-vous que j'ai combattu à Hastings? / $name、私がヘイスティングスの戦いに参加したしたことを知っていますか？
+knight.greeting=Je prend possession de cette terre au nom du Duc de Normandie! / 私はノルマンディー公爵のために、この土地を要求します！
+knight.greeting=Je n'obéi qu'au Roi Guillaume, Duc de Normandie, et à Dieu. Dans cet ordre. / 私はウィリアム王とノルマンディー公爵、そして、神に従う。
+knight.patrol=La force fait le droit, et je suis fort. / 私は強いですよ
+knight.patrol=Je reigne sur ces terres. / 我々がこの土地を支配しているのだ
+lady.maketapestry=Peut-être que ces pièces seront moins glauques avec ces tapisseries. Peut-être. / これを壁にかけておけば、汚れも見えなくなるわよ
+lady.maketapestry=Personne ici n'apprécie l'art. / 誰も私の芸術を褒めてくれないわ
+lady.greeting=Vous auriez dû voir le château de mon père. Ca c'était une vrai forteresse. / お父さまの城を見るといいわ、立派な要塞よ
+lady.greeting=Ma sœur a épousé un duc. Je vis ici. / 私の姉は公爵と結婚したので、私もここで生活しているの
+lumberman.bringbackresourceshome=Même ma femme devra admettre que c’est beaucoup de bois. / 妻も木材が多すぎると認めざるをえないだろうな
+lumberman.choptrees=Regardez-moi couper cet arbre ! / 伐採する瞬間を見ててくれ！
+lumberman.gathergoods=Bel arbrisseau là-bas. / あそこの苗木は立派だな
+lumberman.plantsaplings=Bientôt ce sera un arbre magnifique ! Et je le couperais. / これはすぐ大きな木になるよ！私が伐採しちゃうけどさ！
+miner.cooking=Ca c’est de la vrai cuisson. / かまどの火から目を離さないように
+miner.mining=Miner est un art, vous savez. / 採掘は芸術なんだよ
+miner.mining=Personne d’autre dans le village n’a la force et l’endurance nécessaire à ce travail. Et vous pensez qu’ils sont reconnaissants ? / 村の人は誰もこの仕事の大変さを知りません。みんな感謝していると思う?
+monk.greeting=Dieu soit avec toi, mon frère. / 神のご加護がありますように
+monk.makebooks=Si la vanité n’était pas un péché, je dirai que mes manuscrits sont les plus beaux du pays. / うぬぼれが罪でないならば、この草稿はこの地で最も素晴らしいでしょう
+oriental_merchant.keepstall=Venez voir des produits de luxes tels que les gens d’ici ne voient jamais ! / さぁさぁみなが夢に見るほどの贅沢品ですよ、いらっしゃい！
+oriental_merchant.greeting=Etes vous allez à Cordoue? Ca, c'est une ville civilisée. / コルドバに行ったことはありますか？ あそこは文明的な都市ですよ
+oriental_merchant.greeting=Ce pays est riche, mais fallait il vraiment qu'il soit si froid? / ここはとても豊かなのに、なぜこんなにも寒いのでしょうか
+plant_merchant.keepstall=Je vend toutes les herbes dont vous aurez jamais besoin. / いろんなハーブが揃っていますよ
+plant_merchant.greeting=Certains disent que je suis un rêveur, mais je ne suis pas le seul... / 私をロマンチストだと言う人もいますが、私だけではないはずです...
+priest.gopray.chosen=Prier est plus dur qu’il n’y paraît. / 祈り見た目よりも大変な仕事です
+priest.greeting=Soyez béni, mon fils. / あなたに祝福を
+priest.makeamulets=Ceci ne devrait pas être vu par un étranger… / これは部外者に見せるべきではありません...
+seneschal.greeting=J'ai hâte de retourner à la cours du roi. / 私は城に戻ってやることがある
+seneschal.greeting=Je gère ces terres pour mon roi. / 私は王のためにこの土地を管理している
+smith.makenormanweapons=N'essayez pas d'affronter un homme armé par mes soins. / 私の作った武器で武装した人と戦わないことです
+smith.makenormantools=Les outils normands sont les meilleurs du monde. / ノルマンの道具は世界で最も素晴らしい
+viking_merchant.keepstall=Venez et achetez. Je ne vous parlerai pas des sacrifices nécessaires pour rendre ces amulettes puissantes. / ぜひ買ってください。強力な護符を作るために何をしたかは言いませんが...
+viking_merchant.keepstall=La magie viking est puissance. / バイキングの魔法は強力です。
+viking_merchant.greeting=Cette terre appartient aux vikings. L'Angleterre aussi. La Sicile aussi. Vive nous! / この土地はバイキングのもの。イングランドもバイキングのもの。シチリア島もバイキングのもの。我々の領土だ！
+viking_merchant.greeting=Aujourd'hui je vient commercer. Demain... / 今日は商いをしますが、明日は...
+villager.becomeadult=Il est l’heure de devenir quelqu’un ! / 時はきた！
+villager.goplay=Je vais aller jouer dehors. / 外へ遊びに行きたいよ
+villager.makeboudin=Vous ne le mangeriez pas si vous saviez comment c’est fait. / 作り方を知ったらあなたは食べたいと思わないでしょう
+villager.brewpotions=Un jour je serais un maître alchimiste ! / いつか私は錬金術をマスターするぞ
+villager.calltoarms=Montjoi Saint-Denis!
+villager.calltoarms=Aux armes, citoyens! / 市民に武器を！
+villager.calltoarms=Tous pour un ! / 心をひとつに！
+villager.calltoarms=Aux armes ! Aux armes ! / 戦闘用意！戦闘用意！
+villager.godrink=C'est à boire qu'il nous faut! / 酒が飲みたい！
+villager.godrink=Un cidre n'a jamais fait de mal à personne. / リンゴ酒は誰も傷つけない
+villager.gopray.chosen=Ca fait longtemps que je n’ai pas prié… / 祈ったのは久しぶりです...
+villager.gopray=Je parle à Dieu, pas vous, $name. / 私は$nameではなく神へ祈っているのです
+villager.gorest=La vie ici est un peu morne. / ここの生活は少し退屈です
+villager.gorest=Un peu de repos me ferait du bien... / 休みが欲しいです...
+villager.gorest=Rien d'intéressant n'arrive jamais ici. / 刺激的なことなんて何もないです
+villager.gorest=Je suis fatigué. / 疲れましたぁ〜
+villager.greeting=Après une bonne nuit de sommeil, je suis sur pied! / 昨晩ぐっすり寝てスッキリしました！
+villager.greeting=Belle journée, n'est ce pas? / 素敵な一日になりそうですね
+villager.greeting=Bonjour, $name! / こんにちは、$name！
+villager.greeting=Il va pleuvoir, je le sens / 雨が降ってきそうですね
+villager.greeting=Je ne me souvenais pas de la Normandie comme ça. / 実はノルマンディーをあまり覚えていません
+villager.harvestwarts=Heuresement que je porte des gants. / 手袋してて助かった
+villager.makeglassbottles=Une fiole de qualité, c'est une potion réussie! / よくできた瓶だと出来のいいポーションを作れます！
+villager.plantwarts=Seul Maître Vif-argent aurait pu comprendre comment cultiver ces horreurs. / あの忌まわしき植物の育て方を理解していたのはVif-argent師だけです
+weapon_merchant.keepstall=Vous ne voulez pas savoir ce qui est arrivé à l’homme qui m’a fait cette cicatrice. Mais vous pouvez acheter la lame que j’ai utilisée. / この傷をつけてくれた男に何があったのか知りたくないだろう。でも、私が使った剣はここで買えるぞ。
+weapon_merchant.greeting=Vous voulez vraiment savoir comment j'ai survécu toutes ces années voyageant seul avec des marchandises précieuses? / 貴重な品物を携えて一人旅をしていた私がどうやって生き延びてきたか知りたくありませんか？
+wife.delivergoodshousehold="Vas chercher ci, vas chercher ça", ils me disent. Un jour je refuserais ! /  "あれを取って、これを取って"と旦那は言うけれど、私は嫌よ！絶対に！
+wife.gethousethresources=On dirait que mon mari a travaillé pour une fois. / 怠け者な私の夫がどうやら仕事したようです
+wife.getresourcesforbuild=Je part chercher une tonne ou deux de matériaux. Je suis plus forte que j’en ai l’air ! / 1～2tくらいの建材なら持てます。見た目以上に力持ちでしょ
+wife.makebread=Mon pain est le meilleur du village. / 私の作るパンは村で一番のうまさです
+wife.construction=Ca va être un bâtiment superbe. / これは立派な建物になるでしょう
+wife.construction=Je construis, je construis, comme seule une femme le peu ! / 建てて、また建てて...私達だけで建てちゃうわ！
+wife.construction=Les hommes n’ont pas la finesse nécessaire au travail de précision. / 男性には緻密な作業に必要な器用さがないのよ
+wife.getgoodshousehold=Pourquoi est ce toujours moi qui doit tout aller chercher ? / なぜ私はいつも荷物を取りに行かされるの？
+wool_merchant.keepstall=Toute la laine rose qu’il vous faut ! / このピンクの羊毛はあなたにお似合いですよ
+wool_merchant.greeting=Les textiles hollandais sont les meilleurs à l'ouest de Cathay. / オランダ織物は中国西部の糸を使った高級品ですよ
+wife.makecalva=Une boisson d'homme, faite par une femme. / 男が飲んで、女は作るだけ
+wife.makecider=Préparer le cidre n’est pas le pire travail par ici. / リンゴ酒を作るのは、大変ですがやりがいのある仕事です
+orderguard.patrol=J'obéis seulement à Dieu. / 神のみに従います
+orderguard.patrol=Notre devoir est de protéger ce site sacré. / 我々の義務はこの聖地を守ることです
+orderguard.calltoarms=Va-t'en, fraie d'enfer ! / 悪魔よ立ち去れ！
+orderguard.calltoarms=Craignez la colère de l’Ordre du Nouveau Monde ! / 新世界秩序の怒りを恐れよ！
+orderguard.greetings=Je vous salue au nom de l’Ordre et du Grand Maître. / 騎士団と領主を代表してあなたへ敬意を表します
+orderguard.greetings=Je vous salue ! / 敬礼！
+villager.childeatapple=J'adore les pommes, mais pourquoi personne ici ne sait faire des tartes aux pommes ? / リンゴは美味しいけれど、何で誰もアップルパイの作り方を知らないの？
+villager.childobserveagriculture=Il paraît que l'agriculture c'est un noble métier, et pourtant, je n'ai jamais vu de noble planter du blé ! / 農業は崇高なお仕事って言う割に、貴族がクワを持ってる光景を見たことがないよ！
+villager.childobserveconstruction=C'est quand même un peu bizarre que seules les femmes construisent chez nous. / うちの村じゃ女性ばっかり建築するのちょっと不思議よね
+villager.childobserveproducealcohol=Quand j'étais bébé, maman mettait du calva dans mon biberon pour que je dorme. Hips ! / 赤ん坊の頃は，眠れるようにってお母さんがミルクにカルヴァドスを混ぜていたよ...ﾋｯｸ
+villager.childobserveproducefood=J'aime moins les tripes depuis que je sais comment c'est fait. / 作り方を見ちゃったから、トライプってあまり好きじゃないんだよね
+villager.childobservesmithing=Bam ! Bam ! Il faut battre le fer quand il est chaud ! / ドン！ドン！鉄は熱いうちに打て！
+villager.goholdaservice=Au nom du Père, du Fils et du Saint-Esprit … / 父と子と聖霊のみ名において...
+villager.goholdaservice=Nous parlons à Dieu, pas vous, $name. / 私は$nameではなく神へ祈っているのです
+villager.goonpilgrimage=Impressionnant ! / 素晴らしい！
+villager.goonpilgrimage=J'ai parcouru un long chemin. / 長い道のりでした
+villager.goonpilgrimage=Je me sens proche de Dieu. / 神を近くに感じます
+villager.goonpilgrimage=Magnifique ! / なんて壮大な！
+villager.goonpilgrimage=Que Dieu bénisse cette cathédrale ! Que Dieu bénisse la Normandie ! / この大聖堂に祝福を！我らノルマン人に祝福を！
+villager.goplayorgan=Je suis seul, si seul ... / 私は孤独だ、とても寂しい...
+villager.goplayorgan=Pourquoi personne ne chante ? / なぜ誰も歌わないのですか？
+villager.gopreachonpulpit=Adveniat regnum tuum: Fiat voluntas tua, sicut in caelo, et in terra. /
+villager.gopreachonpulpit=Et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. /
+villager.gopreachonpulpit=Et ne nos inducas in temtationem. Sed libera nos a malo. /
+villager.gopreachonpulpit=Panem nostrum quotidianum da nobis hodie. /
+villager.gopreachonpulpit=Pater noster qui es in caelis: Sanctificetur nomen tuum. /
+villager.inspectconstruction=Vous croyiez ces ignorants capable de construire de tels bâtiments par eux même ? Que nenni ! / 無知な農民にこれほどの建築ができるとお思いですか？もちろん違いますよ！
+villager.makecider=Préparer le cidre n’est pas le pire travail par ici. / リンゴ酒を作るのは、大変ですがやりがいのある仕事です
+villager.makecalva=N'importe quel bûcheron peut faire du cidre, mais pour du calva, il faut un spécialiste ! / どんな木こりでもりんご酒は作れます。カルヴァドスは職人じゃないとだめなんです！
+villager.gatherciderappleschildren=Ma maman dit que c'est mon tour de ramasser les pommes, mais je l'ai déjà fait hier ! / 母さんにリンゴ拾ってと言われたけど，昨日もやったんだよねぇ
+villager.gatherciderappleschildren=Pourquoi est-ce que c'est aux enfants de ramasser les pommes alors qu'on n'a même pas droit au cidre ? / 僕たちはお酒飲めないのに，何で青リンゴ拾ってるんだろう
+villager.gatherciderapples=C'est un travail d'enfants ! / リンゴ拾いは子供の遊びさ！
+villager.plantsaplingappletree=Chaque pommier planté, c'est des barriques de cidre à l'horizon ! / 植えたリンゴの木は地平線に広がる酒樽みたいなものです！
