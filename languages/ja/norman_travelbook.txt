@@ -1,0 +1,17 @@
+travelbook.culture.desc=ノルマン人は堅実な民族に見えますが、ガッツリ食事をとり、豪快に酒を飲むのが好きです。酔っ払うと、失われたフランス沿岸の故郷の話をはじめたり、「イングランド」や「シチリア」などの神秘的な場所を広範囲に渡って征服した自慢話をはじめます。
+travelbook.villager.abbot.desc=修道院長は神のしもべであり、ノルマン人を細く長い道(聖文の導き)へ導く責務を負っています。
+travelbook.villager.alchemist.desc=かの有名なVif-Argent氏は、この奇妙な土地の謎を解明しようと、ポーションや錬金術に手を出していることで知られる賢者です。
+travelbook.villager.alchemistapprentice.desc=錬金術師の見習いは、いつか師匠の技を受け継ぐために、錬金術の修行に励んでいます。
+travelbook.villager.alchemistassistant.desc=錬金術師は大変忙しく、人生をかけて謎を解き明かすために、信頼できる助手を必要としています。
+travelbook.villager.architect.desc=Nicolas de Weilbourg はドイツの名建築家で、ノルマンの王へ忠誠を誓ったことにより、大聖堂の創設を通じて自分の名がこの土地で不滅となる機会を得ました。
+travelbook.villager.armoredbandit.desc=元はベテランの騎士でしたが、犯罪を機に盗賊となりました。無防備な状態の彼より倒すのは厄介です。
+travelbook.villager.bandit.desc=盗賊は、刺激とちょっとのドゥニエを求めて、強盗、殺人、反抗、危険行為に手を染めた質素な生活を送っています。
+travelbook.villager.bishop.desc=ノルマン司教は大聖堂のユニークな守護者です。彼は斜めに歩いて、無防備な対戦相手の駒を狙い撃ちします。
+travelbook.villager.boy.desc=遊んだり、学んだりしながら、生産的なノルマン人の大人になることを夢見て、日々を過ごしている少年です。
+travelbook.villager.carpenter.desc=大工は、木材を木枠へ加工する技術を会得している唯一の職人なので、ノルマンの村で重要な役割を果たしています。
+travelbook.villager.cattlefarmerfemale.desc=畜産農家の妻である彼女にとって、動物の世話も大切なことです。
+travelbook.villager.cattlefarmermale.desc=畜産家は牛、豚、鶏などの家畜を見守ります。ノルマンの村には欠かせない存在です。
+travelbook.villager.farmer.desc=農家は小麦やニンジンを栽培しています。村の家畜飼料やパンを作るための穀物を提供しています。
+travelbook.villager.felonbaron.desc=ノルマンの男爵は、最も信頼できる兵士たちに囲まれた城の中で独りぼっちを貫いています。
+travelbook.villager.felonsoldier.desc=男爵への忠誠と多額の報酬から、犯罪こそ最高の人生だと盲信している兵士です。
+travelbook.villager.girl.desc=遊んだり、学んだりしながら、生産的なノルマン人の大人になることを夢見て、日々を過ごしている少女です。

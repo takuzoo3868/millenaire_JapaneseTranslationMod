@@ -102,7 +102,7 @@ v2;30;Les autres villages sont tous pareils. / 他の村も似たようなもん
 v1;60;Pas un village! Un bourg. Ou même une ville! / 村じゃなくてさ、街とか都市みたいな！
 v2;90;Quoi, comme Rouen? Tu es fou, c'est à des jours d'ici. / ルーアンみたいな？何言ってんのさ、何日かかると思ってるの
 v1;120;Rouen... ou même... Pourquoi pas Paris? / ルーアンねぇ...他には...パリとか？
-v1;150;Tu te rend compte, on dit qu'il y aurait 25 000 personnes là-bas! / 俺達みたのが25,000人もいるの想像してごらんよ！
+v1;150;Tu te rend compte, on dit qu'il y aurait 25 000 personnes là-bas! / 私たちみたいなのが25,000人もいる街を想像してごらんよ！
 v2;180;Tu divague, mon pauvre. 25 000 personnes au même endroit? Et où on les mettrait? / 馬鹿言うなよ、25,000人も一箇所に？どうやって暮らすのさ？
 
 newchat;key:calva,v1:adult,v2:adult,v1:male,v2:male,weigth:10
