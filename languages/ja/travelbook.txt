@@ -1,0 +1,3 @@
+//* These strings are used in the Travel Book for goods used by multiple cultures
+
+travelbook.trade_good.akwardpotion.desc=なぜ下手くそなポーションはまずいのか？誰もあえて聞くことはないでしょう。
