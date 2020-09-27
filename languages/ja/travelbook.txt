@@ -1,3 +1,4 @@
 //* These strings are used in the Travel Book for goods used by multiple cultures
 
 travelbook.trade_good.akwardpotion.desc=なぜ下手くそなポーションはまずいのか？誰もあえて聞くことはないでしょう。
+travelbook.trade_good.arrow.desc=敵に向かって飛んでいく尖った恐怖。あらゆる文化圏で一般的な武器です。
