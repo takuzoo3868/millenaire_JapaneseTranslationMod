@@ -292,7 +292,7 @@ v2;30;Et il y a du travail! / そうやってお世話するんだね！
 
 newchat;key:priest2,v1:vtype:priest,weigth:10
 v1;0;Notre village craint Dieu. / 我が村では神を畏れる
-v2;30;Et son représentant, Père $targetlastname. / 牧師である神父様$targetlastnameもね
+v2;30;Et son représentant, Père $targetlastname. / 司教代理である神父様$targetlastnameもね
 
 newchat;key:seneschal,v1:vtype:seneschal,weigth:10
 v1;0;Je suis très estimé à la cour du Roi le Duc Guillaume. / 私はウィリアム公国王の宮殿で高く評価されています

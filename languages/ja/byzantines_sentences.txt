@@ -1,4 +1,177 @@
-villager.greeting=Xaire, $name! / ハーイ、$name!
+//For most villagers, greeting lines have not been added yet.
+
+architect_byzantine.construction=$name! Gnorízeis óti oi Romaíoi eínai oi kalýteroi kataskevastés? / $name！ローマ人は最高の建築家だとご存知でしたか？
+architect_byzantine.construction=$name! Des pos ftiaxno ena architektoniko dimiourgima! / $name！美しい建築を行う私の様子を見ていてください！
+architect_byzantine.construction=Aftó to ktírio tha ginei poli ómorfo! / この建物はきっと素晴らしいものになるでしょう！
+architect_byzantine.construction=Den échei teliosei, allá vlépo tin omorfiá stin douleiá mou. / まだ完成していませんが、私の建築はすでに美しさの片鱗が伺えます
+architect_byzantine.construction=Dimioúrgo tóso entiposiakes domés. I architektoniki eínai pragmatiká i pio ómorfi morfí téchnis./ 私は緻密な建築をします。芸術的な美しさを存分に表現しますよ
+architect_byzantine.construction=I Rómi den chtístike se mia méra, chtístike toublo me toublo. / ローマは一日にして成らず、ブロックを積み重ねて築き上げたのです
+architect_byzantine.construction=I architektonikí mas eínai anóteri apó óla ta álla ktíria se olókliro ton kósmo. / 私たちの建築は世界中の建築を悉く凌駕します
+architect_byzantine.construction=I oikodómisi me ton romaïkó trópo eínai o kalýteros trópos. / ローマ建築は最高です
+architect_byzantine.construction=Sas arései to tropos kataskeuis mou? / 私の建築様式がお好きですか？
+architect_byzantine.construction=Chtizo apo tote pou thymamai. I architektoniki échei gínei i zoí mou. / 私は長いこと建築に携わってきました。家を建てることは私の生きがいです
+
+architect_byzantine.getResourcesForBuild=Apó poú proérchetai to chorió? / これだけのブロックを村はどこから手に入れたのでしょうか？
+architect_byzantine.getResourcesForBuild=Chreiázomai ylika gia na ftiáxo tis kalýteres kataskevés! / 最高の建築にはもっとブロックが必要です！
+architect_byzantine.getResourcesForBuild=Káthe kataskeví archízei me ta blok. / すべての建築はブロックから始まります
+architect_byzantine.getResourcesForBuild=Prépei na epiléxo prosektiká ta ylika o ídios. / 建築ブロックは自分で厳選しないといけません
+architect_byzantine.getResourcesForBuild=Pós metaférete tósa pollá ylika ótan ftiáchnete $name? / こんなにたくさんのブロックを$nameはどうやって運んでいるのですか？
+architect_byzantine.getResourcesForBuild=To cheirótero méros tou ktiríou eínai na i metafora ton ylikon. / ブロックの入手が建築で最も大変なんです
+
+architect_byzantine.goDrink=Arketá ktísimo! Chreiázomai krasí! / もう仕事は十分だ！ワインが飲みたい！
+architect_byzantine.goDrink=Chreiázomai éna potó gia na me empnéfsei! / 発想を得るために酒が必要です！
+architect_byzantine.goDrink=Káthe kalós oikodómos chreiázetai éna potó sto télos tis iméras. / 優れた建築家というのは一日の終わりに一杯やるもんなんですよ
+architect_byzantine.goDrink=I douleia mou fernei dipsa gia krasí. / 仕事をするとワインが飲みたくて喉が乾きますね
+
+architect_byzantine.gopray=Elpízo o Theós mou dínei émpnefsi gia to epómeno ktírio mou! / 神が次の建築のアイディアを授けてくださるよう祈っています
+architect_byzantine.gopray=Giatí o Theós me ékane architéktona? / なぜ神は私を建築家へ導いたのです？
+architect_byzantine.gopray=I prosefchí eínai éna simantikó méros tou romaïkoú ktiríou. / 祈りはローマ建築の重要な要素ですよ
+architect_byzantine.gopray=Katanoeí ta provlímata pou échoun oi architéktones. / 神は我々の悩みを理解してくださる
+
+architect_byzantine.gorest=An den koimithó, yparxei periptosi na kano palabomara. / 眠らないと、なにもかもめちゃくちゃになりそうです
+architect_byzantine.gorest=Den boró na oikodomíso ótan eimai kourasmenos. / 疲れているときに建築なんで無理です
+architect_byzantine.gorest=Eínai dýskolo na chtizei kaneis sto skotádi. / 暗い中で建築は困難ですから
+architect_byzantine.gorest=Telos bardias, kalynychta. / 今日の建築はおしまいです
+architect_byzantine.gorest=Ísos tha oneireftó ta kalýtera ktíria ston kósmo! / 今日は世界一の建築をする夢が見れそうだ！
+
+architect_byzantine.gosocialise=Kaneís se aftó to chorió den katalavaínei ta provlímata tis oikodómisis. / この村に建築の煩わしさを理解してくれる人はいません
+architect_byzantine.gosocialise=Káthe architéktonas chreiázetai émpnefsi apó állous. / 他者と話して閃くこともあるんです
+architect_byzantine.gosocialise=Oi architéktones chreiázontai polles apopseis gia na evdokimísoun. / 成長のためにフィードバックが欲しいのです
+architect_byzantine.gosocialise=Ti na skéftetai to chorió gia ta ktíriá mou? / 村人は私の建築をどう思っているんでしょうか？
+
+//armysmith_byzantine.MakeIndianTools=Ta romaïka ergaleia einai ta kalytera ston kosmo. / ローマの道具は世界最高です
+armysmith_byzantine.MakeByzantineMace=Min prosvállete kanénan pou chrisimopoieí ta ópla mou... / 私の作った武器を持っている人は攻撃しないほうがいいですよ
+armysmith_byzantine.MakeByzantineMace=Aftó to ropalo steilei tous barbarous sto gamo tou karagkiozi! / メイスは野蛮人を遠くへ吹き飛ばしてくれます！
+armysmith_byzantine.MakeByzantineMace=To na to xrisimopoieis eukolo, to na to ftiaxneis dyskolo. / メイスを作るより、その辺で振り回している方が簡単ですよ
+armysmith_byzantine.MakeByzantineMace=O stratós chreiázetai ropala. / 軍隊にはメイスが必要です
+
+armysmith_byzantine.gopray=Énas kalós sideras prépei na proséfchetai káthe forá kai lígo. / 善き鍛冶屋というのは時々祈るものなんです
+armysmith_byzantine.gopray=Giatí o Theós me ékane éna sídera? / なぜ神は私を鍛冶屋にしたのでしょうか？
+armysmith_byzantine.gopray=I prosefchí eínai éna simantikó méros tis romaïkís cheirotechnías. / 祈りはローマの道具作りに欠かせません
+armysmith_byzantine.gopray=O Theos katanoei ta problimata mas. / 神は我々の悩みを理解してくださる
+
+armysmith_byzantine.gorest=Ávrio tha káno pio ómorfa prágmata! / 明日はもっと良いものを作ります！
+armysmith_byzantine.gorest=Écho teliosei me tin oikodomi gia simera. / 今日の作成はこれで終わりにします
+armysmith_byzantine.gorest=Ísos tha oneireftó na ftiáchno ta kalýtera ópla ston kósmo! / 今日は世界一の武器を作る夢が見れそうだ！
+armysmith_byzantine.gorest=Ísos tha oneireftó na ftiáxo tin kalýteri panoplía tou kósmou! / 今日は世界一の防具を作る夢が見れそうだ！
+armysmith_byzantine.gorest=Ísos tha oneireftó na káno ta kalýtera ergaleía ston kósmo! / 今日は世界一の道具を作る夢が見れそうだ！
+
+armysmith_byzantine.gosocialise=Tha zitíso na do an kápoios chreiázetai na kataskeváso káti. / 何を作って欲しいか人に聞いてみよう
+armysmith_byzantine.gosocialise=Elpízo óti to chorió ektimá ta ergaleía mou. / 村が私の道具を評価してくれるよう願っています
+
+armysmith_byzantine.goDrink=Arketi cheirotechnía! Chreiázomai krasí! / 道具づくりはもういい！ワインが飲みたい！
+armysmith_byzantine.goDrink=Chreiázomai éna potó gia na me empnéfsei! / 発想を得るために酒が必要です！
+armysmith_byzantine.goDrink=Káthe kalós siderás chreiázetai éna potó sto télos tis iméras. / 優れた鍛冶屋というのは一日の終わりに一杯やるもんなんですよ
+armysmith_byzantine.goDrink=I cheirotechnía me kánei na dipsá gia to krasí. / 道具を作っているとワインが飲みたくなってきます
+
+armysmith_byzantine.makearrow=$name, chrisimopoieíte pollá véli stis peripéteiés sas? / $nameさん、冒険ってのはたくさんの矢を使うものなんですか？
+armysmith_byzantine.makearrow=Káthe tóxo chreiázetai éna oraío vélos. / どんな弓でも細い矢が必要です。
+armysmith_byzantine.makearrow=Káthe vélos pou káno tha vlápsei énan ochtró tis autokratorías. / 私の作る矢の一本一本が帝国の敵に害を与えてくれるでしょう
+armysmith_byzantine.makearrow=O romaïkós stratós chreiázetai véli gia na mas prostatéfsei apó tous xénous. / ローマの兵士が外敵から私たちを守るために矢を必要としています
+
+armysmith_byzantine.makebow=O romaïkós stratós chreiázetai tóxa. / ローマ軍が弓を必要としています
+armysmith_byzantine.makebow=Geia sou! Sas arésoun ta tóxa mou $name? / ねぇ、$name。私の作る弓はどうだい？
+armysmith_byzantine.makebow=Káthe kaló tóxo proérchetai apó to kalýtero xýlo. / 良い弓は最高級の木材から作ります
+armysmith_byzantine.makebow=Aftó to tóxo tha nikísei polloús bárbarous. Eímai pragmatiká kýrios kataskevastís tóxon. / この弓は多くの野蛮人を倒してくれるでしょう。私は最高の弓職人です。
+
+armysmith_byzantine.makeByzantineBoots=O romaïkós stratós chreiázetai mpótes! / ローマ軍がブーツを必要としています！
+armysmith_byzantine.makeByzantineBoots=Oi Romaíoi kánoun tis kalýteres mpótes ston kósmo. / ローマ人は世界最高のブーツを作ります
+armysmith_byzantine.makeByzantineBoots=Kápoios prépei na kánei tis mpótes ton stratiotón... / 誰かが兵士のブーツを作らないといけないんです...
+armysmith_byzantine.makeByzantineBoots=Kánoume tis kalýteres mpótes. / 私たちは最高のブーツを作っています
+armysmith_byzantine.makeByzantineBoots=Geia sou! Sas arésoun i mpótes $name? / ねぇ、$name。私の作るブーツはどうだい？
+armysmith_byzantine.makeByzantineBoots=Aisthánomai san énas ypervoliká doxasménos kataskevastís papoutsión. / 立派な靴職人になった気分です
+armysmith_byzantine.makeByzantineBoots=Óles oi biotechníes eínai simantikés! Akómi kai oi mpótes pou pigaínoun sta pódia sas! / 防具を作るのは大切なことです！あなたの履いているブーツだって同じですよ！
+
+armysmith_byzantine.makeByzantineChest=O romaïkós stratós chreiázetai panoplia! / ローマ軍がチェストプレートを必要としています！
+armysmith_byzantine.makeByzantineChest=Oi Romaíoi kánoun tis kalýteres plákes thoraka ston kósmo. / ローマ人は世界最高のチェストプレートを作ります
+armysmith_byzantine.makeByzantineChest=Geia sou! Sas arései i panoplía mou $name? / ねぇ、$name。私の作る防具はどうだい？
+armysmith_byzantine.makeByzantineChest=Kánoume tin kalýteri panoplía. / 私たちは最高の防具を作っています
+armysmith_byzantine.makeByzantineChest=Aftó tha prépei na eínai se thési na párei perissótera chtypimata  apó ó, ti boreis esi. / これはあなたより攻撃に耐えてくれるはずです
+armysmith_byzantine.makeByzantineChest=Aisthánomai san énas ypervoliká doxasménos technítis. / 立派なシャツ職人になった気分です
+
+armysmith_byzantine.makeByzantineHelmet=O romaïkós stratós chreiázetai kráni! / ローマ軍がヘルメットを必要としています！
+armysmith_byzantine.makeByzantineHelmet=Kápoios prépei na kánei ta kráni ton stratiotón... / 誰かが兵士のヘルメットを作らないといけないんです...
+armysmith_byzantine.makeByzantineHelmet=Oi Romaíoi kánoun tis kalýteres mpótes ston kósmo. / ローマ人は世界最高のヘルメットを作ります
+armysmith_byzantine.makeByzantineHelmet=Geia sou! Sas arésoun ta kráni mou $name? / ねぇ、$name。私の作るヘルメットはどうだい？
+armysmith_byzantine.makeByzantineHelmet=Kánoume ta kalýtera kráni. / 私たちは最高のヘルメットを作っています
+armysmith_byzantine.makeByzantineHelmet=Aisthánomai san énas ypervoliká doxasménos kataskevastís papoutsión. / 立派な帽子職人になった気分です
+
+armysmith_byzantine.makeByzantineLegs=O romaïkós stratós chreiázetai kremasmata ! / ローマ軍がレギンスを必要としています！
+armysmith_byzantine.makeByzantineLegs=Kápoios prépei na kánei ta kremasmata ton stratiotón... / 誰かが兵士のレギンスを作らないといけないんです...
+armysmith_byzantine.makeByzantineLegs=Oi Romaíoi kánoun ta kalýtera kremasmata ston kósmo. / ローマ人は世界最高のレギンスを作ります
+armysmith_byzantine.makeByzantineLegs=Geia sou! Sas arésoun ta kremasmata mou $name? / ねぇ、$name。私の作るレギンスはどうだい？
+armysmith_byzantine.makeByzantineLegs=Kánoume ta kalýtera kremasmata. / 私たちは最高のレギンスを作っています
+armysmith_byzantine.makeByzantineLegs=Aisthánomai san mia ypervoliká doxasménos pantelonas. / 立派なパンツ職人になった気分です
+
+armysmith_byzantine.makesteelaxe=Den boreíte na kópsete ta déntra chorís tsekoúri! / 斧なしで木を切り倒すことはできません！
+armysmith_byzantine.makesteelaxe=Kataskevázo ekpliktikoús pelekeis. / 私は素晴らしい斧を作っています
+armysmith_byzantine.makesteelaxe=Oi romaïkoí áxones eínai merikoí apó tous kalýterous ston kósmo! / ローマの斧は世界最高です！
+armysmith_byzantine.makesteelaxe=Oi xylourgoí chreiázontai na kánoun tous pelekeis tous. / 木こりは斧を作る私たちを必要としています
+armysmith_byzantine.makesteelaxe=Pós ftiáchneis tous pelekeis sou $name? / $name。私の作る斧はどうだい？
+
+armysmith_byzantine.makesteelhoe=Den boreíte na doulepsetai chorís tsapes! / 農具なしで農業はできません！
+armysmith_byzantine.makesteelhoe=Kataskevázo katapliktikes tsapes. / 私は素晴らしい農具を作っています
+armysmith_byzantine.makesteelhoe=Romaïká ergaleía kalliérgeias eínai meriká apó ta kalýtera ston kósmo! / ローマの農具は世界最高です！
+armysmith_byzantine.makesteelhoe=Oi agrótes chreiázontai na kataskevásoume ta ergaleía tous. / 農家は農具を作る私たちを必要としています
+armysmith_byzantine.makesteelhoe=Pós dimiourgeíte ta georgiká sas ergaleía $name? / $name。私の作るクワはどうだい？
+
+armysmith_byzantine.makesteelpickaxe=Den boreíte na skapsetai sas chorís axina! / ツルハシがないと採掘できません！
+armysmith_byzantine.makesteelpickaxe=Kataskevázo poli anthektikes axines. / 私は頑丈なツルハシを作っています
+armysmith_byzantine.makesteelpickaxe=Oi romaïkes axines eínai merikes apó tis kalýteres ston kósmo! / ローマのツルハシは世界最高です！
+armysmith_byzantine.makesteelpickaxe=Oi anthrakorýchoi mas chreiázontai na kataskevásoume tis axines tous. / 鉱夫はツルハシを作る私たちを必要としています
+armysmith_byzantine.makesteelpickaxe=Pós ftiáchnete tis axines sas $name? / $name。私の作るツルハシはどうだい？
+
+armysmith_byzantine.makesteelshovel=Den boreíte na chtísete í na skápsete chorís éna ftyári! / シャベルがないと、建築も採掘もできませんよね！
+armysmith_byzantine.makesteelshovel=Kataskevázo anthektiká ftyária. / 丈夫なシャベルを作っています
+armysmith_byzantine.makesteelshovel=Ta Romaïká ftyária eínai meriká apó ta kalýtera ston kósmo! / ローマのシャベルは世界最高です！
+armysmith_byzantine.makesteelshovel=Oi architéktones chreiázontai na kataskevásoume ta ftyária tous. / 建築家はシャベルを作る私たちを必要としています
+armysmith_byzantine.makesteelshovel=Pós ftiáchneis ta ftyária sou $name? / $name。私の作るシャベルはどうだい？
+
+//artisan_byzantine.makePainting=H Romaikh texnh einai h pio exeligmenh ston kosmo. / ローマ美術は世界で最も先進的です
+
+artisan_byzantine.gopray=Énas kalós technítis prépei na proséfchetai káthe forá kai lígo. / 善き工芸家というのは時々祈るものなんです
+artisan_byzantine.gopray=Giatí o Theós me ékane énan techníti? / なぜ神は私を職人にしたのでしょうか？
+artisan_byzantine.gopray=I prosefchí eínai éna simantikó méros tis romaïkís cheirotechnías. / 祈りはローマの工芸に欠かせないものです。
+artisan_byzantine.gopray=Katanoeí ta provlímata pou échei o technítis. / 神は職人が抱える悩みを理解しているのです。
+
+artisan_byzantine.gorest=Ávrio tha káno pio ómorfa prágmata! / 明日はもっと素敵なものを作ります！
+artisan_byzantine.gorest=Écho kánei me ktírio gia tin iméra. / 今日の作業はこれでおしまいです
+artisan_byzantine.gorest=Ísos tha oneireftó na káno ta kalýtera toúvla tou kósmou! / 世界一のレンガを作ることを夢に見るかもしれません
+artisan_byzantine.gorest=Ísos tha oneireftó na káno ta kalýtera plakákia ston kósmo! / 世界一のタイルを作ることを夢に見るかもしれません
+
+artisan_byzantine.gosocialise=Tha zitíso na do an kápoios chreiázetai na kataskeváso káti. / 何を作って欲しいか村の人に聞いてみます
+artisan_byzantine.gosocialise=Elpízo óti to chorió tha ektimísei ta keramídia mou. / 村が私のタイルを評価してくれるといいな
+artisan_byzantine.gosocialise=Elpízo óti to chorió tha ektimísei ta toúvla mou. / 村が私のレンガを評価してくれるといいな
+
+artisan_byzantine.goDrink=Arketi cheirotechnía! Chreiázomai krasí! / 作業はもういい！ワインが飲みたい！
+artisan_byzantine.goDrink=Chreiázomai éna potó gia na me empnéfsei! / ひらめきを産むためにワインが必要です
+artisan_byzantine.goDrink=Káthe kalós technítis chreiázetai éna potó sto télos tis iméras. / 良い職人は一日の終わりにワインを一杯飲むものです
+artisan_byzantine.goDrink=I cheirotechnía me kánei na dipso gia to krasí. / 製作に勤しんでいると、ワインが飲みたくなってきますね
+
+artisan_byzantine.greeting=Zo kalýtera apó ólous se aftó to chorió. / 私はこの村で他の誰よりもいい暮らしをしていると思います
+artisan_byzantine.greeting=Geia sas $name! Chreiázeste apokleistiká romaïká ylika? / こんにちは$name！他に類を見ないローマの建築ブロックはいかかですか？
+
+artisan_byzantine.makeBrick=Kápoios prépei na kataskevásei ta toúvla. / 誰かがレンガを作らないとダメなんです
+artisan_byzantine.makeBrick=To chorió chreiázetai na kataskeváso toúvla gia tous toíchous tous. / 村の城壁に使うレンガを作るよう頼まれています
+artisan_byzantine.makeBrick=Romaïká toúvla eínai meriká apó ta pio ómorfa blok ston kósmo! / ローマのレンガは、世界で最も美しいブロックの一つです！
+artisan_byzantine.makeBrick=Ergazómaste píso apó tis skinés, enó oi kataskevastés paírnoun óli tin pístosi. / 私たちは裏方で、信用は建築家に奪われてしまいます
+artisan_byzantine.makeBrick=Oúte oi kalýteroi oikodómoi boroún na oikodomísoun chorís blok. / 稀代の建築家でさえレンガなしに建築は無理でしょう
+artisan_byzantine.makeBrick=Poios skéftike na metatrépsei ton piló se toúvla? / 粘土からレンガを作るなんて誰が考えたんでしょうか？
+
+artisan_byzantine.makeBookshelves=Kápoios prépei na válei ta vivlía sta ráfia. / 誰かが本棚を作らないといけないんです
+artisan_byzantine.makeBookshelves=To chorió mou chreiázetai na káno tis ráfia tous. / 村では本棚を作るために私を必要としています
+artisan_byzantine.makeBookshelves=Romaïká vivlía eínai meriká apó ta kalýtera pou diavázei ston kósmo! / ローマの本は世界でも有数の読み物です！
+artisan_byzantine.makeBookshelves=Ergazómaste píso apó tis skinés, enó oi syngrafeís paírnoun óli tin pístosi. / 私たちは裏方で、信用は作家に奪われてしまいます
+artisan_byzantine.makeBookshelves=Merikés forés vlépo ta vivlía prin ta válo sto ráfi, tha íthela na diaváso. / 時々、本棚に本を移す前に本に目を通すこともありますが、本の文字が読めたらなぁと思ったりします
+artisan_byzantine.makeBookshelves=Poios skéftike na grápsei ta prágmata káto? / 誰が物事を書き留めることを考えたのでしょうか？
+
+artisan_byzantine.makeByzantineTiles=Kápoios prépei na kánei ta keramídia. / 誰かが屋根のタイルに加工しないといけないんです
+artisan_byzantine.makeByzantineTiles=To chorió chreiázetai na káno tis stéges tous. / 村は私の作るタイルに頼っています
+artisan_byzantine.makeByzantineTiles=Romaïká plakákia eínai meriká apó ta pio ómorfa blok ston kósmo! / ローマのタイルは世界で最も美しいブロックの一つです
+artisan_byzantine.makeByzantineTiles=Ergazómaste píso apó tis skinés, enó oi kataskevastés paírnoun óli tin pístosi. / 私たちは裏方で、信用は建築家に奪われてしまいます
+artisan_byzantine.makeByzantineTiles=Oúte oi kalýteroi oikodómoi boroún na oikodomísoun chorís blok. / どんなに優れた建築家でもタイルなしに屋根は作れません
+artisan_byzantine.makeByzantineTiles=Poios skéftike na metatrépsei ton piló se stéges? / 誰が粘土を屋根にすると考えたのでしょうか？
+
 villager.greeting=Omorfi mera, etsi den einai? / なんと美しい日だ、そう思わないか?
 villager.greeting=Tha brexei. Syntoma.  / もうすぐ、雨が降るな。
 villager.greeting=Kamia polh ston kosmo den sygrinete me thn Kwnstantinoupolh./ この大都市と比べられる都市は世界中を探してもないだろう。
@@ -11,10 +184,6 @@ villager.gorest=Mallon oti tha pao gia ypno. / もう寝るよ。
 villager.BecomeAdult=Telika egina enas romaios poliths! / やっとローマ市民になったぞ!
 villager.calltoarms=H Romaikh Autokratoria dexete epithesh! Sta opla! / 攻撃されているぞ! 武器を持て!
 villager.GoPlay=Nomizo oti tha pao na paixoun exo. / 外に出て遊ぼうかな。
-architect_byzantine.construction=Xtizw toso peritexna xtismata. Eimai enas alhthinos kallitexnhs. / 私は正に芸術家だ、こんな手の込んだ構造の建物を立てたぞ!
-architect_byzantine.construction=O arxitektonas mas den sigrinetai me kanena allo. / 我々の建築構造は他と比較することなどできない。
-artisan_byzantine.greeting=H zwh mou einai poly kalyterh apo kapion allwn anthrwpwn edw. / 私の人生は他の村人よりもはるかに良い。
-artisan_byzantine.makePainting=H Romaikh texnh einai h pio exeligmenh ston kosmo. / ローマの芸術は世界で最も進んでいる。
 merchant_art.greeting=Kamia polh ston kosmo den sygrinetai me thn Kwnstantinoupolh. / この大都市と比べられる都市は世界中を探してもないだろう。
 merchant_art.greeting=	Emeis oi Byzantinoi eimaste oi teleutaioi althinoi Romaioi. / 我々はビザンティン民族、真の最後のローマ人だ。
 smith_byzantine.MakeIndianTools=Ta Byzantina ergaleia einai ta kalytera ston kosmo. / 世界中でビザンティンの道具に勝るものはないな。

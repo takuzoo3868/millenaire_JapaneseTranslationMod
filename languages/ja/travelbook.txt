@@ -2,3 +2,4 @@
 
 travelbook.trade_good.akwardpotion.desc=なぜ下手くそなポーションはまずいのか？誰もあえて聞くことはないでしょう。
 travelbook.trade_good.arrow.desc=敵に向かって飛んでいく尖った恐怖。あらゆる文化圏で一般的な武器です。
+travelbook.trade_good.baked_potato.desc=イヌイットの主食です。いつの日かノルマンのもとへ伝わり、新たな歴史を作るでしょう。

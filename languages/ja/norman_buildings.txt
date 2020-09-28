@@ -133,7 +133,7 @@ largeinn_a_tavern_a0=酒場
 residence_a0=司教邸
 residence_a_orderoutpost_a0=騎士団司令部
 residence_a_priest_a0=司祭室
-residence_a_vicar_a0=牧師室
+residence_a_vicar_a0=神父室
 
 full_wall_gateway_a0=楼門
 full_wall_a0=城壁
