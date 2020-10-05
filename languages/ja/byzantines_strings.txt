@@ -9,7 +9,7 @@ village.militaryvillage=軍事村
 village.religiousvillage=正教会村
 
 villager.architect_byzantine=建築家
-villager.baron_byzantine=貴族
+villager.baron_byzantine=領主
 villager.boy_byzantine=男の子
 villager.fisherman_byzantine=漁師
 villager.girl_byzantine=女の子
@@ -26,7 +26,7 @@ villager.teenagerMale=少年
 villager.teenagerFemale=少女
 
 villager.shepherd_female_byzantine=羊飼い
-villager.silkfarmer_byzantine=絹農家
+villager.silkfarmer_byzantine=養蚕家
 villager.silkfarmerwife_byzantine=絹織工
 villager.smith_byzantine=鍛冶屋
 villager.soldier_byzantine=兵士
@@ -40,15 +40,15 @@ villager.merchant_materials=石材商人
 villager.smuggler_silk=絹商人
 
 villager.artisanwife_byzantine=工芸家
-villager.seamster_byzantine=縫工
-villager.seamstress_byzantine=縫工
+villager.seamster_byzantine=裁縫師
+villager.seamstress_byzantine=針子
 villager.smelter_byzantine=精錬工
 villager.pastor_byzantine=牧師
 villager.worker_byzantine=職工
 villager.guard_byzantine=衛兵
 villager.host_byzantine=亭主
 villager.hostesse_byzantine=女将
-villager.baroness_byzantine=男爵夫人
+villager.baroness_byzantine=領主夫人
 villager.mason_byzantine=石工
 
 villager.centurio_byzantine=百卒長

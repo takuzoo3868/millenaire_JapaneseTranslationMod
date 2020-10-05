@@ -727,7 +727,7 @@ goal.dyewool=羊毛を乾かす
 goal.plantflowers=花を植える
 goal.makestrawbed=わらのベッドを作成
 
-goal.inspectconstruction=建物の点検
+goal.inspectconstruction=建設の点検
 goal.goonpilgrimage=聖地巡礼
 
 goal.goholdaservice=供養

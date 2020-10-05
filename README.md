@@ -2,7 +2,7 @@
 
 現状，wikiにある通り，[公式の日本語訳](https://www.millenaire.org/translations)は進捗が芳しくないです．  
 8.1.0へ更新されたことによって多言語と比較しても更に低くなっています...  
-そこで，なるべく日本語でも楽しめるよう翻訳作業を進めようと思います！
+そこで，なるべく日本語でもMillénaireを楽しめるよう，このプロジェクトを開始しました．
 
 ## 導入方法
 
@@ -47,6 +47,9 @@ language=ja
 TBA
 
 ## 更新履歴
+2020/10/06 Ver8.1.0対応中 [gap ja_jp: 75%]  
+表示内容の修正，ビザンティン(dialogues,sentences,travelbook)
+
 2020/10/02 Ver8.1.0対応中 [gap ja_jp: 72%]  
 表示内容の修正，ビザンティン(buildings,reputation,strings)，ノルマン(dialogues,travelbook)，苦行者の報告書
 

@@ -1,6 +1,6 @@
 
 art_merchant.keepstall=Des perles pour des cochons, comme ils disent ici. / 彼らが言うように、豚に真珠だ
-art_merchant.greeting=Les gens ici sont des barbares. / ここの人は、野蛮人ですね
+art_merchant.greeting=Les gens ici sont des barbares. / ここの方は、野蛮人ですね
 art_merchant.greeting=Aucune ville dans le monde n'est comparable à Constantinople. / どんな都市だろうとコンスタンティノープルには敵わないね
 art_merchant.greeting=Nous les byzantins sommes les derniers vrais romans. Admirez notre civilisation! / 我々は東ローマ帝国の末裔である。我が文明に栄光あれ
 boy.greeting=Quand je serai grand, je veux être comme papa. / 大きくなったら、お父さんの様になりたい！

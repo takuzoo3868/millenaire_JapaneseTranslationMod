@@ -1,431 +1,618 @@
-newchat;key:sun,tag:notraining,weigth:10
-v1;0;Agapo ilioloustes meres! / 晴れてる日は大好き!
-v2;30;Poios den echei? / 誰がきらうの。
+//* Dialogue lines start with a code like "v2;30;" which specify who is speaking and when the line shows up. Please copy it exactly in your translations.
+//* First half of the line (till the /) is in the villagers' language and must be kept as-is, second part should be translated
+
+newchat;key:sun,tag:notraining,weigth:18
+v1;0;Latreuo tis ilióloustes méres! / 晴れてる日は大好き！
+v2;30;Se poion den aresoun? / 誰が嫌うのさ
 
 newchat;key:nicevillage,weigth:10
-v1;0;Einai panta mia efcharistisi na doume oraio chorio mas, etsi den einai? / いつもこの小さな村を見て思うんだけど素晴らしいと思わない? 
-v2;30;Fysika, kai einai ola logo ton terastion prospatheion mas! / もちろん、みんなの努力の賜物だね! 
+v1;0;Einai panta mia efcharistisi na doume oraio chorio mas, etsi den einai? / 私たちの村は美しいと思わない？
+v2;30;Fysika, kai einai ola logo ton terastion prospatheion mas! / もちろん、みんなの努力の賜物だね！
+
+newchat;key:sunZombie,tag:notraining,weigth:2
+v1;0;latreuo tis ilióloustes méres! / 晴れてる日は大好き！
+v2;30;Se poion den aresoun? / 誰が嫌うのさ
+v1;60;Se emena. / そんなのわからないよ
+v2;120;Giatí óchi? / 君はどうなの？
+v1;150;O ílios kaíei! Misó tin kapsa! / 日差しで燃えちゃう！外にいるのは大嫌い！
+v2;180;Fainesai psofios! / まるでゾンビだね！
+v1;210;Ísos eímai ... / 私ってもしかして...
+
+newchat;key:nothomeyet,weigth:6
+v1;0;Einai panta efxaristo na xazeueis to xorio mas, etsi den einai? / 私たちの素敵な小さな村を見るのはいつも楽しいよね？
+v2;30;Fysiká eínai! Éxoume ksodépsei tóso polý chróno douleuontas se aftó to méros. / もちろんです！私たちは長い時間をかけてここを作ってきたのよ
+v1;60;Eínai sxedón san tin mitropoli, ópos prin erthoume edó. / 元の世界にあった我が家にそっくりだもんなぁ
+v2;90;Aftó eínai to spíti mas tóra, aplá prépei na to apodextoúme. / 今はここが私たちの家なの。受け入れるしかないわ
+v1;120;Kséro, tha to dextó me ton kairó ... / わかってる、そのうち受け入れるよ...
+
+newchat;key:ishome,weigth:6
+v1;0;Einai panta efxaristo na xazeueis to xorio mas, etsi den einai? / 私たちの素敵な小さな村を見るのはいつも楽しいよね？
+v2;30;Fysiká eínai! Éxoume ksodépsei tóso polý chróno douleuontas se aftó to méros. / もちろんです！私たちは長い時間をかけてここを作ってきたのよ
+v1;60;Eínai schedón san sto spíti, akrivós ópos prin írthame edó. / 元の世界にあった我が家にそっくりだもんなぁ
+v2;90;Aftó eínai to spíti mas tóra, aplá prépei na to apodextoúme. / 今はここが私たちの家なの。受け入れるしかないわ
+v1;120;Pragmati einai, aftí i syzítisi me ékane na to syneiditopoiíso. / そうだね、今の会話で思い知ったよ
+
+//newchat;key:goodharvest1,v1:adult,v2:adult,v2:notvtype:pastor_byzantine-metropolit_byzantine,building:farm,building:vineyard,notbuilding:taverna,weigth:24
+//v1;0;To sitári kai ta stafýlia mas afksánontai polý fétos. / 今年は小麦もブドウも順調に育っています
+//v2;30;Nai, oi agrótes anaféroun proodo, kai dokimásate kai to krasí? / 農家からは記録的な収穫だったと聞いていますし、今年のワインはもう飲まれましたか？
+//v1;60;Den éxoume tavérna gia na kánoume krasí ... / うーん、ワインを作る醸造所がないですからねぇ...
+//v2;120;A..., tóte ti epina exthes ?!/ なんと...では昨日何を飲んでいたんだですか！？
+
+//newchat;key:goodharvest1withtavern,v1:adult,v2:adult,v2:notvtype:pastor_byzantine-metropolit_byzantine,building:farm,building:vineyard,building:taverna,weigth:14
+//v1;0;To sitári kai ta stafýlia mas afksánontai polý fétos. / 今年は小麦もブドウも順調に育っています
+//v2;30;Nai, oi agrótes anaféroun proodo, kai dokimásate kai to krasí? / 農家からは記録的な収穫だったと聞いていますし、今年のワインはもう飲まれましたか？
+//v1;60;Ego exo! To eksairetikó romaïkó mas krasí éxei kalýteri géfsi apó poté!/ 飲みましたよ！今年のローマワインは今まで以上に芳醇な味わいでしたね
+//v2;90;Kséro, den eínai katapliktikó? Eíxa pénte olóklira boukália exthes. To kalýtero krasí pou ipia poté! / やっぱりそうですよね？昨日は５本も飲んでしまいました。今まで飲んだワインの中で最高の出来です
+//v1;120;Pénte olóklira boukália? Amartaneis antrope mou! Akómi kai an eínai mia exairetikí epochí, kindynéveis na gíneis methystakas me toso poly krasi!/ えっ5本も？ちょっと落ち着いてください！せっかくのいい季節なのに、そんなにワインを飲んだら酔っぱらって倒れますよ！
+//v2;150;Tha eímai kalá ótan o ponokéfalos aftós perasei ... / この頭痛が治まれば大丈夫...
+
+//newchat;key:cider,v1:adult,v2:adult,notbuilding:vineyard,weigth:2
+//v1;0;Xreiazómaste mia tavérna gia na ftiáksoume to krasí ./ 今すぐにワインを作る醸造所を建てるべきです
+//v2;30;Pos? Giatí? Entaksei, to krasí eínai kaló, allá éna olókliro ktírio, mono gia to krasí? Prépei na váloume proteraiótites sti seira! / えっ何だって？どうして？確かにワインはいいですよ。でもワインのためだけの施設というのは...優先順位が間違ってませんか！
+//v1;60;Dokímasa lígo xymó Norman exthes. Ítan friktó! Pós tous aresoun auta tous agrious? / 昨夜、ノルマン人のリンゴ酒を飲んでみたの。中々に強烈だったよ！あの未開人どもはどう感じているんだろうね？
+//v2;90;Giatí dokimázeis ta potá ton Barbaron? Eísai ilíthios?! / おいおいどうして野蛮人の酒なんて試したんですか！バカなの？
+//v1;120;Mporei... / いや私はその...
+//v2;130;Pánta na píneis romaïkí ousía! ROMAÏKÍ OUSÍA! / いつだってローマ産のワインを飲みなさいよ！ローマ人なら！
 
 newchat;key:harvest,weigth:10
-v1;0;sitari afxanetai poly kala afti ti chronia, etsi einai ta stafylia, kathos kai. Lampro, den einai? / 今年は小麦もブドウも豊作らしいよ。すごいね? 
-v2;30;Nai, fainetai etsi: Echoume to periergo kairo edo na efcharistiso. / うん、そうだね: いい天気に感謝しなきゃね。
-v1;60;Akoma kai an afto den echei kanena noima gia mena! / たとえ理由はわからなくてもね! 
+v1;0;I sodeia ton sitiron paei kala fetos, opos kai ton stafylion. Euge! / 今年は小麦もブドウも豊作らしいよ、すごいね? 
+v2;30;Pragamati, etsi faínetai: Éxoume to períergo kairo edo na efcharistísoume. / うん、そうみたいだね。この不思議な天気に感謝しなきゃ
+v1;60;Akoma kai an den bgazei noima! / 理由はさっぱりわかんないけどね！
 
 newchat;key:lightning,weigth:7
-v1;0;Thymaste tin kataigida pou eichame? Thelo na po to pragmatika vary! / 前の嵐を覚えてる? あのひどかったやつ! 
-v2;30;Fysika. Schedon katastrafike synkomidi mas. I fysi einai arketa entyposiako, e?  / 覚えてるよ、ほとんどの作物がダメになった。とてもひどかったね。
-v1;60;Entyposiaki einai ena pragma. Alla imoun schedon chtypithike apo keravno! / 暴力といってもいいくらいだったね。私はほとんど雷に当たったし! 
-v2;100;Den itan mesa sto spiti sas? Xerete oti einai epikindyno exo kata ti diarkeia mias kataigidas! / 家の中にいなかったの? 嵐の最中に外にいるなんて危険だよ! 
-v1;120;Zontana kai na mathoun. / ミスから学ぶんだね。
+v1;0;Thymáste tin kataigída tis proales? Milao gia ekeinon ton kolokairo! / 雷雨を覚えてる？あのひどい雷雨のことだよ！
+v2;30;Fysiká. Sxedon katastráfike olokliri i synkomidí mas. O Theos na mas prostateuei. / もちろん！収穫はほとんど台無しだった。自然て恐ろしいね？
+v1;60;Megalo to onoma tou! Paraligo na me xtipisei o satanas me kerauno! / 全くだよ、もう少しで稲妻に打たれるところだったし
+v2;100;Katse ore sto spiti sou xristiane! Afou ekso itan epikyndina! / 家の中にいなかったの？嵐の最中に外にいるなんて危険だよ！
+v1;120;En bio mathisi... / 長生きして学んでいくしかないさ
 
 newchat;key:lightningPig,weigth:1,v1:adult,v2:adult
 v1;0;Ego den aisthanomai kala ...  / なんか具合が悪いなぁ... 
-v2;30;Ti trechei me sena? Eisai arrostos?  / どうしたの? 病気? 
-v1;60;Ochi, ego jj-molis thymithike kapoia ora-na symvei. / ううん、ちょ...ちょっと思い出した事が、ある...だけ。
-v2;100;Boreite ichou pragmatika epireazontai. Eiste sigouroi oti den einai arrostos? / 本当に具合が悪いそうだね? 本当に病気じゃないの? 
-v1;120;N-ochi, ego apla f-aisthanontai fovismenoi.  / う...うん。ただちょっと、こ...怖くって。
-v2;150;Ti synevi loipon? / 何があったの? 
-v1;180;Kata ti diarkeia tis l-teleftaia kataigida. Perpatisa exo apo to chorio-vv, ixera oti den borousa na paro piso sto chorio prin apo tin kataigida. Gi 'afto kai kryftike kato apo ena dentro.  / 前の、あ...嵐の途中。嵐の前に村に戻るには間に合わなくて、私はむ...村の外を歩いていたんだ。だから木の下に隠れたんだ。
-v2;210;Tha diakindyneve ti zoi sas exo apo to chorio! Tha borouse na eiche pethanei!  / 村の外に居たって!死んでたかもしれないよ!
-v1;240;Loipon, imoun asfalis. Sti synecheia, omos eida ena gourouni. I lighning chtypise. Kai oi nekroi p-gourouni ... I-afto sikothike kai kinithike l-san ki emas, ch-kynigoun emena me ena lampero sw-spathi!  / えっと、私は安全だったんだけど。近くに豚がいて。雷が直撃して豚が死んでさ。そ...そしたら豚がひ...人みたいにたちあがって、ひ...光る剣を持って追いかけてきたんだ! 
-v2;290;Tha einai anoisies. Tha prepei na itan enas efialtis. /  ばかばかしい。きっとそれはただの悪夢だよ。
-v1;320;Itan alitheia! Sosto! Sosto! Sosto! / ほんとだよ! ほんとだってば! 嘘じゃないったら!
-v2;350;Eiste treloi. Pigainete na parete ligo krasi, kai na iremisoun. / あなたはどうかしてる。少しワインでも飲んで落ち着いて。
-v1;380;Tha d-kanoume afto. Borei-Isos afto tha voithisei.  / う...うん。そうする。す...少し気が楽になるかも。
+v2;30;Ti trechei me sena? Eisai arrostos?  / どうしたの？病気かい？ 
+v1;60;Ochi, ego jj-molis thymithike kapoia ora-na symvei. / いや、ちょ、ちょっと思い出したことがあって...
+v2;100;Boreite ichou pragmatika epireazontai. Eiste sigouroi oti den einai arrostos? / 顔が真っ青だよ。本当に病気じゃないの？ 
+v1;120;N-ochi, ego apla f-aisthanontai fovismenoi.  / うん。ただちょっと、こ、怖くなっちゃって
+v2;150;Ti synevi loipon? / 何があったのさ？
+v1;180;Kata ti diarkeia tis l-teleftaia kataigida. Perpatisa exo apo to chorio-vv, ixera oti den borousa na paro piso sto chorio prin apo tin kataigida. Gi 'afto kai kryftike kato apo ena dentro.  / こ、この前の雷雨の時、用事があってむ、村の外に出たんだ。嵐の前に村へ戻れそうになくて、木の下に隠れたんだ。
+v2;210;Tha diakindyneve ti zoi sas exo apo to chorio! Tha borouse na eiche pethanei!  / 村の外に居たのかい！死んでいたかもしれないぞ！
+v1;240;Loipon, imoun asfalis. Sti synecheia, omos eida ena gourouni. I lighning chtypise. Kai oi nekroi p-gourouni ... I-afto sikothike kai kinithike l-san ki emas, ch-kynigoun emena me ena lampero sw-spathi!  / まぁ、私は無事だったから。けれど、近くにいた豚に雷が直撃して、その豚は死んじゃったんだ。なのに次の瞬間、死んだはずの...ぶ、豚がヒ...ヒトみたいに立ち上がって、光る剣を持って..私をお、お、追いかけてきたんだっ！ 
+v2;290;Tha einai anoisies. Tha prepei na itan enas efialtis. / ばかばかしい。悪い夢でも見てたのさ
+v1;320;Itan alitheia! Sosto! Sosto! Sosto! / ほんとだよ！ほんとだってば！嘘じゃないったら！
+v2;350;Eiste treloi. Pigainete na parete ligo krasi, kai na iremisoun. / 動転してるだけだよ。少しワインでも飲んで落ち着いて
+v1;380;Tha d-kanoume afto. Borei-Isos afto tha voithisei.  / あ...あぁ..そうする。す...少し楽になるかも
+
+//newchat;key:souvlaki,v1:adult,v2:adult,v1:male,v2:female,weigth:10
+//v1;0;Ach ... Souvlaki, to ena kai monadiko fagito!  / あぁ...スブラキ、最高の食べ物だね！
+//v2;30;An oi andres den echoun trofi mas-kanei tis gynaikes ... / もし食事を作ってくれる私たちがいなかったらどうするのよ...
+//v1;60;Tha kanoun to fagito tous eaftous mas! / そりゃ自分で作るさ！
+//v2;100;Alitheia? Pos ginetai kai pali souvlaki? / ほんとに？それじゃあどうやってスブラキを作るかわかる？ 
+//v1;130;Err ... Vazete ta psaria, ochi, paidakia sto fourno, tote ...  / おほん...えーっと魚...じゃなくて羊肉をかまどに入れて...あー次は... 
+//v2;190;... vazeis me kapoion feta se ena ravdi. Den boreite pragmatika na mageirepsoun! / ...フェタチーズと一緒に串に刺してかまどで焼くの。ほら、全然できてないじゃない！
 
 newchat;key:souvlaki,v1:adult,v2:adult,v1:male,v2:female,weigth:10
-v1;0;Ach ... Souvlaki, to ena kai monadiko fagito!  / あぁ...スブラキ、最高の食べ物だね!
- 
-v2;30;An oi andres den echoun trofi mas-kanei tis gynaikes ... / もしあなたたち男が食事を作ってくれる女がいなかったら...
-v1;60;Tha kanoun to fagito tous eaftous mas! / そりゃ自分たちで作るさ! 
-v2;100;Alitheia? Pos ginetai kai pali souvlaki? / ほんとに? じゃあどうやってスブラキを作るかわかる? 
-v1;130;Err ... Vazete ta psaria, ochi, paidakia sto fourno, tote ...  / えへん...えーと魚...じゃなくて羊肉をかまどに入れて...えーと... 
-v2;190;... vazeis me kapoion feta se ena ravdi. Den boreite pragmatika na mageirepsoun! / ...串にフェタチーズと一緒に刺してかまどで焼くの。 ほら、全然料理できないじゃない! 
+v1;0;Ax ... Souvláki, to éna kai monadiko fagito! / あぁ...スブラキ、最高の食べ物だね！
+v2;30;...I panagia na mas exei kala ... / 聖母マリアよ、みことばもて我らを守りたまえ...
+v1;60;Agia trias fyllaton emas! / 父と子と聖神の名において我に力を与えたまえ！
+v2;100;Amin / アーメン
+v1;130;Amin... / アーメン...
+v2;190;...Pou ebala to alati? / さて、どこに塩を置いたっけ？
 
 newchat;key:loneVillage,weigth:10
-v1;0;Vareto. ola einai panta to idio edo. / 退屈だな。ここは常にいつも同じだね。
-v2;30;Toulachiston einai eiriniki. / まぁそれって平和ってことじゃない。
-v1;60;Tipota idiaitero gia ena apomakrysmeno chorio san ti diki mas! / うちみたいな辺境の村なら特別なことなんてあるわけないか! 
+v1;0;Vareto. ola einai panta to idio edo. / 退屈だな。ここはいつも同じだね
+v2;30;Toulachiston einai eiriniki. / まぁそれって平和ってことじゃない
+v1;60;Tipota idiaitero gia ena apomakrysmeno chorio san ti diki mas! / うちみたいな辺鄙な村なら特別なことなんてあるわけないか！
 
 newchat;key:city,v1:adult,v2:adult,weigth:2
-v1;0;Otan imoun mikros, ithela na einai enas exerevnitis, na anakalypsoun nea edafi kai na pliroun endiaferontes neous anthropous. Alla tora? Eimai kollisei se afto to apomakrysmeno chorioudaki. Thelo na pao kai na episkeftheite nea meri.  / 私は若いころ、探検家になりたかったんだ。新しい土地を発見し、興味深い新しい人々に会いに。でも今はどう? 私はこの辺境の小さな村で立ち往生している。私は新天地を求めて旅に出たい。
-v2;30;Alla den tha vreite megali diafora sto allo chorio. Eimaste oloi ligo poly to idio. / でもほかの村でも変わり映えしないと思うよ。我々とほとんど変わらない生活だろうし。
-v1;60;Den milo gia ta choria. Milo gia tis poleis, i akoma kai i poli! / 村の話をしてるんじゃないよ。町や大都市についての事を言ってるの! 
-v2;90;I poli? Ennoeis Konstantinoupoli? / 都市? 首都みたいなってこと? 
-v1;120;Nai! To kentro tis endoxis aftokratorias mas. Einai to thavma tou kosmou. / そう! 私たちの帝国の栄光の首都さ。まさに世界の不思議だね。
-v1;150;Yparchoun perissoteroi apo 500 000 anthropoi pou zoun ekei, boreite na imangine afto?! / あそこでは50万人を超える人々が生活してるんだそうだ、想像できる?!
-v2;180;Akougetai adynato gia mena. 500 000 anthropoi se ena meros? / 不可能のように聞こえるんだけど。一か所で50万人?! 無理でしょ! 
+v1;0;Otan imoun mikros, ithela na einai enas exerevnitis, na anakalypsoun nea edafi kai na pliroun endiaferontes neous anthropous. Alla tora? Eimai kollisei se afto to apomakrysmeno chorioudaki. Thelo na pao kai na episkeftheite nea meri.  / 若い頃は探検家になりたかったんだ。新しい土地を発見し、面白そうな人々に出会いたくて。でも今は？この辺鄙な小さい村で立ち往生している。私は新天地を求めて旅に出たい
+v2;30;Alla den tha vreite megali diafora sto allo chorio. Eimaste oloi ligo poly to idio. / 他の村も変わり映えしないと思うよ。私たちと大体同じだろうし
+v1;60;Den milo gia ta choria. Milo gia tis poleis, i akoma kai i poli! / 村の話をしてるんじゃあない。町や大都市へ行きたいんだ！
+v2;90;I poli? Ennoeis Konstantinoupoli? / 都市？首都コンスタンティノープルみたいな？ 
+v1;120;Nai! To kentro tis endoxis aftokratorias mas. Einai to thavma tou kosmou. / そう！栄光の帝国の中心地。まさに世界の驚異と言えるあの場所のような
+v1;150;Yparchoun perissoteroi apo 500 000 anthropoi pou zoun ekei, boreite na imangine afto?! / あそこでは500,000を超える人々が生活してるそうだよ、想像できる？！
+v2;180;Akougetai adynato gia mena. 500 000 anthropoi se ena meros? / ありえない。一か所に500,000人も居るなんて！夢でも見たんじゃないか？
 
 newchat;key:wine,v1:adult,v2:adult,v1:male,v2:male,weigth:10
-v1;0;Min pieite krasi mono! / おいワインは一人で飲むもんじゃない! 
-v2;30;Posimou mazi einai pio diaskedastiko! / 一緒に飲めばもっと美味いぞ! 
-v1;50;Cheers gia to krasi! / ありがとう、さぁ乾杯だ! 
+v1;0;Min pieite krasi mono! / おい一人でワインを飲むなよ！ 
+v2;30;Posimou mazi einai pio diaskedastiko! / 一緒に飲めばもっと美味いぞ！
+v1;50;Cheers gia to krasi! / ありがとう、さぁ乾杯だ！
 v2;70;Cheers! / 乾杯! 
 
-newchat;key:boyvillagechief,v1:child,v1:vtype:baron_byzantine-centurio_byzantine-patriarch_byzantine,v1:male,weigth:5
-v1;0;Tha eimai o archigos tou choriou argotera, oldie! / 僕は未来の村長だ。じじい! 
-v2;30;Min eisai toso thrasys, agoraki. I tha parei ena chastouki! / 生意気を言うもんじゃない、ちっさいの。それとも平手打ちを食らいたいのか! 
-v1;60;Kai ego tha sas parei sti synecheia chastoukise! / やりかえしてやるからね! 
-v2;80;*chastoukia* / *ベシン*
-v1;85;Och, afto ponaei! / うわ、痛い! 
-v2;105;Isos echete mathei kati! / これで少しは学んだだろう! 
+//newchat;key:boyvillagechief,v1:child,v1:vtype:baron_byzantine-centurio_byzantine-metropolit_byzantine,v1:male,weigth:5
+//v1;0;Tha eímai o archigos tou chorioú argotera, oldie! / 俺は次の村長だぞ。やいじじい！ 
+//v2;30;Min eísai toso thrasýs, agoráki. Í tha páreis kana chastoúki! / 生意気を言うもんじゃないぞ、ちびっこ。それとも平手打ちを食らいたいのか！ 
+//v1;60;Kai ego to idio! / おうやり返してやるよ！
+//v2;80;*chastoúkia* / 「バシッ！ 」
+//v1;85;Och, afto ponáei! / うわっ痛い！
+//v2;105;Traba fyge tora! / これで少しは学んだだろう！
 
 newchat;key:kids1,v1:child,v2:child,notrel:sibling,weigth:10
-v1;0;O bampas mou einai ischyroteri apo ti diki sas. / うちのお父さんは君のお父さんより強いんだからね。
-v2;30;Ochi! O bampas mou einai i ischyroteri sto chorio! / 違うもん! うちのお父さんが村で一番強いんだもん! 
-v1;60;Ochi! O bampas mou einai o ischyroteros stin aftokratoria! / 違うもん! うちのお父さんは帝国で一番強いんだもん! 
-v2;90;Impossible! O bampas mou einai i ischyroteri ston kosmo! / ないね! うちのお父さんは世界で一番強いんだから! 
-v1;120;Sigoura o bampas mou tha borouse na nikisei diki sas se ligotero apo dyo chtypimata! / うちのお父さんが君のお父さんに勝つのに2打もいらないって賭けるよ! 
-v2;150;Parte ton bampa sas etoimos gia enan agona! / じゃあお父さん連れてきなよ! 
+v1;0;O bampas mou einai ischyroteri apo ti diki sas. / ウチのお父さんはアンタのお父さんよりも強いもんね
+v2;30;Ochi! O bampas mou einai i ischyroteri sto chorio! / 違うもん！うちのお父さんが村で一番強いんだもん！ 
+v1;60;Ochi! O bampas mou einai o ischyroteros stin aftokratoria! / あり得ないね、ウチのお父さんは帝国で一番強いから！ 
+v2;90;Impossible! O bampas mou einai i ischyroteri ston kosmo! / 話にならないね！うちのお父さんは世界で一番強いから！ 
+v1;120;Sigoura o bampas mou tha borouse na nikisei diki sas se ligotero apo dyo chtypimata! / ウチのお父さんがアンタのお父さんに勝つのに2発もいらないって賭けてもいいよ！ 
+v2;150;Parte ton bampa sas etoimos gia enan agona! / そこまで言うならお父さん連れてきなよ！ 
 
 newchat;key:kids2,v1:child,v1:male,v2:child,v2:female,weigth:10
-v1;0;Koritsia einai ilithioi. / 女の子ってバカだねぇ... 
+v1;0;Koritsia einai ilithioi. / 女の子ってバカだねぇ
 
 newchat;key:kids3,v2:child,v2:male,v1:child,v1:female,weigth:10
-v1;0;Echete dei pouthena koukla mou? Den boro na to vro ... / 私のお人形知らない? 見つからないの... 
-v2;30;Dose mou piso to spathi mou kai tha to parei piso! / 私の剣を返してくれたらお人形を返してあげるよ! 
-v1;60;Boreite na to eklepse! Kleftis! / まぁ盗んだのね! この泥棒! 
+v1;0;Echete dei pouthena koukla mou? Den boro na to vro ... / 私のお人形知らない？見つからないの... 
+v2;30;Dose mou piso to spathi mou kai tha to parei piso! / 僕の剣を返してくれたらお人形は返してあげるよ！ 
+v1;60;Boreite na to eklepse! Kleftis! / まぁ盗んだのね！この泥棒！
 
 newchat;key:clothes1,v1:adult,v1:female,v2:adult,v2:female,weigth:10
-v1;0;Echeis dei kainourgia roucha mou? / 私の新しい服見てくれた? 
-v2;30;Eiste mia pragmatiki omorfia agapite mou. o, ti tairiazei! / あなたはとっても美しいよ。なんでも似合ってしまう! 
-v1;60;Alla den eimai toso omorfi oso boreite! / でもあなたは私より美しいわよ! 
-v2;90;Ohh afto den einai alitheia, $targetfirstname! / えー、そんなことないわよ $targetfirstname! 
+v1;0;Echeis dei kainourgia roucha mou? / 私の新しい服どうかしら？
+v2;30;Eiste mia pragmatiki omorfia agapite mou. o, ti tairiazei! / あなたはとっても美しいよ。なんでも似合ってる！ 
+v1;60;Alla den eimai toso omorfi oso boreite! / でもあなたほど美しくないわ！
+v2;90;Ohh afto den einai alitheia, $targetfirstname! / えー、そんなことないわよ$targetfirstname！ 
 
 newchat;key:clothes2,v1:adult,v1:female,v2:adult,v2:female,weigth:1
-v1;0;Echete dei nea roucha mou? / 私の新しい服見てくれた? 
-v2;30;Eiste mia omorfia. o, ti tairiazei, agapite $targetfirstname mou! / あなたはとっても美しいよ。なんでも似合うから大丈夫 $targetfirstname! 
-v1;60;Alla den eimai toso omorfi oso boreite! / でもあなたは私より美しいわよ! 
-v2;90;True. / それはそうね。
+v1;0;Echete dei nea roucha mou? / 私の新しい服どうかしら？
+v2;30;Eiste mia omorfia. o, ti tairiazei, agapite $targetfirstname mou! / あなたはとっても美しいわ。なんでも似合うから大丈夫よ$targetfirstname！ 
+v1;60;Alla den eimai toso omorfi oso boreite! / でもあなたほど美しくないわ！
+v2;90;True. / それはそうね
 v1;100;!!! / !!! 
 
 newchat;key:clothes3,v1:adult,v1:female,v2:adult,v2:male,weigth:5
-v1;0;Echeis dei kainourgia roucha mou, $targetfirstname? / $targetfirstname 私の新しい服見てくれた? 
+v1;0;Echeis dei kainourgia roucha mou, $targetfirstname? / $targetfirstname、私の新しい服見てくれた？ 
 v2;30;Nomizo oti palia roucha sas fainotan poly kalytera gia esas. / 前の服のほうが似合ってると思うんだけど... 
-v1;60;TI? / なんですって? 
-v2;70;Ochi. ochi! Eiste omorfi! Mou aresei afto to neo ... pragmata! / え... いいえ! 美しいよ! うん、新しい服も... いいね! 
+v1;60;TI? / なんですって？
+v2;70;Ochi. ochi! Eiste omorfi! Mou aresei afto to neo ... pragmata! / いや..違う！君は美しいよ！新しい服も...いい感じだね！ 
 
 newchat;key:clothes4,v1:adult,v1:female,v2:adult,v2:male,weigth:5
-v1;0;Etsi den tha aresei to neo mou forema? / ねえ、新しいドレスどうかな? 
-v2;30;I palia sas tairiazei kalytera. / 前の奴のほうが似合ったと思うよ。
-v1;60;TI? / なんですって? 
-v2;70;Hey $targetfirstname, einai apla i gnomi mou. / うん、まぁ僕の意見としてはだよ $targetfirstname。
-v1;90;Toulachiston eisai eilikrinis! / 少なくともあなたは正直だってわかったわ! 
+v1;0;Etsi den tha aresei to neo mou forema? / ねえ、新しいドレスどうかな？
+v2;30;I palia sas tairiazei kalytera. / この前のほうが似合ったと思うなぁ
+v1;60;TI? / なんですって？
+v2;70;Hey $targetfirstname, einai apla i gnomi mou. / うん、僕の意見としてはだけどね、$targetfirstnameさん
+v1;90;Toulachiston eisai eilikrinis! / 少なくともあなたは正直だってわかったわ！
 
 newchat;key:girl,v1:adult,v1:female,v2:child,v2:male,rel:parent,weigth:5
-v2;0;Ti prepei na kanete otan sas aresei ena koritsi? / 女の子を好きになったらどうしたらいいと思う? 
-v1;30;Kante komplimenta tis kai einai oraio na tis. / 彼女をほめてあげて、優しくしてあげなさい。
-v2;60;Ochi! Afto einai adynaton! Poies tha einai oi alloi skeftontai gia mena tote? / できないよ! 他の人になんて思われると思う? 
-v1;90;An agapouse pragmatika, den tha noiazontai gia tous allous. / 本当に彼女を好きなら、ほかの人にどう思われるかなんて気にしちゃだめよ。
+v2;0;Ti prepei na kanete otan sas aresei ena koritsi? / 女の子を好きになったらどうしたらいいと思う？
+v1;30;Kante komplimenta tis kai einai oraio na tis. / 彼女を褒めて、優しくしてあげなさい
+v2;60;Ochi! Afto einai adynaton! Poies tha einai oi alloi skeftontai gia mena tote? / そんな！できないよ！他の人に何思われるかわかんないよ 
+v1;90;An agapouse pragmatika, den tha noiazontai gia tous allous. / 本当に彼女が好きなら、他の人にどう思われるかなんて気にしちゃだめよ
 
 newchat;key:householdTry,v1:adult,v1:female,v2:child,v2:female,rel:parent,weigth:10
-v1;0;Irthe i ora na sas didaxei pos na frontisei ena spiti. / さて、そろそろ家事の仕方をおしえなきゃね。
-v2;30;Megali, ti echoume archisei me? Boro na kano souvlaki? Pleaaase! / やった! 何から始めるの? スブラキ作ってもいい? お願い～! 
-v1;60;As doume poso kaloi eiste sto na kanei ton katharismo prota. / まずは掃除がどれくらい上手かってところから始めましょうか。
-v2;90;Entaxei, alla tha mou deixei pos na kanei souvlaki argotera, yposchethike? / わかった、でも後でスブラキの作り方教えてくれるって約束してくれる? 
-v1;120;Yposchethei. / 約束するわ。
+v1;0;Irthe i ora na sas didaxei pos na frontisei ena spiti. / さて、そろそろ家事の仕方を教えなきゃね
+v2;30;Megali, ti echoume archisei me? Boro na kano souvlaki? Pleaaase! / やったぁ、何から始めるの？スブラキを作ってもいい？お願いーー！ 
+v1;60;As doume poso kaloi eiste sto na kanei ton katharismo prota. / まずはお掃除の腕前を見てみましょう
+v2;90;Entaxei, alla tha mou deixei pos na kanei souvlaki argotera, yposchethike? / 後でスブラキの作り方を教えてね、約束よ？
+v1;120;Yposchethei. / 約束するわ
 
 newchat;key:doll,v1:adult,v1:male,v2:child,v2:female,rel:parent,weigth:5
-v2;0;Boreis na mou agorasei afto to neo koukla? O kathenas echei ena neo, alla ego ... / 新しいお人形を買ってくれない? 私以外、みんな新しいのを持っているの... 
-v1;30;Poia einai i magiki lexi ? / さて魔法の呪文はなんだったっけ? 
-v2;60;Boreite sas parakalo na mou agorasei mia nea koukla? / 新しいお人形を買って「くれませんか」? 
-v1;90;Entaxei, alla tha prepei na min yposchontai na milisoume pia piso! / さて、帰ってからみんなに自慢しないって約束すればかな! 
-v2;120;Yposchethei. / 約束する! 
+v2;0;Boreis na mou agorasei afto to neo koukla? O kathenas echei ena neo, alla ego ... / 新しいお人形を買ってくれない？私以外、みんな新しいのを持っているの... 
+v1;30;Poia einai i magiki lexi ? / 魔法の言葉はなんだったかしら？ 
+v2;60;Boreite sas parakalo na mou agorasei mia nea koukla? / 新しいお人形を買って「くれませんか」？ 
+v1;90;Entaxei, alla tha prepei na min yposchontai na milisoume pia piso! / わかったわ、その代わりもう口答えしないって約束して！
+v2;120;Yposchethei. / 約束する！
 
 newchat;key:woodSword,v1:adult,v1:male,v2:child,v2:male,rel:parent,weigth:5
-v2;0;Ouch... / うぅっ... 
-v1;30;Eisai foveri! Ti synevi? / これはひどい! なにがあったんだ? 
-v2;60;Loipon, o kathenas echei ena xylino spathi, alla emena. / あぁ、みんな木の剣を持ってるんだ。けど僕は...! 
-v2;80;Etsi apofasisan na mou epitethoun! / だからみんな僕を攻撃するんだ! 
-v2;100;Tha prepei na paro ena, para poly! / 僕にも木の剣が必要だよ! 
-v1;120;Vlepo echete chrisimopoiisei chroma gia ta simadia kai tis pliges sou. Kali prospatheia! / ふむ、私には塗料を使って傷跡や傷を書いたようにみえるな。いいトライだった! 
-v2;150;Telos panton! Parakalo na mou dosete ena spathi! / なんでもいいよ! 頼むから剣をちょうだい! 
-v1;180;Spathi einai epikindynes. Den xifos gia sena! / 剣は危ないんだ。お前にやる剣はない! 
+v2;0;Ouch... / いたた... 
+v1;30;Eisai foveri! Ti synevi? / ひどい顔してるよ！どうしたの？
+v2;60;Loipon, o kathenas echei ena xylino spathi, alla emena. / あぁ、みんな木刀を持っていてね、けれど僕は... 
+v2;80;Etsi apofasisan na mou epitethoun! / それでみんな寄って集って僕を攻撃するんだ！ 
+v2;100;Tha prepei na paro ena, para poly! / 僕にもちょうだいよ！
+v1;120;Vlepo echete chrisimopoiisei chroma gia ta simadia kai tis pliges sou. Kali prospatheia! / 私には顔料を使って傷跡や傷を書いたように見えるぞ。惜しかったな！ 
+v2;150;Telos panton! Parakalo na mou dosete ena spathi! / とにかく！頼むから剣をちょうだい！ 
+v1;180;Spathi einai epikindynes. Den xifos gia sena! / 剣は危ないんだ。お前に剣は要らないよ！ 
 
 newchat;key:pride1,v1:adult,v1:male,v2:adult,v2:male,v1:vtype:architect_byzantine,weigth:3
-v1;0;Ktiria mas einai toso omorfo pou einai panta megali gia na deite to ergo mas! / わが社の建築物は美しい、そしていつ見ても我々の仕事は素晴らしい! 
-v2;30;Oi Magia theloun na dimiourgisoun poly oraia domes, kathos kai. / マヤ人もとても美しい建物を建てるよ。
-v1;60;Min me enochloun me tetoia weirdos. Ta ktiria mas fainontai poly kalytera! / このような変人で私を困らせないでください。当社の建物ははるかに優れています! 
+v1;0;Ktiria mas einai toso omorfo pou einai panta megali gia na deite to ergo mas! / 私たちの建物は美しい、そしていつ見ても素晴らしい出来栄えです！ 
+v2;30;Oi Magia theloun na dimiourgisoun poly oraia domes, kathos kai. / マヤの人たちも、それはそれは見事な建物を建てていますよね
+v1;60;Min me enochloun me tetoia weirdos. Ta ktiria mas fainontai poly kalytera! / そんな変な人たちと一緒にしないで。私たちの建物の方が遥かに立派です！ 
 v2;90;Loipon ... / うーん... 
-v1;100;Prodoti! Echeis kamia ethniki yperifaneia? / 裏切り者! あなたには愛国心はないのか?!
+v1;100;Prodoti! Echeis kamia ethniki yperifaneia? / 裏切り者！あなたに愛国心はないんですか？！
 
 newchat;key:pride2,weigth:10
-v1;0;Emeis oi Romaioi borei na einai pragmatika yperifanoi gia osa echoume petychei! / 私たちローマ人は私たちの建築を誇りに思う! 
-v2;30;Fysika! o, ti egine deite apo emas! / もちろん! これら全ては私たちの仕事です! 
-v1;60;I pio ischyri aftokratoria stin istoria tou kosmou! / 世界史の中で最強の帝国を! 
-v2;90;Alla ethni tha apolafsete se doxa mas. / 他国は我々の栄光の前にひざまずくのだ! 
-v1;120;Tha prepei na! Eimaste oi kyriarchoi! / そうだ! 我々が支配者なのだ! 
+v1;0;Emeis oi Romaioi borei na einai pragmatika yperifanoi gia osa echoume petychei! / 私たちローマ人は自分たちの偉業を誇りに思うべきだ！
+v2;30;Fysika! o, ti egine deite apo emas! / もちろんです！見えるもの全て私たちが作り上げた歴史です！
+v1;60;I pio ischyri aftokratoria stin istoria tou kosmou! / 歴史上最強の帝国よ！
+v2;90;Alla ethni tha apolafsete se doxa mas. / 他の国々は私たちの栄光の前にひざまずくのだ！ 
+v1;120;Tha prepei na! Eimaste oi kyriarchoi! / そのとおりだ！私たちが支配者なのだ！ 
 
 newchat;key:pride3,weigth:10
-v1;0;I romaiki aftokratoria tha kyvernisei ton kosmo gia alli mia fora!  / ローマ帝国による世界征服を!
-v2;30;Emeis tha! / おー! 
-v1;60;Ola tha einai kalytera sti synecheia! / 全てはそれで改善される! 
-v2;90;Nai! / おー! 
-v1;100;Cheers gia tin aftokratoria! / 帝国に乾杯! 
-v2;110;Cheers! / 乾杯! 
+v1;0;I Romaïkí autokratoría tha kyvernísei ton kosmo gia álli mia forá! / ローマ帝国は世界を再び征服する！
+v2;30;Pragmati! / 我々の手で！
+v1;60;Kai ola tha eínai kalýtera! / 全てがより良いものになっていく！
+v2;90;Pragmati! / いえーい！
+v1;100;Zito i autokratoría! / 帝国に乾杯! 
+v2;110;Zito! / 乾杯! 
 
 newchat;key:rain,tag:notraining,weigth:10
-v1;0;Tha vrexei. Syntoma. / もう少ししたら雨が来るね。
-v2;30;Boro na aisthanomai, para poly. / 私も雨の気配を感じるね。
-v1;60;Periergo. Einai panta i idia posotita imeres mechri vrechei. / 変だよね。いつも同じ日付間隔で雨が降るんだ。 
-v2;100;Nomizete oti etsi, para poly? / あなたもそう思う? 
-v2;125;Periergo zoi edo, etsi den einai? / 変な世界だよねぇ、そう思わない? 
-v1;155;Sigoura! / 思う!
+v1;0;Tha vrexei. Syntoma. / もうすぐ雨が降るね
+v2;30;Boro na aisthanomai, para poly. / そんな気配だね
+v1;60;Periergo. Einai panta i idia posotita imeres mechri vrechei. / 変だよね。雨が降るまでの日数はいつも同じなの 
+v2;100;Nomizete oti etsi, para poly? / あなたもそう思う？
+v2;125;Periergo zoi edo, etsi den einai? / 変な生活だよね？
+v1;155;Sigoura! / 確かに！
 
 newchat;key:weird1,v2:child,weigth:1
-v1;0;Koita afto to gourouni! Einai charitomeno, etsi den einai? / この豚見てよ、かわいいと思わない? 
-v2;30;WAAAaaah, fyge! / うわぁぁぁ! 無理! 
-v1;60;Fovasai ton choiron? / 豚が怖いの? 
-v2;80;N-ochi! Den eimai! / ち、ちがうよ! そうじゃない!
-v1;110;Hahahahahaha! Tora afto einai asteio! / あははははは! すっごい笑える!
+v1;0;Koita afto to gourouni! Einai charitomeno, etsi den einai? / 見てください！この豚さん。可愛いですよね
+v2;30;WAAAaaah, fyge! / うわぁぁぁ！あっちいけ！
+v1;60;Fovasai ton choiron? / 豚が怖いの？
+v2;80;N-ochi! Den eimai! / ち、ちがうよ！怖くないよ！
+v1;110;Hahahahahaha! Tora afto einai asteio! / あははははは！面白ーい！
 
 newchat;key:weird2,weigth:1
-v2;0;Aaa ... Kali souvlaki. Thelete mia boukia? / あぁ...スブラキはやっぱり美味しいよなぁ。 少し食べる?
+v2;0;Aaa ... Kali souvlaki. Thelete mia boukia? / あぁ...美味いスブラキだ。一口どう？
 v1;30;*Bites* / *パクッ*
-v1;40;Sas efcharisto! Agapo souvlaki. / ありがと! スブラキは大好物なんだ。
-v2;70;Poios den! / 嫌いな奴なんていないさ!
-v1;100;Echete pote prospathisei na thesei kapoia vromia gia souvlaki? / 今までにスブラキに少し土を乗せたことはあるかい?
+v1;40;Sas efcharisto! Agapo souvlaki. / ありがと！スブラキは大好物なんだ
+v2;70;Poios den! / 嫌いな奴なんていないさ！
+v1;100;Echete pote prospathisei na thesei kapoia vromia gia souvlaki? / 今までにスブラキに少し土をまぶしたことはあるかい？
 v2;140;... / ...
-v2;150;Ochi? / ないよ? 
-v1;170;Merikes fores kano ... Ach .. ola xekinisan otan souvlaki mou epese sto edafos perysi ... Delicous! / たまにやるんだけどね...あぁ... まぁ去年地面にスブラキを落としてしまってからなんだけど... 美味しいんだよ!
-v2;220;Perimenete! Vazete souvlaki sas sti vromia kai sti synecheia na to fate? Ti sto diaolo ..? / ちょいまち? んじゃスブラキに土を突っ込んで食べてるって? 何してるの..?
-v1;260;Alla kalo gousto! /  でも美味いんだってば!
-v2;280;Eiste pragmatika trelos. / あんたおかしいよ。
+v2;150;Ochi? / ないよ？
+v1;170;Merikes fores kano ... Ach .. ola xekinisan otan souvlaki mou epese sto edafos perysi ... Delicous! / たまにやるんだけどね...あぁ...去年地面にスブラキを落としてしまったのがきっかけで...美味しいんだよ！
+v2;220;Perimenete! Vazete souvlaki sas sti vromia kai sti synecheia na to fate? Ti sto diaolo ..? / ちょっと待ってよ！スブラキを土だらけにして食べるってこと？何してるの..？
+v1;260;Alla kalo gousto! /  でも美味いんだってば！
+v2;280;Eiste pragmatika trelos. / あんた頭おかしいよ
 
 newchat;key:weird3,weigth:1
-v1;0;Thelo na odigiso ena gourouni! / 豚に乗りたい!
-v2;30;Giati? / なんで?
-v1;60;Einai diaskedastiko! / 楽しいじゃない!
-v2;80;Giati sto kalo tha odigiso ena gourouni? / 一体どうして豚に乗りたいわけ? 
-v1;110;Epeidi einai diaskedasi! / だから楽しいからだって!
-v2;120;Eisai trelos. / あんたおかしいって。
+v1;0;Thelo na odigiso ena gourouni! / 豚に乗りたい！
+v2;30;Giati? / なんで？
+v1;60;Einai diaskedastiko! / 楽しいじゃん！
+v2;80;Giati sto kalo tha odigiso ena gourouni? / だからどうして豚に乗りたいわけ？ 
+v1;110;Epeidi einai diaskedasi! / 絶対楽しいもん！
+v2;120;Eisai trelos. / あんた頭おかしいんじゃない？
 
 newchat;key:chatter1,v1:female,v2:female,v1:adult,v2:adult,weigth:15
-v1;0;Echete idi akousei gia to mystiko tou xylokopos tou? / ねえ木こりの秘密について聞いたことある?
-v2;30;Ochi, ti einai lathos me afton? / いいえ、彼に何か問題でも?
-v1;60;Fainetai na syllegoun ta mila, kai ta poloun stous Normandous! / リンゴを集めてノルマン人に売ってるんですって!
-v2;90;No way! Kai krata ta chrimata? / うそでしょ! で、彼がお金を取ってしまうわけ?
+v1;0;Echete idi akousei gia to mystiko tou xylokopos tou? / ねえ木こりの秘密について聞いたことある？
+v2;30;Ochi, ti einai lathos me afton? / いや、彼がどうかしたの？
+v1;60;Fainetai na syllegoun ta mila, kai ta poloun stous Normandous! / リンゴを集めて、ノルマン人に売っているらしいよ！
+v2;90;No way! Kai krata ta chrimata? / うそでしょ!それじゃ彼はお金持ちなのか？
 v1;120;Fysika! / そうなのよ!
 
 newchat;key:chatter2,v1:female,v2:female,v1:adult,v2:adult,weigth:15
-v1;0;O syzygos mou eipe oti enas varonos tha episkefthei to chorio mas syntoma!  / 私の夫によると領主様が間もなく私たちの村を訪れるらしいわよ!
-v2;30;Giati tha prepei na echei erthei edo? / なんで領主様がこの村にくるの?
-v2;40;Ena tetoio ischyro, ischyros kai omorfos antras ...  / とっても権力があって、強くてハンサムで...
-v1;70;Ti? Boreite na tous aresei? / 何? あなた彼らみたいなのがいいわけ?
-v2;100;Tha prepei na paradechto oti einai elkystiki! / 魅力的なのは認めざるを得ないわよ!
+v1;0;O syzygos mou eipe oti enas varonos tha episkefthei to chorio mas syntoma!  / 旦那が言うには、もうすぐ領主様がこの村を訪れるらしいわよ！
+v2;30;Giati tha prepei na echei erthei edo? / なんで領主様がこの村にくるの？
+v2;40;Ena tetoio ischyro, ischyros kai omorfos antras ...  / とっても強くてハンサムで...
+v1;70;Ti? Boreite na tous aresei? / 何？あなた彼らみたいな人がいいわけ？
+v2;100;Tha prepei na paradechto oti einai elkystiki! / 魅力的なのは認めざるを得ないわ！
 
 newchat;key:chatter3,v1:female,v2:female,v1:adult,v2:adult,v1:hasspouse,v2:hasspouse,weigth:15
-v1;0;Yparchei mia chalari gynaika sto geitoniko chorio!  / 隣の村に魔性の女がいるらしいわよ! 
-v1;20;Symfona me tous ischyrismous, akomi kai oi andres tou choriou mas echoun paei ekei!  / 私たちの村の男も何人か彼女に会ってるみたいよ!
-v2;60;Kako eidiseis! Echo na amfisvitisei ton antra mou! / なんてこと! 夫を問い詰めなきゃいけないわ!
-v1;90;Mine fainetai na einai athoos. Den eiste sigouroi gia to diko sas, agapite mou!  / 私の夫は大丈夫みたいだけど。あなたのところはわからないわ、どうしましょう! 
-v2;120;Elpizo na einai toso kala. Echei kalytera. / 私の夫も大丈夫だと思いたいわ。いい人だもの。
+v1;0;Yparchei mia chalari gynaika sto geitoniko chorio!  / 隣の村に魔性の女がいるらしいわよ！
+v1;20;Symfona me tous ischyrismous, akomi kai oi andres tou choriou mas echoun paei ekei!  / 村の男も何人か彼女に会いに行ったそうよ！
+v2;60;Kako eidiseis! Echo na amfisvitisei ton antra mou! / なんて恐ろしいこと！旦那を問い詰めなきゃ！
+v1;90;Mine fainetai na einai athoos. Den eiste sigouroi gia to diko sas, agapite mou!  / 私の夫は大丈夫だったけど。あなたの所はわからないわね 
+v2;120;Elpizo na einai toso kala. Echei kalytera. / 旦那も大丈夫だと思いたいわ。いい人だもの
 
 newchat;key:chatter4,v1:female,v2:female,v1:adult,v2:adult,,v1:hasspouse,weigth:15
-v1;0;Mou aresei na vlepo paidia na paizoun! / 子供たちが遊んでるのを見てるのが好きだわ!
-v1;20;Tha me kanei panta na theloun na echoun ena moro! / いつも見てると子供が欲しくなるのよね!
-v2;50;Eiste sigouroi oti eiste se thesi na to antexoun oikonomika?  / あなたは子供を養う余裕はあるの?
-v2;70;Ta paidia einai akriva!  / とっても養うのは大変よ!
-v1;100;Den anisychei edo! O anthropos mou echei perissotero apo arketa chrimata. / それは大丈夫よ! 夫は十分なお金以上のものがあるわ。
+v1;0;Mou aresei na vlepo paidia na paizoun! / 子供たちが遊んでいるのを見るのが好きなの！
+v1;20;Tha me kanei panta na theloun na echoun ena moro! / いつも見てると子供が欲しくなるわね！
+v2;50;Eiste sigouroi oti eiste se thesi na to antexoun oikonomika?  / 養う余裕はあるの？
+v2;70;Ta paidia einai akriva!  / 子供を養うのはとっても大変なのよ！
+v1;100;Den anisychei edo! O anthropos mou echei perissotero apo arketa chrimata. / それは大丈夫だわ！夫には十分過ぎるほどお金があるもの
 
 newchat;key:chatter5,v1:female,v2:female,v1:adult,v2:adult,v2:hasspouse,weigth:15
-v1;0;Agapite mou, o anthropos sas einai enas methysos!  / あなたの旦那さんは酔っ払いだわ!
-v2;15;Pos boreis na to les afto? / どうしたらそうなるの?
-v1;45;Syzygos sas irthe methysmenos sto spiti mas chthes to vrady!  / 昨日の夜あなたの旦那さんが酔っぱらってうちに来て。
-v1;70;Eipe oti thelei na pantreftei ena provato.  / 彼は羊と結婚したいとか言い出したのよ! 
-v1;100;Kai oti tha yparxei mia terastia celebretion gamo! / で、とっても盛大な結婚式になるとかって!
-v1;130;Parakaloume, anaktisei ton elencho pano apo to atomo sas.  / しっかりと旦那さんを管理しないといけなさそうね。
-v1;150;Einai pragmatika anatrichiastiko. / すっごくわけわかんなかったわよ。
-v2;180;Entaxei entaxei, ego tha ton timorisei! / オーケーオーケー、あいつはお仕置きね!
-v2;210;Den krasi gi 'afton! / ワインはもうナシね!
+v1;0;Agapite mou, o anthropos sas einai enas methysos!  / あなたの旦那さんは呑兵衛ね！
+v2;15;Pos boreis na to les afto? / よくもそんなことが言えるわね
+v1;45;Syzygos sas irthe methysmenos sto spiti mas chthes to vrady!  / 昨夜あなたの旦那さんが酔っ払ってうちに来たのよ！
+v1;70;Eipe oti thelei na pantreftei ena provato.  / 羊と結婚したいとか言い出して！
+v1;100;Kai oti tha yparxei mia terastia celebretion gamo! / 盛大な結婚祝いをするとも言ってたわ！
+v1;130;Parakaloume, anaktisei ton elencho pano apo to atomo sas.  / しっかりと旦那さんの手綱は握っててよね
+v1;150;Einai pragmatika anatrichiastiko. / 気持ち悪かったわ
+v2;180;Entaxei entaxei, ego tha ton timorisei! / まぁわかりました、あいつはお仕置きね！
+v2;210;Den krasi gi 'afton! / ワインはもうナシね！
 
 newchat;key:chatter6,v1:female,v2:female,v1:adult,v2:adult,weigth:15
-v1;0;Psomi sas einai toso nostimo! Poio einai to mystiko sas? / あなたのパンはとっても美味しいわ! 何か秘密でもあるの?
-v2;30;Apla prostheste ligi zachari mesa.  / ほんの少しだけ砂糖をいれるのよ。
-v1;60;Alitheia? Tipota perissotero?  / 本当に? それだけなの?
-v2;90;Afto itan! Tha gefteite tin diafora. / それだけよ。 味が変わるのがわかると思うわ!
+v1;0;Psomi sas einai toso nostimo! Poio einai to mystiko sas? / あなたのパンはとっても美味しいわ！何か秘訣でもあるの？
+v2;30;Apla prostheste ligi zachari mesa.  / ほんの少しだけ砂糖をいれるのよ
+v1;60;Alitheia? Tipota perissotero?  / 本当に？それだけなの？
+v2;90;Afto itan! Tha gefteite tin diafora. / それだけよ。違いがはっきりわかると思うわ
 
 newchat;key:chatter7,v1:female,v2:female,v1:adult,v2:adult,v2:hasspouse,weigth:15
-v1;0;Poios itan o anthropos pou echete episkefthei chthes to vrady? / 昨日の夜あなたを訪ねた男の人はだれ?
-v2;30;Ti anthropos? / どの人?
-v1;40;O anthropos pou syrthike exo apo to parathyro sas! / あなたの窓からそっと出てきた人よ! 
-v1;45;Min nomizete oti den tha paratirisete! / 私が知らないなんて思わないでね! 
-v2;60;Pos tolmas ..? Imoun kai eimai panta pisti sto syzygo mou. / よくもまぁ..? 私は今も昔も夫に誠実よ。
-v1;80;Nai, nai. Tha elega oti, kathos, an imoun sti thesi sou. / はいはい、私もあなたの立場なら同じことを言うわね。
-v2;110;fto den einai dikaio! Min diadidoun fimes gia mena. / ひどいわ! 変な噂を立てないでよね。
+v1;0;Poios itan o anthropos pou echete episkefthei chthes to vrady? / 昨晩訪ねてきた男の人は誰なのよ？
+v2;30;Ti anthropos? / どんな人?
+v1;40;O anthropos pou syrthike exo apo to parathyro sas! / あなたの窓からそっと出てきた人よ！
+v1;45;Min nomizete oti den tha paratirisete! / 私が気づかないわけないでしょ！
+v2;60;Pos tolmas ..? Imoun kai eimai panta pisti sto syzygo mou. / よくもまぁ...私は今も昔も夫に忠実よ
+v1;80;Nai, nai. Tha elega oti, kathos, an imoun sti thesi sou. / はいはい、私もあなただったらそう言うわね
+v2;110;fto den einai dikaio! Min diadidoun fimes gia mena. / ずるいわ！噂を広めないで
 
 newchat;key:chatter8,v1:female,v2:female,v1:adult,v2:adult,weigth:15
-v1;0;Afta ta nea ergaleia mageirikis einai exairetiko! / 新しいキッチンツールは素晴らしいわ!
-v2;30;Nai, kanei to mageirema toso efkolo! Einai diaskedastiko! / ほんとね、料理するのがとても楽! 楽しいわ!
-v1;60;Efcharisto pigainei stous Smiths kai technites, oi opoioi skeftei tetoia pragmata! / この技術を考えた、鍛冶屋さんと職人さんに感謝ね!
-v2;90;Nai! Gi 'afto mou aresei na Romaiki. / 確かに! これだからローマ人は好きなのよね。
+v1;0;Afta ta nea ergaleia mageirikis einai exairetiko! / 新しい調理器具が素晴らしいの！
+v2;30;Nai, kanei to mageirema toso efkolo! Einai diaskedastiko! / ほんとね、料理がとても楽！楽しいわ！
+v1;60;Efcharisto pigainei stous Smiths kai technites, oi opoioi skeftei tetoia pragmata! / これを考えた、鍛冶屋さんと職人さんに感謝ね！
+v2;90;Nai! Gi 'afto mou aresei na Romaiki. / えぇ！これだからローマは好き
 
-newchat;key:chatter9,v1:female,v2:female,v1:adult,v2:adult,v1:notvtype:richwife_byzantine,v2:notvtype:richwife_byzantine,weigth:15
-v1;0;Eimai ziliaris afton ton plousion. / お金持ちはうらやましいわね。
-v1;20;Echoun tetoia oraia roucha apo metaxi! / 上等の絹の服を着てるし!
-v2;50;Afto den einai pragmatika dikaios. Den kanoun tipota kai na parete ta kalytera pragmata pou outos i allos. / ほんと不公平よ。何もしないくせにいい物ばかり持ってるんだから。
+newchat;key:chatter9,v1:female,v2:female,v1:adult,v2:adult,v1:notvtype:lady_byzantine,v2:notvtype:lady_byzantine,weigth:15
+v1;0;Eímai ziliáris afton ton plousíon. / お金持ちはうらやましいわ
+v1;20;Échoun tétoia oraía roúcha apo metáxi! / 絹の服を着ているなんて！
+v2;50;Afto den eínai pragmatiká díkaios. Den kánoun típota kai na párete ta kalýtera prágmata pou oútos í állos. / ほんと不公平よ。何もしないくせにいい物ばかり持ってるんだから
 
 newchat;key:chatter10,v1:female,v2:female,v1:adult,v2:adult,weigth:1
-v1;0;Echete akousei gia afto to varono se ena geitoniko chorio? / 近くの村で領主様の事を聞いた?
-v2;30;Nai, afto einai to ena tou opoiou i gynaika vrethike dolofonimeni? / 聞いたわよ、彼の奥様が殺されたんじゃなかった? 
-v1;60;Akrivos! O syzygos mou mou eipe mono oti o varonos aftoktonise ti gynaika tou! / そうなの! 夫から聞いたんだけど領主様が自分の奥さんを殺したそうよ! 
-v2;100; .. Ti? / え...?
-v2;130;Panta ixera oti eprokeito na! / 私、彼が殺したってわかってたわ!
-v2;150;Alla kaneis den me pisteve ..! / でも誰も信じてくれなかったのよ...!
+v1;0;Echete akousei gia afto to varono se ena geitoniko chorio? / 隣り村の領主様の事を聞いた？
+v2;30;Nai, afto einai to ena tou opoiou i gynaika vrethike dolofonimeni? / 聞いたわよ、殺されている奥様が見つかったとか 
+v1;60;Akrivos! O syzygos mou mou eipe mono oti o varonos aftoktonise ti gynaika tou! / そうなの！旦那から聞いたんだけど、領主様が自分で殺したそうよ！ 
+v2;100; .. Ti? / なんですって...？
+v2;130;Panta ixera oti eprokeito na! / 私はずっと気づいていたのよ！
+v2;150;Alla kaneis den me pisteve ..! / でも、誰も信じてくれなかったわ...！
 
 newchat;key:chatter11,v1:female,v2:female,v1:adult,v2:adult,v1:hasspouse,weigth:15
-v1;0;Echete pote skeftei gia to pos tha itan an eichame ton polemo? / もし戦争になったらどうなるか考えたことある?
-v1;30;Yparchoun akomi kai tora oi andres agonizontai gia ti chora mas! / 今でも男性たちはこの国の為に戦ってくれてるの!
-v1;55;Thavmazo pragmatika tous! / 本当に感服するわ!
-v2;80;Enas polemos tha einai tromero. / 戦争は悲惨よ。
-v2;110;Ego na mantepsete akrivos san stratiotes. / あなたは戦士が好きなのねきっと。
-v2;140;Alla echete enan antra! / でも旦那さんがいるでしょ!
-v1;170;Alla enas tempelis kai sychna methysmenos ena! / 怠け者でよく酔っぱらってるのが一人ね!
+v1;0;Echete pote skeftei gia to pos tha itan an eichame ton polemo? / もし戦争になったらどうなるか考えたことはある？
+v1;30;Yparchoun akomi kai tora oi andres agonizontai gia ti chora mas! / 今だって帝国のために戦っている男たちがいるわ！
+v1;55;Thavmazo pragmatika tous! / 本当に尊敬しちゃう！
+v2;80;Enas polemos tha einai tromero. / 戦争は悲惨よ
+v2;110;Ego na mantepsete akrivos san stratiotes. / あなたは戦士が好きなだけよ
+v2;140;Alla echete enan antra! / 戦士より旦那さんがいるでしょ！
+v1;170;Alla enas tempelis kai sychna methysmenos ena! / 怠け者で酔っぱらいの夫がね！
 
-newchat;key:talking1,v1:male,v2:male,v1:adult,v2:adult,v1:hasspouse,v2:notvtype:patriarch_byzantine-pastor_byzantine,weigth:15
-v1;0;Xerete tin omorfia sto geitoniko chorio? / 近くの村の美女をしってるか?
-v2;30;Fysika, einai poly charitomeno. / もちろんさ、彼女すっごいかわいいよな!
-v1;60;Ti tha ginei me tin episkepsi tis? / 会いに行ってみないか?
-v2;90;Xerete oti i gynaika sas tha trelatho tote! / そんなことしたらお前の嫁さんの雷が落ちるの知ってるだろ?
+//newchat;key:talking1,v1:male,v2:male,v1:adult,v2:adult,v1:hasspouse,v2:notvtype:patriarch_byzantine-pastor_byzantine,weigth:15
+//v1;0;Xerete tin omorfia sto geitoniko chorio? / 隣り村の美女をしってるか？
+//v2;30;Fysika, einai poly charitomeno. / もちろんさ、すっごく可愛いよな
+//v1;60;Ti tha ginei me tin episkepsi tis? / なぁ会いに行ってみないか？
+//v2;90;Xerete oti i gynaika sas tha trelatho tote! / そんなことしたら、お前の奥さんが発狂するだろ！
 
-newchat;key:talking2,v1:male,v2:male,v1:adult,v2:adult,v1:notvtype:artisan_byzantine-pastor_byzantine-patriarch_byzantine,v2:notvtype:artisan_byzantine-pastor_byzantine-patriarch_byzantine,weigth:15
-v1;0;Syzygos tou techniti einai poly omorfos, ti nomizete? / 建築家の奥さんって美しいと思わないか?
-v2;40;Nai, den einai kako. Dystychos afti einai idi pantremeni! / ああ、きれいだよな。でも悲しいかな結婚してるけども。
-v1;70;Kala nai. Kai den tha itan dikaii gia afton. / ほんとにな。不公平だよまったく。
-v2;100;Symfono. / まさしく。
+//newchat;key:talking2,v1:male,v2:male,v1:adult,v2:adult,v1:notvtype:artisan_byzantine-pastor_byzantine-patriarch_byzantine,v2:notvtype:artisan_byzantine-pastor_byzantine-patriarch_byzantine,weigth:15
+//v1;0;Syzygos tou techniti einai poly omorfos, ti nomizete? / あの職人の奥さんって美人だよな、どう思う？
+//v2;40;Nai, den einai kako. Dystychos afti einai idi pantremeni! / あぁ、麗人だよな。悲しいことに既婚者だが
+//v1;70;Kala nai. Kai den tha itan dikaii gia afton. / ほんとにな。不公平だよまったく
+//v2;100;Symfono. / そうだな
 
 newchat;key:talking3,v1:male,v2:male,v1:adult,v2:adult,v1:hasspouse,v2:hasspouse,weigth:15
-v1;0;Den echoume arketo krasi se afto to chorio! / この村にはワインが足りてないんだ!
-v2;30;Symfono! Prepei na chtisoume pano ampelia! / うむ! 酒造所をもっと作るべきだ!
-v1;60;Kai perissoteres tavernes! / 酒場もな!
-v2;90;Ti tha ginei me to anoigma diki mas taverna? / どうだろう、自分たちで酒場をやるってのは?
-v1;120;Megali idea! As to schedio afto. / いいね! 考えてみようぜ。
-v2;150;Alla pou na archisoume? / でもどこで始めるようか?
-v1;180;Kai oi gynaikes mas den tha einai eftychis na akouso afto! / 女性はこれを聞いたら嫌がるよな!
-v2;210;Ochi, polisi romaiko krasi einai panta mia dikaiologia! / いや、ローマのワインを売るのはいつだって口実になるさ!
-v1;240;Entaxei! Sti synecheia, afiste mas na exoikonomisete chrimata mas. / 素晴らしいね! さてじゃあ貯金からはじめないとか。.
-v1;270;Otan echoume kerdisei arketa, as ekplirosei to schedio mas! / 十分な資金がたまったら、実行に移そうじゃないか!
-v2;300;Tha echoume ti megalyteri taverna se oli tin aftokratoria! / 帝国で一番の酒場を作ることができるぞ!
-v1;325;Sigoura! / ああ!
+v1;0;Den echoume arketo krasi se afto to chorio! / この村にはワインが足りてないんだ！
+v2;30;Symfono! Prepei na chtisoume pano ampelia! / 同感だ！もっとワイン醸造所を増やさないと！
+v1;60;Kai perissoteres tavernes! / 酒場も！
+v2;90;Ti tha ginei me to anoigma diki mas taverna? / 自分たちで酒場を開くのはどうだろう？
+v1;120;Megali idea! As to schedio afto. / いい考えだ。計画を練ろう
+v2;150;Alla pou na archisoume? / でもどこで開くんだ？
+v1;180;Kai oi gynaikes mas den tha einai eftychis na akouso afto! / 妻は歓迎しないだろうな！
+v2;210;Ochi, polisi romaiko krasi einai panta mia dikaiologia! / ローマワインを売る口実があるじゃないか！
+v1;240;Entaxei! Sti synecheia, afiste mas na exoikonomisete chrimata mas. / いいだろう、ではお金を貯めないとな
+v1;270;Otan echoume kerdisei arketa, as ekplirosei to schedio mas! / 十分に稼いだら、計画を実行しよう！
+v2;300;Tha echoume ti megalyteri taverna se oli tin aftokratoria! / 帝国で一番の酒場を作ろうじゃないか！
+v1;325;Sigoura! / おう！
 
-newchat;key:talking4,v1:male,v2:male,v1:adult,v2:adult,v1:vtype:miner_byzantine-farmiller_byzantine-lumberman_byzantine,v2:vtype:miner_byzantine-farmiller_byzantine-lumberman_byzantine,weigth:15
-v1;0;Echete dokimasei pote Norman ergaleia? / なぁノルマン人の道具は試してみたか?
-v2;30;Ochi, alla echo akousei oti einai poly apotelesmatiki! / いや、でも素晴らしい使い勝手だと聞いたぞ!
-v1;60;Einai alitheia. Pote den eicha doulepsei me tetoia kala ergaleia prin. / そうなんだ。今まで使ったことのないくらいの素晴らしい使い心地だよ。
-v2;90;Perimenete ... Echete ena ergaleio Norman? / まてよ...お前さんノルマン人の道具をもってるのかい?
-v1;120;Err, eicha. Echei kapos chathei! / あぁ、以前はな。どこをどうやったか無くしちまったんだ!
-v2;140;TI? Eiches ena tetoio ergaleio kai na to chasei? / 何だって?そんな道具を持ってて無くしただって? 
-v1;170;Nai ... Tora yparchoun mono anamniseis aristera ... / あぁ... 今じゃ思い出しかないがね...
+//newchat;key:talking4,v1:male,v2:male,v1:adult,v2:adult,v1:vtype:miner_byzantine-farmiller_byzantine-lumberman_byzantine,v2:vtype:miner_byzantine-farmiller_byzantine-lumberman_byzantine,weigth:15
+//v1;0;Echete dokimasei pote Norman ergaleia? / なぁノルマン人の奴らの道具は試してみたか？
+//v2;30;Ochi, alla echo akousei oti einai poly apotelesmatiki! / いや未だだが、中々の優れ物だと聞いたぞ！
+//v1;60;Einai alitheia. Pote den eicha doulepsei me tetoia kala ergaleia prin. / その通りだ。こんなに良い道具を使って仕事をしたのは初めてだったなぁ
+//v2;90;Perimenete ... Echete ena ergaleio Norman? / 待てよ...お前、ノルマン人の道具を今持ってるのか？
+//v1;120;Err, eicha. Echei kapos chathei! / あぁ、以前はな。何をどうやったか無くしちまったんだ！
+//v2;140;TI? Eiches ena tetoio ergaleio kai na to chasei? / そんな優れた道具を持っていたのに失くしたのか？
+//v1;170;Nai ... Tora yparchoun mono anamniseis aristera ... / あぁ...思い出しか残ってないよ...
 
-newchat;key:talking5,v1:male,v2:male,v1:adult,v2:adult,v1:notvtype:pastor_byzantine-patriarch_byzantine-armysmith_byzantine-baron_byzantine,v2:notvtype:pastor_byzantine-patriarch_byzantine-armysmith_byzantine-baron_byzantine,weigth:15
-v1;0;Boom! Imoun molis einai se thesi na elenxei exo ti nea ropalo! / どうだ! 今ちょうどこの新しいメイスが仕上がったんだ!
-v2;30;Nai! Prokeitai gia ena fovero oplo! Einai chtypa tous echthrous makria! / おぉ! これは素晴らしいな! 敵はふっ飛んじまうな!
-v1;60;Entyposiako, e? Afto to aristourgima Romaiki den borei na synkrithei me otidipote allo se afto ton kosmo. / すごいだろ、な? このローマの傑作は他じゃお目にかかれやしないぞ。
-v2;100;Thats giati boroume na eimaste yperifanoi na einai Romaioi! / これだから我々はローマ人であることを誇りに思うんだ!
+//newchat;key:talking5,v1:male,v2:male,v1:adult,v2:adult,v1:notvtype:pastor_byzantine-patriarch_byzantine-armysmith_byzantine-baron_byzantine,v2:notvtype:pastor_byzantine-patriarch_byzantine-armysmith_byzantine-baron_byzantine,weigth:15
+//v1;0;Boom! Imoun molis einai se thesi na elenxei exo ti nea ropalo! / どうだ！今ちょうどこの新しいメイスが仕上がったんだ！
+//v2;30;Nai! Prokeitai gia ena fovero oplo! Einai chtypa tous echthrous makria! / おぉ!すごい武器だ！敵が遠くまで吹っ飛びそうだ！
+//v1;60;Entyposiako, e? Afto to aristourgima Romaiki den borei na synkrithei me otidipote allo se afto ton kosmo. / 感動しただろ？これほどの傑作は、他所じゃ中々お目にかかれやしないぞ
+//v2;100;Thats giati boroume na eimaste yperifanoi na einai Romaioi! / こんな傑物を作り上げてしまうローマ人は我々の誇りだな！
 
 newchat;key:talking6,v1:male,v2:male,v1:adult,v2:adult,weigth:15
-v1;0;Megali trofimon, megala opla, megali techni - afto einai o, ti einai to ethnos mas! / 素晴らしい料理、素晴らしい武器、偉大な芸術...これが我々の国のなんたるかだな!
-v2;30;Kai kalo krasi! / あと素晴らしいワインもね!
+v1;0;Megali trofimon, megala opla, megali techni - afto einai o, ti einai to ethnos mas! / 素晴らしい料理、素晴らしい武器、偉大な芸術...それが私たちの帝国だ！
+v2;30;Kai kalo krasi! / そして素晴らしいワインも！
 
 newchat;key:talking7,v1:male,v2:male,v1:adult,v2:adult,v1:hasspouse,v2:hasspouse,weigth:15
-v1;0;Echo varethei ti syzygo mou. Thelo na echo ena kainourgio! / うちの妻には飽きた。新しい人いないかな!
-v2;30;Poios den echei? / 誰が退屈しないと思ってるのさ?
-v1;60;Isos prepei na afisoume xafnika to chorio kai sti synecheia na psaxoume gia nea! / 村を離れて違う人を探すってのはどうだ!
-v2;90;Nai! Oi Magia kai oi Indoi echoun tetoies omorfes gynaikes, echete dei? / おー! マヤ人とかインド人は美しい妻を持ってるからな、見たか?
-v2;140;Alla ... To chorio chanetai choris emas. / でも私達が居なければこの村はどうなると思う。
-v2;160;Kai min xechnate ta paidia mas! / それに私たちの子どもたちの事も忘れてはいかん!
-v1;180;Urgh! Ta paidia mas! Den tha epiviosei choris patera! / あぁ! ちびたちか! 俺らが居なければ生きていけないんだよな!
-v1;220;Alla ... afto den simainei oti prepei na synechisoume me vareti zoi mas edo? / でもさ...つまりそれって今の妻で満足しとけって話?
-v2;255;Ypotheto oti aftos einai o kalyteros tropos na paei. / ま、それが妥当な選択ってことさ。
+v1;0;Echo varethei ti syzygo mou. Thelo na echo ena kainourgio! / 妻には飽きた、新しい妻が欲しい！
+v2;30;Poios den echei? / 誰でもそうだろう？
+v1;60;Isos prepei na afisoume xafnika to chorio kai sti synecheia na psaxoume gia nea! / 突然村を出て新しい妻を探しに行くってのはどうだ！
+v2;90;Nai! Oi Magia kai oi Indoi echoun tetoies omorfes gynaikes, echete dei? / いいね！マヤ人やインド人には美人が多いそうだ、見たことはあるかい？
+v2;140;Alla ... To chorio chanetai choris emas. / だが...私たちがいないと、この村は亡くなってしまう
+v2;160;Kai min xechnate ta paidia mas! / おい子供たちのことも忘れるな！
+v1;180;Urgh! Ta paidia mas! Den tha epiviosei choris patera! / うわぁ！私の子供たち！父親がいないと生きていくのは大変だよなぁ
+v1;220;Alla ... afto den simainei oti prepei na synechisoume me vareti zoi mas edo? / それはそうなんだが、このまま退屈な生活を続けるしかないのか？
+v2;255;Ypotheto oti aftos einai o kalyteros tropos na paei. / これで一番いいのさ、きっと
 
 newchat;key:talking8,v1:male,v2:male,v1:adult,v2:adult,v2:vtype:silkfarmer_byzantine,weigth:15
-v1;0;Einai apistefto poso leptomeri matia eikones sas. / なんとまぁ君の絵画は素晴らしいな。
-v2;30;Fysika, dedomenou oti einai megali romaiki techni! / もちろん、だってローマの美術だからね!
-v1;60;Opos kai o, ti kanoume. Koitaxte omorfa spitia mas! / 全てにおいてだな。私達の素晴らしい家々もそうさ!
-v2;90;Kai min xechnate endoxi istoria mas! / 私達の栄光の歴史も忘れてはならないね!
+v1;0;Einai apistefto poso leptomeri matia eikones sas. / あなたのイコンの精密さには驚きです
+v2;30;Fysika, dedomenou oti einai megali romaiki techni! / もちろん、素晴らしいローマ美術ですからね！
+v1;60;Opos kai o, ti kanoume. Koitaxte omorfa spitia mas! / 美術だけでなく全てにおいてローマは素晴らしい！私たちの家一つをとってもそうさ！
+v2;90;Kai min xechnate endoxi istoria mas! / 輝かしい栄光の歴史も忘れてはならないね！
 
 newchat;key:talking9,v1:male,v2:male,v1:adult,v2:adult,weigth:15
-v1;0;Thymaste to koritsi pou polemisan pano stin paidiki ilikia mas? / 小さい頃女の子をめぐってケンカしたのを覚えてるかい?
-v2;30; Nai ... Itan mia poly kaki stigmi. Kali oti einai pano. / あぁ...あれはひどかった。終わったことだろもういいじゃないか。
-v1;60;Chairomai pou to akouo, giati mou eipe apla oti mou arese panta! / それを聞いて安心したよ、ついこの間彼女から俺のことが好きだったって聞いたからさ!
-v2;90;Ti? Afto den einai alitheia! / は? ちょっとまて嘘だろ!
+v1;0;Thymaste to koritsi pou polemisan pano stin paidiki ilikia mas? / 子どもの頃に喧嘩した娘のこと覚えてる？
+v2;30; Nai ... Itan mia poly kaki stigmi. Kali oti einai pano. / あぁ...最悪だな。過ぎたことだろ、もういいじゃないか
+v1;60;Chairomai pou to akouo, giati mou eipe apla oti mou arese panta! / それを聞いて安心したよ、ついこの間、彼女から告白されちゃってさ！
+v2;90;Ti? Afto den einai alitheia! / は？ちょっと待て嘘だろ！
 
 newchat;key:flirt1,v1:male,v2:female,v1:adult,v2:adult,v1:hasspouse,v2:nospouse,notrel:sibling,notrel:child,notrel:parent,weigth:5
-v1;0;Geia sou omorfia, sas aresei afto pou vlepete? / 美しいね、どう一緒に?
-v2;20;*chastouki* / *ビタン*
-v2;25;Echete mia gynaika. / 奥さんいるでしょうが。
+v1;0;Geia sou omorfia, sas aresei afto pou vlepete? / 綺麗だね、今夜一緒にどう？
+v2;20;*chastouki* / *バシッ*
+v2;25;Echete mia gynaika. / 奥さんがいるでしょう
 
 newchat;key:flirt2,v1:male,v2:female,v1:adult,v2:adult,notrel:sibling,notrel:child,notrel:parent,weigth:5
-v1;0;Geia sou, koitas poly oraia simera $targetfirstname! / やぁ、今日はまた一段と綺麗だね $targetfirstname!
-v2;30;Sas efcharisto! / ありがと!
-v1;60;Opos panta, agapite mou! / どう致しまして、可愛い人!
+v1;0;Geia sou, koitas poly oraia simera $targetfirstname! / やぁ、今日はまた一段と綺麗だね$targetfirstname！
+v2;30;Sas efcharisto! / ありがとう！
+v1;60;Opos panta, agapite mou! / いつだってあなたを愛しているよ！
 
 newchat;key:flirt3,v1:male,v2:female,v1:adult,v2:adult,v1:hasspouse,v2:hasspouse,notrel:sibling,notrel:child,notrel:parent,weigth:5
-v1;0;Hey $targetfirstname, kanei mia omorfia opos eseis thelete einai ena omorfos antras san ki emena? / やぁ $targetfirstname、君のように美しい女性は僕のようにハンサムな男性は嫌いかい?
-v2;40;Eiste pantremenos, kai eimai toso kala. / あなたは既婚者だし、私も既婚者よ。
-v2;60;Ypotheto oti den eiste pistoi! Tha po sti gynaika sas! / なんて不順な人なの! あなたの奥さんに言ってやるから!
-v1;75;OCHI - Min kanete tha- / いや -ちょ、ちょっとまっ-
-v1;85;Eimai kako didymo adelfo tou! / 勘違いだよ、僕は彼の双子の弟のほうだってば!
-v2;120;Fysika eiste! To idio kako didymo pou einai panta methysmenos! / そうでしょうとも! いつも酔っぱらいの浮気症の双子ね! 
+v1;0;Hey $targetfirstname, kanei mia omorfia opos eseis thelete einai ena omorfos antras san ki emena? / やぁ$targetfirstname、君のように美しい女性へ僕のようにハンサムな男性はいかがかな？
+v2;40;Eiste pantremenos, kai eimai toso kala. / あなたは既婚者だし、私も結婚しているわ
+v2;60;Ypotheto oti den eiste pistoi! Tha po sti gynaika sas! / それに不純だと思うの。あなたの奥さんに言っちゃうから！
+v1;75;OCHI - Min kanete tha- / いや、ちょっとやめてくれ
+v1;85;Eimai kako didymo adelfo tou! / 勘違いだよ、僕は双子の弟の方だってば！
+v2;120;Fysika eiste! To idio kako didymo pou einai panta methysmenos! / そうでしょうとも！いつも酔っぱらっている浮気症の双子ね！ 
 
 newchat;key:flirt4,v1:male,v2:female,v1:adult,v2:adult,notrel:sibling,notrel:child,notrel:parent,weigth:10
-v1;0;Pos tha me gynaika-ta pragmata sas? / 主婦としてうまくやってるかい?
-v2;30;Kali kali, ektos apo tin aisthisi ligo aschima ... / まぁまぁかな、ちょっと悲しいことはあったけど。
-v1;60;O, ochi, ti synevi? / おやまぁ、何があったんだい?
-v2;90;O syzygos mou mou fonaxe. / 旦那さんにどなられてしまったの。
-v1;120;Pos borei o idios se mia tetoia omorfia? / こんなに可愛い人に向かって何だっていうんだろうね?
-v2;150;Sas efcharistoume gia epeffimies mou epano, $targetfirstname! / ありがとう、ちょっと元気がでたわ $targetfirstname!
+v1;0;Pos tha me gynaika-ta pragmata sas? / 主婦はどうだい？
+v2;30;Kali kali, ektos apo tin aisthisi ligo aschima ... / まぁまぁかな、ちょっと悲しいことはあったけど
+v1;60;O, ochi, ti synevi? / おやまぁ、何があったんだい？
+v2;90;O syzygos mou mou fonaxe. / 夫に怒られてしまったの
+v1;120;Pos borei o idios se mia tetoia omorfia? / こんな美しい人になんてことを
+v2;150;Sas efcharistoume gia epeffimies mou epano, $targetfirstname! / ありがとう、ちょっと元気がでたわ$targetfirstname！
 
 newchat;key:flirt5,v1:male,v2:female,v1:adult,v2:adult,notrel:sibling,notrel:child,notrel:parent,weigth:10
-v2;0;*urgh* / *ふー*
-v1;30;Eisai entaxei, $targetfirstname? / $targetfirstname 大丈夫かい?
-v2;50;Nai, afto einai mono i skliri douleia! / ああ、ちょっと仕事で疲れているだけだよ。
-v1;70;Boro na sas voithiso? Tha aisthantheite kalytera sti synecheia? / 手伝おうか? それで少しは楽にならないか?
-v2;90;Fysika! Sas efcharistoume! / もちろんさ! すごく助かるよ!
+v2;0;*urgh* / *はぁー*
+v1;30;Eisai entaxei, $targetfirstname? / $targetfirstname大丈夫？
+v2;50;Nai, afto einai mono i skliri douleia! / えぇ、ちょっと大変だったの
+v1;70;Boro na sas voithiso? Tha aisthantheite kalytera sti synecheia? / 手伝おうか？何か気休めになることは？
+v2;90;Fysika! Sas efcharistoume! / えぇ！すごく助かります！
 
 newchat;key:flirt6,v1:male,v2:female,v1:adult,v2:adult,,weigth:10
-v1;0;Pos paei? / 調子はどう?
-v2;30;Ola einai mia chara, ti gia sas? / 快調よ、そっちはどう?
-v1;60;Einai para poly! Efcharisto gia tin erotisi. / こっちもさ、気にしてくれてありがと!
-v1;75;Alla vlepo oti yparchei kati pou sas enochlei! / でも君は何か気になることがあるんじゃないのかい!
-v2;90;Einai - tipota. / 特になにもないわよ。
-v1;110;Parakalo peite mou! / いいなよ!
-v2;130;Einai mono oti i zoi mou edo einai toso vareti. / ただちょっとここでの生活が退屈に感じるだけよ。
-v2;160;Efchomai pragmatika eicha apofasisei na paei se mia poli otan imoun neos! / 若い時に町にでるって決心していればよかったなーってね!
+v1;0;Pos paei? / 調子はどう？
+v2;30;Ola einai mia chara, ti gia sas? / 何も問題ないわ、そっちはどう？
+v1;60;Einai para poly! Efcharisto gia tin erotisi. / 私もさ、気にしてくれてありがとう！
+v1;75;Alla vlepo oti yparchei kati pou sas enochlei! / でも、君は何か気になることがあるようだね
+v2;90;Einai - tipota. / 何でもないわ
+v1;110;Parakalo peite mou! / 言ってごらん
+v2;130;Einai mono oti i zoi mou edo einai toso vareti. / ここの生活がちょっと退屈なの
+v2;160;Efchomai pragmatika eicha apofasisei na paei se mia poli otan imoun neos! / 若い時に街へ行くって決めていればなぁってね！
 
 newchat;key:brothertalk1,v1:male,v1:adult,v2:male,v2:adult,rel:sibling,weigth:10
-v1;0;Adelfos $targetfirstname, einai kalo na sas doume! / $targetfirstname! 顔を出してくれたのか!
-v1;30;Vrika ton palio xylino spathi mas! / ちょっと昔使ってた木の剣を見つけたもんでね!
-v1;50;Thymaste? / 覚えてる?
-v2;80;Perimenete! Einai afto to xifos tou patera mas, mas edose? / 待てよ、もしかして父さんが俺たちにくれたあれか?
-v1;110;Einai! Thymaste tous agones mas me afto? / そうだよ! これのせいでケンカしたの覚えてる?
-v2;140;Pos tha borousa na xechaso! Exakoloutho na echo kapoia simadia. / 忘れるわけ無いだろう? まだあの時の傷跡が残ってるしな。
-v2;170;An skefteste perissotero gi 'afto ... / そういえばなんだけど...
-v2;200;Itan to eidos tis skliris tou patera mas gia na mas dosei mono ena spathi! / あれはひどくなかったか、父さんが俺らに一つの剣しかくれなかったせいだ!
-v2;240;Ixere oti tha agonistoume gia afto! / 父さんは絶対俺らがそれでケンカするのをわかってたはずなのに!
-v1;270;Ypotheto oti einai entaxei! / まぁでも大丈夫だったじゃん!
-v2;300;Epeidi to kratisa! / そりゃそうだお前が持ってったからな!
+v1;0;Adelfos $targetfirstname, einai kalo na sas doume! / $targetfirstname！会えて嬉しいよ！
+v1;30;Vrika ton palio xylino spathi mas! / 昔使ってた木刀を見つけたもんでね！
+v1;50;Thymaste? / 覚えてる？
+v2;80;Perimenete! Einai afto to xifos tou patera mas, mas edose? / 待てよ、父がくれた剣かな？
+v1;110;Einai! Thymaste tous agones mas me afto? / そうそれ！喧嘩したのは覚えているかい？
+v2;140;Pos tha borousa na xechaso! Exakoloutho na echo kapoia simadia. / 忘れるわけ無いだろう？あの時の傷は今も残ったままだ
+v2;170;An skefteste perissotero gi 'afto ... / 思い返せば...
+v2;200;Itan to eidos tis skliris tou patera mas gia na mas dosei mono ena spathi! / 父は酷いと思わないか？渡してくれた剣はたった一本だぞ！
+v2;240;Ixere oti tha agonistoume gia afto! / 父は僕らが剣を奪い合って喧嘩するとわかっていたはずなのに！
+v1;270;Ypotheto oti einai entaxei! / 別にそれで良かったんじゃないかな！
+v2;300;Epeidi to kratisa! / そりゃ、お前が持って行ったからだろ！
 
 newchat;key:sistertalk1,v1:female,v1:adult,v2:female,v2:adult,rel:sibling,weigth:10
-v1;0;Thymaste ton iniocho pou agapise toso poly stin paidiki ilikia mas? / 小さい頃大好きだった御者を覚えてる?
-v2;30;Apo tin adelfi poreia. Imastan oi megalyteroi opadoi! / もちろんよ姉さん。私達が一番のファンだったわ!
-v1;60;Anarotiemai ti synevi s 'afton. / 彼に何があったのか知りたいのよ。 
-v1;90;Tha akousei tipota gi 'afton pia ... / もう彼の話は聞かなくなったじゃない...
-v2;120;Einai pithanon enkatastathikan s 'ena chorio san ti diki mas kai eiche mia syzygo kai ta paidia. / きっと私達のような村に落ち着いて、奥さんと子供ができたんじゃないかしら。
-v1;150;Telos panton exakoloutho na elpizo na ton synantiso kapoia stigmi! / まぁそのうち彼にまた会いたいわ!
-v2;180;Ki ego! / 私も!
+v1;0;Thymaste ton iniocho pou agapise toso poly stin paidiki ilikia mas? / 子どもの頃に大好きだった御者を覚えてる？
+v2;30;Apo tin adelfi poreia. Imastan oi megalyteroi opadoi! / もちろんよ姉さん。大ファンだったもの
+v1;60;Anarotiemai ti synevi s 'afton. / 彼はどうなったのかしら
+v1;90;Tha akousei tipota gi 'afton pia ... / 彼のことは何も聞かなくなって久しいですこと...
+v2;120;Einai pithanon enkatastathikan s 'ena chorio san ti diki mas kai eiche mia syzygo kai ta paidia. / うちと同じような村に落ち着いて、奥さんと子供ができたんじゃないかしら
+v1;150;Telos panton exakoloutho na elpizo na ton synantiso kapoia stigmi! / いずれにせよ、またいつか彼に会いたいわぁ！
+v2;180;Ki ego! / 私もです！
 
 newchat;key:brothersister,v1:male,v1:adult,v2:female,v2:adult,v2:hasspouse,rel:sibling,weigth:10
-v1;0;$targetfirstname, i adelfi mou, panta ithela na matho giati pantreftike afto to trantagma. / $targetfirstname姉さん、いつも思ってたんだけど何故こんなバカと結婚したんだい？
-v2;30;Epeidi ton agapo! / 愛してるからよ!
-v1;60;Kai tora to onoma sas einai $targetlastname. $targetlastname! Akougetai toso kako! / で、今は $targetlastname夫人だよ。 $targetlastname夫人! ひどい話だね!
-v2;90;Hey! Min simainei etsi! Itan eseis pou xekinise i synkrousi. / ちょっと! そんなに意地悪を言わないでちょうだい! 敵視しだしたのはあなたのほうよ。
-v2;110;Tha itan methysmenos! / 姉さんは酔ってただろ!
+v1;0;$targetfirstname, i adelfi mou, panta ithela na matho giati pantreftike afto to trantagma. / $targetfirstname姉さん、なぜあんな奴と結婚したんだい？
+v2;30;Epeidi ton agapo! / 愛してるからよ！
+v1;60;Kai tora to onoma sas einai $targetlastname. $targetlastname! Akougetai toso kako! / それで今は$targetlastnameだよ。$targetlastnameさん！ひっどい名前だね！
+v2;90;Hey! Min simainei etsi! Itan eseis pou xekinise i synkrousi. / ちょっと！そんなに意地悪しないで！喧嘩を始めたのはあなたの方よ
+v2;110;Tha itan methysmenos! / 姉さんは酔ってたでしょ！
 
-newchat;key:religious1,v1:vtype:patriarch_byzantine-pastor_byzantine,v2:male,weigth:10
-v1;0;$targetfirstname, o gios mou, ego den eida na prosefchetai simera! / $targetfirstnameや、今日はお前がお祈りしたのを見てないな!
-v2;30;Pateras $targetlastname, ego sigoura ekane. / $targetlastname父さん、もちろんしたさ。
+//newchat;key:religious1,v1:vtype:patriarch_byzantine-pastor_byzantine,v2:male,weigth:10
+//v1;0;$targetfirstname, o gios mou, ego den eida na prosefchetai simera! / $targetfirstname、今日は祈っているところを見なかったぞ！
+//v2;30;Pateras $targetlastname, ego sigoura ekane. / $targetlastname様、もちろんしましたよ
 
-newchat;key:religious2,v1:vtype:patriarch_byzantine-pastor_byzantine,v2:female,weigth:10
-v1;0;$targetfirstname, kori mou, ego den eida na prosefchetai simera! / $targetfirstnameや、今日はお前がお祈りしたのを見てないな!
-v2;30;Pateras $targetlastname, ego sigoura ekane. / $targetlastname父さん、もちろんしたわよ。
+//newchat;key:religious2,v1:vtype:patriarch_byzantine-pastor_byzantine,v2:female,weigth:10
+//v1;0;$targetfirstname, kori mou, ego den eida na prosefchetai simera! / $targetfirstname、今日は祈っているところを見なかったぞ！
+//v2;30;Pateras $targetlastname, ego sigoura ekane. / $targetlastname様、もちろんしましたよ
+
+//newchat;key:religious3,v1:vtype:metropolit_byzantine-pastor_byzantine,v2:female,weigth:10
+//v1;0;$targetfirstname, kóri mou, eísai eirinikí sto myaló sou? / $targetfirstnameよ、今日も穏やかですか？
+//v2;30;Patér $targetlastname, Den eímai eirinikós, apó tóte pou ftásame edó, aisthánomai óti ypárchei káti diaforetikó. / $targetlastname様、穏やかではいられません。ここに来てからずっと違和感を感じています
+//v1;60;Teknon mou, polloí apó emás aisthánontai óti ypárchei káti diaforetikó edó./ わがいとし子よ、他の人も違和感を感じているようです
+//v2;90;Allá ti boró na káno? I zoí mou edó tha eínai gia pánta diaforetikí. / しかし私に何ができるでしょうか？ここで私の人生は永遠に変わってしまうのでしょうか？
+//v1;120;To móno pou boroúme na kánoume eínai na prosefchómaste. O Theós panta échei éna schédio gia mas. / 私たちにできることは祈ることです。神は道を示してくださるでしょう
+
+//newchat;key:religious4,v1:vtype:metropolit_byzantine-pastor_byzantine,v2:male,weigth:10
+//v1;0;$targetfirstname, gie mou, eíste eirinikós sto myaló? / $targetfirstnameよ、今日も穏やかですか？
+//v2;30;Pater, Den eímai eirinikós, apó tóte pou ftásame edó, aisthánomai óti ypárchei káti diaforetikó. / $targetlastname様、穏やかではいられません。ここに来てからずっと違和感を感じています
+//v1;60;Teknon mou, polloí apó emás aisthánontai óti ypárchei káti diaforetikó edó./ わがいとし子よ、他の人も違和感を感じているようです
+//v2;90;Allá ti boró na káno? I zoí mou edó tha eínai gia pánta diaforetikí edó. / しかし私に何ができるでしょうか？ここで私の人生は永遠に変わってしまうのでしょうか？
+//v1;120;To móno pou boroúme na kánoume eínai na prosefchómaste. O Theós panta échei éna schédio gia mas. / 私たちにできることは祈ることです。神は道を示してくださるでしょう
+
+//newchat;key:ticlon,v1:notvtype:pastor_byzantine-metropolit_byzantine,v2:vtype:pastor_byzantine-metropolit_byzantine,weigth:1
+//v1;0;Patér $targetlastname, otan proséfchithika, eída kápoia períerga sýmvola../ 神父$targetlastname様、祈っている時に奇妙なシンボルを見たのです
+//v2;30;Ti sou edeixe o Theos, teknon mou?/ わが子よ、主はあなたに何を見せたのです？
+//v1;60;Patér, ta sýmvola ítan "Tiklón". Xérate ti ennooún? / 神父様、そのシンボルは Ticlon でした。意味がわかりますか？
+//v2;90;O Theós doulévei me mystiriódi trópo... / 神は不思議な働きをされるものだ...
+
+newchat;key:seljuks,v1:adult,v2:adult,weigth:10
+v1;0;Échete akoúsei gia tous Tourkalades apó ti stigmí pou ftásame edó? / ここに来てからセルジューク帝国の話を聞いた？
+v2;30;Óchi, nomizeis oti mas akolouthisan? / いや、聞いてないぞ。私たちと一緒にこの世界にやって来たと考えているのか？
+v1;60;Amfivállo, échoume ídi akoúsei apó anthrópous pou den gnorízame óti ypírchan. / そうかもしれない。私たちはすでに存在を知らなかった別の民族と出会っているからね
+v2;90;Ypothéto óti prépei na kánoume néous echthroús se aftí ti gi. / この地で新たな敵を想定する必要がありそうだな
+v1;120;Échoume akóma tous Normandoús na antimetopísoume. / ノルマンの対処も必要だしなぁ
+v2;150;Loipón, eímaste Romaíoi! Boroúme éfkola na nikísoume tétoious epidromeís, sti Rómi! / だが、我々はローマ帝国だ！我々は略奪者を簡単に打ち負かすことができる、ローマのために！
+v1;165;Sti Rómi! / ローマのために！
+
+//newchat;key:noBakery,building:farm,notbuilding:windmill,v1:adult,v2:adult,weigth:15
+//v1;0;Ach, poios den thélei frésko, nóstimo psomí apó to agróktima sitarioú? / あぁ、あの畑から収穫した小麦を使って、焼きたての美味しいパンを食べたくない人なんていないよね？
+//v2;30;Xérete óti chreiazómaste éna artopoieío gia na metatrépsoume to sitári se psomí sostá? / そのためには、パン屋が必要なのはわかっているよね？
+//v1;60;Prépei na me gelás. Tóra tha petháno. / ふざけてるんですか。今にも飢え死にしそうなんだよ
+//v2;90;Limoktoneis? Símera to proí efáges to proinó mou! Tha eímai o peinasménos. / 飢えてるって？今朝私の朝食まで食べましたよね！飢えてるのはこっちだよ！
+//v1;120;To chreiázomoun perissótero apó oti eséna! / もっとごはんが必要なの！
+//v2;150;Den xéro giatí sou miláo! / なんであんたなんかと話してるんだろう
+//v1;180;Chreiazómaste éna artopoieío, aftó eínai simantikó. / パン屋さんが必要なの、それが一番大事なの
+
+newchat;key:normans,v1:adult,v2:adult,weigth:6
+v1;0;Akoúsate gia to kontinó Normandiko chorió? / 近くにノルマンの村があるそうだ
+v2;30;Aftó den eínai kaló, thymámai óti synéchizan na epitíthentai sti nótia Italía protoú ftásoume edó. / 良くないな。奴らは前の世界で南イタリアへ侵攻していたのをはっきり覚えている...
+v1;60;As elpísoume óti den tha mas epitethoún. / 襲撃されないことを祈ろう
+v2;90;To elpízo kai egó. / 私もそう願うよ
+
+newchat;key:constantinople,v1:adult,v2:adult,weigth:9
+v1;0;Anarotiémai ti synévi stin Konstantinoúpoli? / コンスタンティノープルはどうなったのかな？
+v2;30;Nomízo óti írthe edó mazí mas se aftí ti néa gi. / この新しい土地に一緒に来たんじゃないかな
+v1;60;Giatí to pistéveis aftó? / どうしてそう思うの？
+v2;90;Ézisa kontá sti megáli póli kai me odígisan edó. / あの都の近くに住んでいた私が今この場所にいるからね
+v1;120;Eínai alítheia, allá échei tósous polloús anthrópous. Tha to eíchame akoúsei méchri tóra. / その通りだけど、帝都は人がとにかく多いから。もしこの世界に実在していたら、今頃は騒ぎになっているよ
+v2;150;Tha boroúse na eínai polý makriá. / 遥か遠くにあるのかも
+v1;180;Nai, allá i dóxa kai i megaloprépeia tis Konstantinoúpolis ítan tóso megáli pou akómi kai ánthropoi stin Kína ákousan gi 'aftin. / あぁそうだね、でもコンスタンティノープルの栄華と豪壮な威容は中国にも轟くほどなのに、この世界で噂すら聞かないのはおかしいんじゃないかなぁ
+v2;210;Mi mou peíte óti pistévete se aftés tis istoríes gia tin Kína? / まさか、そんな中国の話を信じているのかい？
+v1;240;Pistévo óti ypárchei kápoia alítheia se aftá. / 真実も含まれていると思うよ
+v2;270;Allá ypárchoun tósa pollá mystíria gia tin Kína pou den boroúme na ypothésoume an ypárchei kápoia alítheia se aftá. / でも、中国については謎が多くて、真相を確かめる術がないよ
+v1;300;Ypárchei tósa pollá mystíria an i Konstantinoúpoli eínai edó, étsi den boroúme na to ypothésoume. / コンスタンティノープルがこの地に誕生しているかどうかだって、確かめる術がないから同じようなものじゃないか
+v2;330;Loipón, nai, allá akóma ki an i Konstantinoúpoli den eínai edó. Prépei na megalósoume kai na prostatépsoume ti Romaïkí Aftokratoría. / うーん、まぁそうか。たとえこの世界に帝都がなくても、ローマ帝国の歩みを止めてはならない
+v1;360;Tóra boró na symfoníso mazí sas gia aftó! / それについてはその通りだと思う！
+v2;390;Ithe i Rómi na diarkesei gia pánta! / ローマ帝国よ永遠なれ！
+
+//newchat;key:baron1,v1:adult,v1:vtype:baron_byzantine,v2:adult,v2:male,v2:notvtype:pastor_byzantine,weigth:10
+//v1;0;Óra na plirósete tous fórous sas. / 税の徴収に来たぞ
+//v2;30;Lypámai, allá den ímoun se thési na sygkentróso arketoús pórous. / 申し訳ないのですが、十分な資材を集めることができませんでした
+//v1;60;Thélete na sas ekdióxo apó to chorió? / 無慈悲にも今すぐこの村から追放されたいのか？
+//v2;80;Ochi... / 嫌です...
+//v1;90;Tote frete mou tous forous TORA! / なら今すぐ納める税を持って戻ってきなさい！
+//v2;120;Entáxei, entáxei. / わかりました、わかりましたよもう
+
+newchat;key:Inuit,v1:adult,v2:adult,weigth:10
+v1;0;Norítera, miloúsa me énan byzantinó émporo kai mou eípe gia choriá makriná sto chióni. / 前に商人と話してたんだが、彼は雪の中にある村のことを教えてくれたんだ
+v2;30;Choriá sto chióni? / 村が雪原の中に？
+v1;60;Nai, onomázontai "Inuites". / あぁ、「イヌイット」と呼ばれているそうだ
+v2;90;Inuites? Ti paráxeno ónoma, pos ítan?/ イヌイット？変な名前だな、どんな人たちだったんだろう？
+v1;120;O émporos eípe óti den dexonte chrímata. / 商人曰く、貨幣を信じていないそうだ
+v2;150;Den dexonte chrímata ?! Pós tha boroúsan na zísoun? / えっお金を信用していない？どうやって暮らしているんだ？
+v1;180;Óloi moirástikan ta pánta exísou. Itane polý dýskoli i diapragmátefsi mazí tous. / 彼らはすべてを村で平等に共有するそうだ。そのせいもあって、取引はかなり難しかったみたいでね
+v2;210;Katakaimene empore. Touláchiston eínai píso sti Romaïkí Aftokratoría, makriá apó aftoús tous bárbarous. / 可哀相な商人よ。少なくとも、彼は野蛮人から離れてローマ帝国に戻ってきたが
+v1;240;Symfonó! I Romaïkí Aftokratoría eínai i kalýteri gi gia empório! / そうだな！ローマ帝国は最高の貿易地だ！
+
+//newchat;key:notavern,v1:adult,v1:male,v2:adult,v2:male,notbuilding:taverna,weigth:25
+//v1;0;Geiá sou! Den faínetai na eíste polý efcharistiménoi símera / こんにちは！今日は不機嫌そうだな
+//v2;30;Nai, den ypárchei tavérna gia na pioúme. / あぁ、酒を楽しめる酒場がなくてね
+//v1;60;Éfchomai na ypirche mia tavérna. Tóte tha boroúsame na pioúme romaïkó krasí. / 全くだな、この村にも酒場があればいいのに。そうすればローマのワインが飲める
+//v2;90;An móno... / 酒場があればなぁ...
+
+//newchat;key:soldiers1,v1:adult,v1:male,v1:vtype:soldier_byzantine,v2:adult,v2:male,v2:vtype:soldier_byzantine,weigth:3
+//v1;0;Elpízo óti den tha chreiasteí na vgoúme éxo kai na polemísoume opoiondípote bárbaro ópote sýntoma. / 外に出ても、すぐに野蛮人と戦わなくて済むと良いんだがなぁ
+//v2;30;Ti? Eímaste stratiótes, i douleiá mas eínai na bgoúme éxo kai na skotósoume bárbarous. Giatí tha beíte ston strató an den sas arései na agonízeste? / 何？私たちは兵士だぞ。野蛮人を殺すのが仕事だ。戦いが嫌いなら、どうして軍隊に入ったんだ？
+//v1;60;Skéftika óti i zoi mou tha ítan efkolóteri, to móno pou perímena na káno eínai na stamatíso kai na skotóso lígous óchlous kai ton peristasiakó bárbaro. Allá tóra ótan skotóno éna várvaro, koitázo to prósopó tou kai skéftomai, "Ísos den prépei na skotónoume aftoús tous anthrópous". / あぁ、兵士になるのは簡単だと思っていたさ。村を巡回して暴徒や野蛮人を殺す、ただそれだけで良いとね。でも野蛮人を初めて殺した時、彼の顔を見て思っちまったんだ。この人たちを殺すべきではないなぁってね
+//v2;120;Skéftesai pára polý! Vgeíte éxo kai skotóse kana bárbaro gia ti Rómi. Tha mas skotósoun kai tha katastrépsoun ta spítia mas! Eínai móno asyneíditoi ágrioi. / それは考えすぎだ！ローマ帝国のために、野蛮人は殺してしまえばいい。奴らは私達を殺戮して、お前の家も破壊するんだぞ！ただの野蛮人だ
+//v1;150;Synantísate aftoús tous anthrópous pou kirýttete na skotónete? Óchi, den échete, ísos eínai diaforetikoí apó aftó pou mas eípan. / 殺せと命令されているあの連中に、お前は会ったことがあるのか？いや、そんなはずないだろう。多分、彼らは私たちが教え込まれたような輩とは異なるかもしれない
+//v2;180;Pragmati, tha boroúsan na eínai polý cheiróteroi. / あぁ、そうかもな。もっと酷い輩やもしれん
+//v1;210;Den nomízo óti katalavaínete tis sképseis kai ta deiná pou pernáo. / 私の意見や困惑を理解してくれないのか
+//v2;240;Eímai stratiótis, óchi filósofos. Tha prépei na páte na prosefchitheíte sto Theó gia kathodígisi, kathós safós chreiázeste. / 一介の兵士であって、哲学者ではないからな。お前は導きを求めて神に祈りに行くべきだ
+//v1;270;I prosefchí voithá se periódous psychikís krísis. Tha páo na proséfchomai tóra. / 精神的な苦痛には救いを求めて祈るしかないか。よし行ってくる
+//v2;300;Elpízo óti o Theós tha balei ti sýnchysi sou. / 神があなたの混乱を解消してくださいますように
+
+//newchat;key:soldiers2,v1:adult,v1:male,v1:vtype:soldier_byzantine,v2:adult,v2:male,v2:vtype:soldier_byzantine,weigth:3
+//v1;0;Elpízo óti den tha chreiasteí na vgoúme éxo kai na polemísoume opoiondípote várvaro ópote sýntoma. / I hope we don't have to go out and fight any barbarians anytime soon.
+//v2;30;Ti? Eímaste stratiótes, i douleiá mas eínai na vgoúme éxo kai na skotósoume várvarous. Giatí tha beíte ston strató an den sas arései na agonízeste? / What? We are soldiers, our job is to go out and kill barbarians. Why would you join the army if you don't like fighting?
+//v1;60;Skéftika óti o stratiótis tha ítan efkolóteros, to móno pou perímena na káno eínai na stamatíso kai na skotóso lígous óchlous kai to peristasiakó várvaro. Allá tóra ótan skotóno éna várvaro, koitázo to prósopó tou kai skéftomai, "Ísos den prépei na skotónoume aftoús tous anthrópous". / I thought being a soldier would easier, all I expected to do is stand around and kill a few mobs and the occasional barbarian. But now when I kill a barbarian, I look at his face and think, "Maybe we shouldn't be killing these people."
+//v2;120;Skéftesai pára polý! Vgeíte éxo kai skotóste várvarous gia ti Rómi. Tha mas skotósoun kai tha katastrépsoun ta spítia mas! Eínai móno asyneíditoi ágrioi. / You think too much! Go out and kill barbarians for Rome. They would kill us and destroy our homes! They are only uncivilized savages.
+//v1;150;Synantísate aftoús tous anthrópous pou kirýttete na skotónete? Óchi, den échete, ísos eínai diaforetikoí apó aftó pou mas eípan. / Have you met these people that you are preaching to kill? No, you have not, maybe they are different from what we were told.
+//v2;180;Eínai alítheia óti tha boroúsan na eínai polý cheirótera. / True, they could be much worse.
+//v1;210;Den nomízo óti katalavaínete tis sképseis kai ta deiná pou pernáo. / I don't think you understand the thoughts and plight I'm going through.
+//v2;240;Eímai stratiótis, óchi filósofos. Tha prépei na páte na prosefchitheíte sto Theó gia kathodígisi, kathós safós chreiázeste kápoio. / I'm a soldier, not a philosopher. You should go to pray to God for guidance as you clearly need some.
+//v1;270;Écho ídi kai den écho típota perissótero apó ton Theó. Ótan prosefchómoun, émeina me to ídio sympérasma ópos écho tóra. / I already have and I got nothing more from God. When I prayed, I was left with the same conclusion as I have now.
+//v2;300;Ti? Échete afísei safós ton Theó gia na min sas po tin alítheia! Pigaínete píso stin prosefchí méchri na borésete na skotósete kai páli tous varvárous! / What? You clearly have forsaken God for Him to not to tell you the truth! Go back to praying until you can kill barbarians again!
+//v1;330;Ísos aftó eínai to sympérasma pou o Theós símane gia ména na écho! Tha páo na proséfchomai tóra. / Maybe this is conclusion God meant for me to have!
+//v2;360;Akoúgetai perissótero ópos o Theós thélei na syntaxiodotitheíte ... / Sounds more like God wants you to retire...
+
+newchat;key:soldiers2,v1:adult,v1:male,v1:vtype:soldier_byzantine,v2:adult,v2:male,v2:vtype:soldier_byzantine,weigth:3
+v1;0;Elpízo óti den tha chreiasteí na bgoúme éxo kai na polemísoume opoiondípote bárbaro ópote sýntoma. / 外に出ても、すぐに野蛮人と戦わなくて済むと良いんだがなぁ
+v2;30;Ti? Eímaste stratiótes, i douleiá mas eínai na bgoúme éxo kai na skotósoume bárbarous. Giatí tha beíte ston strató an den sas arései na agonízeste? / 何？私たちは兵士だぞ。野蛮人を殺すのが仕事だ。戦いが嫌いなら、どうして軍隊に入ったんだ？
+v1;60;Skéftika óti o stratiótis tha ítan efkolóteros, to móno pou perímena na káno eínai na stamatíso kai na skotóso lígous óchlous kai to peristasiakó várvaro. Allá tóra ótan skotóno éna várvaro, koitázo to prósopó tou kai skéftomai, "Ísos den prépei na skotónoume aftoús tous anthrópous". / あぁ、兵士になるのは簡単だと思っていたさ。村を巡回して暴徒や野蛮人を殺す、ただそれだけで良いとね。でも野蛮人を初めて殺した時、彼の顔を見て思っちまったんだ。この人たちを殺すべきではないなぁってね
+v2;120;Skéftesai pára polý! Vgeíte éxo kai skotóste várvarous gia ti Rómi. Tha mas skotósoun kai tha katastrépsoun ta spítia mas! Eínai móno asyneíditoi ágrioi. / それは考えすぎだ！ローマ帝国のために、野蛮人は殺してしまえばいい。奴らは私達を殺戮して、お前の家も破壊するんだぞ！ただの野蛮人だ
+v1;150;Synantísate aftoús tous anthrópous pou kirýttete na skotónete? Óchi, den échete, ísos eínai diaforetikoí apó aftó pou mas eípan. / 殺せと命令されているあの連中に、お前は会ったことがあるのか？いや、そんなはずないだろう。多分、彼らは私たちが教え込まれたような輩とは異なるかもしれない
+v2;180;Eínai alítheia óti tha boroúsan na eínai polý cheirótera. / あぁ、そうかもな。もっと酷い輩やもしれん
+v1;210;Den nomízo óti katalavaínete tis sképseis kai ta deiná pou pernáo. / 私の意見や困惑を理解してくれないのか
+v2;240;Eímai stratiótis, óchi filósofos. Tha prépei na páte na prosefchitheíte sto Theó gia kathodígisi, kathós safós chreiázeste kápoio. / 一介の兵士であって、哲学者ではないからな。お前は導きを求めて神に祈りに行くべきだ
+v1;270;Den écho típota perissótero apó ton Theó. Ótan prosefchómoun, émeina me to ídio sympérasma ópos écho kai tóra. / すでにそうしたんだけれど、神はこれ以上の答えなど教えてくださらなかった。祈ってみたところ、今の私と同じ結論に至ったよ
+v2;300;Ti? Échete afísei safós ton Theó gia na min sas pei tin alítheia! Pigaínete píso stin prosefchí méchri na borésete na skotósete kai páli tous varvárous! / 何だって？お前は明らかに神を見放している。だから神は真実を教えてくれないんだ。もう一度蛮族を殺せるようになるまで、祈りに戻るべきだ！
+v1;330;Ísos aftó eínai to sympérasma pou o Theós símane gia ména na écho! Tha páo na proséfchitho tóra. / これこそ神が私に与えてくださった結論かもしれないよ！
+v2;360;Akoúgetai perissótero san o Theós na thélei na syntaxiodotitheíte ... / 神はお前が退役することを望んでいるように聞こえるが...
+
+newchat;key:kidsBos,v1:child,v2:child,weigth:5
+v1;0;Bahh… Bahhh… Eimai o Boskokratoras!/ Bahhh...Bahhh...俺は羊飼いの王様だ！
+v2;30;Stamáta to! Tha ton kalésete me aftón ton tropo! / やめろ！それで彼を召喚するつもりか！
+v1;60;O Boskokrátor, sas xtizo énan ieró tópo… / あぁBoskokratorよ、聖地を捧げましょう...
+v2;90;Skáse! Den xérete ti symvaínei ston mýtho? / 黙れ！伝承だと何が起きたのか知らないわけじゃないよな？
+v1;120;$targetfirstname, klápse moró! Eínai móno aftó! Enas mýthos! / $targetfirstnameの泣き虫め！たかが伝承だよ！

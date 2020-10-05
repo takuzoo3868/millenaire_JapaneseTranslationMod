@@ -35,12 +35,12 @@ architect_byzantine.gorest=Telos bardias, kalynychta. / 今日の建築はおし
 architect_byzantine.gorest=Ísos tha oneireftó ta kalýtera ktíria ston kósmo! / 今日は世界一の建築をする夢が見れそうだ！
 
 architect_byzantine.gosocialise=Kaneís se aftó to chorió den katalavaínei ta provlímata tis oikodómisis. / この村に建築の煩わしさを理解してくれる人はいません
-architect_byzantine.gosocialise=Káthe architéktonas chreiázetai émpnefsi apó állous. / 他者と話して閃くこともあるんです
+architect_byzantine.gosocialise=Káthe architéktonas chreiázetai émpnefsi apó állous. / 他の人と話して閃くこともあるんです
 architect_byzantine.gosocialise=Oi architéktones chreiázontai polles apopseis gia na evdokimísoun. / 成長のためにフィードバックが欲しいのです
 architect_byzantine.gosocialise=Ti na skéftetai to chorió gia ta ktíriá mou? / 村人は私の建築をどう思っているんでしょうか？
 
 //armysmith_byzantine.MakeIndianTools=Ta romaïka ergaleia einai ta kalytera ston kosmo. / ローマの道具は世界最高です
-armysmith_byzantine.MakeByzantineMace=Min prosvállete kanénan pou chrisimopoieí ta ópla mou... / 私の作った武器を持っている人は攻撃しないほうがいいですよ
+armysmith_byzantine.MakeByzantineMace=Min prosvállete kanénan pou chrisimopoieí ta ópla mou... / 私の作った武器を持っている人へ攻撃しないことです
 armysmith_byzantine.MakeByzantineMace=Aftó to ropalo steilei tous barbarous sto gamo tou karagkiozi! / メイスは野蛮人を遠くへ吹き飛ばしてくれます！
 armysmith_byzantine.MakeByzantineMace=To na to xrisimopoieis eukolo, to na to ftiaxneis dyskolo. / メイスを作るより、その辺で振り回している方が簡単ですよ
 armysmith_byzantine.MakeByzantineMace=O stratós chreiázetai ropala. / 軍隊にはメイスが必要です
@@ -129,10 +129,10 @@ armysmith_byzantine.makesteelshovel=Pós ftiáchneis ta ftyária sou $name? / $n
 
 //artisan_byzantine.makePainting=H Romaikh texnh einai h pio exeligmenh ston kosmo. / ローマ美術は世界で最も先進的です
 
-artisan_byzantine.gopray=Énas kalós technítis prépei na proséfchetai káthe forá kai lígo. / 善き工芸家というのは時々祈るものなんです
+artisan_byzantine.gopray=Énas kalós technítis prépei na proséfchetai káthe forá kai lígo. / 善き工芸家というのはたまに祈るものなんです
 artisan_byzantine.gopray=Giatí o Theós me ékane énan techníti? / なぜ神は私を職人にしたのでしょうか？
-artisan_byzantine.gopray=I prosefchí eínai éna simantikó méros tis romaïkís cheirotechnías. / 祈りはローマの工芸に欠かせないものです。
-artisan_byzantine.gopray=Katanoeí ta provlímata pou échei o technítis. / 神は職人が抱える悩みを理解しているのです。
+artisan_byzantine.gopray=I prosefchí eínai éna simantikó méros tis romaïkís cheirotechnías. / 祈りはローマの工芸に欠かせません
+artisan_byzantine.gopray=Katanoeí ta provlímata pou échei o technítis. / 神は職人が抱える悩みを理解しているのです
 
 artisan_byzantine.gorest=Ávrio tha káno pio ómorfa prágmata! / 明日はもっと素敵なものを作ります！
 artisan_byzantine.gorest=Écho kánei me ktírio gia tin iméra. / 今日の作業はこれでおしまいです
@@ -172,50 +172,363 @@ artisan_byzantine.makeByzantineTiles=Ergazómaste píso apó tis skinés, enó o
 artisan_byzantine.makeByzantineTiles=Oúte oi kalýteroi oikodómoi boroún na oikodomísoun chorís blok. / どんなに優れた建築家でもタイルなしに屋根は作れません
 artisan_byzantine.makeByzantineTiles=Poios skéftike na metatrépsei ton piló se stéges? / 誰が粘土を屋根にすると考えたのでしょうか？
 
-villager.greeting=Omorfi mera, etsi den einai? / なんと美しい日だ、そう思わないか?
-villager.greeting=Tha brexei. Syntoma.  / もうすぐ、雨が降るな。
-villager.greeting=Kamia polh ston kosmo den sygrinete me thn Kwnstantinoupolh./ この大都市と比べられる都市は世界中を探してもないだろう。
+artwife_byzantine.gopray=I prosefchí eínai éna simantikó méros tis romaïkís cheirotechnías. / 祈りはローマの工芸にとって重要です
+artwife_byzantine.gopray=Elpízo óti o Theós me voithá na káno ta kalýtera roúcha! / 最高の服が作れるように神の力をお借りしたいですね！
+artwife_byzantine.gopray=Giatí o Theós ékane ti sýzygo enós architéktona? / 神はなぜ私を建築家の妻となさったのでしょうか？
+
+artwife_byzantine.gosocialise=O! Ékana to poukámiso tou anthrópou! / あの人の服を作ってみたわ！
+artwife_byzantine.gosocialise=Edó eímai gností os sýzygos tou architéktona. / この村では，あの建築家の奥さんとして認知されています
+artwife_byzantine.gosocialise=Eímai árrostos óti eímai gností os "sýzygos tou architéktona". / 建築家の奥さんと言われることにうんざりです
+
+artwife_byzantine.makeclothes_byz_silk=Káno meriká apó ta kalýtera roúcha sto chorió! / 村一番の絹の服を作ってみせます！
+artwife_byzantine.makeclothes_byz_silk=To romantikó metáxi eínai to kalýtero ýfasma ston kósmo! / ローマの絹は世界最高の品質ですよ
+artwife_byzantine.makeclothes_byz_silk=To metaxotó roúcho eínai pio simantikó apó to na écheis éna fantachteró spíti. / 絹の服を持っていることは、豪華な家を持つことより大切なんです
+artwife_byzantine.makeclothes_byz_silk=$name, échete forései metáxi? / $nameさんは絹の服を着たことがありますか？
+artwife_byzantine.makeclothes_byz_silk=Óloi chreiázontai roúcha, eidiká an thélete na eíste politisménoi. / 文明のある暮らしがしたいなら、衣服は必要ですよね
+artwife_byzantine.makeclothes_byz_silk=I alithiní omorfiá den eínai se blok, i omorfiá eínai sta roúcha. / 真の美しさはブロックの装飾ではなく、着ている服にこそ宿ると思います
+artwife_byzantine.makeclothes_byz_silk=Ypárchei énas lógos gia ton opoío yfaíno aftó kai óchi o sýzygós mou. / 旦那ではなく私が服を編んでいるのは訳があるんです
+artwife_byzantine.makeclothes_byz_silk=I ýfansi ton roúchon sto metáxi eínai móno gia tis pio evgeneís gynaíkes. / 絹で服を編むのは高貴な婦人のためです
+artwife_byzantine.makeclothes_byz_silk=Chaíromai pou prépei na káno pragmatikí douleiá. / 私にも仕事があって嬉しく思います
+
+artwife_byzantine.makeclothes_byz_wool=Káno meriká apó ta kalýtera mallina roucha sto chorió! / 村一番の羊毛の服を作ってみせます！
+artwife_byzantine.makeclothes_byz_wool=Oraía endymasía eínai pio simantikó apó ó, ti échei éna fantachteró spíti. / 質の良い服を持っていることは、豪華な家を持つことより大切なんです
+artwife_byzantine.makeclothes_byz_wool=$name, échete forései to mallí sas prin? / $nameさんは羊毛の服を着たことがありますか？
+artwife_byzantine.makeclothes_byz_wool=I alithiní omorfiá den eínai se blok, i omorfiá eínai sta roúcha. / 真の美しさはブロックの装飾ではなく、着ている服にこそ宿ると思います
+artwife_byzantine.makeclothes_byz_wool=Óloi chreiázontai roúcha, eidiká an thélete na eíste politisménoi. / 文明のある暮らしがしたいなら、衣服は必要ですよね
+artwife_byzantine.makeclothes_byz_wool=Ypárchei énas lógos gia ton opoío yfaíno aftó kai óchi o sýzygós mou. / 旦那ではなく私が服を編んでいるのは訳があるんです
+artwife_byzantine.makeclothes_byz_wool=Den boreí káthe gynaíka na yfánei me mallí. / 羊毛から服を編むにはコツが要ります
+artwife_byzantine.makeclothes_byz_wool=Chaíromai pou prépei na káno pragmatikí douleiá. / 私にも仕事があって嬉しく思います
+
+artwife_byzantine.DeliverGoodsHousehold=Pragmata opws auto einai ta mona pou mporw na kanw. / 私にはこのくらいしかできませんから
+artwife_byzantine.GetHouseTHResources=Epitelous o syzygos mou metefere ta agatha opws tou eipa. / 旦那が頼んでた資材をやっと運んでくれました
+artwife_byzantine.getGoodsHousehold=Óra na frontízo tin oikogéneiá mou. / 家族でゆっくりします
+artwife_byzantine.greeting=Tha boroúsa na káno pollá perissótera edó an ímoun ándras, an móno... / 私が男だったら、もっといっぱいできる仕事があるのに...
+artwife_byzantine.greeting=To kathikon mas einai na elegxoume tous andres. / 旦那の手綱を握るのは大事なことです
+
+//Add (more) lines for artwife block transport and going to rest
+
+baron_byzantine.greeting=$name, to chorió mou échei ta kalýtera emporévmata gia pólisi! / $nameさん，ようこそ．私の村には色んな特産品がありますよ！
+baron_byzantine.greeting=Xaire, ploúsie taxidióti! / お金持ちの旅人さん、こんにちは！
+baron_byzantine.greeting=Thélete na voithísete na parakolouthísete tous agrótes $name? / $nameさんも農民の監視を手伝ってくれませんか？
+
+baron_byzantine.goDrink=Arketes metarýthmiseis! Chreiázomai éna potó. / 政務はもう十分！私にはお酒が必要です。
+baron_byzantine.goDrink=Axízei na pio to kalýtero krasí! / 最高のワインを飲ませてくれ！
+baron_byzantine.goDrink=Prépei na elénxo an i tavérna eínai kerdofóra. / 酒場が儲かっているか確認しに行かないとな
+baron_byzantine.goDrink=Káthe ischyró átomo prépei na piei í tha pethánei apó to ánchos! / 権力者ってのは酒を飲まないとストレスで死んじゃうの！
+
+baron_byzantine.gopray=Giatí o Theós na me kanei Eparxo? / なぜ神は私を領主になさったのでしょうか？
+baron_byzantine.gopray=I prosefchí eínai éna simantikó méros tis romaïkís kyvérnisis. / 祈りはローマの統治に重要な役割を果たします
+baron_byzantine.gopray=Katanoeí ta provlímata pou échoun oi Eparxoi. / 神は統治の悩みを理解してくださる
+baron_byzantine.gopray=To chorió mou chreiázetai apantíseis apó to Theó! / 私の村は神からの答えを必要としています！
+
+baron_byzantine.gorest=Arketí diacheírisi ton agrotón! Chreiázomai lígo ýpno. / 農民の管理はもうたくさん！寝ます！
+baron_byzantine.gorest=*Chasmouritó* Den boró na odigíso tous agrótes ótan eímai kourasménos. / 「ふぁ〜」疲れたまま農民の指導は無理があります
+baron_byzantine.gorest=Óra na koimithó sti metaxénia mou kouvérta. / 絹のブランケットに包まれて寝る時間です
+baron_byzantine.gorest=Óloi chreiázontai ýpno, eidiká ótan eíste igétis enós chorioú. / 誰だって睡眠は必要です、特に村長ならなおさら必要です
+
+baron_byzantine.gosocialise=Giatí oi anóitoi chorikoí vlépoun móno ton eaftó mou os ton "Eparxo"? / なぜ愚かな農民は私を「領主さま」としか見てくれないのでしょう
+baron_byzantine.gosocialise=Hm, as doúme an katévale tous fórous tou. / ふふふ...税金を払ってるか確認しに行きましょう
+baron_byzantine.gosocialise=Óra na empnéfso tous ftochoús na kerdísoun kana denarion! / 貧乏人を鼓舞してドゥニエを稼ぐ時間だ！
+baron_byzantine.gosocialise=Prépei na milíso me ton koinó laó? / 庶民と話す必要はあるのでしょうか？
+baron_byzantine.gosocialise=Os Eparxos, prépei na milíso ston laó mou, akóma ki an den to thélo. / たとえ話したくなくても領主として、村人と話さなければならない
+
+baron_byzantine.inspectconstruction=Prépei na sigoureftó óti oi agrótes den ésfaxan káti. / 農民が計画を台無しにしていないか見張る必要があるんです
+baron_byzantine.inspectconstruction=Aftó to ktírio tha férei kérdos sto chorió mou. / この建物は村に利益をもたらすだろう
+baron_byzantine.inspectconstruction=I pragmatiki eutixia einai na vlépeis to chorió sou na ploutízei. / 豊かになっていく村を眺めてみると素敵ですね
+baron_byzantine.inspectconstruction=Xéro óti i Rómi den chtístike se mia méra, allá giatí o architéktonas mou eínai tóso argós? / ローマは一日にして成らずとは言いますが、どうして建築家はこんなにのろまなんだ？
+baron_byzantine.inspectconstruction=Eínai dikí mou douleiá na diasfalíso óti ta ktíria tha kataskevastoún sostá. / 建設を正しい方向へ導くのが私の仕事です
+baron_byzantine.inspectconstruction=Oi architéktones mou kánoun syníthos kalí douleiá, allá prépei pánta na tis elénxo. / 村の建築家はよくやってくれていますが、チェックは大切なことなのです
+
+boy_byzantine.becomeAdult=Óra na gíneis dynatós antras! / 強い漢になる時が来た！
+boy_byzantine.becomeAdult=Eímai arketá megálos gia na doulépso mia douleiá! / もう仕事できる年齢です！
+boy_byzantine.becomeAdult=Chreiázomai mia douleiá tóra. / 仕事探しに行くぞ
+boy_byzantine.becomeAdult=Oi méres mou na eímai agóri teleiónoun. / 少年時代にさよならです
+
+boy_byzantine.goPlay=Thélo na polemíso kápoion! / 誰かと戦いたいー！
+boy_byzantine.goPlay=Thélo na paíxo "Katapolémisi ton Barbáron"! / 蛮族討伐ごっこしたーい！
+boy_byzantine.goPlay=Tha deíxo se ólous óti eímai megálos kai ischyrós! / 僕は大きくて強いんだってみんなに見せつけちゃうもんね！
+boy_byzantine.goPlay=Óra na paíxo ton stratióti.! / 兵士ごっこしたーい！
+
+boy_byzantine.gopray=Thélo na mátho gia to Theó! / もっと神様のことを知りたい！
+boy_byzantine.gopray=Boreí na mou pei o Theós gia tous enílikes? / 神様は大人のことを教えてくれるかな？
+boy_byzantine.gopray=Pós boró na prosefchithó? / どうやって祈ればいいの？
+boy_byzantine.gopray=Den thélo na prosefchithó! Thélo na paíxo! / 祈りはやだ！遊びたい！
+
+boy_byzantine.childobservesmithing=Ótan megaló, thélo na eímai kimás epísis. Í énas stratiótis. Í énas stratigós! / 大人になったら鍛冶屋になりたい！それに兵士！あと将軍にも！
+
+//Add lines for boys resting and socializing
+
+centurio_byzantine.goDrink=Káthe ischyró átomo prépei na piei, allios tha pethánei apó to ánchos! / 力仕事する人はみんな飲まなきゃストレスで死んでしまう！
+centurio_byzantine.goDrink=Os stratiótis, chreiázomai krasí, kai geniká, to chreiázomai perissótero apo tous allous. / 兵士にはワインが必要だ．私にはもっと必要だ
+centurio_byzantine.goDrink=Prépei na xekourasto, alliós tha eímai áchristos ótan érchontai oi bárbaroi. / 今のうちにリラックスしておかないと、蛮族が来たときに役立たずになってしまうだろう
+
+centurio_byzantine.gopray=Giatí o Theós me ékane Stratego? / なぜ神は私を将軍にしたのでしょうか？
+centurio_byzantine.gopray=I prosefchí eínai éna simantikó méros tou Romaíou polémou. / 祈りはローマの戦争で重要な役割を果たしている
+centurio_byzantine.gopray=Katanoeí ta provlímata pou échoun oi Strategoi. / 神は将軍である私の悩みを理解してくださる
+centurio_byzantine.gopray=O stratós mou chreiázetai apantíseis apó to Theó! / 我が軍隊は神の答えを必要としている！
+
+centurio_byzantine.gorest=Arketí diacheírisi ton stratiotón! Chreiázomai lígo ýpno. / 兵士の統率はもう十分！今は睡眠が必要だ
+centurio_byzantine.gorest=Óra na apogeiotheí i panoplía mou kai na koimithó. / 鎧を脱いで眠りに行くぞ
+centurio_byzantine.gorest=*Chasmouritó* Den boró na odigíso tous stratiótes ótan eímai kourasménos./ 「ふぁ〜」疲れていては兵士の指揮に影響が出てしまう
+centurio_byzantine.gorest=Óloi chreiázontai ýpno, eidiká ótan eíste igétis enós chorioú. / 誰だって睡眠は必要だ、特に村長ならなおさら重要なのだ
+
+centurio_byzantine.gosocialise=Óra na enischytheí to ithikó ton stratiotón! / 兵士の士気を高めにいこう！
+centurio_byzantine.gosocialise=Énas kalós trópos gia na kerdísete tin písti eínai na symvoulefteíte tous anthrópous sas. / 忠誠心を得るためには、身内に相談するのが一番だ
+centurio_byzantine.gosocialise=Chreiázomai perissóterous stratológous gia to strató! / 軍隊はもっと多くの新兵が必要だ！
+centurio_byzantine.gosocialise=Oi yfistaménoi mou prépei na gnorízoun ta amyntiká mou schédia. / 部下に私の防衛計画を知ってもらう必要がある
+centurio_byzantine.gosocialise=Oi yfistaménoi mou prépei na gnorízoun ta prosvlitiká mou schédia. / 部下に私の攻撃計画を知ってもらう必要がある
+centurio_byzantine.gosocialise=Oi ánthropoi prépei na katalávoun tin apeilí mias varvarikís epíthesis! / 民衆に蛮族の脅威を理解してもらう必要がある！
+centurio_byzantine.gosocialise=Prépei na ypenthymíso se ólous óti prépei na eímaste étoimoi na polemísoume aná pása stigmí! / 平時から戦闘準備する大切さをみなに理解してもらう必要がある！
+
+centurio_byzantine.huntmonster=Akómi kai os Strategos, prepei na eimai sklirotrachilos stratiótis. / 百兵卒だろうと兵士の腕が訛っているわけではないぞ
+centurio_byzantine.huntmonster=Poú eínai oi yfistaménoi mou? Den prepei na kanoun etsi. / 部下はどこへ行った？彼らにはこんな感じで遂行してもらいたいのだが
+centurio_byzantine.huntmonster=Eímai Strategos tis Romaïkís Autokratorías kai pistévete óti boreíte na me antimetopisete? Xa! / 私はローマ帝国の将軍だぞ、貴様で相手になると思っているのか？（ ´_ゝ`）
+
+centurio_byzantine.inspectconstruction=Ti oraio na blepeis to chorio na megalonei. / 強くなっていく村は美しいな
+
+farmiller_wife_byzantine.DeliverGoodsHousehold=Pragmata opos auto einai ta mona pou mporw na kanw. / 私にはこのくらいしかできませんから
+farmiller_wife_byzantine.GetHouseTHResources=Epitelous o syzygos mou metefere ta agatha, opos tou eipa. / 旦那が頼んでた資材をやっと運んでくれました
+farmiller_wife_byzantine.getGoodsHousehold=Óra na frontízo tin oikogéneiá mou. / 家族でゆっくりします
+farmiller_wife_byzantine.greeting=Tha boroúsa na káno pollá perissótera edó an ímoun ándras, an móno... / 私が男だったら、もっといっぱいできる仕事があるのに...
+farmiller_wife_byzantine.greeting=To kathikon mas einai na elegxoume tous andres. / 旦那の手綱を握るのは大事なことです
+
+girl_byzantine.childobserveproducefood=Eínai kaló pou oi antres den mageirévoun, tha kápsoun ta pánta. / 男が料理しないのは良いことね。彼らが作ったら丸焦げになってしまうわ
+
+keeperBirch_byzantine.greeting=Einai toso bareta edo, den symvainei sxedon tipota... / ここはとても退屈ですよ、何も起こりませんので..
+keeperBirch_byzantine.greeting=Eínai dikí mou douleiá na parakolouthó aftés tis periochés. / この辺りの見張りが私の仕事です
+keeperBirch_byzantine.greeting=Kalhspera taxideuth, anarwtiemai pws irthes ews edw. / こんにちは旅のお方、こんな遠い場所までどうやって辿り着いたのですか？
+keeperBirch_byzantine.greeting=Pws skeftike kapios oti mporei na brei ergasia edw... / こんな僻地に人を派遣するだなんて絶対おかしいですよ...
+
+keeperOak_byzantine.greeting=Aftoi oi anthrwpoi, autoapokalountai "Normans", moy thimyzoun thn xakousth autokratotria mas. / ノルマン人と名乗るこの辺の人々は、栄光を築いた我らの帝国時代を彷彿とさせます
+keeperOak_byzantine.greeting=Einai toso bareta edo, den symvainei sxedon tipota... / ここはとても退屈ですよ、何も起こりませんので..
+keeperOak_byzantine.greeting=Eínai dikí mou douleiá na parakolouthó aftés tis periochés. / この辺りの見張りが私の仕事です
+keeperOak_byzantine.greeting=Kalhspera taxideuth, anarwtiemai pws irthes ews edw. / こんにちは旅のお方、こんな遠い場所までどうやって辿り着いたのですか？
+keeperOak_byzantine.greeting=Pws skeftike kapios oti mporei na brei ergasia edw... / こんな僻地に人を派遣するだなんて絶対おかしいですよ...
+
+keeperPine_byzantine.greeting=Afto to kryo einai tsouxtero. Den anarwtiemai pou den yparxei kaneis edw... / ここの寒さはひどいですね。周りに誰もいないのも頷けます
+keeperPine_byzantine.greeting=Einai toso bareta edo, den symvainei sxedon tipota... / ここはとても退屈ですよ、何も起こりませんので..
+keeperPine_byzantine.greeting=Eínai dikí mou douleiá na parakolouthó aftés tis periochés. / この辺りの見張りが私の仕事です
+keeperPine_byzantine.greeting=Kalhspera taxideuth, anarwtiemai pws irthes ews edw. / こんにちは旅のお方、こんな遠い場所までどうやって辿り着いたのですか？
+keeperPine_byzantine.greeting=Pws skeftike kapios oti mporei na brei ergasia edw... / こんな僻地に人を派遣するだなんて絶対おかしいですよ...
+
+keeperTropical_byzantine.greeting=Einai toso bareta edo, den symvainei sxedon tipota... / ここはとても退屈ですよ、何も起こりませんので..
+keeperTropical_byzantine.greeting=Eínai dikí mou douleiá na parakolouthó aftés tis periochés. / この辺りの見張りが私の仕事です
+keeperTropical_byzantine.greeting=Einai toso zesta edo. Den borw na katalavo giati aftoi 'Indian' zoun se afth th gh. / ここはとても暑いですね。この地にわざわざ住み着いたインド人の気持ちが理解できません
+keeperTropical_byzantine.greeting=Exeis dei pote aftous tous periergous tous 'Maya' ? Ta ktiria tous moiazoun san na einai etoima na katareusoun. / マヤと名乗る奇妙な民族をご存知ですか？彼らの建物は今にも崩れそうな感じですよ
+keeperTropical_byzantine.greeting=Kalhspera taxideuth, anarwtiemai pws irthes ews edw. / こんにちは旅のお方、こんな遠い場所までどうやって辿り着いたのですか？
+keeperTropical_byzantine.greeting=Pws skeftike kapios oti mporei na brei ergasia edw... / こんな僻地に人を派遣するだなんて絶対おかしいですよ...
+
+lumberman_byzantine.BringBackResourcesHome=As elpísoume óti aftó tha eínai arketó gia na evdokimísei to chorió! / これで村が繁盛するといいですね！
+lumberman_byzantine.BringBackResourcesHome=Eímai polý epitychiménos xylourgós, i apografí mou eínai gemáti me koútsoura! / 私は木こりとしてうまくやってます。小屋は丸太でいっぱいですよ！
+lumberman_byzantine.BringBackResourcesHome=Férno pollá déntra allá den eínai variá gia kápoio lógo. / こんなに木をたくさん運んでいるのに、なぜか重さを感じません
+lumberman_byzantine.BringBackResourcesHome=Aftí ítan mia kalí douleiá. / うまくいきました〜
+lumberman_byzantine.BringBackResourcesHome=H gynaika mou prepei na einai perhfanh me olo to xilo pou efera . / 妻も私の持ち帰った材木を見て誇りに思ってくれることでしょう
+
+lumberman_byzantine.ChopTrees=Kathe ktirio edw xreiazete xilo, h apokthsh tou einai douleia mou! / すべての建築に木材は必須です。その木材を手に入れるのが私の仕事なんです
+lumberman_byzantine.ChopTrees=Éna állo déntro káto, perissótero xýlo gia to chorió! / もう一本切り倒せば、村の木材が更に増えますね！
+lumberman_byzantine.ChopTrees=Éna állo déntro káto, perissótero xýlo gia to chorió! / もう一本切り倒せば、村の木材が更に増えますね！
+lumberman_byzantine.ChopTrees=$name, échete kópsei poté éna déntro prin? / $nameさんは木を伐採したことがありますか？
+lumberman_byzantine.ChopTrees=Párte to déntro Choppa! / 木を切ろう！
+lumberman_byzantine.ChopTrees=Pethaínoun déntro pethaínoun! CHACHACHA! Kaloúpi! Kaloúpi! Kaloúpi! CHA-O, Geia sou, $name! Típota ... paráxeno ... symvaínei edó.! / この樹木が！死んでしまえ！フハハハハ！死ね！死ね！死ねェ！ふぅ〜、おや、こんにちは$name！あっ...いや..何も変んなことなんてしてませんよ？
+lumberman_byzantine.ChopTrees=Den thélo na se skotóso, allá prépei na ... Antío déntro! / あたなを殺したくはなかったのですが...お別れです！
+lumberman_byzantine.ChopTrees=Échete anarotitheí poté giatí ta temachisména déntra ftánoun edó, $name? Eínai polý períergo. Ó, ti ki an káno, pántote epipléoun kai prépei na spáso to déntro pros ta páno lígo sigá, eínai énas tétoios pónos.! / $nameさんは切り倒したはずの木が浮かんでいるのを不思議に思ったりしますか？とても奇妙ですよね。何をしようが浮いたままなので、下から上に伐採しますがとっても面倒です
+
+lumberman_byzantine.GatherGoods=Re $name! Min to paírneis auto! / あっ$name！取らないで！
+lumberman_byzantine.GatherGoods=Ta déntra megálosan kalá aftí ti forá, tósa pollá koútsoura kai fytá. / 今回はよく育ったので、丸太や苗木がいっぱいです
+lumberman_byzantine.GatherGoods=Elpízo óti to chorió tha chreiasteí óla aftá ta koútsoura. / すべての丸太が村に必要とされているといいですね
+lumberman_byzantine.GatherGoods=Aftó ítan éna megálo déntro! Tóra to chorió boreí na chrisimopoiísei ta koútsourá tou. / 大木でしたね！村で使える材木もこんなにたくさん増えました
+lumberman_byzantine.GatherGoods=Koitáxte óla aftá ta néa kormoús kai ta fytá pou píra apó tin kopí ton déntron! / 木を切り倒して手に入れた新しい丸太と苗木のこの量を見てくださいよ！
+lumberman_byzantine.GatherGoods=Polu wraio dentryllio. / 向こうの苗木もいい感じですね
+
+lumberman_byzantine.PlantSaplings=Aftá ta fytá eínai tóso mikrá, merikés forés den boró na pistépso óti tha gínoun tóso megála. / この苗木はとても小さいです。これから大きく育つだなんて信じられないときもあります
+lumberman_byzantine.PlantSaplings=Eísai tóso charitoméno mikrófyllo, schedón me afínei na xecháso óti tha se kópso ótan megalóseis. / 君はとっても可愛らしい苗木だね。大きくなったら切り倒さないといけないことを忘れてしまいそうだよ
+lumberman_byzantine.PlantSaplings=$name, thélete na fytépsete éna fytó? / $nameさんも植樹したいですか？
+lumberman_byzantine.PlantSaplings=Ta déntra megalónoun tóso grígora edó, se líges méres gyrízoun apó aftó to mikroskopikó déntro méchri na eínai éna gemáto déntro. / この世界の木は成長が早いです。数日も経てば苗木から大木になります
+lumberman_byzantine.PlantSaplings=I fýtefsi eínai i efkolóteri douleiá, to móno pou prépei na káno eínai na ta topothetíso sto édafos. / 植樹は簡単ですよ。苗木を地面に置くそれだけです
+lumberman_byzantine.PlantSaplings=Syntoma tha ginei ena megalo, panemorfo dentro! Kai tha to kopsw.  / すぐに大きくて立派な木になるでしょう！そしたら私が伐採します
+
+merchant_art.greeting=Kamía póli ston kósmo den boreí na synkritheí me tin omorfiá kai ti dýnami tis Konstantinoúpolis. / 首都コンスタンティノープルの華やかさと力強さに匹敵する都市などありません
+merchant_art.greeting=Eímaste oi teleftaíoi alithinoí Romaíoi! / 私たちは正統なローマ人なのです！
+
+miner_byzantine.Mining=I douleiá mou eínai na spáso ta vráchia kai na metatrépso aftá ta vráchia pros epexergasía, aftó eínai. / 私の仕事は、岩を割って、鉱石を製錬することただそれだけです
+miner_byzantine.Mining=To chéri mou ponáei apó ti chrísi aftís tis pikkáx káthe méra. / 毎日このつるはしを使っていると腕が痛くなります
+miner_byzantine.Mining=Éna blok, dýo blok, tría blok, téssera blok, den teleiónei poté. Akrivós to ídio prágma xaná kai xaná. / 1つ、2つ、3つ、4つ...終わることはありません。同じことをひたすら繰り返します
+miner_byzantine.Mining=Éna blok, dýo blok, treis anamonís, eínai aftós o chrysós? Aftó eínai? Vríka to chrysó! CHRYSOS! CHRYSOS! Eímai ploúsios! HAHA-ítan aplá sidírou pou antanaklá se kakó fos. Epistrofí sto exóryxi sidírou kai ánthraka ... / 1つ、2つ、3...待てよ、これは金鉱石か？これが？金を見つけたんだ！金だ！金だ！これで金持ちだ、フハハハ...って鉄が運悪く光に反射していただけか。鉄と石炭の採掘に戻りましょう...
+miner_byzantine.Mining=Ogdónta blok, ogdónta éna blok, októ dýo blok, ogdónta tría blok ... / 80、81、82、83...
+miner_byzantine.Mining=Geia sou! Pós metaféroun tósa pollá blok kai i dikí mou tóso grígora? Chreiázontai óres gia na káno aftó pou káneis se mia méra. / なぁ！そんなに大量のブロックをどうしてそんなに早く運べるんだ？私なんて一日に何時間もかかるのに
+miner_byzantine.Mining=*ghouch* *Ghouch*, misó na ergázomai me ánthraka. / ゴホゴホ、石炭の採掘は嫌いです
+miner_byzantine.Mining=Gia na kaneis aythn thn douleia h dynamh kai h antoxh einai aparaithta. Kaneis omws den to katalabainei... / この仕事には体力と持久力が必要です。でも誰も気づいてくれません...
+miner_byzantine.Mining=Eimai perifanos pou eimai Romaios katoikos kai pou douleyw gia thn aytokratoria , an kai einai dyskolh douleia. / 私はローマ市民であることを誇りに思います。帝国の繁栄ために働くことを誇りに思っています。たとえ過酷な仕事であっても
+
+patriarch_byzantine.makebooks=Ta biblia mou einai merika apo ta kalytera xeirografa ekei exo. / 私の作る聖書は精巧な写本のひとつです
+
+patriarch_byzantine.gopray=Giatí o Theós me ékane énan apó tous pio polýtimous ypirétes tou? / なぜ神は私を最も大切な下僕の一人にしたのでしょうか？
+patriarch_byzantine.gopray=Os Patriárchis, prépei na odigíso tin prosefchí. / 総主教として、私がみなの祈りを主導しなければならない
+patriarch_byzantine.gopray=Katalavaíno ta provlímata pou échei. / 私は神の悩みも理解しています
+patriarch_byzantine.gopray=Katanoeí ta provlímata pou échoun oi patriárches. / 神は総主教の悩みも理解してくださる
+patriarch_byzantine.gopray=To chorió mou chreiázetai apantíseis apó to Theó! / 私の村は神の答えを必要としています！
+
+patriarch_byzantine.gorest=Óloi chreiázontai ýpno, eidiká ótan eíste igétis enós chorioú. / 誰もが睡眠を必要としています。特に村の指導者であれば尚更です
+patriarch_byzantine.gorest=*Chasmouritó* Den boró na odigíso tous iereís ótan eímai kourasménos./ 「ふぁ〜」疲れていては司祭たちを導けません
+
+patriarch_byzantine.inspectconstruction=I omorfiá vlépei to chorió sas na plisiázei perissótero sto Theó. / 私の村が神に近づいていく様子は眺めるだけで美しいですね
+
+pastor_byzantine.makebooks=Ta biblia mou einai merika apo ta kalytera xeirografa ekei exo. / 私の作る聖書は精巧な写本のひとつです
+
+//smith_byzantine.MakeIndianTools=Ta romaïkós ergaleia einai ta kalytera ston kosmo. / ローマの道具は世界でも他にないほど高品質です
+
+smith_byzantine.gopray=Énas kalós sideras prépei na proséfchetai káthe forá kai lígo. / 善き鍛冶屋は時々祈るものです
+smith_byzantine.gopray=Giatí o Theós me ékane éna sídera? / なぜ神は私を鍛冶屋にしたのでしょうか？
+smith_byzantine.gopray=I prosefchí eínai éna simantikó méros tis romaïkís cheirotechnías. / 祈りはローマの鍛冶の重要な要素です
+smith_byzantine.gopray=Katanoeí ta provlímata pou échoun oi siderades. / 神は鍛冶屋の抱える悩みを理解してくださる
+
+smith_byzantine.gorest=Ávrio tha káno pio ómorfa prágmata! / 明日はもっと良いものを作ってみせましょう！
+smith_byzantine.gorest=Écho kánei me ktírio gia tin iméra. / 今日の製作は終わりです
+smith_byzantine.gorest=Ísos tha oneireftó na káno ta kalýtera ergaleía ston kósmo! / 世界一の道具づくりを夢に見るかもしれない！
+
+smith_byzantine.gosocialise=Tha zitíso na do an kápoios chreiázetai na kataskeváso káti. / 何か作って欲しいものがないか人に聞いてみましょう
+smith_byzantine.gosocialise=Elpízo óti to chorió ektimá ta ergaleía mou. / 村が私の道具を評価してくれることを願っています
+
+smith_byzantine.goDrink=Arketi cheirotechnía! Chreiázomai krasí! / 製作はもういい！ワインを飲みましょう！
+smith_byzantine.goDrink=Chreiázomai éna potó gia na me empnéfsei! / 新しい発想にはワインが必要です！
+smith_byzantine.goDrink=Káthe kalós siderás chreiázetai éna potó sto télos tis iméras. / 腕の良い鍛冶屋は一日の終わりに一杯のワインを嗜むものなんですよ
+smith_byzantine.goDrink=I cheirotechnía me kánei na dipsá gia to krasí. / 道具を作っているとワインが飲みたくなりまして
+
+smith_byzantine.makesteelaxe=Den boreíte na kópsete ta déntra chorís tsekoúri! / 斧なしでは木を切ることはできない！
+smith_byzantine.makesteelaxe=Kataskevázo ekpliktikoús áxones. / 素晴らしい斧を作りますよ
+smith_byzantine.makesteelaxe=Oi romaïkoí áxones eínai merikoí apó tous kalýterous ston kósmo! / ローマの斧は世界最高です！
+smith_byzantine.makesteelaxe=Oi xylourgoí chreiázontai na kánoume tous áxonés tous. / 木こりは斧を作る私たちを必要としています
+smith_byzantine.makesteelaxe=Pós ftiáchneis tous áxones sou $name? / $nameさんはどうやって斧を作っているのですか？
+
+smith_byzantine.makesteelhoe=Den boreíte na ekmetallefteíte chorís ergaleía kalliérgeias! / 農具なしで農業はできない！
+smith_byzantine.makesteelhoe=Kataskevázo katapliktiká ergaleía kalliérgeias. / 素晴らしい農具を作りますよ
+smith_byzantine.makesteelhoe=Romaïká ergaleía kalliérgeias eínai meriká apó ta kalýtera ston kósmo! / ローマの農具は世界最高です！
+smith_byzantine.makesteelhoe=Oi agrótes chreiázontai na kataskevásoume ta ergaleía tous. / 農民は農具を作る私たちを必要としています
+smith_byzantine.makesteelhoe=Pós dimiourgeíte ta georgiká sas ergaleía $name? / $nameさんはどうやってクワを作っているのですか？
+
+smith_byzantine.makesteelpickaxe=Den boreíte na to dikí sas chorís pickaxe! / ツルハシなしで採掘できない！
+smith_byzantine.makesteelpickaxe=Kataskevázo dynatá pickaxes. / 強靭なツルハシを作りますよ
+smith_byzantine.makesteelpickaxe=Ta romaïká pickaxes eínai meriká apó ta kalýtera ston kósmo! / ローマのツルハシは世界最高です！
+smith_byzantine.makesteelpickaxe=Oi anthrakorýchoi mas chreiázontai na kataskevásoume ta pickaxes tous. / 鉱夫はツルハシを作る私たちを必要としています
+smith_byzantine.makesteelpickaxe=Pós ftiáchnete ta pickaxes sas $name? / $nameさんはどうやってツルハシを作っているのですか？
+
+smith_byzantine.makesteelshovel=Den boreíte na chtísete í na skápsete chorís éna ftyári! / シャベルなしでは採掘も建築もできない!
+smith_byzantine.makesteelshovel=Kataskevázo anthektiká ftyária. / 耐久性の高いシャベルを作りますよ
+smith_byzantine.makesteelshovel=Romaïká ftyária eínai meriká apó ta kalýtera ston kósmo! / ローマのシャベルは世界最高です！
+smith_byzantine.makesteelshovel=Oi architéktones chreiázontai na kataskevásoume ta ftyária tous. / 建築家はシャベルを作る私たちを必要としています
+smith_byzantine.makesteelshovel=Pós ftiáchneis ta ftyária sou $name? / $nameさんはどうやってシャベルを作っているのですか？
+
+villager.greeting=Xaire, $name! / こんにちは、$name！
+villager.greeting=Omorfi mera, etsi den einai? / 今日はいい天気ですね
+villager.greeting=Tha brexei. Syntoma.  / もうすぐ、雨が降りそうです
+villager.greeting=Kamia polh ston kosmo den sygrinete me tin Konstantinoúpoli./ 首都コンスタンティノープルに匹敵する都市はこの世界にもありません
 villager.greeting=Den eimaste Ellines , eimaste Romaioi. / 我々はギリシャ人ではない。ローマ人だ。
-villager.greeting=Eimaste oi Byzantinoi oi teleutaioi alhthinoi Romaioi. Ypoklitheite sthn doxa tou politismou mass. / 我々はビザンティン民族、真の最後のローマ人だ。我らの文明の栄光に幸あれ。
-villager.GoPlay=Mallon tha paixw exw. / 外に出て遊びたい。
-villager.gorest=Eimai kourasmenos. Tha pao spiti na koimitho. / 疲れた。家に帰って寝よう。
-villager.makeBread=To psomi myrizei idi wraia. / パンのいい匂いがもうする...
-villager.gorest=Mallon oti tha pao gia ypno. / もう寝るよ。
-villager.BecomeAdult=Telika egina enas romaios poliths! / やっとローマ市民になったぞ!
-villager.calltoarms=H Romaikh Autokratoria dexete epithesh! Sta opla! / 攻撃されているぞ! 武器を持て!
-villager.GoPlay=Nomizo oti tha pao na paixoun exo. / 外に出て遊ぼうかな。
-merchant_art.greeting=Kamia polh ston kosmo den sygrinetai me thn Kwnstantinoupolh. / この大都市と比べられる都市は世界中を探してもないだろう。
-merchant_art.greeting=	Emeis oi Byzantinoi eimaste oi teleutaioi althinoi Romaioi. / 我々はビザンティン民族、真の最後のローマ人だ。
-smith_byzantine.MakeIndianTools=Ta Byzantina ergaleia einai ta kalytera ston kosmo. / 世界中でビザンティンの道具に勝るものはないな。
-armysmith_byzantine.MakeIndianTools=Ta Byzantina ergaleia einai ta kalytera ston kosmo. / 世界中でビザンティンの道具に勝るものはないな。
-armysmith_byzantine.MakeByzantineMace=Mhn prospatheis na katapolemhseis enan oplismeno andra. / 私が武装している時は私に攻撃を仕掛けるものではない。
-wife_byzantine.greeting=To kathikon mas einai na elegxoume tous andres. / 私たちの仕事は夫の世話をすることよ。
-wife_byzantine.greeting=An eisai gynaika dn mporeis na kaneis kai polla edw... / ここでは女性はあまり色々な事をするのは許されないわ...
-wife_byzantine.getGoodsHousehold=Nomizw einai wra na frontisw gia thn kathariothta tou spitiou. / 家事をする時間だわ。
-wife_byzantine.DeliverGoodsHousehold=Pragmata opws auto einai ta mona pou mporw na kanw. / これくらいの事しかしてあげれないけど。
-wife_byzantine.GetHouseTHResources=Epitelous o syzygos mou metefere ta agatha opws tou eipa. / やっと私の夫は頼んだ材料を揃えてくれた。
-wife_byzantine.cooking=H mageirikh einai poly diaskedastikh. / 本当に料理というのは楽しいわ。
-miner_byzantine.Mining=Gia na kaneis aythn thn douleia h dynamh kai h antoxh einai aparaithta. Kaneis omws den to katalabainei... / この仕事はとても力とスタミナが必要なんだ。まぁ誰もわかっちゃいないがね...
-miner_byzantine.Mining=Eimai perifanos pou eimai Romaios katoikos kai pou douleyw gia thn aytokratoria , an kai einai dyskolh douleia. / 私はローマ市民として帝国のためにこの仕事を誇りに思っている、例えそれが厳しい仕事だとしてもね。
-patriarch_byzantine.makebooks=Ta biblia mou einai merika apo ta kalytera xeirografa ekei exo. / 私の本はここでは最高のものの一つだよ。
-pastor_byzantine.makebooks=Ta biblia mou einai merika apo ta kalytera xeirografa ekei exo. / 私の本はここでは最高のものの一つだよ。
-lumberman_byzantine.BringBackResourcesHome=H gynaika mou prepei na einai perhfanh me olo to xilo pou efera . / 妻は私が採った木材全てに自信を持つべきだね。
-lumberman_byzantine.ChopTrees=Kathe ktirio edw xreiazete xilo, h apokthsh tou einai douleia mou! / ここでの建築物は全て木材を必要とする、私の仕事はそれを調達することさ!
-lumberman_byzantine.GatherGoods=Polu wraio dentryllio. / そこにいい若木があるね。
-lumberman_byzantine.PlantSaplings=Syntoma tha ginei ena megalo, panemorfo dentro! Kai tha to kopsw.  / この木は大きくて素晴らしい木になるだろう! 切り倒す日が楽しみだ。
-keeperBirch_byzantine.greeting=Pws skeftike kapios oti mporei na brei ergasia edw... / 誰がここに駐屯地が必要だなんて思ったんだろう...
-keeperBirch_byzantine.greeting=Einai toso bareta edw, den symvainei sxedon tipota... / ここはとても退屈だな、何も起こらないし...
-keeperBirch_byzantine.greeting=Kalhspera taxideuth, anarwtiemai pws irthes ews edw. / どうも 旅人さん、どうやってこんな遠くまで辿り着いたんだい?
-keeperOak_byzantine.greeting=Pws skeftike kapios oti mporei na brei ergasia edw... / 誰がここに駐屯地が必要だなんて思ったんだろう...
-keeperOak_byzantine.greeting=Einai toso bareta edw, den symvainei sxedon tipota... / ここはとても退屈だな、何も起こらないし...
-keeperOak_byzantine.greeting=Kalhspera taxideuth, anarwtiemai pws irthes ews edw. / どうも 旅人さん、どうやってこんな遠くまで辿り着いたんだい?
-keeperOak_byzantine.greeting=Aftoi oi anthrwpoi, autoapokalountai "Normans", moy thimyzoun thn xakousth autokratotria mas. / ここにいる人々は「ノルマン人」だ。帝国を思い起こさせてくれるのさ。
-keeperPine_byzantine.greeting=Pws skeftike kapios oti mporei na brei ergasia edw... / 誰がここに駐屯地が必要だなんて思ったんだろう...
-keeperPine_byzantine.greeting=Einai toso bareta edw, den symvainei sxedon tipota... / ここはとても退屈だな、何も起こらないし...
-keeperPine_byzantine.greeting=Kalhspera taxideuth, anarwtiemai pws irthes ews edw. / どうも 旅人さん、どうやってこんな遠くまで辿り着いたんだい?
-keeperPine_byzantine.greeting=Afto to kryo einai tsouxtero. Den anarwtiemai pou den yparxei kaneis edw... / ここの寒さはたまらないな。誰もいないのも納得だ...
-keeperTropical_byzantine.greeting=Pws skeftike kapios oti mporei na brei ergasia edw... / 誰がここに駐屯地が必要だなんて思ったんだろう...
-keeperTropical_byzantine.greeting=Einai toso bareta edw, den symvainei sxedon tipota... / ここはとても退屈だな、何も起こらないし...
-keeperTropical_byzantine.greeting=Kalhspera taxideuth, anarwtiemai pws irthes ews edw. / どうも 旅人さん、どうやってこんな遠くまで辿り着いたんだい?
-keeperTropical_byzantine.greeting=Einai toso zesta edo. Den borw na katalavo giati aftoi 'Hindi' zoun se afth th gh. / ここは暑すぎる。どうしてインド人はこんな所で生きていけるんだかわからん。
-keeperTropical_byzantine.greeting=Exeis dei pote aftous tous periergous tous 'Maya' ? Ta ktiria tous moiazoun san na einai etoima na katareusoun. / 奇妙なマヤの建物を見たことがあるかい? ちょっとしたら崩壊しそうな建物なんだ。
+villager.greeting=Eímaste oi mónoi alithinoí Romaíoi. / 私たちは正統なローマ人なのです！
+villager.greeting=Varéli sti dóxa tou politismoú mas katá ti diárkeia tis paramonís sas edó. / 滞在中は是非我々の文明の栄華を感じてください
+villager.greeting=Kalós ílthate sto chorió mas, $name! / 我々の村へようこそ$name！
+villager.greeting=Koíta! Ypárchei ónoma $name! / 見ろ！$nameだ！
+villager.greeting=Eimaste oi Byzantinoi, oi teleutaioi alhthinoi Romaioi. Ypoklitheite stin doxa tou politismou mas. / 私たちは正統なローマ人です．我らが文明の栄光に浸りなさい
+
+villager.BecomeAdult=Epitélous, écho gínei Romaíos polítis! / ついにローマ市民になった！
+
+villager.huntmonster=Prépei na skotóso aftón ton bárbaro! / この野蛮人は殺さねば！
+
+villager.goPlay=Mallon tha paixw ekso. / 外に遊びに行こう
+villager.goPlay=Tha páo na paíxo tóra. / 今から遊んできます
+villager.goPlay=$name! Théleis na paíxeis mazí mou? / $name！私と遊ばない？
+villager.goPlay=Thélo na tréxo! / 走りたい！
+
+villager.calltoarms=Hxiste synagermo! Dexomaste epithesi! / ローマ帝国が侵略された！武器を手に！
+villager.calltoarms=Barbaroi! Sta opla Romaioi! / 野蛮人がきたぞ！何としてでも村を守れ！
+
+villager.childeatgrapes=Orkízomai óti aftá ta stafýlia épesan mónoi tous! / ブドウが勝手に落ちてきたんだ！
+
+villager.childobservevines=Oi enílikes prépei na stamatísoun na chánoun nóstima stafýlia kánontas aftó to apaísio krasí apó aftó! / 大人たちは美味しいブドウを無駄にするワイン作りをやめろー！
+villager.childobserveconstruction=Mia méra tha episkefthó tin Konstantinoúpoli kai tha doúme ti moiázoun me ta pragmatiká romaïká ktíria! / いつかコンスタンティノープルに行き、本物のローマ建物がどんなものか見てみたい！
+villager.childobserveproducealcohol=Dokímasa éna krasí mia forá, eínai aidiastikó. / 一度ワインを舐めてみたんだけど不味いよあれ
+
+villager.gorest=An den koimithó, boreí na symvoún atychímata. / 寝ないと事故っちゃう
+villager.gorest=Eímai kourasménos. Páo spíti gia na koimithó. / 疲れました。家に帰って寝ます
+villager.gorest=Mallon oti tha pao gia ypno. / そろそろ寝ようかな
+
+villager.makeBread=To psomi myrizei idi wraia. / 焼けるパンのいい匂いがする...
+
+villager.gopray=Diefchon ton agion pateron eimon. / 猊下に導かれています
+villager.gopray=Basileus ouranie paraklite... / ああ、天に生まれし主よ、慈悲深い
+villager.gopray=O paides eulogitai, oi iereis animneite! / 人々は祈り、聖職者は頌栄します！
+villager.gopray=Xaire nymfe anymfeute! / Hail virgin nymph!
+villager.gopray=Tin upermaxo stratigo ta nikitiria! / ああ聖なるマリアよ、偉大なる勝利の先導者よ！
+villager.gopray=Os lytrothisa ton doinon euxaristiria... / 悪魔から私を救ってくれた神に感謝します...
+villager.gopray=Laos uperipsoute, eis pantas tous aiones / 肉身のよみがえり、終わりなき命を信じ奉る、アーメン
+
+villager.goDrink=Óra na ftiáxete éna frésko romaïkó krasí! / 今年のローマワインを飲みましょう！
+villager.goDrink=Chreiázomai éna potó. / 飲みたい
+villager.goDrink=O oínos tha plýnei ta provlímatá mou. / ワインは私の悩みを洗い流してくれる
+villager.goDrink=Xérate óti to romaïkó krasí eínai to kalýtero ston kósmo? / ローマワインは世界一だとご存知でしたか？
+villager.goDrink=Échei perásei polýs kairós apó tóte pou écho éna potó. / 飲むのは久しぶりです
+
+wife_byzantine.DeliverGoodsHousehold=Pragmata opws auto einai ta mona pou mporw na kanw. / 私にはこのくらいしかできませんから
+wife_byzantine.GetHouseTHResources=Epitelous o syzygos mou metefere ta agatha opws tou eipa. / 旦那が頼んでた資材をやっと運んでくれました
+wife_byzantine.cooking=H mageirikh einai poly diaskedastikh. / 料理は本当に楽しいです
+wife_byzantine.getGoodsHousehold=Óra na frontízo tin oikogéneiá mou. / 家族でゆっくりします
+wife_byzantine.greeting=Tha boroúsa na káno pollá perissótera edó an ímoun ándras, an móno... / 私が男だったら、もっといっぱいできる仕事があるのに...
+wife_byzantine.greeting=To kathikon mas einai na elegxoume tous andres. / 旦那の手綱を握るのは大事なことです
+
+//refresh
+villager.givespeech=I Romaïkí Aftokratoría eínai megáli kai to chorió mas eínai to Spoudaióteron. / ローマ帝国は偉大であり、我々の村も偉大です
+villager.givespeech=To chorió mas prépei na efcharistísei gia tin igesía tou gia ólo to megaleío tou. / 我々の村が偉大なのは指導者が偉大だからです
+villager.givespeech=Emeís oi Romaíoi échoume tous kalýterous igétes kai tous kalýterous anthrópous. / ローマ人は最高の指導者と最高の民衆に恵まれているのです
+
+villager.listentospeech=Échei díkio! / 彼の言うとおりだ！
+villager.listentospeech=Dóxa eimín! / 我々に栄光を！
+villager.listentospeech=Boroúme na nikísoume opoiondípote! / 我々は何にでも打ち勝ってみせる！
+villager.listentospeech=Dóxa ston Theó kai ston Theóchristo igéti! / 神に栄光を！そして神の御先たる指導者にも！
+
+special_byzantine.greeting=Bahhh, $name. / あなたは地の束縛から開放されるのだ、$name
+special_byzantine.calltoarms=Bahhh! Bah! Bahhhhh! Bah. / 人の子よ、運を試してはいけない
+special_byzantine.gopray=Bahhhhh… Bahhhh… / 私の前にひれ伏すのだ...
+
+oldshepherd_byzantine.greeting=Oi pepoithíseis mou me krátisan kala… / 永く信じてきました...
+oldshepherd_byzantine.greeting=Voíthisé me na ekpliróso to óneiró mou, $name, kai tha antameiftheíte / $nameさん私の長年の夢を実現してもらえませんか？さすればあなたも救われるでしょう
+oldshepherd_byzantine.calltoarms=Gia ton Boskokrátor! / すべては Boskokrator のために！
+oldshepherd_byzantine=Ágios Boskokrátor, parakaló evlogíste me kai ta próvatá mou. / 聖なる Boskokrator よ、私と羊らを祝福してください
+
+merchant_armour.greeting=Móno ta oraiótera ópla kai ta ópla! / 最高級の鎧と武器が揃ってるよ！
+merchant_armour.keepStall=Kalós írthate! Sas férno ta kalýtera spathiá pou boreíte na vreíte! / やぁ、やぁ！あなたのために最高の剣を入荷したよ！
+
+merchant_dyes.greeting=Érchomai sta chrómata káthe méra! Periménete, den eímai indós. / 色とりどりの顔料が揃ってるよ！ちょっと待て、私はインド人じゃないよ
+merchant_dyes.keepStall=Ela na deis! Vafés apó ólo ton kósmo! / さぁ見てらっしゃい、いらっしゃい！世界中から集めた顔料だよ！
+
+merchant_food.greeting=Ti léte gia kápoio nóstimo souvláki, $name? / $nameさんも美味しいスブラキはいかがかな？
+merchant_food.keepStall=Óla ta trófima pou thélete na fáte! / あなたの食べたそうなものは何だってあるよ！
+
+merchant_materials.greeting=Eláte na agorásete ta kalýtera oikodomiká yliká! Egó kai i pláti mou tha sas efcharistíso. / 最高級の建築資材はいかがですか！私の腰痛を助けると思ってさぁ買った買った！
+merchant_materials.keepStall=Ámmos, pétra kai toúvla! Diorite kai chalazía! / 砂に石、レンガ！それに閃緑岩やクォーツもあるよ！
+
+merchant_relics.greeting=Pouláo polýtimes cheirotechníes kai ierá koimilia, $name. / 貴重な工芸品や神聖な品物を扱っているよ、$name
+merchant_relics.keepStall=Eláte kai deíte tin koryfí tis romaïkís cheirotechnías. / おいで、ローマの職人技を見てごらん
+
+merchant_textiles.greeting=Sovará, $name? Aftó to Endyma? / なぁ$nameもびっくりだよな？この肌さわり
+merchant_textiles.keepStall=Montérna chaliá kai roúcha, ópos akrivós kai stin Konstantinoúpoli! / おしゃれな絨毯に服の数々、まるでコンスタンティノープルみたいじゃあないか！
+
+loneabbot_byzantine.greeting=Kalós ílthate, $name. Boreíte na xekourasteíte apó ta taxídia sas, eíste asfaleís edó. / ようこそ、$name。旅の疲れを癒してください。ここは安全です
+lonemonk_byzantine.greeting=Den boró na sou prosféro típota, $name / 提供できるものは何もないですよ、$nameさん
+
+loneabbot_byzantine.gosocialise=Anypomonó na moirastó tis spoudés mou. / 研究の成果を共有したくてうずうずしています
+
+lonemonk_byzantine.gosocialise=Anypomonó na moirastó tis spoudés mou. / 研究の成果を共有したくてうずうずしています
+lonemonk_byzantine.plantseeds=Eíthe o Theós na evlogeí aftoús tous spórous. / 種よ、あなたにも神のご加護がありますように
+lonemonk_byzantine.collectcrop=Aftés oi kalliérgeies eínai dóro apó ton ídio ton Theó. / この実りは神からの贈り物です
+lonemonk_byzantine.makebread=I megáli thysía ton Yión tha xekinísei me aftó to psomí. / 御子の多大なる犠牲はこのパンを分け与えたときから始まったのです
+
+villager.plantseeds=Pistévo óti tha échoume ploúsia synkomidí fétos. / 今年は実り豊かな収穫になりそうです
+villager.collectcrop=To íxera! Mia ploúsia synkomidí! / やっぱり！豊作ですよ！
+
+villager.gostudy=Parakaló, min me apospoún tin prosochí, $name. / どうか私の邪魔はしないでくださいね、$nameさん
+
+villager.gotreerelax=Aftó to skieró méros eínai téleio... / この日陰がちょうどいい...
+villager.gotreerelax=Tha boroúsa na meíno káto apó aftó to déntro óli tin iméra… / 一日中この木の下にいてもいいね...
+
+villager.relight=I agápi tou Theoú eínai i móni mou epithymía! / 神の慈愛は私の唯一の願いです！
+villager.golookout=Símera, éna ploío tha érthei. To xéro. / 今日船が来る、ということだけわかっています
+villager.golookout=Mia varetí douleiá, allá touláchiston plirónomai. / 退屈ですが給料は貰えますから

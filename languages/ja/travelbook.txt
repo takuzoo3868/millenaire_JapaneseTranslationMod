@@ -3,3 +3,6 @@
 travelbook.trade_good.akwardpotion.desc=なぜ下手くそなポーションはまずいのか？誰もあえて聞くことはないでしょう。
 travelbook.trade_good.arrow.desc=敵に向かって飛んでいく尖った恐怖。あらゆる文化圏で一般的な武器です。
 travelbook.trade_good.baked_potato.desc=イヌイットの主食です。いつの日かノルマンのもとへ伝わり、新たな歴史を作るでしょう。
+travelbook.trade_good.bearmeat_cooked.desc=美味しい熊肉を完璧に調理しました。非常に貴重なもので、食べた人には強力な活力を与えてくれます。
+travelbook.trade_good.bearmeat_raw.desc=ホッキョクグマの生肉です。調理して美味しくお召し上がりください。
+travelbook.trade_good.bed_straw.desc=藁や葉っぱなど、その場所で手に入るものなら何でも良い単純な敷物です。あまりお洒落ではないです。
