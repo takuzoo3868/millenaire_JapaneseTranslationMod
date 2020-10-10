@@ -1,0 +1,267 @@
+//* Dialogue lines start with a code like "v2;30;" which specify who is speaking and when the line shows up. Please copy it exactly in your translations.
+//* First half of the line (till the /) is in the villagers' language and must be kept as-is, second part should be translated
+
+//Note to translators: the version in devanagari (Hindi script) is for reference purpose. It will not show in game.                                             
+newchat;key:sun,tag:notraining,weigth:10
+v1;0;Kitni Garmi Hai! / めっちゃ暑い！
+v2;30;Main is garmi se pagal ho gaya hoon. / 暑さで頭がおかしくなりそう
+v1;70;Baarish kab hogi? / いつになったら雨降るん？
+
+//कीतनी गर्मी है!
+//मैं इस गर्मी से पागल हो गया हूं |
+//बारीश कब होगी ?
+
+
+newchat;key:monsoon,tag:notraining,weigth:10
+v1;0;Barish nahi ho rahi hai. / 雨降らないなぁ
+v2;30;Barish hogi. Chinta mat karo. / 心配するな。もうすぐ雨は降るよ
+v1;60;Tum har sal yahi bolte ho... / 毎年同じこと言ってるじゃん...
+
+//बारिश नही हो रही है |
+//बारिश होगी| चिन्ता मत करो|
+//तुम हर साल यही कहते हो ...
+
+newchat;key:rain,tag:raining,weigth:10
+v1;0;Arre! Baarish ho rahi hai! / やった！雨だ！
+v2;40;Itni si baarish se kya hoga... / こんな少しの雨じゃ意味ないよ...
+v1;80;Sukhe se toh behtar hai. / 全く降らないよりはマシでしょ
+v1;120;Lekin fasal kaise hogi? / 作物は無事に育ってくれるだろうか？
+
+
+//अरे! बारिश हो रही है!
+//इतनी सी बारिश से क्या होगा ...        
+//सूखे से तो बेह्तर है। 
+//लेकिन फसल कैसे होगी?        
+
+newchat;key:sandstone,weigth:10
+v1;0;Hamara gaon pragati kar raha hai, hai na? / 私たちの村は発展してるよね？
+v2;40;Par abhi bahut kaam baki hai. / まだまだやることはいっぱいあるよ
+v1;80;Sach me? / そうなの？
+v2;100;Bilkul! / 間違いなく！
+
+//हमारा गांव प्रगति कर रहा है, है ना?
+//हाँ, लेकिन अभी बहुत काम बाकी है |
+//सच में?
+//बिल्कुल!
+
+newchat;key:lakshmi,v1:adult,v2:adult,weigth:10
+v1;0;Jao, puja ke liye ek thali le aao. / puja(祈祷)のお供物を載せた皿を取りに行ってくれないか
+v2;40;Turant le aata hoon. / すぐに取りに行ってくるよ
+v1;80;Bhagwaan ko prabhavit karna jaroori hai. / 神々を鎮めないと
+v1;130;Tab hi baarish samay par aayegi. / そうすれば、雨も時間通りに降るだろうか
+
+
+//जाओ, पूजा के लिए एके थाली ले आओ|
+//तुरंत ले आता हूं |        
+//भगवान को प्रभावित करना आवश्यक है |
+//तब ही बारिश समय पर आएगी |        
+
+
+
+newchat;key:beef,v2:adult,weigth:10
+v1;0;Kabhi socha hai, guy ka maas ka swad kya ho sakta hai? / 牛肉の味が気になったことある？
+v2;60;Guy ka maas? Lekin ye toh dharm ke khilaaf hai! / 牛の肉だって？でも、それを食べるのは、私たちのdharma(秩序)に反しているぞ！
+v1;120;Lekin shayad woh swadisht hai...? / でも美味しいなら...？
+v2;180;Kya tum normandi ke jungli ho? / 君はノルマンみたいな蛮族なのか？
+
+//कभी सोचा है, गाय का मांस का क्या स्वाद हो सकता है?
+//गाय का मांस? लेकिन यह धर्म के खिलाफ है!
+//लेकिन शायद वह स्वादिष्ट है...?        
+//क्या तुम नोरमंडी के जंगली हो
+
+newchat;key:rice,v1:child,v2:adult,weigth:10
+v1;0;Mai rasgulla chahta hoon. Mujhe bohot bhukh lagi hai! / ラッスグラが食べたい。とてもお腹が空いてきました！ 
+v2;60;Nahi. Tumhe sirf chawal khaana chahiye. / いや、ご飯だけにしといた方がいいよ
+v1;120;Lekin maine subhah hi ye khaya hai! / でも、今朝はもう食べちゃったし！
+v1;180;Aur kal bhi, parson bhi... / 昨日も一昨日も...
+v2;220;Toh tum yahi aaj raat ko, kal, aur jeevan bhar khao! / おやまぁ、それなら今夜も明日も...一生食べなきゃ生きていけないね
+
+//मैं रसगुल्ला चाहता हु। मुझे भूख  लग रहा है ।
+//नहीं | तुम्हे सिर्फ चावल खाना चाहिए |
+//लेकिन मैंने  सुबह ही  यह खाया है!
+//और कल भी, परसों भि…        
+//तो तुम यही आज रात को, कल, और जीवन भर खाना!
+
+newchat;key:indian_lumberman,v1:vtype:indian_lumberman,weigth:10
+v1;0;Aaj maine bahut jyada lakdi kaat li! / 今日はたくさん木を切ったな
+v2;60;Tum hamare jungle ko reghistaan bana doge!        / 森が砂漠になっちゃうよ！
+v1;120;Pareshan mat ho, yahaan bina kuch kiye hi pedh badhte hai. / 心配するな。ここの木はまた勝手に育つから
+
+//अज मैने बहुत ज़्यादा  लकड़ी काटीं  !
+//तुम हमारे गाँव को रेगिस्तान में बदल दोगे !
+//परेशान  मत हो, यहाँ बिना कुछ किये ही पेड़ बढते हैं। 
+
+
+
+newchat;key:indian_raja,v1:vtype:indian_raja,v2:adult,notrel:spouse,weigth:10
+v1;0;Mera mahal bahut chota ho gaya hai. / 我が宮殿は小さくなってしまった
+v2;60;Lekin maharaj, ye is kshetra me sabse bada hai! / ですがMaharaj(王様)、この地では一番大きいかと！
+v1;120;Lekin ye mujhe chota lagne laga hai. / それでも、予には小さく感じるのだ
+
+
+//मेरा महल बहुत छोटा हो गया है |        
+//लेकिन महाराज, यह इस क्षेत्र में सबसे बड़ा है!
+//लेकिन मुझे यह छोटा लगने लगा है |
+
+newchat;key:indian_rajputgeneral,v1:vtype:indian_rajputgeneral,weigth:10
+v1;0;Ek shaktishali qila hamare dushmanon ke khilaaf sabse accha bachaav hai. / 強い砦は敵に対する最高の防御となろう
+v2;60;Kaun se dushman, senapati? / 敵とはなんです、将軍さま？
+v1;100;Ye Norman aur anya jungli log. / ノルマンや他の蛮族たちだ
+
+//एक शक्तिशाली किले हमारे दुश्मनों के खिलाफ सबसे अच्छा बचाव है |
+//कौन से दुश्मन, सेनापति?        
+//ये नॉर्मन और अन्य जंगली लोग |        
+
+newchat;key:indian_rani,v1:vtype:indian_rani,notrel:spouse,weigth:10
+v1;0;Mere pati amir aur prasidh hai. / 陛下はお金持ちで立派な方です
+v2;50;Ji han! Yeh sach hai. / えぇ！全くその通りです！
+v1;110;Par ve mere liye kabhi kuch laatey nahi hai. / ですが、私には何もしてくれません...
+v2;160;Kyon nahi? Kal hi unhone tumhare liye teen sariyaan laayi thi. / なぜそのように仰るのです？昨日、3枚もサリーを賜ったではありませんか
+
+//मेरा पति अमीर और प्रसिद्ध है |        
+//जी हाँ! ये सच है |
+//पर वे मेरे लिये कभी कुछ लाते नही है |
+//क्यों नहीं? कल ही उन्होंने तुम्हारे लिये तीन साड़ियाँ खरीदा थी|
+newchat;key:indian_richwoman,v1:vtype:indian_richwoman,v2:female,v2:adult,v2:notvtype:indian_richwoman-indian-rani,weigth:10
+v1;0;Aaj mere pati ne mere liye 50 tola sona kharida. / 今日、夫が50トウラ(インドの重量単位)もの金を買っていたわ
+v2;60;50 tola sona! Mere paas sirf 10 tola sona hai... / 50トウラの金！うちなんて10トウラしか...
+v1;120;Aasha hai ki sitaare tumhare paksh mein honge. / あなたのために神々の導きがあることを祈りましょう       
+
+
+//आज मेरे पति ने मेरे लिये 50 तोला सोना खरीदा |        
+//50 तोला सोना! मेरे पास सिर्फ 10 तोला सोना है ...        
+//आशा है कि सितारों तुम्हारे पक्ष में होंगे|                                
+
+newchat;key:indian_sculptor,v1:vtype:indian_sculptor,weigth:10
+v1;0;Mujhe pratimaon banane ka achha mauka mila hai. / 新しく彫刻の依頼がきたよ
+v2;50;Tum bahut achhe murtiyan banate ho.        / そりゃあなたが立派な彫刻を作るからだよ
+v1;100;Main pandhara saal se murtiyan bana raha hoon. / もう長いこと彫っているからねぇ
+
+//मुझे प्रतिमाओं बनाने का अच्छा मौका मिला है|        
+//तुम बहुत अच्छे मूर्तियों बना ते हो|        
+//मैं 15 साल से मूर्ति बना रहा हूं |        
+
+newchat;key:indian_smith,v1:vtype:indian_smith,v2:adult,weigth:10
+v1;0;Hame aur phavadon ki zarurat hai. / もっとツルハシが必要だ
+v2;50;Main kaam mein vyasth hoon. / 今は忙しいんだ
+v1;100;Phavdiyon ki bhi zarurat hai. / シャベルも必要だ
+v2;150;Uff! Mujhe kitna kaam karna padta hai! / ははは！仕事がいっぱいだ！
+
+//हमें और फावडों की जरूरत है |
+//मैं काम मैं व्यस्त हूँ|        
+//फावड़ियों की भी जरूरत है |        
+//उफ़फ़! मुझे कितना काम करना पडता है !        
+
+newchat;key:indian_soldier,v1:vtype:indian_soldier,v2:adult,v2:female,notrel:spouse,notrel:sibling,notrel:child,notrel:parent,weigth:10
+v1;0;<targetname>, shayad gaon ke nikat daaku hai! / <targetname>、村の近くに山賊が潜んでいるらしいわ！
+v2;50;Chinta mat karo, main gaon ki raksha karonga. / 心配しないで、私が村を守ります
+v1;100;Tum bahut shaktishaali ho! / あなたはとても強いわね！
+v1;130;Aur sundar bhi. / それに、ハンサム
+v1;150;Agar aap ke paas moonch na hoti... / その口ひげさえなければ...
+v2;200;Meri moonch ke baare main kuch bhi na kaho! / 俺のヒゲがどうのこうの言うな！
+
+
+//<targetname>, शायद गांव के निकट डाकू है!
+//चिंता मत करो, मैं गाँव की रक्षा करूंगा|        
+//तुम बहुत शक्तिशाली हो!        
+//और सुंदर भी |        
+//अगर आप के पास मूंछें न होती ...        
+//मेरी मूंछ के बारे में कुछ भी न कहो!
+
+newchat;key:indian_villagechief,v1:vtype:indian_villagechief,v2:vtype:indian_peasant-indian_peasantwife,weigth:10
+v1;0;Senapati, iss saal fasal achhi nahi hai./ 旦那さま、今年の収穫は芳しくありません
+v2;40;Tu aalsi hai! Jyada kaam kar! / それはお前が怠け者だからだ！もっと働きなさい！
+v1;80;Lekin baarish hi nahi hui... / しかし、全く雨が降らないもので...
+v2;120;Meri galti nahi hai. Mujhe apna paisa chahiye. / それは私の責任ではない。とにかく借料が欲しいのだ
+v1;170;Lekin mere paas paise nahi hai. / ですが、お金がありません
+v2;210;Fir mujhe meri zameen do. / ならば土地を返してくれ
+v1;260;Mere paas kuch bhi nahi rehe jayega! / そんな、私には何も残らないではありませんか！
+
+//सेनापति, इस साल फसल अच्छी नहीं है |
+//तू आलसी है! ज्यादा काम कर!        
+//लेकिन बारिश ही नही हुई ...        
+//मेरी गलती नहीं है| मुझे अपना पैसा चाहिए |        
+//लेकिन मेरे पास पैसे नही है |        
+//फिर मुझे मेरी जमीन दो|        
+//मेरी पास कुछ भी नही रह जाएगा!        
+
+newchat;key:newhouse,villager:indian_merchant,v1:notvtype:indian_merchant,v2:notvtype:indian_merchant,weigth:10
+v1;0;Vaha Vyapaari apne ghar ke bagal mein ek naya ghar ban rahe hai. / あの商人は自分の隣に新しい家を建てているな
+v2;60;Ek aur ghar? Par kyun? / もう一軒？どうして彼は新しい家が必要なんだ？
+v1;90;Vaha naya ghar unke betey ke liye hai. / 息子のためだろう
+v1;140;Jab unke betey ki shaadi hogi, tab dono paas me honge. / 息子が結婚したら、ご近所さんになる訳だ
+
+
+//वह व्यापारी अपने घर के बगल में एक नया घर बना रहे है|
+//एक और घर? पर क्यों?        
+//वह नया घर अपने बेटे के लिए है |        
+//जब उनके बेटे की शादी होगी, तब दोनों पास में होंगे |
+
+
+newchat;key:gold,v1:vtype:indian_peasantwife,rel:spouse,villager:indian_villagechief,weigth:10
+v1;0;Gaon ke mukhiye ne apni patni ke liye sone ke kangan laaye. / 地主さまが奥さんへ金のブレスレットを贈ったそうよ
+v1;60;Par aap mere liye kuch nahi laatey... / それなのに、あなたは私に宝石すら贈ってくれない...
+v2;110;Tumhe ek amir aadmi se shaadi karni chahiye thi. / お金持ちと結婚すれば良かったじゃないか
+v1;160;Lekin mujhe aur dahej dena padta. / でも、そうなると持参金がいっぱい必要でしょう
+v2;200;Fir tumhe bhagyawaan lagna chahiye ki main tumhara pati hoon. / それなら、私のような夫を持てて幸せだと思うべきじゃないか
+
+//गांव के मुखिये ने अपनी पत्नी के लिये सोने के कंगन लाये|        
+//वाह! पर आप मेरे लिये कुछ नही लाते...        
+//तुम्हे एक अमीर आदमी से शादी करनी चाहए थी |        
+//लेकिन मुझे और दहेज देना पडता|                
+//फिर तुम्हे भाग्यावान लगना चाहिए की मैं तुम्हारा पति हूं|
+
+newchat;key:alcohol,v1:vtype:indian_peasant-indian_lumberman,v2:vtype:indian_peasant-indian_lumberman,weigth:10
+v1;0;Maine bahit dinon se sharaab nahi piya hai. / 久しく酒を飲んでないなぁ
+v2;50;Gaon ke bahar ek aadmi sharaab aur moongfali bechta hai. / 村外れのガジュマルの下に座って、お酒とピーナッツを売っている商人がいるぞ
+v1;110;Sach? Maine socha tha ki gaon mein sharaab par pratibandh laga diya gaya hai. / 本当か？村でお酒を売るのは禁止されてるんじゃなかったのか？
+v2;160;Yeh kisi aur ko mat batana. / 誰にも言うなよ
+v1;200;Chalo, hum aaj shaam ko vahan jaatey hai. / わかった、今日の夕方に行ってくる
+
+
+//मैने कई दिनों से शराब नही पिया है|
+//गांव के बहार एक आदमी शराब और मूंगफली बेचता है |
+//सच? मैंने सोचा था की गांव में शराब पर प्रतिबंध लगा दिया है|        
+//यह किसी और को मत बताना|         
+//चलो हम आज शाम को वहाँ
+//चलो, हम आज शाम को वहाँ
+
+
+newchat;key:childoneliner1,v1:child,v2:child,weigth:10
+v1;0;Kya aap ne mere liye khiloune laaye? / おもちゃを持ってきてくれたの？
+
+
+//क्या आप ने मेरे लिये खिलौने लेय?
+
+
+newchat;key:childoneliner2,v1:child,v2:child,weigth:10
+v1;0;Mere paas bahut saare dost hai.         / お友だちいっぱいだよ
+
+
+//मेरे पास बहुत सारे दोस्त हैं |
+
+
+newchat;key:childoneliner3,v1:child,v2:child,weigth:10
+v1;0;Meri maa shaam ko mujhe khelne nahi deti hai. / ママは日が暮れたら遊ばせてくれないんだ
+
+
+//मेरी माँ शाम को खेलने नही देती है |
+
+
+newchat;key:childrenzombie,v1:child,v2:child,weigth:2
+v1;0;Namaskaar! / やぁ！
+v2;50;Kya tumane dekha? / あれ見たか？
+v1;100;Kya dekhoon? / 見たって何を？
+v2;150;Mainne dekha ... ek zombee! / 見ちゃったんだ...ゾンビ！
+v1;200;Vaastav mein? / 本当に？
+v2;250;Haan! Yah bahut daraavana tha! Usane mujhe yah bhee bataaya ki yah aapako khaega! / 本当さ！とっても怖かったんだから！お前を食べちゃうぞって！
+v1;300;Ahhhhh! Maan! Ek zombee mujhe khaane ja raha hai! / いやぁぁぁ！ママッ！ゾンビに食べられちゃう！
+
+newchat;key:childrencreeper,v1:child,v2:child,weigth:2
+v1;0;Namaskaar! / やぁ！
+v2;50;Kya tumane dekha? / あれ見たか？
+v1;100;Kya dekhoon? / 見たって何を？
+v2;150;Mainne dekha ... ek creeper! / 見ちゃったんだ...クリーパー！
+v1;200;Vaastav mein? / 本当に？
+v2;250;Haan! Yah bahut daraavana tha! yah vahaan ek ped uda diya! / 本当さ！とっても怖かったんだから！あっちの木も吹っ飛んじゃってさ！
+v1;300;Lekin ruko, mera pasandeeda ped vahaan par tha ... waaaaaaa / いや待って、そっちはお気に入りの木が...うわぁぁぁぁん

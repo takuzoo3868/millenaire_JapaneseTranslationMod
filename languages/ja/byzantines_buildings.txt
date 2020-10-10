@@ -1,6 +1,6 @@
 
 //refresh
-kastron_a0=軍事宿営地跡(カストラ)
+kastron_a0=カストラ(軍事宿営地跡)
 kastron_a_archives_a0=資料館
 kastron_a_inn_a0=宿
 kastron_a_leftmarket_a0=市場
@@ -59,7 +59,7 @@ farm_a0=農場
 
 playerhut_a0=小さな家
 playerhouse_a0=大きな家
-villaurbana_a0=屋敷(Villa Urbana)
+villaurbana_a0=Villa Urbana(屋敷)
 playersmallplot_a0=狭い土地
 playerlargeplot_a0=広い土地
 playerhugeplot_a0=広大な土地

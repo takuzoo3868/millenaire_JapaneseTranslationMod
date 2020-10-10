@@ -119,7 +119,7 @@ tile.millenaire.paper_wall.name=障子
 item.millenaire.udon.name=うどん
 tile.millenaire.thatch.name=わらぶき屋根
 
-item.millenaire.parchment_sadhu.name=導師の本
+item.millenaire.parchment_sadhu.name=苦行僧の本
 
 item.millenaire.tachisword.name=太刀
 item.millenaire.yumibow.name=弓
@@ -324,9 +324,9 @@ item.millenaire.inuitmeatystew.name=イヌイットの肉シチュー
 item.millenaire.inuitmushroomstew.name=イヌイットのキノコシチュー
 item.millenaire.inuitpotatostew.name=イヌイットのポテトシチュー
 
-item.millenaire.inuitbow.name=イヌイットの弓(Pitiksi)
-item.millenaire.ulu.name=イヌイットのナイフ(Ulu)
-item.millenaire.inuittrident.name=イヌイットの槍(Kakivak)
+item.millenaire.inuitbow.name=Pitiksi(イヌイットの弓)
+item.millenaire.ulu.name=Ulu(イヌイットのナイフ)
+item.millenaire.inuittrident.name=Kakivak(イヌイットの槍)
 
 item.millenaire.tannedhide.name=鞣した毛皮
 item.millenaire.hidehanging.name=毛皮の敷物
@@ -496,7 +496,7 @@ advancements.medievalmetropolis.desc=100人以上の村人がいる村を支配�
 advancements.thequest.name=クエスト
 advancements.thequest.desc=村人からのクエストを達成
 advancements.maitreapenser.name=指導者
-advancements.maitreapenser.desc=導師か錬金術師に会う
+advancements.maitreapenser.desc=苦行僧か錬金術師に会う
 advancements.explorer.name=探検家
 advancements.explorer.desc=一軒家を探す
 advancements.marcopolo.name=マルコポーロ
@@ -581,7 +581,7 @@ advancements.marvel_norman.desc=ノルマン人の大聖堂建設をサポート
 advancements.wq_norman.name=ビッグバン
 advancements.wq_norman.desc=ワールドクエスト「錬金術師」を全て完了する
 advancements.wq_indian.name=禁じられた知識
-advancements.wq_indian.desc=ワールドクエスト「導師」を全て完了する
+advancements.wq_indian.desc=ワールドクエスト「苦行僧」を全て完了する
 advancements.wq_mayan.name=神聖な王冠
 advancements.wq_mayan.desc=ワールドクエスト「堕ちた王」を全て完了する
 

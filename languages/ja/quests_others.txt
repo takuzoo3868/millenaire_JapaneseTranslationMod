@@ -63,7 +63,7 @@ abbotbooksdelivery_2_listing=$loneabbot_villagename$ の本を $startvillager_vi
 //hindibasic:
 
 rajadiamondsword_0_label=極秘の依頼
-rajadiamondsword_0_description=こんにちは(Namaste)$name。あなたは $startvillager_villagename$ の友人であると行動で示してくれました、そして、たった今、私は特別な任務を遂行するために信頼できる人物を必要としています。将軍 $general_villagername$ は、忠実で有能な兵士であることを証明してくれました。今こそ彼の恩に報いる時なのです。 $general_villagename$ から $general_direction$ へ $general_distance$ 向かった先の砦にいる彼へ、この貴重なダイヤモンドの剣を届けて貰えないでしょうか。
+rajadiamondsword_0_description=Namaste(こんにちは)$name。あなたは $startvillager_villagename$ の友人であると行動で示してくれました、そして、たった今、私は特別な任務を遂行するために信頼できる人物を必要としています。将軍 $general_villagername$ は、忠実で有能な兵士であることを証明してくれました。今こそ彼の恩に報いる時なのです。 $general_villagename$ から $general_direction$ へ $general_distance$ 向かった先の砦にいる彼へ、この貴重なダイヤモンドの剣を届けて貰えないでしょうか。
 rajadiamondsword_0_description_success=命懸けでこの剣を届けてください！
 rajadiamondsword_0_description_refuse=我々はあなたが拒んだことを忘れませんよ。
 rajadiamondsword_1_label=剣の配達
@@ -75,7 +75,7 @@ rajadiamondsword_1_listing=$general_villagename$ の砦にいる $general_villag
 
 adivasifarmdelivery_0_label=届けてほしい
 adivasifarmdelivery_0_description=ここには自分たちで育てた米とターメリックしかないので、生活が苦しいです...どうか貧しい私たちを助けてくれませんか？ $peasant_villagername$ 村の農家の人が、私たちの作物を肉やラッスグラと物々交換してくれます。 $peasant_villagername$ 村まで作物を運んで貰えるとすごくありがたいです。その村はここから $peasant_direction$ に $peasant_distance$ ほど歩いた先にあります。
-adivasifarmdelivery_0_description_success=ありがとう(Shukriya)、我が友よ。 
+adivasifarmdelivery_0_description_success=Shukriya(ありがとう)、我が友よ。 
 adivasifarmdelivery_0_description_refuse=こんな貧乏人は誰も助けてくれないのか...
 adivasifarmdelivery_1_label=作物の配送
 adivasifarmdelivery_1_description=おや、 $startvillager_villagername$ から来たのですか？えぇ、在庫はありますよ。持ってきましょう。
@@ -84,14 +84,14 @@ adivasifarmdelivery_1_description_refuse=そうですか、彼らにとって残
 adivasifarmdelivery_1_description_timeup=時間内に $peasant_villagername$ へ作物を届けることができませんでした。
 adivasifarmdelivery_1_listing=$peasant_villagename$ の $peasant_villagername$ へ村の作物を届ける。
 adivasifarmdelivery_2_label=食料の配達
-adivasifarmdelivery_2_description=ありがとう(Shukriya)、$name。この食料を待ち望んでいました。 $peasant_villagername$ 村は、あなたを快く受け入れてくれましたか？
+adivasifarmdelivery_2_description=Shukriya(ありがとう)、$name。この食料を待ち望んでいました。 $peasant_villagername$ 村は、あなたを快く受け入れてくれましたか？
 adivasifarmdelivery_2_description_success=女神の祝福がありますように。
 adivasifarmdelivery_2_description_refuse=こんな貧乏人からも盗みを働くなんて天罰が下りますよ。
 adivasifarmdelivery_2_description_timeup=時間内に $startvillager_villagername$ へ食料を届けることができませんでした。
 adivasifarmdelivery_2_listing= $peasant_villagename$ から $startvillager_villagername$ の農家へ食料を届ける。場所は $peasant_villagename$ から $peasant_startvillager_distance$ へ $peasant_startvillager_direction$。
 
 traderdiamonds_0_label=宝石の配達
-traderdiamonds_0_description=こんにちは(Namaste)$name。あなたは信頼できる人だと、ヒンドゥー教の友人に聞きました。ぜひあなたにこの高価な宝石を届ける仕事をお願いしたい。 $rani_villagename$ の美しい女王 $rani_villagername$ は、新しい宝飾品用として私に宝石を注文しました。彼女の宮殿は $rani_direction$ に $rani_distance$ 歩いた場所にあります。報酬としてこの宝石を2つ差し上げましょう。お願いできますか? 
+traderdiamonds_0_description=Namaste(こんにちは)$name。あなたは信頼できる人だと、ヒンドゥー教の友人に聞きました。ぜひあなたにこの高価な宝石を届ける仕事をお願いしたい。 $rani_villagename$ の美しい女王 $rani_villagername$ は、新しい宝飾品用として私に宝石を注文しました。彼女の宮殿は $rani_direction$ に $rani_distance$ 歩いた場所にあります。報酬としてこの宝石を2つ差し上げましょう。お願いできますか? 
 traderdiamonds_0_description_success=盗まれるのが怖いので、他の人にはこのダイヤモンドを見せびらかさないで下さいね。
 traderdiamonds_0_description_refuse=少々危険すぎたでしょうか？
 traderdiamonds_1_label=ダイヤモンドの輸送
@@ -303,7 +303,7 @@ helvachild_0_description_success=思い出した！ハルヴァといいます�
 helvachild_0_description_refuse=ああ、今すぐにでも甘いものが食べたい...
 
 imambook_0_label=イマームの本
-imambook_0_description=私の夫は導師(イマーム)なのをご存知ですか？今朝、家を出る時にこの本を持って行くのを忘れたんです。彼に届けてもらえますか?
+imambook_0_description=私の夫はイマーム(導師)なのをご存知ですか？今朝、家を出る時にこの本を持って行くのを忘れたんです。彼に届けてもらえますか?
 imambook_0_description_success=ありがとうございます、この本は導師がきちんと仕事をするためにとても重要な本です。
 imambook_0_description_refuse=自分で届けにいきますとも...
 imambook_1_label=イマームの本

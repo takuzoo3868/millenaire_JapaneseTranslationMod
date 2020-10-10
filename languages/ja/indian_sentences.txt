@@ -1,0 +1,89 @@
+female.BecomeAdult=Mainey socha tha kisi rajkumar sey shaadi hogi... / 王子様との結婚を夢見ていたのに...
+
+female.gorest=Main ab aaraam karane jaoonga. / 休もうかしら
+female.gorest=Main thak gayi hoon. / 疲れたわ
+female.gorest=Subah sey kaam kar rahi hoon. / 朝からずっと働いていたの
+
+indian_armysmith.MakeWeapons=Hathiyaar bananey mein, upkaran bananey sey zyaada maan hai. / 道具作りより、武器作りの方が崇高だろ！
+
+indian_lumberman.BringBackResourcesHome=Itna saara lakri ghar ley jaaney mein mushkil hooga. / これだけの木材を持って帰るのは大変だろう
+indian_lumberman.ChopTrees=Yeh lakri kaat-tey kaat-tey meri zindagi beet jayegi. / 木の伐採に一生を費やしているような...
+indian_lumberman.GatherGoods=Ab saari lakriyan ikaththa karta hoon. / 今から木材を回収しますよ
+indian_lumberman.PlantSaplings=Jitna zyaada ped lagaoonga, utna hi aagey jaakey aaram raheyga. / 沢山植えておけば、後々の生活が楽になるからね
+
+indian_pandit.gopray.chosen=Main mandir ki dekh bhaal nahin karoonga toh kaun karega? / 私が寺院の手入れをしなければ、誰かがやってくれるとでも？
+indian_pandit.greeting=Jeetey raho. / 長生きしましょう
+
+indian_peasant.CookBrick= Dekho, aag mein kaisi badhiyan pakti hai yeh intein. / このレンガが、かまどの中で上手に焼けるかどうか見ててよ
+
+indian_peasant.DryBrick=Ghar bananey key liye kitney inth chahiyey? / 家を建てるのに必要なレンガの数は？
+
+indian_peasant.GatherBrick=Aaj suraj teez hai, inth jaldi sookh rahaien hain. / 日差しも強いから、今日は乾きが早いな
+
+indian_peasant.GetResourcesForBuild=Hmmm, ek tan ka inth  chahiye, dau tan paththar .. / えぇーっと、1tのレンガに2tの石...
+
+indian_peasant.SlaughterChicken=Bahut kha liya ghas-phoos. / ベジタリアンカレーはもうたくさんだ！
+indian_peasant.SlaughterChicken=Main murgiyon se napharat karata hoon ve zor se aur khae jaane ke alaava any kisee bhee any uddeshy kee seva nahin karate hain. / 鶏が嫌いなんだ。いつもうるさいし、今晩のおかずになるくらいしか役に立たない
+
+indian_peasant.construction=Hindu vastu-kala desh videsh mein mashoor hai. / 私たちの建築は世界的に有名だよ
+indian_peasant.construction=Iskey baad, main lal kila banaoonga. / 私たちの壮大な建築に肩を並べる建物なんて、世界中どこにもないでしょう
+
+indian_peasantwife.DeliverGoodsHousehold=Uffh, itna sara khana akeley kaisey leh jaoongi. / この量の食べ物を全部一人で運ぶの...？
+indian_peasantwife.GetGoodsHousehold=Inkey liye chahey jitna bhi khana lao, kam padta hai. / 家族のためにどれだけ食料を確保しても全然足りないの！
+indian_peasantwife.GetHouseTHResources=Sab kuch toh thakur ko dey dena padta hai. / 資材は全部、領主の家に集めているの
+indian_peasantwife.makeRasgulla= Bacchon koh rasgulla bahut pasand hai. / 子どもたちはラッスグラが大好きです
+
+indian_sculptor.Scult=Murtikala ched aur gaanth ki kala hai. / 彫刻は穿孔と隆起の芸術だ
+indian_smith.MakeTools=Sabhi merey banaye huye upkaran istamal kartey hain, phir bhi mujhey neecha samachtey hain. / みんな私の道具を使っているのに、私を軽蔑しちゃいないか！？
+
+male.BecomeAdult=Main badey hokar yodhdha ban-na chahta tha. / 幼い頃は立派な戦士になりたいと思っていたのに...
+
+male.gorest=Main ab aaraam karane jaoonga. / 休憩しようか
+male.gorest=Main thak gaya hoon. / 疲れたよ
+male.gorest=Subah sey kaam kar raha hoon. / 朝からずっと働き詰めだったんだ
+
+merchant_adivasi.KeepStall= Sab kuch mere parivar dwara kheti ki gayi hai. / 全部、ジャングルの奥深くで家族と一緒に育ているよ
+merchant_adivasi.greeting=Main van se a raha hoon / 密林から来たばかりさ
+
+merchant_oriental.KeepStall=Dekho yeh phaarsa ka gaurav! / ペルシャの豊かさをその目で見て行きなよ！
+merchant_oriental.greeting=Salam alaikum, bhai! / 彼に平安あれ！
+
+merchant_villagewoman.KeepStall=Ghara ka bana khana, bhukhe yaatriyon ke lie! / お腹の空いた旅人には手作りの料理が一番だよ！
+merchant_villagewoman.greeting=Ek akeelii mahila ke lie safar karna mushkil hai / 女性の一人旅は結構大変なんだ
+
+villager.BecomeAdult=Khel kud bahut ho gaya, ab kaam par chalo. / 遊びじゃなくて、仕事しなきゃね
+
+villager.GoPlay=Mujjhey mitti sey khelna accha lagta hai. / 土いじりが大好きなんだ
+
+villager.childobserveagriculture=Phasalon ko ropan karana har din bahut ubaoo lagata hai. Mujhe saahas ka jeevan chaahie! / 一日中作物を植えるのは退屈そうだなぁ。冒険の旅に出たい！
+villager.childobserveconstruction=Nirmaan mere lie bahut adhik kaam kee tarah dikhata hai. / 建築って自分には向いてなさそう
+villager.childobservesmithing=Kitne mazbut hathiyaar! / なんて力強い腕！
+villager.childobserveproducefood=Meri Ma sabase achchhe rasagulle banaati hai. / ママの作るラッスグラが一番美味しいんだ
+
+villager.childeatsugarcane=Ma kahati hain ki yah daanton ko nukasaan pahunchaata hai, lekin yah bahut achchha hai! / ママは虫歯になるって言ってたけど、とっても甘くて美味しいね！
+
+villager.HarvestRice=Adbhut baarish ke mausam kee vajah se, ab hamaare paas ek majaboot phasal hai.. / 素晴らしい雨季のおかげで、今年は豊作です
+
+villager.HarvestTurmeric=Haldi ki kheti kartey kartey merey haath peeley ho gayein hain. / ターメリックの収穫で手が黄色になっちゃった
+
+villager.PlantRice=Is saal barish achchi hui toh phasal accha hoga. / 大雨でも降れば、今年は豊作になるかな
+
+villager.PlantTurmeric=Haldi toh sabhi ko chahiyein. / 何と言っても、ターメリックは誰もが必要としているからね
+
+villager.calltoarms=Dushmano ki haar. / 敵を討ち破れ！
+villager.calltoarms=Jeet hamari hoogi. / 勝利は我々のものだ！
+villager.calltoarms=Sab apney apney hathiyar utha lo! / 武器を取れ！
+
+villager.gopray.chosen=Mandir jaaney ka samay ho gaya. / もう一回寺院に行きましょう
+villager.gopray=Bhagwan, bas aap hi ka sahara hai. / 神よ、あなたは私たちの希望です
+villager.gopray=Hey Bhagwan, is baar phasal achhi ho. / 神様、今年はどうか豊作でありますように
+
+villager.greeting=Aaj bahut garmi hai. / 今日も暑いね
+villager.greeting=Ghar par sa theek hain? / みんな元気かい？
+villager.greeting=Kya haal hai? / 調子はどうだい？
+villager.greeting=Kya khabar hai, $name-ji!? / $name-ji、最近どうだい！？
+villager.greeting=Kya tum se kale pani se pare ho? / 海の向こうから来たのかい？
+villager.greeting=Namaste, $name-ji! / $name-ji、Namaste(こんにちは)！
+villager.greeting=Yeh barish kyun nahin ho rahiee hai? / どうしてここは雨が降らないの？
+
+villager.inspectconstruction=Mujhe lagata hai ki hamaare raajamistree aise achchhe kaam karate hain. / 建築家の素晴らしい働きぶりを眺めるのは楽しいですよ

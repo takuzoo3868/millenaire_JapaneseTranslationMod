@@ -53,7 +53,7 @@ villager.mason_byzantine=石工
 
 villager.centurio_byzantine=百卒長
 villager.soldier_byzantine=兵士
-villager.special_byzanzine=森の神(Boskokrator)
+villager.special_byzanzine=Boskokrator(森の神)
 villager.oldshepherd_byzantine=老いた羊飼い
 villager.armysmith_byzantine=鎧鍛冶
 
@@ -65,7 +65,7 @@ villager.metropolit_byzantine=府主教
 
 villager.playersoldier_byzantine=兵士
 
-villager.special_byzantine=森の神(Boskokrator)
+villager.special_byzantine=Boskokrator(森の神)
 
 
 shop.THemporikos=中央市場
@@ -94,7 +94,7 @@ villager.loneshepherd_byzantine=羊飼い
 villager.loneshepherdf_byzantine=羊飼い
 
 villager.loneabbot_byzantine=修道院長
-villager.lonemonk_byzantine=修道士(Rassophore)
+villager.lonemonk_byzantine=Rassophore(誓願したての修道士)
 
 shop.bakery=パン屋
 shop.clothing=服屋

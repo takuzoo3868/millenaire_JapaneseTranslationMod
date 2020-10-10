@@ -259,7 +259,7 @@ newchat;key:chatter1,v1:female,v2:female,v1:adult,v2:adult,weigth:15
 v1;0;Echete idi akousei gia to mystiko tou xylokopos tou? / ねえ木こりの秘密について聞いたことある？
 v2;30;Ochi, ti einai lathos me afton? / いや、彼がどうかしたの？
 v1;60;Fainetai na syllegoun ta mila, kai ta poloun stous Normandous! / リンゴを集めて、ノルマン人に売っているらしいよ！
-v2;90;No way! Kai krata ta chrimata? / うそでしょ!それじゃ彼はお金持ちなのか？
+v2;90;No way! Kai krata ta chrimata? / うそでしょ!それじゃ彼はお金持ちなわけ？
 v1;120;Fysika! / そうなのよ!
 
 newchat;key:chatter2,v1:female,v2:female,v1:adult,v2:adult,weigth:15

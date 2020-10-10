@@ -54,7 +54,7 @@ TBA
 表示内容の修正，ビザンティン(buildings,reputation,strings)，ノルマン(dialogues,travelbook)，苦行者の報告書
 
 2020/9/24 Ver8.1.0対応中 [gap ja_jp: 63%]  
-村のクエスト，トラベルブックの基本的な表示
+村のクエスト，旅の書の基本的な表示
 
 2020/9/20 Ver8.1.0対応スタート [gap ja_jp: 59%]  
 一般的な表示(strings.txt, ja_jp.lang)，アイテムリスト，ヘルプ改善
