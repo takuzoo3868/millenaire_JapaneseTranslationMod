@@ -1,0 +1,58 @@
+
+boy.greeting=anaanaga miqsurunnaqtunga / ママが服の穴を縫ってくれるよ
+boy.greeting=pinnguarumajunga / 遊びたーい
+boy.greeting=qanuippit. / やぁ元気かい？
+
+chef.greeting=niqłiuqtunga. inuuhiqatsiaq! / 料理は大好き。さぁ食べて、食べて！
+chef.greeting=nirinnaqsijuq. / 食べよう 
+
+farmer.greeting=nunanniapaa, itjuujaq! / 農業はいいね、特にジャガイモは最高！
+
+fisherman.greeting=ukiukkut iqalliariaksaq quviagijara. / 冬場の釣りが好きなんです
+
+girl.greeting=mumirunnaqtunga / 踊れるわよ
+girl.greeting=qanuippit. / やぁ元気かい？
+girl.greeting=ullagunnaqtunga. / 走れるんだから
+
+hunter.greeting=qimuksiqpakpit? / 犬と一緒に旅行はどうだい？
+hunter.greeting=ukiakkut angunasukłuni quviagijara. / 秋の狩りが好きなんだ
+
+husband.greeting=iqqanaijariariaqaliqtunga. / あの仕事も今日やらないとなぁ
+
+lumberman.greeting=napaaktuk aglinigaktuk sayakturuk, tanakuuruk. / 樹木が強く逞しく、ぐんぐん育っているよ
+
+oldlady.greeting=amaamak irinaliut iqsijuq iglu imakkuutuq / 女神さまは我々が自分の領域から逃げないよう呪ったのさ
+oldlady.greeting=angu isivrivriuqpuq mamivuq! / 奴らの目を見てはならぬ！
+oldlady.greeting=irinaliut qitirut tamanna!? / 呪いが蔓延っている！？
+
+shaman.greeting=tuurngaq tutsiaqatigiinniq. / 精霊があなたを祝福しています
+shaman.greeting=uqariaqaqtunga tuurngaq. / 精霊の声を聞かねば
+
+sodder.greeting=qaijariaqaqtunga miqqapik / 芝を集めなきゃ
+
+villager.greeting=ainngai, $name! / こんにちは、$name！
+villager.greeting=aqsarniit takuminaqtut. / オーロラがとても綺麗だったよ
+villager.greeting=ilatit qanuippat? / 家族は元気かい？
+villager.greeting=katigatkit quvianaq. / 会えて嬉しいよ
+villager.greeting=nani nunaqaqqpit? / どこから来たんだい？
+villager.greeting=niriqqauvit? / 食事はもう済ませたのかい？
+villager.greeting=sinittiaqqaugaluaqpit? / よく眠れたかい？
+villager.greeting=takunasaaqpagit. / 久しぶりだね
+villager.greeting=tunngasugit / ようこそ
+villager.greeting=ullaakuut. / ご機嫌よう
+
+wife.greeting=kaayuk sinaiyaurug, masu aniruk! / この土はとても肥えていて、作物は狂ったように成長するわね！
+wife.greeting=silasiqanuippa? / あなたがお住まいの地域はどんな気候なの？
+
+art_merchant.greeting=Aucune ville dans le monde n'est comparable à Constantinople. / コンスタンティノープルに肩を並べる都市なんてありゃしないよ！
+art_merchant.greeting=Les gens ici sont des barbares. / ここの人々はまさに野蛮人だねぇ
+
+oriental_merchant.greeting=Ce pays est riche, mais fallait il vraiment qu'il soit si froid? / ここはとても豊かなのに、なぜこんなにも寒いのでしょうか
+oriental_merchant.greeting=Etes vous allez à Cordoue? Ca, c'est une ville civilisée. / コルドバに行ったことはありますか？ あそこは文明的な都市ですよ
+
+plant_merchant.greeting=Some people say I'm a dreamer, but I'm not the only one... / 私をロマンチストだと言う人もいますが、私だけではないはずです...
+
+viking_merchant.greeting=Aujourd'hui je vient commercer. Demain... / 今日は商売だけど、明日は...
+viking_merchant.greeting=Cette terre appartient aux vikings. L'Angleterre aussi. La Sicile aussi. Vive nous! / この土地はバイキングのもの。イングランドもバイキングのもの。シチリア島もバイキングのもの。我々の領土だ！
+
+weapon_merchant.greeting=Vous voulez vraiment savoir comment j'ai survécu toutes ces années voyageant seul avec des marchandises précieuses? / 貴重な品物を携えて一人旅をしていた私がどうやって生き延びてきたか知りたくありませんか？

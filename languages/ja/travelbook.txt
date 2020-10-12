@@ -11,3 +11,6 @@ travelbook.trade_good.beefraw.desc=牛のお尻から切り取ったジューシ
 travelbook.trade_good.bone.desc=よくわからない骨です。動物の骨だといいのですが...
 travelbook.trade_good.boneblock.desc=正体不明の巨大な骨の一部です。クジラでしょうか？ドラゴンでしょうか？それとも、狂ったスウェーデンのゲームデザイナーかな？誰か知らない？
 travelbook.trade_good.book.desc=紙と革で丁寧に製本し、背表紙が印象的な本です。本棚に入れてお友達を感動させるのに最適です。
+travelbook.trade_good.bookshelves.desc=展示目的で収集された真面目そうな本のコレクションです。知的に見える安上がりな方法ですね。
+travelbook.trade_good.bottle.desc=自分が作られた意味を探し求めているガラスの空き瓶です。
+travelbook.trade_good.boudin.desc=英国のブラッドプディング(ソーセージ)と同じように、作り方を知らない人の方が喜ばれる傾向にあります。

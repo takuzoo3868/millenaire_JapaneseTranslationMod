@@ -1,0 +1,117 @@
+//* Dialogue lines start with a code like "v2;30;" which specify who is speaking and when the line shows up. Please copy it exactly in your translations.
+//* First half of the line (till the /) is in the villagers' language and must be kept as-is, second part should be translated
+
+newchat;key:rain,tag:notraining,weigth:10
+v1;0;kisu qanniqtuq? / 雪降ってない？
+v2;30;aamai qiuvit?? / 雪っぽいけど、あんまり冷たくないよ
+
+newchat;key:beautiful,weigth:10
+v1;0;asiujivaa, / ここはどこなんだろう？見覚えはないけれど、同じような気もするんだよね
+v2;30;angakkuq uqalaittuq unillarvik tuurngaq, ittukki! / シャーマンが言うには、精霊に祝福された土地だそうだ。つまり、すごい場所ってことさ！
+
+newchat;key:sunset,weigth:10
+v1;0;sinigiaqaqtunga, unnusak... / 疲れちゃった、一日はあっという間だなぁ...
+
+newchat;key:seasons,weigth:10
+v1;0;aaqqiktausimalluni angunasungniq suvallituq ukiuq? / 今年の狩りは上手くいくかな？
+v2;30;aamai, uqqulimajuq. / こんな天気じゃ誰にもわからないよ
+v1;60;upirngalaaq ippigijaillingajuq. / ここじゃ季節なんて意味ないでしょ
+
+newchat;key:normans,weigth:5
+v1;0;qallunaat uivirripaa, uiguit? / 昨日自分たちをノルマンと名乗る変な人たちに合ったんだけど？
+v2;30;ii uigit anittaa pirlajuq. / あぁノルマン人か。いい人たちなんだけど、要求が少し激しいんだ
+v1;60;nauk ilitsimajuq? / どういう意味？
+v2;90;uiguit ungalliani pimajaqpuq, pirlajuq. / 先日彼らがやってきた時、家が空っぽになるくらい饗したけれど、もっとよこせと言ってきたんだ
+v1;120;saipaaqsauti / なんて奴らだ
+
+newchat;key:japanese,v1:adult,v2:adult,weigth:5
+v1;0;ualiniq immikkuurtuq qallunaat nirrimaatsiutit iqaluk! / 日本人は魚の下ごしらえを詳しく知っているそうだよ！
+v2;30;"nirrimaatsiutit" iqaluk? uugitsanguivuq, ii? / 魚の「下ごしらえ」？調理するという意味で合ってる？
+v1;60;aakka nirrimaatsiutit papa mamaqtuq. / いや、こういう手の込んだ調理法や味付けで料理をするんだ
+v2;90;aungajuaq mamailliungusuttuq tangiq aakka? / はぁーなるほど、食べ物って腐らなくても味が変わるんだね？
+v1;120;siaruulaaqtumi suurmi! / そうなのさ、今度一緒に確かめに行かないか！
+
+newchat;key:murderer,weigth:10
+v1;0;tusarniiluttuq sukutsiq sivunittini. / 事件後の彼の境遇は聞いたか？
+v2;30;ilinngatuq inuarniq aakka. / 事件だろうがなかろうが、人を殺すのは間違っている
+v1;60;pirlajuq inuillitiqtuq ii tuqutsiarivaa / あぁそうだが、村を追い出すほどのことなのか？彼が勝手におかしくなっただけだと聞いたぞ
+v2;90;manguppaa! akka itjiunngittuq aakka qiqumajuq. / 追い出さなきゃ駄目なんだ！あそこなら寒くないし凍死せず生きていけるだろうよ
+v1;120;inuillitiqtuq! / その方が良いって？一人孤独な生活を強いられているんだぞ！
+
+newchat;key:kys,weigth:10
+v1;0;qarungu avasirngulik tuqutsiarivaa? / 長老っていつになったら死ぬんだ？
+v2;30;aakka pirlajuq, suvallituq! / そんなこと考える必要ないさ。この世界は寛容だから！
+v1;60;aamai... uummangajuq / そうだな...でも長生きだから違和感しかないよ
+
+newchat;key:visitors,weigth:10
+v1;0; nunasiuriijaqtuq tikittusiaqpaa, upaajut qallunaat. / この土地は変な人がいっぱいだね
+v2;30;qallunaat $name? / $nameのことかい？
+v1;60;aakka $name, qinungati / $nameは一人の稀人に過ぎないよ、そうじゃなくてもっと大勢のことさ
+
+newchat;key:endermen,weigth:10
+v1;0;avasirngulik uqautivaa takisuuq, haattuq, iliranaqtuq kallupilluk? / 長老の言っていた背が高くて痩せ身の人って知ってる？
+v2;30;unniluppuq tariaksuq? aamai... / 影の民のことかな？よくわからないけれど...
+v1;60;maituaq! ii uqalaittuq unillarvik irinaliut / それっぽい！ここが本当に祝福された土地なら、彼らのことも捻り潰してくれるでしょう
+v2;90;uqalaittuq unillarvik summat tariaksuq? / そもそも、私たちが祝福された土地にいるのなら、なぜ影の民はここにいるのだろう？
+v2;120;quingaaluk... aamai... / あ...うーん...どうかな...
+
+newchat;key:likingrain,tag:raining,v1:adult,v2:adult,weigth:10
+v1;0;unganaqtuq aput. / 雪は好きだよ
+v2;42;mamaaqpi inuk! / イヌイットらしくて良いことだ！
+
+newchat;key:meat,weigth:10
+v1;0;pijurivaa niqituinnaq nangminiqaqatiujjutit, uumisuttuq niqiinniatuq / 肉の貯蓄が少なってきてると思うの。無くなっちゃうのは嫌だなぁ
+v1;30;niqituinnaq aakka qaluniq / お肉とシチューは同じじゃないんだよ...
+v2;60;qaluniq pigivaa niqituinnaq? / でもシチューの中にお肉入ってるじゃない？
+v1;90;qaluniq aakka niqituinnaq... / そうなんだけど、なんかこう...違うじゃん...
+
+newchat;key:carribou,weigth:10
+v1;0;nauk tuttuq? uggualuppuq tuttuvinik / カリブーが一体どこへ行ったのでしょう？あの肉が恋しいよ
+v2;30;tuttuliaq aakka pitsasiaq tuttuq. / 何回も狩りに行ったけれど、カリブーは見つからなかったなぁ
+v2;60;pitsasiaq immuksiugaq! / バイソンみたいな生き物はたくさん見つけたけどね！
+v1;60;kiinaujat piiqsiviulauqtinnagit, uumisuttuq immuksiugaq, tuttuq ikullajuq. / うぇー、バイソンは別にいいや。カリブーがいいなぁ
+v2;90;tamualitiqpait iqaluk, minallakaat. / なら魚で十分じゃない、いっぱい獲れるし
+
+newchat;key:countingcows,v1:child,v2:adult,weigth:10
+v1;0;iqianngunaqtuq. / この辺には何も無いや
+v2;30;mamaaq, qasungajuq. / 平和でいいよ
+v1;60;sarimaikuni... / でも退屈...
+v2;75;iluliuqpuq, illulinnipuq! / なら穴を掘って、雪でイグルーでも作るか！
+v1;110;igluvijaq?! / わぁ！自分だけのイグルー！？
+
+newchat;key:shamans,v1:child,v2:adult,weigth:5
+v1;0;ilaavigivaa angakkuq, uqasiriittuq tuurngaq. / シャーマンが羨ましいよ。精霊とお話できたらいいのになぁ
+v2;30;ilinniaqtuq angakkuq ilippuq / シャーマンに話し方を聞いてみるのはどうかな？
+v1;60;aamai... tuurngaq iliranaqtuq / たぶん...怖い精霊にも出会いそう
+v2;70;ii, taimanngat tuurngaq iliranaqtuq ivaaqpuq. / その通り。悪い精霊には気をつけないとね
+
+newchat;key:kids1,v1:child,v2:child,weigth:10
+v1;0;ataata pakkiggumiuttut ivvit. / ウチの父さんはあんたの所よりもずっと強いんだから
+v2;30;ataata pakkiggumiut illugasatjuat, tukiittulivuq! / ボクの父さんが村で一番さ！
+v1;60;tikittusiaqpaa, ataata pakkiggumiuttut ivvit attaiq. / まぁ夢見ちゃって。2分と経たずに負かしちゃうよ
+
+newchat;key:badflirt,v1:adult,v2:child,v1:male,v2:female,weigth:11
+v1;0;takuminaqsalaivuq, suvit unnuaq? / なんて美しい。今夜一緒にどうですか？
+v2;40;$targetfirstname, qinungavik suvit, qinuaqarvik! / $targetfirstnameさん...前にも言ったけど、私は別の人と約束しているのよ！
+
+newchat;key:hunting,weigth:10
+v1;0;takurngiunaqsivaa. / また狩りの腕が上がったみたい
+v2;30;piusivuq uummajuqsutuq! / 君はもう偉大な狩人だねっ！
+v1;90;ii isumanaqtuq? / 本当にそう思う？
+
+newchat;key:foodpreparer,building:foodpreparer,weigth:10
+v1;0;takutsugusuppuq pujaniq niqituinnaq igaarniq niq?iuqti. / 料理した時の肉の焼ける匂いが好きなんだ
+v2;30;aamai mikitjipuq, surratippaa nainguumivuq. / うーんちょっとわからないなぁ。生肉の方が好きだもん。味も変わっちゃうでしょ？
+v1;60;ua taamannak asianngutuq uuppaa. / おやおや、その変わった味が好きなんだよ！
+
+newchat;key:mikiruk,v1:adult,v2:adult,weigth:8
+v1;0;umingmak kaszruruk mikiruk. / うわ見てよ、バイソンがあんなに小さくて弱そうだ
+v2;42;tunisiruq, "immulivik..?" / 異国の商人はあれを「牛？」とか言ってたね
+
+//a shaman and another guy
+//alapittuk, muruaneq, qanir, aakka kikkitigaa? / 地面も空も雪で覆われているのに、どうして私たちは凍傷にならないのでしょうか？
+//uqalaittuq unillarvik Sanna! / それはここがセドナ神に祝福された聖地だからです！間違いない！
+
+//a shaman0 and another guy
+//alapittuk, muruaneq, qanir, aakka kikkitigaa? / 地面も空も雪で覆われているのに、どうして私たちは凍傷にならないのでしょうか？
+//uqalaittuq unillarvik Sanna! / それはここがセドナ神に祝福された聖地だからです！間違いない！
