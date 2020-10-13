@@ -47,6 +47,9 @@ language=ja
 TBA
 
 ## 更新履歴
+2020/10/13 Ver8.1.0対応中 [gap ja_jp: 85%]  
+時代背景を考慮した用語修正，イヌイット，日本
+
 2020/10/11 Ver8.1.0対応中 [gap ja_jp: 79%]  
 儀式表示の修正，インド(buildings,dialogues,reputation,sentences,strings,travelbook)，一部用語の統一
 
