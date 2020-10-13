@@ -1,42 +1,60 @@
-villager.greeting=Konnichiwa, $name-san! / こんにちは、 $nameさん!
-villager.greeting=Oi. / おい。
-villager.greeting=Ogenki desuka, $name-san  / げんきかい、 $nameさん?
-villager.greeting=Kawatta koto aru? / 変わったことある？
-villager.greeting=Hajimemashite / はじめまして。
-villager.greeting=Yokoso. / ようこそ。
-villager.greeting=Gokigenyou. / ごきげんよう。
+female.BecomeAdult=Watashi wa ituka hahaoya ni naritai desu. / 母親になりたいの
 
-villager.gorest=Watashi niwa kyu-kei ga hituyou desu. / 私には休憩が必要です。
-villager.gorest=A-, mou neru jikan da / あー、もう寝る時間だ。
-villager.gorest=Watashi wa totemo tukarete imasu./ 私はとっても疲れています。
+male.BecomeAdult=Watashi wa sensi ni naritai desu. / 武士になりたいんだ
 
-villager.gopray=Watashi wa housaku no tame ni megami Uga-no-Mintama ni inori masu. / 豊作のため、女神「宇賀魂命」に祈ります。
-villager.gopray=Kami wa watashitachi wo aku kara osukui ni naru. / 神は私達を悪からお救いになる。 
+villager.BecomeAdult=Seityou suru jikan. / 大きくなれそう
 
-villager.BringBackResourcesHome=Cho cho cho... / ちょ、ちょ、ちょ・・・
-villager.ChopTrees=Watashi wa nanbonka no ki wo bassai suru tsumori da. / 何本かの木を切ってくるつもりだ。
-villager.GatherGoods=Watashi wa ikutuka no souchi ga hituyou da. / 私はいくつかの資源が必要だ。
-villager.PlantSaplings=Watashi wa korera no naegi wo ueru tumori desu. / 私はこれらの苗木を植えに行くつもりです。
+villager.BringBackResourcesHome=Cho cho cho... / ちょ、ちょ、ちょ...
 
-villager.SlaughterChicken=Anata wa dareka no tame ni subarashii shokuji wo tukuru darou. / あなたは誰かのために素晴らしい食事を作るだろう。
+villager.ChopTrees=Watashi wa nanbonka no ki wo bassai suru tsumori da. / 何本か木を伐採してくるつもりだ
 
-villager.GetHouseResources=Watashi wa ie kara nanika totte konakereba ikenai. / 家から何か取って来なければいけない。
-villager.GetGoodsHousold=Watashi wa ie ni korera no mono ga hituyou desu. / これらが家に必要です。
-villager.DeliverGoodsHousold=Watashi wa mise kara syokuryou wo eta. / 市場から食べ物を買って来ました。
+villager.ConstructionStepByStep=Watashi no chichi wa kentiku no houhou ni tuite watashi ni oshieta. / 私は父から建築の方法を教わったんだ
+villager.ConstructionStepByStep=Watashi wa kami ga watashi no kenchiku wo kiniiru koto wo negatte imasu. / 神様が私の建築を気に入ってくれるといいな
 
-villager.GetResourcesForBuild=Watashi wa motto takusan no zairyou ga hituyou desu. / もっとたくさんの材料が必要だ。
-villager.ConstructionStepByStep=Watashi no chichi wa kentiku no houhou ni tuite watashi ni oshieta. / 父から建築を教わったんだ。
-villager.ConstructionStepByStep=Watashi wa kami ga watashi no kenchiku wo kiniiru koto wo negatte imasu. / 神様は私の建築を気に入ってくれるだろうか。
+villager.DeliverGoodsHousold=Watashi wa mise kara syokuryou wo eta. / 店から食料を持っていくよ
 
-villager.GoPlay=watashi wa asobitai desu. / 遊びたいです。
-villager.BecomeAdult=Seityou suru jikan. / 成長するまで。
-male.BecomeAdult=Watashi wa sensi ni naritai desu. / 私は武士になりたい。 
-female.BecomeAdult=Watashi wa ituka hahaoya ni naritai desu. / 私は母親になりたいです。
-villager.gopray.chosen=Kokoro wo otitukasete kudasai. / 心を落ち着かせるのです。
+villager.GatherGoods=Watashi wa ikutuka no souchi ga hituyou da. / 少し資材が必要なんだ
 
-villager.calltoarms=Mura wo mamore! / 村を守れ！
-villager.calltoarms=Karera wa watashitachi wo kougeki suru hi wo koukai suru darou! / 奴らに私達を襲ったことを後悔させてやれ！
+villager.GetGoodsHousold=Watashi wa ie ni korera no mono ga hituyou desu. / 家族の暮らしに必要なんだ
+
+villager.GetHouseResources=Watashi wa ie kara nanika totte konakereba ikenai. / 家から取って来なきゃ
+
+villager.GetResourcesForBuild=Watashi wa motto takusan no zairyou ga hituyou desu. / もっとたくさんの建材が必要だ
+
+villager.GoPlay=watashi wa asobitai desu. / 遊びたいです
+
+villager.childobserveagriculture=Watashinohaha wa,-mai sakumotsu o saibai suru koto wa jūyōdesuga, sore wa watashi no tame ni totemo taikutsuda to iimasu... / 母ちゃんが稲作は大切なんだって言うけれど、とても退屈そうに見えるよ...
+villager.childobserveconstruction=Tabun watashi ga ōkiku naru to, watashi wa tō o taterudeshou. Kin kara! / 大きくなったら塔を建てるんだ。金ピカの！
+villager.childobservesmithing=Watashitachi no buki ya yoroi wa mottomo utsukushī monodesu! / うちの村の武器や甲冑は最も美しいよ！
+villager.childobserveproducefood=Naze koko ni subete ga kome de tsukura renakereba naranai nodesu ka? Watashi wa kome ni tsukarete iru! / どうして何でもお米から作らないといけないの？お米はもうたくさんだよ！
+villager.childobserveproducealcohol=Zenkai watashi wa sake o tameshite mimashita. / お酒を試してみたら、悪酔いしちゃってさ
+
+villager.childeatapple=Kono sekai wa mahōdesu! Ringo wa subete no ki ni sodatsu! / まるで妖術みたい！どんな木でもリンゴが実るの！
+
+villager.MakeTools=Watashi wa naganen no aida saikoukyu no dougu wo koumyou ni tukutte iru. / 長年、最高級の道具を精巧に作っているんだ
+
+villager.MakeWeapons=Saikoukyu no buki no himitu wa sisyou kara watashi ni uketugareta. / 最高級の武具の秘訣は師匠直伝の技なんだ
+
+villager.PlantSaplings=Watashi wa korera no naegi wo ueru tumori desu. / これらの苗木を植えに行くつもりです
+
+villager.SlaughterChicken=Anata wa dareka no tame ni subarashii shokuji wo tukuru darou. / 誰かのために立派な食事となるんだよ
+
+villager.calltoarms=Karera wa watashitachi wo kougeki suru hi wo koukai suru darou! / 奴らに私たちを襲ったことを後悔させてやれ！
 villager.calltoarms=Kuki wo mote! / 武器を持て！
+villager.calltoarms=Mura wo mamore! / 村を守れ！
 
-villager.MakeTools=Watashi wa naganen no aida saikoukyu no dougu wo koumyou ni tukutte iru. / 私は長年、最高級の道具を作っているんだ。
-villager.MakeWeapons=Saikoukyu no buki no himitu wa sisyou kara watashi ni uketugareta. / 最高級の武器の秘密は師匠直伝の技だよ。
+villager.gopray.chosen=Kokoro wo otitukasete kudasai. / 心を落ち着かせるのです
+villager.gopray=Kami wa watashitachi wo aku kara osukui ni naru. / 祓戸の大神等、諸々の禍事罪穢を祓へ給ひ清め給ふと申す事の由を、天津神・地津神・八百万神等共に聞こし食せと畏み畏みも白す
+villager.gopray=Watashi wa housaku no tame ni megami Uga-no-Mintama ni inori masu. / 豊作を願って、宇迦之御魂神へ祈ります
+
+villager.gorest=A-, mou neru jikan da / あぁー、もう寝る時間だ
+villager.gorest=Watashi niwa kyu-kei ga hituyou desu. / 私には休憩が必要です
+villager.gorest=Watashi wa totemo tukarete imasu./ 私はとっても疲れています
+
+villager.greeting=Gokigenyou. / ごきげんよう
+villager.greeting=Hajimemashite / はじめまして
+villager.greeting=Kawatta koto aru? / 変わったことある？
+villager.greeting=Konnichiwa, $name-san! / こんにちは、$nameさん！
+villager.greeting=Ogenki desuka, $name-san  / 元気かい、$nameさん？
+villager.greeting=Oi. / おい
+villager.greeting=Yokoso. / ようこそ

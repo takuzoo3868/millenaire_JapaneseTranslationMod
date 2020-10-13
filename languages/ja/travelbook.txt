@@ -14,3 +14,5 @@ travelbook.trade_good.book.desc=紙と革で丁寧に製本し、背表紙が印
 travelbook.trade_good.bookshelves.desc=展示目的で収集された真面目そうな本のコレクションです。知的に見える安上がりな方法ですね。
 travelbook.trade_good.bottle.desc=自分が作られた意味を探し求めているガラスの空き瓶です。
 travelbook.trade_good.boudin.desc=英国のブラッドプディング(ソーセージ)と同じように、作り方を知らない人の方が喜ばれる傾向にあります。
+travelbook.trade_good.bow.desc=棒と紐からなる弓は大変シンプルです。十分に機能しますが、風格に欠けています。
+travelbook.trade_good.bread.desc=何の特徴もない、基本通りで飾り気のないパンです。単純にお腹を満たしてくれます。
