@@ -1083,7 +1083,7 @@ pujas.moneyslot=僧侶へお金を渡す。
 pujas.toolslot=エンチャントする道具を置く。
 
 sacrifices.priestcoming=<0>: 生贄の儀式を行いますか？神々をなだめるのは賢明な判断です。
-sacrifices.panditfee=シャーマンへ渡す
+sacrifices.panditfee=祈祷師へ渡す
 sacrifices.offering=生贄
 
 mayan.god0= Ah Puch - サバイバルのために

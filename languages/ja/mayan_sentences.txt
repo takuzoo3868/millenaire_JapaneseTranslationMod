@@ -1,0 +1,78 @@
+//villager.CookBrick=A'-la yam k'a'am tunich. / こりゃ立派な石だ
+//villager.DryBrick=To'on k'ab'eet tunich ti b'et ki- otoch. / 家を作るためにたくさんの石が必要なんだ
+//villager.GatherBrick=Ichil kuch ti yaab tunich. / ちょっと背負いすぎたかな
+
+female.BecomeAdult=Ichil k'a't ha ichki. / 旦那さんが欲しいわ
+male.BecomeAdult=Ichil k'a't ti tz'ak-b' ha ah tz'on. / 狩人になりたい
+
+mayan_shaman.gopray.chosen=U- orasion tal teech / 祈ることであなも護られるでしょう
+mayan_shaman.greeting=Ts'aakik tal teech. / 神々があなたを護ってくれるでしょう
+
+villager.BecomeAdult=La la la la. / 
+
+villager.BringBackResourcesHome=Ichil chuy ti yaab se'es ti kuch. / 運ぶにはちょっと多いな...
+
+villager.ChopTrees=Ya'ul pak. / 木を切ろう
+
+villager.ConstructionStepByStep=Ichil k'ab'eet ichil k'a'am et-meyah. / 屈強な同僚が欲しいよ
+villager.ConstructionStepByStep=Meyah meyah meyah. / 働けど働けどなお...
+
+villager.DeliverGoodsHousold=Ti yaab han-ha ti kuch. / 運ぶには多すぎたかな
+
+villager.GatherGoods=Ichil chuk u- se'es sut otoch. / 薪を持って帰ろう
+
+villager.GetGoodsHousold=Ichil k'ab'eet he'-la a-d'a'ax-tak k'am- otoch/ 家に持ち帰らなきゃ
+
+villager.GetHouseResources=Ichil chik nah yam ichil utz nah. / 清潔な家は良い家です
+
+villager.GetResourcesForBuild=Yaab' ti- yaab' tunich. / ちょっと石が多いな...
+
+villager.GoPlay=Ichil kolom uk chun su'uk. / 草むらで遊ぶよ
+
+villager.childobserveagriculture=I wonder what would happen if corn grains were heated very fast? / トウモロコシの粒を急に熱したらどうなるんだろうね？
+villager.childobserveconstruction=Why can't we ever build in something else than stone, I wonder? / 何で石ばっかりの建築なんだろう？
+villager.childobservesmithing=Everybody here uses obsidian for tools, but there must be something stronger! / みんな黒曜石の道具を愛用しているけれど、世の中にはもっと頑丈な素材があるはず！
+villager.childobserveproducefood=Why do the adults get all the cacauhaa? It's not fair! / ココアを独り占めするなんてずるいよー！
+
+villager.childeatcacaobeans=Beans alone are a little bitter. I wonder if it would be better soaked in milk? / うぇー苦い豆だなぁ。牛乳に浸してみたらどうだろう？
+
+
+villager.HarvestMaize=Ki' k'aaxal ki' hoch. / よく雨が降ったので、収穫に期待できそうです
+
+villager.HarvestTurmeric=A'-la yooch hoch si muk' ti han-ha. / 今収穫しているこのスパイスは、料理が美味しくなるんですよ
+
+villager.MakeTools=Man in-wah a'-b'a'ax. / 買っていってよ
+
+villager.MakeWeapons=U- k'ab wa'yeh nik k'a'am. / 強力な武器だよ
+
+villager.PlantMaize=K'aaxal tuuxtik gnat ichil k'a'am hoch. / 恵みの雨は豊作をもたらします
+
+villager.PlantSaplings=Ichil tz'ap tulakal he'-la -che'. / この木植えたのぜーんぶ私！
+
+villager.PlantTurmeric=Yooch men u- han-ha. / スパイスは料理の決め手です
+
+villager.ScultMayan=P'e k'in ichil k'am ti b'om. / いつか絵も描いてみたいよ
+
+villager.SlaughterChicken=Ah kax si gnat b'ak'. / 鶏は希少なお肉です
+
+villager.calltoarms=Kin-s-ab u- k'as hun. / 敵を殺せ！
+villager.calltoarms=Ti k'ab! / 武器を持て！
+villager.calltoarms=U- k'in yam in-ti'a'al! / 太陽は我らのものだ！
+
+villager.gopray.chosen=Ichil t'an u- orasion. / 祈りましょう
+villager.gopray=Pixan an gnat. / 神々は私たちを救ってくれます
+villager.gopray=Pixan taka gnat ichil k'a'am hoch. / 神々への祈りが豊作をもたらします
+
+villager.gorest=He'lel bisik na. / 残りは明日に
+villager.gorest=Ichil chuy ti wenel beora. / 寝なきゃ
+villager.gorest=Yaaawn. / 「ふぁ〜」
+
+villager.greeting=Ba'ax tumben? / 何か変わったことある？
+villager.greeting=Biix men u- pixan ts'aakik teech? / 精霊はあなたの魂を見定めているようです
+villager.greeting=Biix yam teech pamilya? / 家族は元気かい？
+villager.greeting=Ola, $name-ji! / こんにちは、$nameさん！
+villager.greeting=Pixan tuuxtik gnat k'aaxal. / 精霊が雨を運んできたね
+villager.greeting=Tu'ux yam teech lu'um? / どこから来たんだい？
+villager.greeting=U- ka'an yam k'iinal behla'e'. / 今日も暑いね
+
+villager.makeRasgulla=In-wah mo'nol pall yam k'oh. / 子どもが病気なの
