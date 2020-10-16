@@ -12,6 +12,8 @@
 
 まずは，リリースより **[Millenaire_JapaneseTranslation.zip](https://github.com/takuzoo3868/millenaire_JapaneseTranslationMod/releases/latest)** をダウンロードします．
 
+### ステップ①
+
 - 本コンテンツの日本語翻訳へ上書きする方
 
 ダウンロードしたzipを解凍し，`languages/ja`の中身を以下のフォルダへ上書き保存．
@@ -26,6 +28,18 @@
 
 ```
   ...(省略).../mods/millenaire-custom
+```
+
+### ステップ②
+
+「アイテム名」や「進捗」などマイクラ本体と関わる箇所は`languages/ja`の中にある`ja_jp.lang`へ纏まっています．
+
+このファイルについてはMOD本体(jarファイル)の中身を上書きする必要があります．
+
+`mods/millenaire-8.1.0.jar`を7zipなどで開いて，以下のフォルダへ`ja_jp.lang`をコピーします．
+
+```
+  ...(省略).../mods/millenaire-8.1.0.jar/assets/millenaire/lang
 ```
 
 ## 備考
@@ -44,7 +58,7 @@ language=ja
 
 ## 注意事項
 
-「アイテム名」や「進捗」などマイクラ本体と関わる箇所は`ja_jp.lang`へ纏まっていますが，Millénaire公式が配布するjarへ追加してもらう必要があるため，上記の導入方法では日本語が反映されません．全体の翻訳が終わったら，Millénaire翻訳チームへこの日本語化プロジェクトをマージしていただけるかコンタクト予定です．
+全体の翻訳が終わったら，Millénaire翻訳チームへこの日本語化プロジェクトをマージしていただけるかコンタクト予定です．
 
 ## スクリーンショット
 
