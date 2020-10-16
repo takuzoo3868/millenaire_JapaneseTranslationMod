@@ -30,7 +30,9 @@
 
 ## 備考
 
-特に設定の必要はないはずですが，再起動しても日本語で表示されない場合は`mods/millenaire`にある`config.txt`の中身を以下のように書き換えます．
+特に設定の必要はないはずですが，再起動しても日本語で表示されない場合は
+
+`mods/millenaire`にある`config.txt`の中身を以下のように書き換えます．
 
 ```
 language=ja
@@ -40,32 +42,50 @@ language=ja
 
 宗教や歴史要素が強いため，おかしな日本語がありましたらISSUEへ起票願います．
 
-## 注意
+## 注意事項
 
-「アイテム名」や「進捗」などマイクラ本体と関わる箇所は`ja_jp.lang`へ纏まっていますが，Millénaire公式が配布するjarへ追加してもらう必要があるため，上記の導入方法では日本語が反映されません．翻訳終了後，Millénaire翻訳チームへこのプロジェクトをマージ可能かコンタクトする予定です．
+「アイテム名」や「進捗」などマイクラ本体と関わる箇所は`ja_jp.lang`へ纏まっていますが，Millénaire公式が配布するjarへ追加してもらう必要があるため，上記の導入方法では日本語が反映されません．全体の翻訳が終わったら，Millénaire翻訳チームへこの日本語化プロジェクトをマージしていただけるかコンタクト予定です．
 
 ## スクリーンショット
 
-TBA
+![travelbook](https://imgur.com/i4X0N8U.png)
+
+![panel](https://imgur.com/0ojtnb2.png)
+
+![help](https://imgur.com/aXoJ835.png)
+
+![dialogue](https://imgur.com/LXaD6CO.png)
 
 ## 更新履歴
-2020/10/13 Ver8.1.0対応中 [gap ja_jp: 85%]
-時代背景を考慮した用語修正，イヌイット，日本
 
-2020/10/11 Ver8.1.0対応中 [gap ja_jp: 79%]
-儀式表示の修正，インド(buildings,dialogues,reputation,sentences,strings,travelbook)，一部用語の統一
+#### 2020/10/17 Ver8.1.0対応中 [gap ja_jp: 95%]
 
-2020/10/06 Ver8.1.0対応中 [gap ja_jp: 75%]
-表示内容の修正，ビザンティン(dialogues,sentences,travelbook)
+- 交易ヘルプ修正，旅の書，マヤ，セルジューク
 
-2020/10/02 Ver8.1.0対応中 [gap ja_jp: 72%]
-表示内容の修正，ビザンティン(buildings,reputation,strings)，ノルマン(dialogues,travelbook)，苦行者の報告書
+#### 2020/10/13 Ver8.1.0対応中 [gap ja_jp: 85%]
 
-2020/9/24 Ver8.1.0対応中 [gap ja_jp: 63%]
-村のクエスト，旅の書の基本的な表示
+- 時代背景を考慮した用語修正，イヌイット，日本
 
-2020/9/20 Ver8.1.0対応スタート [gap ja_jp: 59%]
-一般的な表示(strings.txt, ja_jp.lang)，アイテムリスト，ヘルプ改善
+#### 2020/10/11 Ver8.1.0対応中 [gap ja_jp: 79%]
 
-2018/2/15 Ver7.1.2対応スタート [gap ja_jp: 54%]
-一般的な表示(strings.txt)，ヘルプ，ノルマン(buildings,reputation,sentence,strings)，クエスト関連
+- 儀式表示の修正，インド(buildings,dialogues,reputation,sentences,strings,travelbook)，一部用語の統一
+
+#### 2020/10/06 Ver8.1.0対応中 [gap ja_jp: 75%]
+
+- その他表示内容の修正，ビザンティン(dialogues,sentences,travelbook)
+
+#### 2020/10/02 Ver8.1.0対応中 [gap ja_jp: 72%]
+
+- パネル表示の修正，ビザンティン(buildings,reputation,strings)，ノルマン(dialogues,travelbook)，苦行者の報告書
+
+#### 2020/9/24 Ver8.1.0対応中 [gap ja_jp: 63%]
+
+- 村のクエスト，旅の書の基本的な表示
+
+#### 2020/9/20 Ver8.1.0対応スタート [gap ja_jp: 59%]
+
+- 一般的な表示(strings.txt, ja_jp.lang)，アイテムリスト，ヘルプ改善
+
+#### 2018/2/15 Ver7.1.2対応スタート [gap ja_jp: 54%]
+
+- 一般的な表示(strings.txt)，ヘルプ，ノルマン(buildings,reputation,sentence,strings)，クエスト関連
