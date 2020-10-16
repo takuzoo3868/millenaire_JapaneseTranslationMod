@@ -18,3 +18,4 @@ travelbook.trade_good.bow.desc=棒と紐からなる弓は大変シンプルで�
 travelbook.trade_good.bread.desc=何の特徴もない、基本通りで飾り気のないパンです。単純にお腹を満たしてくれます。
 travelbook.trade_good.brickmould.desc=この小さな道具を使うと、インドの農民が暮らしの中で一番楽しいと感じている、泥レンガ作りへあなたも参加できます。
 travelbook.trade_good.bricks.desc=粘土から精錬されたレンガです。「文明的」で流行りの外観を与えてくれるでしょう。
+travelbook.trade_good.byzantine_tiles.desc=ビザンティンでは、粘土レンガを使って建物をよりお洒落な帝国風に仕上げています。

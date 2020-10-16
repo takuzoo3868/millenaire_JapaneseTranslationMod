@@ -16,7 +16,7 @@ v1;120;Ah, kux. In ch'a' k'uux. ¿¡Bixi' páahtal yaan hach  u'uyba noh ba'al!?
 
 newchat;key:player,weigth:10;
 v1;0;To'on ma' hach wíiniko'ob ka taal ich xíimbal lelo' kúuch. / 村に来てくれる人があんまりいないよね
-v2;30;Kux, chéen lela' $name yéetel uláak' wíiniko'ob saat... / 確かに。$nameくらいで、他は遭難した人ばっかり... 
+v2;30;Kux, chéen lela' $name yéetel uláak' wíiniko'ob saat... / 確かに。$nameくらいで、他は遭難した人ばっかり...
 v1;60;T'aan utia'al $name, ¿ma' teech tuukul ka $name il ka'anal yéetel hela'an? / $nameと言えば、何だか最近疲れて、やつれて様子までおかしくなってきてないか？
 v2;90;Kux. Leti' p'aax wa'atal. / そうだなぁ。少し休んでもらわないと
 
@@ -45,7 +45,7 @@ newchat;key:monster,weigth:5;
 v1;0;Yaan hach k'aak'as ba'al táankab. / 今日はやたらとモンスターが多いな
 v2;30;In antal máako'ob ba'ate'il páahtal kíimsah. / 戦士が今戦っているよ
 v1;60;In antal sahkil beey hun múuch' lelo'ob paal wáak'al ya'ax taah ich chan kaah. / 私が心配しているのは匠がリフォームに来ることなんだよ
-v2;90;Ma' sahakil. To'on yaan léech tia'al ts'aa yiknal letio'ob. / 心配するな、こんなこともあろうかと匠対策に囮を用意しておいたぞ 
+v2;90;Ma' sahakil. To'on yaan léech tia'al ts'aa yiknal letio'ob. / 心配するな、こんなこともあろうかと匠対策に囮を用意しておいたぞ
 v1;120;Lela' uts, to'on yaan ich $name. Leti' ma' ba'ate'el k'aw. Leti' páahtal áantah to'on.  / なるほど、最悪の場合は$nameを差し出すか。彼なら上手いこと守りながら戦ってくれるだろう
 v2;150;Kin ma' péek óol. Leti' ma' k'aw. / 間違いない。彼ならそこまで悪くないでしょ
 
@@ -97,8 +97,8 @@ v2;150;¡Mina'an tuunich, a taatáa weneh yáanal eek'! / 石がなかったら�
 
 newchat;key:becomeadult,v1:child,v2:child,weigth:9;
 v1;0;Kin yaan sahakil utia'al suut nohoch máak. / 大人になるのが怖いよ
-v2;30;¿Ba'ax ten? / どうしてそう思うの？ 
-v1;60;Tumen... Yaan hach hach meyahil yéetel ma' báaxah... / うーんと、だって...仕事ばっかりで遊べなくなっちゃうでしょ... 
+v2;30;¿Ba'ax ten? / どうしてそう思うの？
+v1;60;Tumen... Yaan hach hach meyahil yéetel ma' báaxah... / うーんと、だって...仕事ばっかりで遊べなくなっちゃうでしょ...
 v2;90;Teech il, ¡toop! / それだってきっと素晴らしいことよ！
 v1;120;Ma'... Kin ma' k'áat! Kin ma' k'áat! Kin ma' k'áat! / いやだ...分かりたくない、分かりたくない、分かりたくないっ！
 
@@ -121,11 +121,11 @@ v2;30;Kurx, kurx. He'ebix in a'al, in yaan túulis. / あぁ、やってるよ�
 v1;60;¡Huntiich ich k'iin! Haah ma'aldo beet meyahil yiknal teech. / 几帳面だなぁ！あなたと商談できて嬉しいよ
 v2;90;Ki’imak óolal haah tin. Le túun... 32 chuun che' tumen 8 máaskab. ¡Péeka'an! q/ こちらこそ。それじゃ...32本の丸太に8つの鉄インゴットで間違いないな？はいよ！
 v1;120;Hach dyos bo’otik, yuum. Teech yaan ich ma'aldo k'iin. / ありがとうございます。良い一日を
-v2;150;Teech, yuum $targetlastname! / あんたもな、$targetlastnameさん！ 
+v2;150;Teech, yuum $targetlastname! / あんたもな、$targetlastnameさん！
 
 newchat;key:embauchement,v1:adult,v2:vtype:mayan_warrior,weigth:7;
 v1;0;Kin meyah máak teech tia'al kalan in, tumen 48 Deniers tumen k'iin. / 用心棒としてあんたを雇いたい。日当は銅貨48枚でどうだ？
-v2;30;Amm... koonol bahux k'iin teech meyah máak, $targetfirstname. / ふーん、雇ってくれる期間によるかな。$targetfirstnameさん 
+v2;30;Amm... koonol bahux k'iin teech meyah máak, $targetfirstname. / ふーん、雇ってくれる期間によるかな。$targetfirstnameさん
 v1;60;6 K'iin. Tin xiibil peek' ma' ka'ans tia'al kalan in kin. / 6日間だ。番犬じゃどうも頼りなくてね
 v2;90;Hun Argentum. Ma' óotsil. / わかった、それなら銀貨1枚だ。それ以下なら引き受けない
 v1;120;¡Lelo' haah ookol! / おいおい、そりゃ取りすぎじゃないか！
@@ -158,12 +158,12 @@ v2;30;Kurx, yéetel tak ho'ol yaan chich pool. / あぁ、言うことなしだ�
 v1;60;¡Wáa! / だな！
 
 newchat;key:village,weigth:8;
-v1;0;Kin tuukul chan kaah il ma'aldo. / うちの村はいいよね 
+v1;0;Kin tuukul chan kaah il ma'aldo. / うちの村はいいよね
 v2;30;Wáa. Yaan hach hats' uts. / えぇ、とっても芸術的
 v1;60;Yaan dyos bo'otik tuunich yéetel na'at meent. / 石を使って達人の域に辿り着いたかもね
 
 newchat;key:peasantdialog,v1:vtype:mayan_peasant,v2:vtype:mayan_peasant,weigth:10;
-v1;0;Hach hach nal tia'al hooch, hach kóom k'iin... / 収穫するトウモロコシが多くて時間が足りないぞ... 
+v1;0;Hach hach nal tia'al hooch, hach kóom k'iin... / 収穫するトウモロコシが多くて時間が足りないぞ...
 v2;30;Kurx, in k'áat to'on yaan xet' utia'al hooch. / 本当だな、収穫時期がバラけてくれると助かるのに
 
 newchat;key:playerorigins,weigth:10;
@@ -184,13 +184,13 @@ newchat;key:dialogchildmother,v1:child,v2:adult,v2:female,rel:parent,weigth:10;
 v1;0;¡Na'! ¿Kin páathal bin báaxal táanakb chan kaah? / ママ！村から離れたところで遊んでいい？
 v2;30;Ma' tin paal, kin ma' k'áat ka teech k'ool. / ダメよ、怪我でもしたら大変だわ
 v1;60;K'ool utia'al ka? Ma' haah hach k'as táanak. / 怪我なんてしないよ？そんなに危なくないってば
-v2;90;U'uy, yaan hach k'as paal táankab... / 聞いて頂戴。お外にはこわーい怪物がいるのよ... 
+v2;90;U'uy, yaan hach k'as paal táankab... / 聞いて頂戴。お外にはこわーい怪物がいるのよ...
 v1;120;¿K-ka xook utia'al paal, na'? / ど、どんな怪物がいるの、ママ？
-v2;150;K'aas ba'al he'ebix... creepers. / とってもこわーいのはね...クリーパーよ 
+v2;150;K'aas ba'al he'ebix... creepers. / とってもこわーいのはね...クリーパーよ
 v1;180;C-c-creepers? / く、ク、クリーパー？
 v2;210;Kurx tin paal, letio'ob áalkab paach teech chan kaah yéetel waak' teech. / えぇそうよ。知らないうちに家まで追っかけてきて、何もかも吹き飛ばしてしまうわ
 
-ewchat;key:tobewarrior,v1:vtype:mayan_warrior,v2:notvtype:mayan_warrior,weigth:9;
+newchat;key:tobewarrior,v1:vtype:mayan_warrior,v2:notvtype:mayan_warrior,weigth:9;
 v1;0;Antal máako'ob ba'ate'el yaan ma'aldo ka in beet. / 戦士になるのは人生最大の決断だったな
 v2;30;¿He'ebix bin?? / なぜ？
 v1;60;Tumen kin páahtal bin aantah ich toop ch’a’ k’uxta’an, hach  náays óol ka hooch ixi'im. / 外に出て敵を撃退するのを手助けするのはね、トウモロコシを収穫するよりもずっと楽しいからだよ
@@ -199,7 +199,7 @@ v1;120;Túun, kux huntiich' antal óot hach k'as. / だろうな。俺はスリ�
 
 newchat;key:likemydad,v1:male,v2:child,v1:child,weigth:8;
 v1;0;¡Kin k'áat yaan he'ebix taat utia'al noch. / 大きくなったらパパのようになりたい！
-v2;30;¿Hun sahak? / あの意気地なし？ 
+v2;30;¿Hun sahak? / あの意気地なし？
 v1;60;¿Ba'ax? Ma', Leti' ma' yaan hun sahak. / 何だって？違うぞ、パパは意気地なしなんかじゃないやい
 
 newchat;key:palace,v1:vtype:mayan_king-mayan_leader-mayan_chieftain,v2:adult,weigth:9;
@@ -227,7 +227,7 @@ v2;30;Teech ma' tuukul, kin yaan ba'ate'el máako'ob ti' lu'um. / 心配しな�
 
 newchat;key:rich,v1:female,v2:vtype:mayan_peasantwife,v1:vtype:mayan_peasantwife,weigth:8;
 v1;0;Ix yaan túulis, ma' beet mix ba'al. / 高貴なお方は色々持ってるくせに働かないわね
-v2;30;Kux, kin tuukul kuxtal beey. / 全くね、あんな人にはなりたくないわ 
+v2;30;Kux, kin tuukul kuxtal beey. / 全くね、あんな人にはなりたくないわ
 v1;60;Kin tuukul kin ts’o’okol beel yiknal wa maax yiknal máas taak'in. / 人じゃなくてお金と結婚したんだわ
 
 newchat;key:rule,v1:male,v2:male,v1:notvtype:mayan_king-mayan_leader-mayan_chieftain,v2:notvtype:mayan_king-mayan_leader-mayan_chieftain,weigth:9;
@@ -243,7 +243,7 @@ v1;60;Hmm... Kux, le túun wale' to'on páathal k'óoch normans, wa Byzantines. 
 newchat;key:gravity,weigth:7;
 v1;0;K'iin yaan kóom waye' lu'um. / この土地は一日があっという間だね
 v2;30;Ka, yéetel lu'um chíikpahal báab ichmáal. / 不思議だね。地面も浮いたりするし
-v1;60;Chichan yaah... yéetel sa'am. / 砂利と...砂はしっかり落ちるのに 
+v1;60;Chichan yaah... yéetel sa'am. / 砂利と...砂はしっかり落ちるのに
 v2;90;Kin k'áat ba'ax ten. / 謎だなぁ
 
 newchat;key:obsidian,v1:vtype:mayan_obsidiancrafter,weigth:8;

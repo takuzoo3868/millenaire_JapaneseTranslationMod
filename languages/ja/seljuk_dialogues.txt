@@ -1,0 +1,201 @@
+//* Dialogue lines start with a code like "v2;30;" which specify who is speaking and when the line shows up. Please copy it exactly in your translations.
+//* First half of the line (till the /) is in the villagers' language and must be kept as-is, second part should be translated
+
+newchat;key:nights,tag:notraining,v1:adult,v2:adult,weigth:10
+v1;0;Geceleri hep değişik şeyler görüyorum. / いつも違う夢を見るんだ
+v2;30;Gündüzün şerri gecenin hayrından iyidir demişler. / 夜に良いことがあるより、日中に悪いことでもあったほうがマシだよ
+v1;60;Haklısın $targetfirstname. / $targetfirstnameさんの言うとおりだね
+
+
+newchat;key:fatherandson,rel:child,v1:child,v2:vtype:turk_miner,weigth:10
+v1;0;Baba bana kazdığın en güzel cevheri söyler misin? / パパ、今まで掘り当てた中で最高の鉱石は何？
+v2;30;Bir düşüneyim.. Sanırım bir elmastı. / うーーんとね...やっぱりダイヤモンドかな
+v1;60;Tekrar bulursan bana da bir tane verir misin baba? / ねぇパパ、もう一回見つけたら僕にもちょうだい？
+v1;90;Bulursam neden olmasın! $targetfirstname. / もちろんさ、$targetfirstname
+
+
+newchat;key:iamam1,tag:notraining,v1:vtype:turk_imam,weigth:10
+v1;0;Allah yaptığımız her şeyi görür,$targetfirstname. / アッラーは私たちの行いを御存知なのだ、$targetfirstname
+v2;30;Öyledir hocam. / えぇ仰る通りです
+
+
+newchat;key:kids1,tag:notraining,v1:child,weigth:10
+v1;0; Babam sürekli suçsuz hayvanları kesiyor! / パパが罪のない動物を切り刻んでしまうの
+v2;30; Fakat o et bize lazım olmasa baban bunu yapmaz. / そのお肉が私たちにとって大切だからこそ、あなたのお父さんはそうしているのです
+
+
+newchat;key:talk1,v1:adult,v2:vtype:turk_localmerchant,weigth:10
+v1;0;Peki $targetfirstname, işler nasıl? / 儲かっているかい、$targetfirstname？
+v2;30;Her şey aynı değişen bir şey yok. / どうもこうも、何も変わらないさ
+v1;60;Peki gezilerin hoşuna gidiyor mu? / 旅の方はどうなんだい？
+v2;90;Evet fakat ayaklarım da ağrıyor. / あぁ楽しいもんだよ、しかし脚が疲れるな
+v1;120;Senda haklısın $targetfirstname. / どうやらそのようだな、$targetfirstname
+v2;150;Haklıyım tabii ya! / あっもちろん私は元気だぞ！
+
+
+newchat;key:talk2,v1:adult,v2:adult,weigth:10
+v1;0;Allah çalışanı sever. / アッラーは勤勉な者を愛でられる
+v2;30;Bende çalışmaktan çok memnunum! / なら、懸命に働けるのは幸せですね！
+
+
+newchat;key:talk3,v2:adult,v1:vtype:turk_fisherman,rel:spouse,weigth:10
+v1;0;Balıkçılık sabır işidir bilir misin karıcığım? / 釣りは忍耐が大切なんだよ、知ってるかい？
+v2;30;Sadece balık tutma konusunda sabırlısın zaten! / それは釣りに行くのを我慢してるだけで、意味が全然違うと思いますよ！
+
+
+newchat;key:whoisthis,v2:adult,v1:adult,weigth:10
+v1;0;Bu da kim böyle? / 誰だろう？
+v2;30;Adını bilmiyorum fakat bu diyarlara yabancı birisi. / 名前はわからないが、異国の者に違いない
+v1;60;İçinde kötülük olmayan herkes bu diyarlara hoş gelmiştir. / 邪な考えを持っていなければ、村に祝福を与えてくれるでしょう
+v2;90;Doğru söylüyorsun. / だね
+
+
+newchat;key:kitchentalk,v2:adult,v1:adult,building:kitchen,weigth:10
+v1;0;Ayran kadar güzel bir içecek gördün mü kardeşim?  / アイランに似た美味しい飲み物を知っているかい？
+v2;30;Hayir daha görmedim. / いや、聞いたことすらないよ
+v2;60;Nerden aldın? Bende istiyorum. / どっかで売っていたのかい？教えてよ
+v1;90;Yakında onu satan bir mutfak var. / 近くの料理屋さ
+v2;120;Tamam çok sağol. / よしわかった、ありがとう
+v2;150;Başka ne var biliyor musun? / 他に何か売ってた？
+v1;180;Balıktan pide ye kadar her şeyi düşünebilirsin. / 魚からピデまで何でも売っていたよ
+v2;210;Iyimiş hemen gitmeliyim. / 今すぐ行かなきゃ
+
+
+newchat;key:religion,v2:adult,v1:adult,building:mosque,weigth:10
+v1;0;Namaz kılma vakti. / 祈ろう
+v2;30;Hadi ozaman vakiti geçirmiyelim. / 遅れないようにね
+
+
+newchat;key:religion2,v2:adult,v1:adult,notbuilding:mosque,weigth:10
+v1;0;Namaz kılma vakti. / 祈ろう
+v2;30;Hadi ozaman vakiti geçirmiyelim. / 遅れないようにね
+v1;60;Güzel bir Camiimiz olsa ne güzel olurdu demi $targetfirstname. / この世界にも美しいモスクがあればいいのにね、$targetfirstname
+v2;90;Aynen Öyle kardeşim. / その通りだね
+
+
+newchat;key:ayran,v2:adult,v1:adult,building:kitchen,weigth:10
+v1;0;Biraz ayran içmeliyim. / アイランを飲まなきゃ
+v2;30;İnşallah bugün han fazla dolu değildir. / 今日は満席じゃないといいな
+v1;60;Evet İnşallah, dün gibi olmasın. / そうだな、昨日みたいな状況は勘弁して欲しい
+v2;90;Aynen, ve ayran içersem yorgunluğum da geçer. / アイランさえ飲めれば疲れもとれるからなぁ
+v1;120;Doğru söylüyorsun. / だなぁ
+
+
+
+newchat;key:buyingwallcarpet,v2:vtype:turk_weaver,v1:adult,building:weaver,weigth:10
+v1;0;Merhaba. Bir halı almak isiyorum. / こんにちは、絨毯を買いたいのだけれど
+v2;30;Tabi. Nasıl bir şey olsun? / えぇどうぞ。どんな絨毯がお好みで？
+v1;60;Bilmiyorum. Bugün eşimin doğum günü olduğu için bir hediye almak istedim. Siz ne tavsiye edersiniz? / はっきり決まってなくて...友人の誕生日プレゼントにしたいのだけれど、お勧めはありますか？
+v2;90;Kırmızı halı ya ne dersiniz? / レッドカーペットなど如何でしょう？
+v1;120;Tamam, harika bir fikir. / いいですね
+v2;150;Kaç tane istersiniz? / 御幾つご用意しましょう？
+v1;180;Bir olsun. İyi bir paketleme yapabilir misiniz? / 1つでいいです。良い感じに包装できますか？
+v2;210;Tabi efendim. Kendiniz mi vereceksiniz, biz mi götürelim? / 勿論です。ご自身で手渡しなさいますか、それともこちらで先方へ届けましょうか？
+v1;240;Kendim vereceğim. Teşekkür ederim. / 自分で手渡すよ、ありがとう
+
+
+newchat;key:couple1,v2:adult,v1:adult,rel:spouse,weigth:10
+v1;0;Hayirlı günler. / おはようございます
+v1;30;iyi uyudun mu? / ぐっすり眠れましたか？
+v2;60;Iyidi çok şükür. / あぁ、快適だったよ
+v1;90;kahvaltıda ne yersin / 朝食はどうしましょう？
+v2;120;Bilmiyorum sence? / 何でもいいよ、あなたは？
+v1;150;Bende bilmiyorum. / 私もです
+
+
+newchat;key:talk4,v2:adult,v1:adult,weigth:10
+v1;0;Günün nasıl geçti? / 今日はどうだった？
+v2;30;Kötü, çok yoğundu. / とにかく忙しかったな
+v2;60;Yoruldum yani. / 疲れちゃったよ
+v1;90;Ayran içer misin? / アイランでも飲む？
+v2;120;Evet iyi olur aslında. / いいね、お願いするよ
+
+
+newchat;key:talk5,v2:adult,v1:adult,notrel:spouse,weigth:10
+v1;0;Merhaba $targetfirstname / こんにちは、$targetfirstname
+v1;30;Bugün nasılsın? / ご機嫌いかがかな？
+v2;60;Sağol iyiyim / どうも、元気ですよ
+v1;90;Ailen nasıl, iyi mi? / ご家族もお元気で？
+v2;120;Evet onlar da iyiler / えぇ、おかげさまで
+v1;150;Havalar da ne sıcak değil mi? / 最近暑い日ばかりですね
+v2;180;Evet gerçekten çok sıcak / そうですね、暑くて大変です
+v1;210;Ailene selam söyle / みなさんによろしくとお伝えください
+v2;240;Sağol sen de söyle / ありがとう。こちらこそ、どうぞよろしくお伝えください
+v1;270;Hoşçakal. / それでは
+
+
+newchat;key:talk6,v2:adult,v1:adult,notrel:spouse,weigth:10
+v1;0;Ne zaman taşındın? / いつ引っ越してきたんだい？
+v2;30;Geçtiğimiz hafta. / 先週ですよ
+v1;60;Evin satıldığını bile bilmiyordum. / この家が売られてたことも知らなかったよ
+v2;90;Bu evi çok seviyorum, bu yüzden taşınmak zorundaydım. / この家に一目惚れしちゃいまして。そのまま入居を決めたんです
+v1;120;Anlıyorum, çünkü bu ev sıradışı. / わかりますよ、並外れて素晴らしい家ですから
+v2;150;Ne zamandan beri evinde yaşıyorsun? / この街には何年お住まいですか？
+v1;180;Ben uzun süredir burada yaşıyorum. / だいぶ長いですよ
+v2;210;Umarım uzun süre komşu olarak kalırız. / これから良い付き合いになれば嬉しいです
+v1;240;Ben de. / えぇ、こちらこそ
+
+
+newchat;key:talk7,v2:adult,v1:adult,notrel:spouse,weigth:10
+v1;0;Dün niye görmedim seni? / 昨日はどうしていなかったの？
+v2;30;Kendimi iyi hissetmiyordum. / 体調が悪くて
+v1;60;Neyin vardı? / 何かあったの？
+v2;90;Midem çok fenaydı. / 胃の調子が悪いんだ
+v1;120;şimdi daha iyi hissediyor musun? / 少しは良くなったのかい？
+v2;150;Hala çok iyi hissetmiyorum. / まだ完璧じゃないかも
+v1;180;Kendini daha iyi hissetmek için bir şeyler yapmak ister misin? / 何かほしいものある？
+v2;210;Hayır,teşekkür ederim. Zaten birkaç tane ilaç aldım. / 大丈夫だよ。薬は飲んだから
+v1;240;Umarım iyileşirsin. / 回復を願っているよ
+v2;270;Teşekkür ederim. / ありがとう
+
+
+newchat;key:talk8,v2:female,v1:female,notrel:spouse,weigth:6
+v1;0;Haberleri duydun mu? / ねぇ聞いた？
+v2;30;Hiçbir şey duymadım. / 何のことかしら
+v1;60;Komşumun geçen hafta bebeği oldu. / お隣さんが先週出産したの
+v2;90;Hiçkimse bana söylemedi. / 誰も教えてくれなかったわ
+v1;120;Senin duyduğunu zannediyordum. / あら、知ってるとばかり思っていたわ
+v2;150;Bana hiçbir şey söylenmedi. / 本当に何も聞いてないの
+v1;180;çok tatlı bir bebek, maşallah. / とっても可愛い赤ちゃんだそうよ
+v2;210;Wow, ne heyecan verici. / まぁ！ワクワクしちゃう
+v1;240;Değil mi, komşumu ve bebeğini görmeye kesinlikle gitmelisin. / 奥さんと赤ちゃんへ一度会いに行くといいわよ
+v2;270;Tabi ki, gideceğim. / もちろん行くわ
+v1;300;Sadece ne olduğunu bilmeni istedim. / どんな感じだったか教えてね
+v2;330;Buna müteşekkirim. / えぇ、ありがとう
+
+
+newchat;key:talk9,v2:female,v1:male,notrel:spouse,weigth:6
+v1;0;Benimle birzaman tarlaya gelir misin? / 一緒に畑へ行かないかい？
+v1;30;Ne zaman gitmek istersin? / いつが良いかな？
+v1;60;Önümüzdeki Cuma günü ne dersin? / 次の金曜はどうだい？
+v1;90;Üzgünüm, gelemem. O gün bir arkadaşımla akşam yemeği için buluşacağım. / ごめん、その日は友人と食事の約束が
+v1;120;Ya gelecek Salı? / それなら次の火曜日はどう？
+v1;150;Salı günleri akşam camii dersine gidiyorum. / 火曜日はモスクへ行くんだ
+v1;180;Oh, belki başka zamana gideriz? / おや、別の機会にしようか？
+v1;210;Evet, ben sena haber ederim. / そうだね、連絡するよ
+
+
+
+newchat;key:newhamam,v2:adult,v1:adult,building:hamambath,weigth:10
+v1;0;Selam $targetfirstname. / こんにちは、$targetfirstname
+v2;30;Selam! / やぁ！
+v1;60;Yeni hamamı gördünmü? / 新しいハマムはもう行ったか？
+v2;90;Hayır daha görmedim. / いやまだだよ
+v1;120;Tez görmememiz gerekiyor! / 一緒に早く行かないと！
+v2;150;Hayırdır $targetfirstname. / 良い提案じゃないか、$targetfirstname
+v1;180;Hayır Hayır, temizlik imandandir. / もちろんさ、心と体は清潔じゃないとね
+v2;210;Peki ozaman bir gidib bakalim. / よし、それじゃ見に行こうか
+v2;240;Bir Saate olurmu sence. / 一時間後でどうだ？
+v1;270;Ya olmaz, şimdi gidelim. / いいえ、今すぐだよ
+v2;300;Tamam tamam, bu ne telaş arkadaş. / わかったよ。けれども、なぜ急ぐんだ？
+v2;330;Nerden gidiyoruz? / そんなに急いでどうするつもりなんだ？
+v1;360;Asılda biraz bekleyebiliriz. / うーん、ちょっと待ってもいいかも
+v2;390;Of, herzaman ayni şeyler $targetfirstname. / 毎回それじゃないか、$targetfirstname
+
+
+newchat;key:newmosque,v2:adult,v1:adult,building:smallmosque,weigth:10
+v1;0;Bu cami kadar güzel bir bina gördün mü kardeşim? / あの美しいモスクにはもう行きましたか？
+v2;30;Hayir daha görmedim. / いや、まだですね
+v2;60;Nesaman yapildi? Güzelmiş. / いつ完成したんですか？行くのが楽しみです
+v1;90;çok oldu be ya. / もうだいぶ前ですよ...
+v2;120;Allah Allah. / あら...そう

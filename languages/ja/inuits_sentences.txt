@@ -4,7 +4,7 @@ boy.greeting=pinnguarumajunga / 遊びたーい
 boy.greeting=qanuippit. / やぁ元気かい？
 
 chef.greeting=niqłiuqtunga. inuuhiqatsiaq! / 料理は大好き。さぁ食べて、食べて！
-chef.greeting=nirinnaqsijuq. / 食べよう 
+chef.greeting=nirinnaqsijuq. / 食べよう
 
 farmer.greeting=nunanniapaa, itjuujaq! / 農業はいいね、特にジャガイモは最高！
 

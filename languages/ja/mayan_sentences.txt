@@ -8,7 +8,7 @@ male.BecomeAdult=Ichil k'a't ti tz'ak-b' ha ah tz'on. / 狩人になりたい
 mayan_shaman.gopray.chosen=U- orasion tal teech / 祈ることであなも護られるでしょう
 mayan_shaman.greeting=Ts'aakik tal teech. / 神々があなたを護ってくれるでしょう
 
-villager.BecomeAdult=La la la la. / 
+villager.BecomeAdult=La la la la. /
 
 villager.BringBackResourcesHome=Ichil chuy ti yaab se'es ti kuch. / 運ぶにはちょっと多いな...
 

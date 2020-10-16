@@ -75,7 +75,7 @@ rajadiamondsword_1_listing=$general_villagename$ の砦にいる $general_villag
 
 adivasifarmdelivery_0_label=届けてほしい
 adivasifarmdelivery_0_description=ここには自分たちで育てた米とターメリックしかないので、生活が苦しいです...どうか貧しい私たちを助けてくれませんか？ $peasant_villagername$ 村の農家の人が、私たちの作物を肉やラッスグラと物々交換してくれます。 $peasant_villagername$ 村まで作物を運んで貰えるとすごくありがたいです。その村はここから $peasant_direction$ に $peasant_distance$ ほど歩いた先にあります。
-adivasifarmdelivery_0_description_success=Shukriya(ありがとう)、我が友よ。 
+adivasifarmdelivery_0_description_success=Shukriya(ありがとう)、我が友よ。
 adivasifarmdelivery_0_description_refuse=こんな貧乏人は誰も助けてくれないのか...
 adivasifarmdelivery_1_label=作物の配送
 adivasifarmdelivery_1_description=おや、 $startvillager_villagername$ から来たのですか？えぇ、在庫はありますよ。持ってきましょう。
@@ -91,7 +91,7 @@ adivasifarmdelivery_2_description_timeup=時間内に $startvillager_villagernam
 adivasifarmdelivery_2_listing= $peasant_villagename$ から $startvillager_villagername$ の農家へ食料を届ける。場所は $peasant_villagename$ から $peasant_startvillager_distance$ へ $peasant_startvillager_direction$。
 
 traderdiamonds_0_label=宝石の配達
-traderdiamonds_0_description=Namaste(こんにちは)$name。あなたは信頼できる人だと、ヒンドゥー教の友人に聞きました。ぜひあなたにこの高価な宝石を届ける仕事をお願いしたい。 $rani_villagename$ の美しい女王 $rani_villagername$ は、新しい宝飾品用として私に宝石を注文しました。彼女の宮殿は $rani_direction$ に $rani_distance$ 歩いた場所にあります。報酬としてこの宝石を2つ差し上げましょう。お願いできますか? 
+traderdiamonds_0_description=Namaste(こんにちは)$name。あなたは信頼できる人だと、ヒンドゥー教の友人に聞きました。ぜひあなたにこの高価な宝石を届ける仕事をお願いしたい。 $rani_villagename$ の美しい女王 $rani_villagername$ は、新しい宝飾品用として私に宝石を注文しました。彼女の宮殿は $rani_direction$ に $rani_distance$ 歩いた場所にあります。報酬としてこの宝石を2つ差し上げましょう。お願いできますか?
 traderdiamonds_0_description_success=盗まれるのが怖いので、他の人にはこのダイヤモンドを見せびらかさないで下さいね。
 traderdiamonds_0_description_refuse=少々危険すぎたでしょうか？
 traderdiamonds_1_label=ダイヤモンドの輸送
@@ -129,7 +129,7 @@ spiders_0_description_success=ありがとう、友よ!
 spiders_0_description_refuse=彼は必ず戻ってくると信じましょう。
 spiders_1_label=見つけてくれた。うれしいです。
 spiders_1_description=うぐ...この近くの洞窟を探検していたら、毒蜘蛛に噛まれてしまいました。きっとひどい毒を盛られたんだと思います。お願いです私を助けてください。妻の $wife_villagername$ へ私のことを伝えてください。彼女なら何とかしてくれるはずです。
-spiders_1_description_success=急いで... めまいがしてき... 
+spiders_1_description_success=急いで... めまいがしてき...
 spiders_1_description_refuse=置き去りにしないでくれ、うぅ...
 spiders_1_listing=鉱山で $miner_villagername$ を見つける。
 spiders_2_label=解毒剤の作成

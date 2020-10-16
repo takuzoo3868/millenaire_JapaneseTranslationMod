@@ -18,7 +18,7 @@ travelbook.villager.mayan_merchant.desc=マヤの生活様式は、都市国家�
 travelbook.villager.mayan_miner.desc=マヤの鉱夫は、地中の小さな穴から、ありえない量の石を巧みに産出します。
 travelbook.villager.mayan_obsidiancrafter.desc=彼ほど黒曜石の扱いに長けた者はそう多くはなく、黒曜石の道具や革の鎧を作ることで、その技術を有効に活用しています。
 travelbook.villager.mayan_peasant.desc=小作人ではありますが、村の生命線と言えるでしょう。誰かが建物を建てて、農地に作物を植えなければ、村として機能しないからです。
-travelbook.villager.mayan_peasantwife.desc小作人ではありますが、村の生命線と言えるでしょう。誰かが建物を建てて、農地に作物を植えなければ、村として機能しないからです。
+travelbook.villager.mayan_peasantwife.desc=小作人ではありますが、村の生命線と言えるでしょう。誰かが建物を建てて、農地に作物を植えなければ、村として機能しないからです。
 travelbook.villager.mayan_richwoman.desc=村の指導者の妻です。裕福でとても賢いのですが、宝石を見せびらかしたり、他の女性と噂話をしたりして日々を過ごしています。
 travelbook.villager.mayan_sculptor.desc=マヤは石の彫刻で自分たちの歴史や出来事を記録していました。彼も何世紀に渡って受け継がれてきた文様を石に刻みます。
 travelbook.villager.mayan_shaman.desc=神々と村人を繋ぐ重要な存在です。供物や生け贄を通して、村のために豊作と保護を保証してもらうよう最善を尽くします。

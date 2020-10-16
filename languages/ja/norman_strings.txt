@@ -1,9 +1,9 @@
 //*     Name of the villager types
 //*     Empty for the Normans in French since the original are already in French
-//* 
-//* 
-//* 
-//* 
+//*
+//*
+//*
+//*
 
 
 culture.norman=ノルマン

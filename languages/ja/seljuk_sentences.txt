@@ -1,0 +1,127 @@
+//villager.BeSeller=Coming, coming!
+//villager.DeliverResourcesShop=
+
+turk_boy.greeting=Büyüyünce çok güçlü olacağım! / 大きくなったら強い男になるんだ！
+
+villager.BringBackResourcesHome=Sonunda rahatlama vakti. / ようやく落ち着けそう
+villager.CollectCrop=Hasat vakti. / 収穫だ
+villager.PlantSeeds=Şimdi bu tohumları ekeceğim. / この種を植えようか
+
+turk_soldier.greeting=Ben buranın muhafızıyım,bir şey olursa bana söyle. / 私はこの地区の警備をしている。何かあったら言ってくれ
+
+guildmaster.greeting=Her türlü güzel üründen satarım. / 職人技が光る品々を売っていますよ
+
+turk_soldier.greeting=$name, zamanında Sultanımızın şövalyesiydim. / $name、私はかつてスルターンの騎士だったこともあるんですよ
+turk_soldier.greeting=Sadece Allah'tan korkarım. / アッラーの他に神はなし
+turk_soldier.greeting=Anadolu artık bizim yurdumuzdur. / アナトリアは故郷です
+turk_soldier.patrol=Kanuna hizmet ederim. / シャリーアに従いましょう
+turk_soldier.patrol=Güçsüzün kılıcıyım. / 我が剣は救貧のためにある
+
+turk_richwoman.Bu çok zor bir iş. / なんて大変な仕事なのかしら
+turk_richwoman.greeting=Sarayima hoş geldiniz./ 私の宮殿へようこそ
+turk_richwoman.greeting=Eski evim bu kadar güzel değildi. / 生家はあまり良くなかったわ
+
+turk_lumberman.BringBackResourcesHome=Bu odunlar çok işe yarayacak. / この木材は重宝されるでしょう
+turk_lumberman.ChopTrees=Allahım bana güç ver. / アッラーよ、私に力を
+turk_lumberman.GatherGoods=Bu fidan işime yarayabilir. / この苗木は大きくなったら、きっと役立つだろう
+turk_lumberman.PlantSaplings=Bu fidanı ekmeliyim. / 苗木を植えよう
+
+turk_miner.Cooking=Pişirme vakti. / さぁ石を焼こうか
+turk_miner.Mining=Demirci bunları sevecek. / 鍛冶屋が喜びそうだ
+turk_miner.Mining=Herkes madenci olamaz. / 誰もが鉱夫になれるわけじゃないんだよ
+
+orderguard.patrol=Sadece Allah'tan korkarım! / アッラーの他に神はなし！
+orderguard.calltoarms=Burayı terket! / 立ち去れ！
+orderguard.patrol=Buraları korumak bizim işimiz / ここを守るのは我々の義務だ
+orderguard.calltoarms=Toplanın kardeşler! / 同志を集めろ！
+orderguard.greetings=İyi günler dilerim. / 良い一日を
+orderguard.greetings=Seni gördüğüme sevindim. / 会えて嬉しいよ
+
+merchant.KeepStall=Her türlü lüks şeyi satarım! / 色んな贅沢品が揃っているよ！
+merchant.greeting=Anadolu çok verimli! / アナトリアはとても豊かでしょ！
+merchant.greeting=Gel ve ürünlerime bak. / さぁさぁ見ていきな
+
+merchant.KeepStall=Birinin ihtiyacı olabilecek her türlü bitki bende var. / 薬草なら何でも揃っているよ
+merchant.greeting=Bitkileri seven herkesi severim. / 薬草好きに悪いやつなんていないさ
+
+turk_imam.gopray.chosen=Allah her yaptığımızı görür. / アッラーはあなたの行いを御存知であられる
+turk_imam.greeting=Allah yardımcın olsun. / アッラーの御加護がありますように
+
+turk_armourysmith.MakeSeljukTools=Kendimizi korumak için bunlara ihtiyacımız var. / 自分たちで守らなきゃね
+turk_armourysmith.MakeSeljukWeapons=Allah'ın izniyliyle bu zırh askerlerimizi koruyacak. / アッラーの意志と共に、この鎧は兵士を守ってくれるだろう
+
+
+villager.BecomeAdult=Devletime hizmet etme vakti ! / 国に奉仕する時がきた！
+
+villager.GoPlay=Oyun oynamayı severim. / 遊びは大好き
+
+
+villager.brewpotions=Simyacı olmayı seviyorum. / 錬金術師みたいでしょ
+
+villager.calltoarms=Silahlanın! Allah bizimle beraber! / 武器を持て！アッラーと共に！
+villager.calltoarms=Silahlanın askerler silahlanın!/ 戦う者は武器を持て！
+villager.calltoarms=Ya Allah!
+villager.calltoarms=Allah'ım bize güç ver! / アッラーよ、我らに力を！
+
+villager.childeatapple=Neden bütün elmalar kırmızı? / なぜリンゴは赤いのだろう？
+
+villager.childobserveagriculture=Çiftçiler bizim devletimiz için önemlidir! / 農家はとっても大切なんだ！
+villager.childobserveconstruction=Erkekler neden kadınlara yardım etmiyor? / どうして村の男はあの女性を助けないのかなぁ？
+villager.childobserveproducefood=Karnım çok acıktı! / お腹空いたよ！
+villager.childobservesmithing=O demir çok sıcak olmalı! / あの鉄はとっても熱そう！
+
+villager.godrinkayran=Lütfen bana bir içecek verir misin? / 飲み物をくれないかな？
+villager.godrinkayran=Ayran buralardaki en güzel içecek. / アイランはここらじゃ最高の飲み物だね
+
+villager.gopray.chosen=İbadet etme vakti. / 礼拝の時間だ
+villager.gopray=Allahım bana yardım et / 汝にのみ我らは救いを希う
+
+villager.gorest=Yoruldum. / 疲れちゃった
+villager.gorest=Uyumayı hak ettim. / もう寝たいよ
+villager.gorest=Bugün güzel bir gündü. / 今日も良い一日でした
+villager.gorest=Uyumam gerekiyor. / 寝なきゃ
+
+villager.greeting=Anadoluya hoş geldin! / アナトリアへようこそ！
+villager.greeting=Hayırlı günler dilerim. / 良い一日を
+villager.greeting=Selamünaleyküm, $name! / 彼に平安あれ、$name！
+villager.greeting= Seni tekrar görmek güzel/ また会えて嬉しいよ
+villager.greeting= Seni daha önce gördüm mü? / 以前も会ったかな？
+
+villager.MakeWallcarpetLarge=Bunlar duvara çok yakışacak! / きっと見事な城壁になりますよ！
+villager.MakeWallcarpetSmall=Bunlar duvara çok yakışacak! / きっと見事な城壁になりますよ！
+villager.MakeWallcarpetMedium=Bunlar duvara çok yakışacak! / きっと見事な城壁になりますよ！
+
+villager.inspectconstruction=İnsanlarımız her zaman çalışkandır! / 私たちはいつでも一生懸命だよ！
+
+villager.makeglassbottles=Bu şişe çok işimize yarayacak. / この瓶があれば、きっと使い勝手も良くなるはずさ
+
+
+turk_merchant_weapon.KeepStall=Her türlü silahı satarım. / 色んな武器を売ってるよ
+turk_merchant_weapon.greeting=Buraların en iyi tüccarının dükkanına hoş geldin./ ここらで一番のお店にようこそ
+
+turk_peasantwife.DeliverGoodsHousehold=Aileme yardım etmek benim de görevim. / 家族を支えるのも私の義務です
+
+turk_peasantwife.GetHouseTHResources=Kocam eve malzemelerle dönüyor. / 旦那が資材を持ち帰ってきたみたい
+turk_peasantwife.GetResourcesForBuild=Bir şeyler inşa etmek için malzeme alma vakti. / 建築の資材を取りに行かなきゃ！
+
+turk_cook.MakeLokum=Lokumlarımız çok lezzetlidir. / うちのロクムはとても美味しいよ
+turk_cook.MakePideBeef=Pidelerimiz çok lezzetlidir. / うちのピデはとても美味しいよ
+turk_cook.MakePideMutton=Pidelerimiz çok lezzetlidir. / うちのピデはとても美味しいよ
+
+turk_cowfarmer.MakeYogurt=Yemekle beraber çok güzel olur. / これが料理に良く合うんだ
+
+turk_cook.MakeAyran=Erkeklerimizi serin tutmak için ayran yapmalıyım. / みんなを気晴らしさせたいならアイランが一番だよ
+
+villager.construction=Allahım bana yardım et. / お救いください、アッラー
+villager.construction=Kadınlar da bu devlet için önemli! / 女性だってこの国の大切な存在なんだから！
+villager.construction=Erkekler ve kadınlar birbirlerine yardım etmeli. / 男女は互いに助け合うべきだと思うの
+
+turk_peasantwife.getGoodsHousehold=Niye her şeye beni yolluyorlar?/ なんで全部私に押し付けるのかしら？
+
+turk_merchant_wool.KeepStall=Bütün yünler burada! / どんな羊毛だって揃ってるよ！
+turk_merchant_wool.greeting=Anadolunun hayvanlar için harika! / アナトリアは家畜にとって最高の場所だ！
+
+ghaznavid_merchant.KeepStall=Gel ve benimle ticaret yap / さぁ取引しよう
+ghaznavid_merchant.KeepStall=Benimle ticaret yaparsan pişman olmazsın. / 後悔はさせないぞ
+ghaznavid_merchant.greeting=Çok uzak diyarlardan Müslüman kardeşlerimle ticarete geldim. / ムスリムの同胞を訪ねて遠い土地からやってきたのです
+ghaznavid_merchant.greeting=Hepimiz kardeşiz./ 私たちは皆兄弟さ！
