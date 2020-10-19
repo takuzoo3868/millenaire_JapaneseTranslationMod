@@ -35,7 +35,7 @@ villager.teenagermale=少女
 
 villager.wife_byzantine=妻
 villager.merchant_art=美術商人
-villager.merchant_food=露天商人
+villager.merchant_food=食料商人
 villager.merchant_materials=石材商人
 villager.smuggler_silk=絹商人
 
