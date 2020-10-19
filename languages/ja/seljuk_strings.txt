@@ -50,7 +50,7 @@ villager.turk_hocaswife=妻
 villager.turk_lonesoldier=兵士
 
 villager.turk_merchant_art=美術商人
-villager.turk_merchant_food=露天商人
+villager.turk_merchant_food=食料商人
 villager.turk_merchant_mine=石材商人
 villager.turk_merchant_plant=苗木商人
 villager.turk_merchant_weapon=武器商人

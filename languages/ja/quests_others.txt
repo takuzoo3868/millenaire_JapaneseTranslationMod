@@ -303,11 +303,11 @@ helvachild_0_description_success=思い出した！ハルヴァといいます�
 helvachild_0_description_refuse=ああ、今すぐにでも甘いものが食べたい...
 
 imambook_0_label=イマームの本
-imambook_0_description=私の夫はイマーム(導師)なのをご存知ですか？今朝、家を出る時にこの本を持って行くのを忘れたんです。彼に届けてもらえますか?
-imambook_0_description_success=ありがとうございます、この本は導師がきちんと仕事をするためにとても重要な本です。
+imambook_0_description=私の夫はイマーム(ムスリムの指導者)であることをご存知でして？今朝、家を出る時にこの本を持って行くのを忘れたみたいなの。彼に届けてもらえないかしら?
+imambook_0_description_success=ありがとうございます、この本はイマームがきちんと仕事をするためにとても重要な本なのよ。
 imambook_0_description_refuse=自分で届けにいきますとも...
 imambook_1_label=イマームの本
-imambook_1_description_success=ありがとう、これでようやく研究を続けることができます。
+imambook_1_description_success=ありがとう、これでようやくシャーリアの研究を続けることができます。
 
 irontoolsmith_0_label=鍛冶屋
 irontoolsmith_0_description=私は腕の確かな鍛冶職人ですよ。残念なことに鉄が不足しているんです。鉄インゴットを8個いただけたら、私の腕前をお見せしましょう...

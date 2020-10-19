@@ -1,193 +1,175 @@
+sadhu_intro_0_label=苦行僧
+sadhu_intro_0_description=$name、今ではもう長い付き合いになりますね。あなたが何者なのか、どこからやって来たのか聞いてみたこともないのに、皆あなたを仲間として信頼しています。もともと、あなたのことは他の国の男性だと思っていたのです。大地が揺れたあの運命的な日に、季節が変わることもなく川も流れを止めてしまった、この奇妙な土地へ私たちと同じように運ばれてきたのだと。えぇそうです、石造りのピラミッドに住む奇妙な人たちや、鉄の鍛造に長けた白い人たちと同じなんだと、そう思っていたのです。<ret><ret>私たちは長い間あなたを見てきましたが、どうやらあなたの様子は他の者と異なります。前の土地の記憶がないようで、まるでこの世界が自分のものであるかのように振る舞っています。私たちがあなたのような人に出会ったことは一度もありません。<ret><ret>私たちより多くのことを知っていて、それを共有したくないならば、それはあなたの自由です。しかし私が思うに、この奇妙な世界を歩き回り、自分の居場所はどこなのか疑問に感じているならば、知恵が必要になるでしょう。私にはその疑問に答える知恵などありませんが...あなたの救いになるかもしれない人物に、一人だけ心当たりがあります。私のかつてのグル(導師)、サドゥー(苦行僧)の Vidya です。何年も会っていませんが、彼が森の中を歩き回っているのは知っています。背の高くて丈夫な木を選んで、そこに小さな庵を結んで暮らしているそうです。もし彼に会ったら、私に分かち合ってくれた知恵にどうか感謝の意を伝えてください。よろしくお願いします。
+sadhu_intro_0_description_success=あなたの旅に女神の祝福があらんことを。
+sadhu_intro_0_description_refuse=自分探しの旅は大変ですよね、わかります。
+sadhu_intro_1_label=僧侶への報告
+sadhu_intro_1_description=それで、あなたは私のかつてのグル(導師)に会えましたか？
+sadhu_intro_1_description_success=あなたは彼と知恵を共有する大きな名誉を与えられました。神があなたに微笑んでいるのです。
+sadhu_intro_1_description_refuse=私はここに留まり、$nameの心が変わるように祈ります。
+sadhu_intro_1_listing=森の巨木の下にいる苦行僧を探す。彼に会ったら、 $startvillager_villagename$ 村の僧侶に報告する。
 
-
-sadhu_intro_0_label=苦行僧(導師)
-sadhu_intro_0_description=$name、<ret>私達は、あなたの事を長い間見てきました。<ret>私達はあなたが何者で何処から来たかなど尋ねるこ<ret>とはしません。しかし、あなたは私達の仲間として<ret>信頼できると者だと周囲に認められました。<ret><ret>この地は決して変わらない季節と川が流れない土地<ret><ret>当初、あなたは好奇心から我々を好み、別の国から<ret>来たものだと考えていました。<ret>そして地面が揺れた宿命的な日、私は気づきました。<ret><ret><ret>長い間あなたを観察しました。あなたはこの土地の<ret>知識が無く、かといって何処にも属さない。他の誰<ret>とも違う存在だと気づきました。<ret><ret>あなたは私達以上の知識を知っていますが、誰にも<ret>教えたくない、それはあなたの自由です。<ret>あなたが色々な世界を歩き回り、そして疑問に思う<ret>事があっても、私達にはあなたの疑問に答える知識<ret>がありません。<ret>あなたを助ける事ができる人物は私の導師、苦行僧<ret>Vidya ただ一人です。<ret>長い間、彼とは会っていませんが、彼は森を散策す<ret>るのが好きでした。小屋を作るときは、高く大きい<ret>木の側を選んでいました。もしあなたが彼に会う時<ret>には私に知恵を授けてくた事の感謝の気持ちを伝え<ret>てください。
-sadhu_intro_0_description_success=女神は、あなたの旅を祝福します。
-sadhu_intro_0_description_refuse=自己発見の道は厳しいですよ。
-sadhu_intro_1_label=僧侶(Pandit)への報告
-sadhu_intro_1_description=それで、あなたは私の導師に会いましたか?
-sadhu_intro_1_description_success=彼は、あなたと知識を共有することができ、大いに<ret>感服しました。あなたは、神が微笑むほどの方です。
-sadhu_intro_1_description_refuse=私はここで<ret>$nameの<ret>心境が変わるよう祈りましょう。
-sadhu_intro_1_listing=・森の中の高い木の下にいる苦行僧(導師)を探<ret>す。彼に会ったら、<ret>$startvillager_villagename$の僧侶(Pandit)に報告
-
-
-sadhu_introwife_0_label=苦行僧(導師)
-sadhu_introwife_0_description=$name、私達は、あなたの事を長い間見てきました。<ret>私達はあなたが何者で何処から来たかなど尋ねるこ<ret>とはしません。しかし、あなたは私達の仲間として<ret>信頼できると者だと周囲に認められました。<ret><ret>この地は決して変わらない季節と川が流れない土地<ret><ret>当初、あなたは好奇心から我々を好み、別の国から<ret>来たものだと考えていました。<ret>そして地面が揺れた宿命的な日、私は気づきました。<ret><ret><ret>長い間あなたを観察しました。あなたはこの土地の<ret>知識が無く、かといって何処にも属さない。他の誰<ret>とも違う存在だと気づきました。<ret><ret>あなたは私達以上の知識を知っていますが、誰にも<ret>教えたくない、それはあなたの自由です。<ret>あなたが色々な世界を歩き回り、そして疑問に思う<ret>事があっても、私達にはあなたの疑問に答える知識<ret>がありません。<ret>あなたを助ける事ができる人物は私の導師、苦行僧<ret>Vidya ただ一人です。<ret>長い間、彼とは会っていませんが、彼は森を散策す<ret>るのが好きでした。小屋を作るときは、高く大きい<ret>木の側を選んでいました。もしあなたが彼に会う時<ret>には私に知恵を授けてくた事の感謝の気持ちを伝え<ret>てください。
-sadhu_introwife_0_description_success=女神は、あなたの旅を祝福します。
-sadhu_introwife_0_description_refuse=聖者の助けを拒むべきではありませんよ。
-sadhu_introwife_1_label=$startvillager_villagerrole$への報告
-sadhu_introwife_1_description=それであなたは聖者からアドバイスを受けましたか?
-sadhu_introwife_1_description_success=彼は、あなたと知識を共有することができ、大いに<ret>感服しました。<ret>あなたは神が微笑むほどの方です。
-sadhu_introwife_1_description_refuse=私はここで$nameの<ret>心境が変わるよう祈りましょう。
-sadhu_introwife_1_listing=・森の中の高い木の下にいる苦行僧(導師)を探<ret>す。<ret>彼に会ったら、<ret>$startvillager_villagename$の僧侶(Pandit)に報告します。
+sadhu_introwife_0_label=苦行僧
+sadhu_introwife_0_description=$name、今ではもう長い付き合いになりますね。あなたが何者なのか、どこからやって来たのか聞いてみたこともないのに、皆あなたを仲間として信頼しています。もともと、あなたのことは他の国の男性だと思っていたのです。大地が揺れたあの運命的な日に、季節が変わることもなく川も流れを止めてしまった、この奇妙な土地へ私たちと同じように運ばれてきたのだと。えぇそうです、石造りのピラミッドに住む奇妙な人たちや、鉄の鍛造に長けた白い人たちと同じなんだと、そう思っていたのです。<ret><ret>私たちは長い間あなたを見てきましたが、どうやらあなたの様子は他の者と異なります。前の土地の記憶がないようで、まるでこの世界が自分のものであるかのように振る舞っています。私たちがあなたのような人に出会ったことは一度もありません。<ret><ret>私たちより多くのことを知っていて、それを共有したくないならば、それはあなたの自由です。しかし私が思うに、この奇妙な世界を歩き回り、自分の居場所はどこなのか疑問に感じているならば、知恵が必要になるでしょう。私にはその疑問に答える知恵などありませんが...あなたの救いになるかもしれない人物に、一人だけ心当たりがあります。サドゥー(苦行僧)の Vidya です。困難な時に私を助けてくれた賢者です。何年も会っていませんが、彼が森の中を歩き回っているのは知っています。背の高くて丈夫な木を選んで、そこに小さな庵を結んで暮らしているそうです。もし彼に会ったら、私に分かち合ってくれた知恵にどうか感謝の意を伝えてください。よろしくお願いします。
+sadhu_introwife_0_description_success=あなたの旅に女神のご加護があらんことを。
+sadhu_introwife_0_description_refuse=神聖なる人助けを拒んではいけませんよ。
+sadhu_introwife_1_label=$startvillager_villagerrole$ への報告
+sadhu_introwife_1_description=聖人から良いアドバイスはありましたか？
+sadhu_introwife_1_description_success=あなたは彼と知恵を共有する大きな名誉を与えられました。神があなたに微笑んでいるのです。
+sadhu_introwife_1_description_refuse=私はここに留まり、$nameの心が変わるように祈ります。
+sadhu_introwife_1_listing=森の巨木の下にいる苦行僧を探す。彼に会ったら、 $startvillager_villagename$ 村の $startvillager_villagerrole$ に報告する。
 
 sadhu_first_0_label=開幕
-sadhu_first_0_description=$name、私はあなたを待っていました。<ret>村民はアドバイスを求めて私を訪ねで来ます。いろいろな<ret>場所の未知なる人々についての話を聞かれました。<ret><ret>何度か、インド村の人々の助けをすることができました。<ret>私があなたの質問に答えるには、いくつかの村の長の許可<ret>が必要です。それは簡単なことではないでしょう。<ret><ret>私の知識は神聖ガンジス川に伝承される古い知識です。<ret>私はここで、新しい知識を学ばなければなりません。<ret><ret>あなたがこの導師を求めるならば、それは無駄になった<ret>かもしれません。<ret><ret>しかし... 瞑想の世界に赴く前に、私は自然の世界を理解し<ret>ました。<ret>私が名前をつける事ができなかった植物は、<ret>ヒマラヤ山脈と南のジャングルの間ではありません。<ret>そして、私の体が衰弱する間、私の心は鋭いままです。<ret>私がこの世界を調査するのを手伝ってください。<ret>そして、あなたもそれについて多くを学ぶべきです。<ret>しかし用心してください: この世界のすべての生物が大人し<ret>いわけではありません。そして、この世界を調査するとき、<ret>我々は妨害を受けるかもしれない事を忘れないで下さい。
-sadhu_first_0_description_success=これから私は瞑想します。<ret>一度、村の長へ戻ってください。<ret>あなたの最初の仕事です。<ret>またしばらくしたら、また来てください。
-sadhu_first_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
+sadhu_first_0_description=$name、あなたを待っていました。村人たちは助言を求めて私を訪ねてくるのですが、我々の集落と仲良くなった、過去を持たない不思議な人の話を何度も聞かされました。村人たちはあなたのことをこの世界でずっと昔から生きているのではないかと噂していますよ。...さて、あなたはどこかの村の長老から、私の存在があなたの疑問の答えになると言われたに違いありません。ですがそう簡単にはいかないでしょう。私の知識は旧世界の聖なるガンジス川のほとりでは偉大だったかもしれませんが、この世界では無意味に等しく、今は新たに全てを学んでいる最中なのです。もしあなたがわたしをグル(導師)として求めていたならば、今回の訪問は無駄足だったでしょう。<ret><ret>ですが...俗世を捨て瞑想する毎日を過ごす前、私は自然界の知識に長けていました。ヒマラヤ山脈と南部のジャングル一帯で、私の名前を冠していない植物はありません。肉体はすでに衰弱していますが、私の精神と頭脳は冴えたままです。この世界の研究を手伝ってもらえれば、あなたも多くを学ぶことができるでしょう。しかしこれだけは忠告しておきます。この世界の生き物は全てが平和的という訳ではありません。時には歯向かってくる場合もあるかと思います。それでも良いですか？
+sadhu_first_0_description_success=それでは瞑想してきます。最初の仕事がありますので、しばらく経ったら戻ってきてください。
+sadhu_first_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
 
-sadhu_1_samples_0_label=植物サンプル
-sadhu_1_samples_0_description=あなたの最初の仕事は単純です。私にはこの<ret>辺りで見つかる植物サンプルが必要です。<ret>私は3つめの満月が来るまでこの木周囲に居ると<ret>誓います。私の代わりに植物のサンプルを集め<ret>てきてください。
-sadhu_1_samples_0_description_success=私はあなたがいない間、瞑想しましょう。<ret>集めるものは、白樺の苗木、オークの苗木<ret>かぼちゃ、rose、flower、種などを各2つ<ret>
-sadhu_1_samples_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
+sadhu_1_samples_0_label=植物のサンプル
+sadhu_1_samples_0_description=最初の仕事は簡単です。この辺りの植生で見られる主な植物の採集が必要です。自分で行ってくるつもりだったのですが、3回満月が訪れるまでの間、この木に手が届く範囲に留まると誓ってしまったので、この仕事をしてもらいます。
+sadhu_1_samples_0_description_success=あなたがいない間、瞑想していましょう。
+sadhu_1_samples_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
 sadhu_1_samples_1_label=サンプルを持ち帰る
-sadhu_1_samples_1_description=私はあなたを無事に導けるよう祈願していました。<ret>
-sadhu_1_samples_1_description_success=それらのサンプルは非常に役に立ちます。<ret>$name、私は女神にあなたを褒め称えます。<ret><ret>この仕事はあなたには簡単すぎましたね。<ret>将来あなたに、より大変な仕事をしてもらう<ret>事になるでしょう。<ret><ret>少し休んだら、また、戻ってきて下さい。
-sadhu_1_samples_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_1_samples_1_listing=・苦行僧(導師)に植物サンプルをいくつか持ち<ret>帰る。
+sadhu_1_samples_1_description=あなたが無事に導かれるよう祈っていました。
+sadhu_1_samples_1_description_success=このサンプルは大いに役立ちます。女神もあなたを称賛することでしょう、$name。<ret><ret>この仕事ではあなたとって簡単すぎるとわかりました。意味のない仕事など存在しないということだけは覚えておいてください。これからは少々厳しい仕事もお願いしますので、覚悟しておいてください。<ret><ret>少し休んだら、また戻ってきてください。
+sadhu_1_samples_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_1_samples_1_listing=苦行僧のもとへ植物サンプルを持ち帰る。メモ：白樺の苗木、オークの苗木、かぼちゃ、赤の花、黄の花、種を各々2つ
 
-
-sadhu_2_forest_0_label=森林の探索
-sadhu_2_forest_0_description=我々はこの新世界の主要生態系を学ぶ必要があります。<ret>探索は森林から始めましょう。あなたは夜に訪れ、心を<ret>開いてください。探索は夜、日没と共に始まります。<ret>注意深く観察しながら歩いて、夜を過ごしてください。<ret><ret>太陽が沈む時、外は危険である事を思い出す必要はあり<ret>ません。神があなたを見守っていますから。<ret><ret>ただし、剣を持つことは良い考えかもしれません。<ret>私は準備に抜かりのない戦士は、より強く神の加護を<ret>享受することに気がつきました。<ret>
-sadhu_2_forest_0_description_success=あなたがいない間、私は瞑想しましょう。<ret>気をつけて、日没後に森林へ散策へ行ってくるのですよ。
-sadhu_2_forest_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
+sadhu_2_forest_0_label=森の探索
+sadhu_2_forest_0_description=この新しい世界の風景を勉強する必要があります。まずは森の探索から始めましょう。夜に森を訪れ、心眼で観察してみてください。日没と共に出発し、夜の間は森を歩くのです。その時の様子を注意深く観察してください。<ret><ret>日が沈むと屋外は危険であることは言うまでもありませんが、神々があなたを見守ってくれるはずです。剣を持ち歩くのも良いでしょう。準備を怠らない戦士は、強い神の加護を授かることが多いですから。
+sadhu_2_forest_0_description_success=あなたが留守の間、瞑想していましょう。
+sadhu_2_forest_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
 sadhu_2_forest_1_label=探索の結果
-sadhu_2_forest_1_description=真夜中の散歩はどうでしたか？悟りに近づけましたか？
-sadhu_2_forest_1_description_success=あなたは動揺しましたか？これは予想されていた事でもあります。新たな可能性がもたらされるよりも多くの妨害にあったようですね。<ret><ret>我々は、この世界で理解していないことが沢山あります。<ret>私に考える時間を下さい。<ret>しばらくしたら、また、戻ってきて下さい。
-sadhu_2_forest_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_2_forest_1_listing=・苦行僧(導師)によって示されたように、夜の<ret>森林を探索してください。
+sadhu_2_forest_1_description=さて、深夜のお散歩はいかがでしたか？悟りに近づきましたか？
+sadhu_2_forest_1_description_success=動揺するようなことでもあったのですか？予想はしていましたが、偶然には程遠い抵抗に遭遇したようですね。この世界はわからないことだらけです。少し考える時間をください。しばらく経ったら戻ってきてほしいです。
+sadhu_2_forest_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_2_forest_1_listing=苦行僧が指示したように、夜の森林を探索する。
 
-
-sadhu_3_pandit_0_label=ヒンドゥー教叙事詩
-sadhu_3_pandit_0_description=私は明かりとは無縁です。あなたが森で遭遇した不運な<ret>出来事を長い間考えていました。あの腐りかけた男は、<ret>この世の生きうるものとは明らかに異なります。<ret><ret>私には彼らの存在が理解できません。しかし、彼らに関<ret>係があるかもしれない、悪魔の会談について、古代のヒ<ret>ンドゥー教叙事詩に記述があります。私は孤独な存在で<ret>すから、このような貴重な書物を維持することはできま<ret>せん。<ret>おそらくインドの村で見つける事ができるでしょう。<ret>
-sadhu_3_pandit_0_description_success=私は、自分の書庫が欲しいです...<ret>苦行僧(導師) としての生活は、この点が大変です。
-sadhu_3_pandit_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
+sadhu_3_pandit_0_label=ヒンドゥー教の叙事詩
+sadhu_3_pandit_0_description=あなたが森の探索で遭遇した、不運な出来事をずっと考えていましたが光は見えませんでした。男性に似たあの異形の生き物は、私がこれまでに見たことのあるどの生き物とも異なります。私には彼らの存在理由が理解できません。しかし、古代ヒンドゥー教の叙事詩には悪魔の記述があったはずです。何か関係があるかもしれません。私は孤独の身ですから、そのような高価な書物は保管していませんが、インドの村には置いてあるはずです。
+sadhu_3_pandit_0_description_success=こんなときは自分の書庫が欲しくなりますね...苦行僧としての生活は苦難ばかりです。
+sadhu_3_pandit_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
 sadhu_3_pandit_1_label=本を渡す
-sadhu_3_pandit_1_description=あなたが戻ってくるまでの間、私は、<ret>$nameを祈り続けます。<ret>あなたが苦も無く見つける事を願っています。
-sadhu_3_pandit_1_description_success=$name、ありがとう。<ret>私はしばらくこの本を勉強する必要があります。<ret>瞑想し、あなたが内なる平和を見つけたとき、<ret>またここに戻ってきて下さい。
-sadhu_3_pandit_1_description_refuse=私は悲しいです。
-sadhu_3_pandit_1_listing=・本を貸してくれるインドの村人を見つけて、<ret>本を苦行僧(導師)に渡してください。
-
-sadhu_3b_pandit_0_label=僧侶(Pandit)に話す
-sadhu_3b_pandit_0_description=あなたは聡明な苦行僧(導師)に会いましたか？<ret>あなたは苦行僧(導師)の下に仕える事を光栄に思いなさい。<ret><ret>もちろん、彼が求める本はすぐ用意します。<ret>あなたも、サンスクリット語を理解できるなら、<ret>この本を読んだほうが良いでしょう。
-sadhu_3b_pandit_0_description_success=神聖な苦行僧(導師)によろしくお伝えください!
-sadhu_3b_pandit_0_description_refuse=あなたは苦行僧(導師)自ら与えられた仕事を<ret>拒む勇気があるのですか？
-
-sadhu_3b_wife_0_label=$startvillager_villagerrole$に話す
-sadhu_3b_wife_0_description=苦行僧(導師) はこの素晴らしいヒンドゥー教叙事詩<ret>が必要なのですか？私が持っている写本を彼にお渡し<ret>できるのは、とても名誉なことです!
-sadhu_3b_wife_0_description_success=神聖な苦行僧(導師) によろしくお伝えください!
-sadhu_3b_wife_0_description_refuse=あなたは苦行僧(導師)から与えられた仕事を<ret>拒む勇気があるのですか？
-
+sadhu_3_pandit_1_description=あなたが戻ってくるまでの間、私は祈り続けていましたよ、$name。無事に見つかったことを願っています。
+sadhu_3_pandit_1_description_success=$name、ありがとうございます。私はしばらくこの書物について研究します。あなたも瞑想してみるといいですよ。心が安らいだら戻ってきてください。
+sadhu_3_pandit_1_description_refuse=その返答は悲しいです。
+sadhu_3_pandit_1_listing=書物を貸してくれるインドの村人を見つけて、苦行僧にその書物を渡す。
+sadhu_3b_pandit_0_label=僧侶と話す
+sadhu_3b_pandit_0_description=聡明なサドゥー(苦行僧)にお会いしたのですね？彼のように聖なる人の下に仕えるのは光栄なことです！<ret><ret>もちろん、必要な本はすぐにお渡しします。あなたも読むべきでしょう。サンスクリット語を理解できることが前提ですが...
+sadhu_3b_pandit_0_description_success=聖なるサドゥー(苦行僧)によろしくお伝えください！
+sadhu_3b_pandit_0_description_refuse=サドゥー(苦行僧)自らお与えになった仕事を拒む勇気があるのですか？
+sadhu_3b_wife_0_label=$startvillager_villagerrole$ と話す
+sadhu_3b_wife_0_description=サドゥー(苦行僧)が偉大なヒンドゥー教の叙事詩を必要としているのですか？私が持っている写本を彼にお渡しできるのは大変光栄なことです!
+sadhu_3b_wife_0_description_success=聖なるサドゥー(苦行僧)によろしくお伝えください！
+sadhu_3b_wife_0_description_refuse=サドゥー(苦行僧)自らお与えになった仕事を拒む勇気があるのですか？
 
 sadhu_4_desertb_0_label=砂漠の探索
-sadhu_4_desertb_0_description=この素晴らしい叙事詩は、いにしえ世界の<ret>知恵の源です。<ret>多くの偉大な英雄と神々は古い時代に悪魔と戦いました。<ret>その力と知識は闇の世界の邪悪なものから、身を守るのに<ret>役立ちます。私はあなたを守るために、この知識を使うこ<ret>とができます。<ret>しかしこの力を使うには、まず私自身を浄化するために、<ret>断食する必要があります。<ret><ret>私自身の準備をしている間、あなたには仕事を続けて貰い<ret>たい。<ret>滅多に訪れない、この世界の不毛な荒地に関する情報を集<ret>めて欲しいのです。おそらく邪魔をする力が働くかも知れ<ret>ません。森林を探索したように最初に見つけた夜の砂漠を<ret>探索して来てください。そしていくつか同時にサンプルも<ret>とってきてください。サボテン、サトウキビを2つずつ。<ret>
-sadhu_4_desertb_0_description_success=あなたがいない間、私は断食をしましょう。
-sadhu_4_desertb_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_4_desertb_1_label=探索の結果
-sadhu_4_desertb_1_description=あなたの探索は女神によって安全が保たれていたと信じて<ret>います。
-sadhu_4_desertb_1_description_success=$name、<ret>"砂"と"不毛"の地である砂漠のあなたの説明は、我々の<ret>知識を増やすには至りませんでした。しかし、以前より<ret>多くのスケルトンが、闊歩していることに気づいたこと<ret>は、非常に面白いです。<ret><ret>探索しているあなたに反応しているようです。<ret><ret>あなたがいない間、私は長時間祈りました。そして、<ret>ヴィシュヌ神が彼の無限の知恵で我々の探求を祝福して<ret>下さるとのことです。<ret>私に邪悪な力が近づいていることを感じ取りました。<ret>このお守りに力を注ぐための知識を与えられました。<ret>これを持って行って下さい、きっとあなたの助けにな<ret>るでしょう。
-sadhu_4_desertb_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_4_desertb_1_listing=・苦行僧(導師)によって示されたように、夜の<ret>砂漠を探索してください。
+sadhu_4_desertb_0_description=偉大な叙事詩は、古のようなこの世界では知恵の源です。古の時代には多くの英雄や神々が魔物と戦っていましたが、その武勇を知ることで、闇の世界に蔓延る邪悪からあなたを守ることができるでしょう。私はこの知識を使ってあなたを守れると信じていますが、まずは断食して身を清める必要があります。<ret><ret>私が身を清める間、あなたは調査を続けてください。人間が滅多に行かない不毛の荒地について、情報を集めてほしいのです。おそらく、邪魔をしてくる勢力も以前より少ないはずです。森を探索したように、夜に出かけて最初に遭遇した砂漠を探索してください。
+sadhu_4_desertb_0_description_success=あなたが留守の間、断食していましょう。
+sadhu_4_desertb_0_description_refuse=その返答は悲しいです、$name。
+sadhu_4_desertb_1_label=発見の報告
+sadhu_4_desertb_1_description=女神があなたの安全を守ってくれたと信じています。
+sadhu_4_desertb_1_description_success=「砂」と「不毛」が覆う砂漠について、あなたの説明を聞いたところ特に新しい情報はありませんね、$name。しかし、以前より歩く骸骨が増えていたのは興味深いです。まるで土地そのものがあなたの探索に反応しているような...<ret><ret>あなたがいない間、私は懸命に祈り続けました。その甲斐もあり、無限の知恵をもつ最高神Vishnuが私たちの探求を祝福してくださいました。御方は周りの邪悪なものを感じる知識を私に与えてくださり、このお守りにもその力を注ぎ込んでくださいました。どうぞ持って行ってください、あなたを護るはずです。
+sadhu_4_desertb_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_4_desertb_1_listing=苦行僧の指示通り、夜の砂漠を探索する。メモ：サボテン、サトウキビを各々2つ
 
 sadhu_5_adivasi_0_label=湿地の専門家
-sadhu_5_adivasi_0_description=$name、<ret>我々はこの世界の情報を集め続ける必要があります。<ret>私は自然の力が多く存在する湿地が、特に重要な場所で<ret>あると思っています。ありがたいことにそれらを探索す<ret>る必要はありません。<ret><ret>インド先住民に湿地について類稀な人物がいます。<ret>その農民は非常に貧しく、村民から軽蔑されています。<ret>彼は湿地で生活しています。詳しい情報を聞くために、<ret>彼を尋ねてください。<ret>あなたが私の代理で来たことを伝えれば歓迎してくれる<ret>ことでしょう。
-sadhu_5_adivasi_0_description_success=私は彼の住居について、あなたに教えることができません。<ret>湿地を探索し、あなた自身が見つける必要があります。<ret>
-sadhu_5_adivasi_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
+sadhu_5_adivasi_0_description=$name、私たちはこの世界の情報をまだまだ集めねばなりません。沼地は特に重要な場所だと思います。あの一帯は自然の力が見た目よりも遥かに多く存在している気がします。ありがたいことに、あなたが自分で探検する必要はありません。湿地について詳しく知っている人々がいます。アディヴァシ(先住民)の農民です。彼らは貧しく、村人からは見下されていますが、観察力があり、沼地の奥深くで生活をしています。詳しい情報を探るために彼らを尋ねてください。私の代わりに来たと言えば歓迎してくれるはずです。
+sadhu_5_adivasi_0_description_success=彼らの住まいへの道順は私もはっきり覚えていません。沼地を探せば見つかるはずです。
+sadhu_5_adivasi_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
 sadhu_5_adivasi_1_label=サンプルを持ち帰る
-sadhu_5_adivasi_1_description=インド先住民は、彼らの知識をあなたと共有しましたか？
-sadhu_5_adivasi_1_description_success=素晴らしいこれは最も役立ちます。<ret>彼らは湿地の異常な活動について、何か<ret>言っていましたか？
+sadhu_5_adivasi_1_description=アディヴァシ(先住民)の人々は知恵を授けてくれましたか？
+sadhu_5_adivasi_1_description_success=素晴らしい、それはかなり役立つ情報です。彼らは沼地での異常な活動について語っていたのですね？
 sadhu_5_adivasi_1_description_refuse=私は悲しいです。
-sadhu_5_adivasi_1_listing=・湿地でインド先住民の農民を見つけ、湿地の<ret>情報を求めてください。そして苦行僧(導師)の<ret>ところに戻ってください。
+sadhu_5_adivasi_1_listing=湿地で先住民の農夫を見つけ、湿地の情報を求める。情報を聞いたら苦行僧のところへ戻る。
+sadhu_5b_adivasib_0_label=農夫と話す
+sadhu_5b_adivasib_0_description=サドゥー(苦行僧)が私たちの助けを求めているのですか？しかし、私は貧しくて無知な男です...彼に渡せるものなど私が採集した背の低い植物くらいですよ...あぁそうだ。暗い闇の生き物が夜に沼地を彷徨っているのを見たことがあります。日が昇ると炎に包まれる生き物もいました！彼らの不浄な遺骸をいくつか集めておいたんです。神聖なお方ならこれがどれほど忌まわしい物なのか理解できるかもしれませんよね？<ret><ret>$name、ここを旅立つ前に、この植物も受け取ってください。サドゥー(苦行僧)のために仕える人は、みな善人ですからあなたを疑ったりしませんよ。
+sadhu_5b_adivasib_0_description_success=これが彼の役に立つことを祈ります。彼の知恵には限界がありませんから。
+sadhu_5b_adivasib_0_description_refuse=サドゥー(苦行僧)を助けるという神聖な仕事を、どうして断ることができるのですか？
 
-
-sadhu_5b_adivasib_0_label=農民と話す
-sadhu_5b_adivasib_0_description=苦行僧(導師)が私の助けが必要だって？<ret>しかし、私は貧しく、無知な男です... 私が彼に与えられる<ret>物といったら、私が集めて保存しているこの植物ぐらい..<ret>私は闇の生物が夜に沼地をさ迷い歩くのを見ました。<ret>そしてその生物は、日が昇ると炎に包まれ爆発したの<ret>です！私はそれら汚れた者の残骸のいくつかを集めました。<ret>聖者様にはこれがどんな物なのか理解できるでしょう。<ret><ret>$name、<ret>あなたがここを離れる前に、この植物を受け取ってく<ret>ださい。苦行僧(導師)のために仕える人は、みな良い<ret>人であるに違いありません。
-sadhu_5b_adivasib_0_description_success=私は、これが彼にとって役立つものであるよう祈ります。
-sadhu_5b_adivasib_0_description_refuse=あなたは苦行僧(導師)から与えられた仕事を<ret>拒む勇気があるのですか？
-
-
-sadhu_6_enchantedsword_0_label=神聖武器
-sadhu_6_enchantedsword_0_description=$name<ret>インド先住民の物語は暗闇に覆われています。<ret>太陽が沈み悪魔が徘徊する中、あなたの護符を使ってこの<ret>土地を安全に探索することができますか？<ret>あなたが出かけた後、再び叙事詩を読みました。そしてあ<ret>なたが何を必要とするのか分かったような気がします。<ret><ret>あなたを守るための聖なる武器ヴィシュヌ自身が用いた、<ret>強力なSudarshana Chakraのように恐ろしい何か。<ret><ret>３日間の断食後でさえ誰も私の瞑想に答えてくれません。<ret>私の知識が足りないのではと心配です。<ret><ret>$name、<ret>我々はそれを理解できていないが、この世界とあなたの繋がりは、私のものよりはるかに大きいです。<ret>- あなたは悪を退けるための神聖な剣を手にすることがで<ret>きると思いますか？
-sadhu_6_enchantedsword_0_description_success=友よ、神のご加護がありますように。
-sadhu_6_enchantedsword_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_6_enchantedsword_1_label=神聖魔法剣
-sadhu_6_enchantedsword_1_description=$name、<ret>あなたはその異様な生き物と戦うための武器を<ret>得られましたか？
-sadhu_6_enchantedsword_1_description_success=神に魔法の武器を求めずに自ら<ret>作り出すとは、あなたにはその力があるのですね<ret>$name、<ret>この世界について、あなたの先天的な知識は恐ろしいもの<ret>を感じます。あなたは本当に人間ですか？今すぐ、私のも<ret>とを去ってください。<ret>私は導きのために祈る必要があります。
-sadhu_6_enchantedsword_1_listing=エンチャントされた剣を、苦行僧(導師)に見せてください。
-sadhu_6_enchantedsword_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
+sadhu_6_enchantedsword_0_label=聖なる武器
+sadhu_6_enchantedsword_0_description=アディヴァシ(先住民)の話は暗黒を示しています、$name。授けたお守りがあったとしても、太陽が沈む頃には悪魔が徘徊しているというのに、安心してこの世界を探索できるでしょうか？あなたの不在の間に、私は叙事詩を読み直しました。今のあなたに何が必要か分かったような気がします。あなたを守るための聖なる武器。Vishnu神が振り回すスダルシャナ・チャクラ(上の右手に持っている円盤状の武器)のように獰猛で恐ろしいもの...しかし、三日間の断食の後でさえ、瞑想してもその武器を入手する方法は見つかりませんでした。私の知識では役に立たないかもしれません。あなたとこの世界とのつながりは、私よりもはるかに大きいです。この世の悪を退けるために、聖なる剣を入手する方法に何か心当たりはありませんか？
+sadhu_6_enchantedsword_0_description_success=神々のご加護がありますように。
+sadhu_6_enchantedsword_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_6_enchantedsword_1_label=魔法の剣を持って帰る
+sadhu_6_enchantedsword_1_description=$name、邪悪な生き物と戦うための武器を与えられたのですか！？
+sadhu_6_enchantedsword_1_description_success=神々に魔法の武器を要求するのではなく、自ら作り出してしまうような力があなたにあったとは！$name、あなたがこの世界で生まれ持った才能に恐怖すら覚えます。私は時々、あなたが本当にただの人間なのか疑ってしまいます。とりあえず今は私を放っておいてくれ。導きがあるよう祈りますから。
+sadhu_6_enchantedsword_1_listing=エンチャントされた剣を、苦行僧に見せる。
+sadhu_6_enchantedsword_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
 
 sadhu_7_enchantmenttable_0_label=恐怖と知識
-sadhu_7_enchantmenttable_0_description=許してください、私の友よ。<ret>あなたがどうあろうと、私はあなたを無愛想に追い払う<ret>つもりはありませんでした。私は恐怖に圧倒されてしま<ret>いました。<ret>私は恐れを取り除き、あなたの力を理解する必要があり<ret>ます。あなたがどうやってこの剣を作ったのか、私に教<ret>えてくれませんか？
-sadhu_7_enchantmenttable_0_description_success=あなたに感謝します。
-sadhu_7_enchantmenttable_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_7_enchantmenttable_1_label=エンチャントテーブルを見せる
-sadhu_7_enchantmenttable_1_description=それで、どうやってあなたは神に値するこの偉業を行うの<ret>ですか？
-sadhu_7_enchantmenttable_1_description_success=黒曜石とダイヤモンドのテーブルに、判読することができ<ret>ない言葉の本。死んだ悪魔から集められたエネルギー。<ret><ret>そして、まるで本能のように自然と全ての作業方法を<ret>知っている。<ret>誰かがあなたを導いている、$name。<ret>神か魔王か、私には分かりません。
-sadhu_7_enchantmenttable_1_listing=エンチャントテーブルと最低１つの本棚を、<ret>苦行僧(導師)の庵から10メートル以内に<ret>設置する。
-sadhu_7_enchantmenttable_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
+sadhu_7_enchantmenttable_0_description=友よ、どうか許してください。あんなに無愛想に追い払うつもりはありませんでした。私は恐怖に打ちひしがれるべきではなかったです。私もあなたの力を理解する必要があります。怯えてはいけません。この剣をどうやって作ったのか教えてもらえませんか？
+sadhu_7_enchantmenttable_0_description_success=ありがとうございます。
+sadhu_7_enchantmenttable_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_7_enchantmenttable_1_label=エンチャントテーブルを差し出す
+sadhu_7_enchantmenttable_1_description=さぁ、どうやって神にふさわしい偉業を成し遂げたのですか？
+sadhu_7_enchantmenttable_1_description_success=黒曜石とダイヤモンドで作られた机に、解読できない言葉が書かれた本、死んだ悪魔から集められたエネルギー...そして、あなたは本能的にそれら全てをうまく機能させる方法を知っているのですね。誰かがあなたを導いている気がします。神なのか魔王なのか、私にはわかりませんが。
+sadhu_7_enchantmenttable_1_listing=苦行僧の庵から10メートル以内にエンチャントテーブルと最低1つの本棚を設置する。
+sadhu_7_enchantmenttable_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
 
 sadhu_8_mountain_0_label=山の探索
-sadhu_8_mountain_0_description=私はあなたが作ったこのテーブルを研究し、<ret>仕組みを確かめなければなりません。<ret>私がこれを研究する間、$name<ret>これが最後の探索です。<ret>あなたに近くの山岳を夜に探索してもらいたい。<ret>私は瞑想で、ほとんどのパターンを見ることができます。
-sadhu_8_mountain_0_description_success=あなたがどんな力を使っているのか分析している今、私には、あなたは必ず戻ってくると分かっています。
-sadhu_8_mountain_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
+sadhu_8_mountain_0_description=私はあなたが作ったこの机を研究して仕組みを理解する必要があります。その間に、$name、あなたには最後の探索に赴いてもらいます。近くの山岳地帯を調査してほしいのです。私の瞑想の中では、何かが象られていく様子が見えました。もうすぐです...
+sadhu_8_mountain_0_description_success=あなたは必ず戻ってくると確信しています。今となっては、あなたの力を理解しましたから。
+sadhu_8_mountain_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
 sadhu_8_mountain_1_label=探索の結果
-sadhu_8_mountain_1_description=私は月光の下、山が平和であったと信じています。
-sadhu_8_mountain_1_description_success=今回、夜の探索であなたを悩ませたのはクモでしたか？<ret>私は夜にそれらを見ました。そしてこの木の近くに隠れま<ret>した。<ret>しかし彼らは何を意味しているのでしょう？ なぜ、<ret>彼らには合っていない山にさえ存在するのか？ それは、<ret>危険な兆候です。彼らが歩き回る場所はその生き物には<ret>合っていないはずです。
-sadhu_8_mountain_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_8_mountain_1_listing=・苦行僧(導師)によって示されたように、夜の<ret>山岳を探索してください。
+sadhu_8_mountain_1_description=月明かりの下、今回の山の探索は平和だったと信じていますよ。
+sadhu_8_mountain_1_description_success=今回の夜の探検であなたを悩ませたのはクモだったのですね？私もこの木の近くに潜むクモを夜に見たことがあります。ですがその現象は何を意味しているのでしょうか？なぜ生きにくい山中にも彼らは存在していたのでしょうか？自分たちの領域から外れて、さまざまな場所を歩き回る個体が現れたことは少し心配な兆候です。
+sadhu_8_mountain_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_8_mountain_1_listing=苦行僧の指示通り、夜の山岳を探索する。
 
-sadhu_9_underwater_0_label=素晴らしいダイビング
-sadhu_9_underwater_0_description=昨晩、女神は私にささやきました。<ret>私が見なければならないと、より深い場所と。<ret><ret>私は与えられたことを深く考えました。<ret>今は、彼女が何を言いたかったかは、わかっています。<ret>あなたには、非常に深い海を調査してもらいたい。
-sadhu_9_underwater_0_description_success=海に飛び込んでください、<ret>そして深海に何があるか、教えてください。
-sadhu_9_underwater_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_9_underwater_1_label=調査結果の報告
-sadhu_9_underwater_1_description=それで、<ret>波の下深くには何がありましたか？
-sadhu_9_underwater_1_description_success=あなたが潜った深海には、生命の気配が<ret>無かったという...魚も、水生植物も居ない？<ret>これは私でも何か<ret>考えなくてはなりませんね。
-sadhu_9_underwater_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_9_underwater_1_listing=・海面から深さ15m以上の深海へダイブする。
+sadhu_9_underwater_0_label=大いなる飛び込み
+sadhu_9_underwater_0_description=昨夜、女神が私に話しかけてきて「もっと深いところを探せと」と囁かれました。何のことか分からず考えていたのですが、今ようやく彼女の真意に気づきましたよ。あなたは海の深さをを調査してもらいます。
+sadhu_9_underwater_0_description_success=友よ、海に飛び込んでください。深淵には何があったか教えてください。
+sadhu_9_underwater_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_9_underwater_1_label=発見の報告
+sadhu_9_underwater_1_description=海の下、深い場所には何があったのですか？
+sadhu_9_underwater_1_description_success=深いところまで行っても、生命の痕跡はなかったと言うのですか...魚も水生植物さえも？この件は私が考察せねばなりませんね。
+sadhu_9_underwater_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_9_underwater_1_listing=海面下12メートルまで潜る。
 
-sadhu_10_underwaterglass_0_label=深き窓
-sadhu_10_underwaterglass_0_description=$name、<ret>私はあなたの調査結果について考えました。<ret>おそらく短い時間のダイビングでは、<ret>あまりよくわからなかったのでしょう。<ret>私はあなたに海に戻ってもらい、できる限り<ret>深い場所で、安全に調査するための観測室を<ret>建設してもらいたい。
-sadhu_10_underwaterglass_0_description_success=これは非常に危険な調査です。<ret>しかし、私は女神はあなたを奮い立たせ、<ret>この調査が達成できると信じています。
-sadhu_10_underwaterglass_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_10_underwaterglass_1_label=調査結果の報告
-sadhu_10_underwaterglass_1_description=今まで誰も見たことが無い場所で、<ret>あなたは何を見ましたか？
-sadhu_10_underwaterglass_1_description_success=海の底は本当に不毛な、不可解な<ret>イカ以外には生命の存在しない場所なのですね。<ret>それはありえない...<ret>海が空になることはありえない。<ret><ret>いったいどんな生物が...<ret>食べ物も無しに生き延びることができるのか？ <ret><ret>$name、<ret>あなたは私に多くの思考を与えてくれました。<ret>しばらくしたら戻ってきて下さい。<ret>私は答えを得られるよう祈っています。
-sadhu_10_underwaterglass_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_10_underwaterglass_1_listing=・海面から深さ20m以上の深海で、ガラスの<ret>天井を持つ観測室を構築する。
+sadhu_10_underwaterglass_0_label=深淵の窓
+sadhu_10_underwaterglass_0_description=$name、あなたの報告について長いこと考えてみました。短い潜水では十分に観察できなかったのかもしれません。急ぎ海へ戻り、できるだけ水深の深い場所に安全に調査できる展望室を作ってください。
+sadhu_10_underwaterglass_0_description_success=挑戦的な計画ですが、女神があなたの成就を願って鼓舞してくれると信じています。
+sadhu_10_underwaterglass_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_10_underwaterglass_1_label=発見の報告
+sadhu_10_underwaterglass_1_description=誰も見たことが無い場所には何がありましたか？
+sadhu_10_underwaterglass_1_description_success=つまり、海の底は本当に不毛の地で、謎のイカ以外には生命が存在しないと。そんなはずはない...こんなに空っぽの海はありえない。獲物がいないのに、あの強大な生き物たちはどうやって生き延びているのでしょうか？<ret><ret>$name、あなたは再び私に憂慮せねばならない案件を教えてくれました。しばらく経ったら戻ってきてください。私は答えを授かるよう祈ってみます。
+sadhu_10_underwaterglass_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_10_underwaterglass_1_listing=水面下15メートル以上の深海で、ガラスの天井を持つ展望室を建築する。
 
 sadhu_11_pujas_0_label=知識と儀式
-sadhu_11_pujas_0_description=<ret>エンチャントテーブル<ret>あなたが海を調査している間、私は、<ret>この残された謎に考えを集中させました。<ret><ret>私は本の解読に奮闘し、テーブルを構築する秘密を<ret>発見しました。<ret>私は、その後の瞑想中に悟りました。<ret>テーブルと本は重要ではないと！<ret>あなたのような現実的な人は具体的な支援を必要として<ret>いる。この力はあなたとここにしかありませんが、きっ<ret>とそれを利用する方法は他にもあります。<ret><ret>私は適切な訓練で、村の僧侶でも似たようなことができ<ret>ると思っています。<ret>あなたはここから最も近いインド村の僧侶にこの巻物を<ret>持っていって欲しい。<ret>その巻物に書いた讃美歌を用いれば、<ret>あなたが神への供物を捧げる限り、彼はあなたが与えた<ret>道具に神の祝福を与えるための祈りを、捧げることがで<ret>きるはずです。
-sadhu_11_pujas_0_description_success=私は戦争の賛美歌を書く気になれませんでした。<ret>彼は武器以外のツールを祝福することに限られます。
-sadhu_11_pujas_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_11_pujas_1_label=苦行僧(導師)と話す
-sadhu_11_pujas_1_description=僧侶は賛美歌を読みましたか？
-sadhu_11_pujas_1_description_success=うまく動いてくれて嬉しく思います。<ret>これはあなたの助けになるでしょう、$name。<ret><ret>そして私が想像していなかったような方法で、<ret>この世界を形作ることができ安心しています。
-sadhu_11_pujas_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_11_pujas_1_listing=・僧侶と話した後、苦行僧(導師)の元に<ret>戻ってください。
-
-
+sadhu_11_pujas_0_description=あなたが海を探索している間、私はあなたが残してくれたこの机の謎に全ての思考を集中させていました。本や机の構造における秘密を解読するのに苦労しましたが、結局何も理解できませんでした。しかし、瞑想の中でとある悟りを得たのです。机と本は重要ではありません。あなたのように即物的な方々は、これらの道具を必要とします。無意識の詠唱行為へ集中するための物質的な支えとなっているのでしょう。しかし、奇跡の力は道具に宿っているのではなく、あなた自身とこの世界全体を漂っているのです。ならばそれを利用する方法も他にあります。<ret><ret>村の僧侶でさえ、適切な訓練を積めば、同じようなことができると信じています。一番近いインドの村に向かい、この巻物をその村の僧侶へ届けてくれませんか。私が書いた賛美歌があれば、適切な供物を捧げて神々に祈ることで、彼らでもあなたが渡した道具に祝福を施せるはずです。
+sadhu_11_pujas_0_description_success=戦争の賛美歌を書く気になれなかったので、武器ではなく道具を祝福することに限定されるはずです。
+sadhu_11_pujas_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_11_pujas_1_label=苦行僧と話す
+sadhu_11_pujas_1_description=僧侶は賛美歌を読んでくれましたか？
+sadhu_11_pujas_1_description_success=うまくいってよかったです。この儀式はあなたの役に立つでしょう、$name。予想外の方法で、この世界の形成に関われたことを頼もしく感じます。
+sadhu_11_pujas_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_11_pujas_1_listing=村の僧侶と話した後、苦行僧の元へ戻る。
 sadhu_11b_pandit_0_label=僧侶と話す
-sadhu_11b_pandit_0_description=全知の力はイニシエのものであるのに、なぜ<ret>苦行僧(導師)は私に新しい賛美歌を歌わせたいのでしょう？<ret>しかし彼が聖人でないならば、彼は森の中に長く滞在して<ret>いないと思います。<ret>あなたが望むならば、私はあなたのために<ret>この賛美歌で儀式を行いましょう。<ret>神への供物と私への礼金、祝福を受けたい道具を持ち、<ret>私の寺院に会いに来て下さい。
-sadhu_11b_pandit_0_description_success=私に儀式を行って欲しい時は、私への礼金を<ret>忘れないでください。
-sadhu_11b_pandit_0_description_refuse=あなたは、苦行僧を助ける神聖な仕事を<ret>拒否することができますか？
-
+sadhu_11b_pandit_0_description=すべての知恵は古の時代に体系化されたはずなのに、なぜサドゥー(苦行僧)は私に新しい讃美歌を歌わせたいのでしょうか？彼が聖人でなければ、森に長く滞在している事実さえも疑ってしまうところでした。その話はさておき、あなたが望むのであれば一緒にプージャ(祈祷)を行いますよ。神々への供物、私へのお布施、祝福して欲しい道具を携えて村の寺院まで会いに来てください。
+sadhu_11b_pandit_0_description_success=私にプージャ(祈祷)を行って欲しい時は、お布施を忘れないでくださいね。
+sadhu_11b_pandit_0_description_refuse=サドゥー(苦行僧)を助けるという神聖な仕事を、どうして断ることができるのですか？
 
 sadhu_12_topandbottom_0_label=世界の限界
-sadhu_12_topandbottom_0_description=$name、よ<ret>私のために行ってもらいたい最後の挑戦がある。私はこの<ret>世界が広大であるという事を、勇敢なインドの探検家から<ret>聞いています。<ret><ret>炎の夜に我々はここに連れて来られました。<ret>最初の数年は、多くの若いインドの村民が見知った海岸を<ret>探すために彼方此方移動しましたが見つかりませんでした<ret><ret>彼らは広大なヒマラヤ山脈に匹敵する山すら、見つけるこ<ret>とができませんでした。私は、それについて真剣に考え、<ret>そして私の心に思い浮かびました。: <ret>ここの空はガンジス川の平野上にあったのと同じくらい<ret>高く見えます。しかし雲は常に低く、我々は雲の上に鳥や<ret>生き物を見たことがありません。それは雲の上がすべて<ret>幻想であるということではありませんか？<ret>あなた自身で、雲より上に何があるのかを見てくる必要が<ret>あります。
-sadhu_12_topandbottom_0_description_success=あなたの調査の助けになるならば、この由緒ある木から<ret>登り始めるのもよいかもしれません。
-sadhu_12_topandbottom_0_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_12_topandbottom_1_label=調査結果の報告
-sadhu_12_topandbottom_1_description=$name、<ret>あなたはこの地上のこれまでで一番高い場所で、<ret>何を見てきましたか?
-sadhu_12_topandbottom_1_description_success=海上から、男性90人分の身長より少し高い位置に、限界が<ret>あるようだ... この世界はまがい物なのか？<ret><ret>それともこれは、神か悪魔の仕業なのか？<ret>$name よ、<ret>この真実を確かめなければなりません。我々が暮らすこの<ret>地の底にも限界があるのか、この大地が虚空に浮かぶ薄い<ret>平面世界なのかを。
-sadhu_12_topandbottom_1_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_12_topandbottom_1_listing=・あなたが到達できる最上部での調査結果を、<ret>苦行僧に報告する。
+sadhu_12_topandbottom_0_description=$name、あなたに引き受けてほしい最後の仕事です。勇敢なインドの探検家の報告によれば、この新しい世界は広大な大地だそうです。私たちをここに連れてきた炎の夜から数年間、インドの村に暮らす多くの若者たちは、私たちの知る海岸を再び見つけるために、遠くまで無駄とさえ思える距離を広範囲に旅してきました。彼らは強大なヒマラヤ、その名に匹敵するような高くそびえ立つ山さえも発見できていません。よくよく考えてみれば、ある仮説が思い浮かびます。この世界の空はガンジス川の平原を覆っているように高く見えますが、雲はいつも低く、鳥や生き物を見かけることはありません。もしかしたら、空の上にあるものはすべて幻なのでしょうか？雲の上に何があるのか、あなたの目で確かめてもらう必要があります。
+sadhu_12_topandbottom_0_description_success=あなたの調査に役立つならば、この由緒ある木の枝に登っても良いですよ。
+sadhu_12_topandbottom_0_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_12_topandbottom_1_label=発見の報告
+sadhu_12_topandbottom_1_description=$name、地上の遥か上からは何が見えましたか？
+sadhu_12_topandbottom_1_description_success=海上から成人の男90人分より少し高い位置に限界が存在する...この世界は現実の世界を嘲笑っているのでしょうか、これも悪魔や神の仕業なのでしょうか？$name、この発見を確かめねばなりません。この世界が地底に向かって同じように有限かどうか、つまり、私たちの暮らす地表が無の上に浮かぶ薄っぺらい世界なのかどうか確かめる必要があります。
+sadhu_12_topandbottom_1_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_12_topandbottom_1_listing=出来るだけ空の彼方まで行って、発見したことを苦行僧に報告する。
+sadhu_12_topandbottom_2_label=発見の報告
+sadhu_12_topandbottom_2_description=尊い探検家よ、地下深くで何を見つけましたか？
+sadhu_12_topandbottom_2_description_success=つまり、あなたは割れない岩にぶつかり、それ以上は下に行けなかったと。これは地表から成人の男30人分だったのですね？この世界には対となる事象が多すぎます、$name。それにしてもあり得ないことです。えぇ...<ret><ret>これ以上あなたに頼む仕事はありません。すべての意味を理解できるようになるまで、私は深く考え、瞑想し、導きを乞うて祈りを捧げる必要がありそうです。しばらく経ったら戻ってきてください。Ganesh神が私を鼓舞してくださるならば、今までの発見を整理してお渡しします。
+sadhu_12_topandbottom_2_description_refuse=私はここに残り、$nameの気持ちが変わるように祈ります。
+sadhu_12_topandbottom_2_listing=出来るだけ深く掘り下げて、結果を苦行僧に報告する。
 
-
-sadhu_12_topandbottom_2_label=調査結果の報告
-sadhu_12_topandbottom_2_description=探険家であるあなたは、地下深くで何を見つけましたか?
-sadhu_12_topandbottom_2_description_success=決して壊れることのない硬い岩にぶつかり、もうそれ以<ret>上下に行くことはできなかったのですね。そして、<ret>あなたは、これが地表から下に男性30人分の高さだとい<ret>うのですね。<ret>$name、これまでの調査で、<ret>対称となるものがあまりにも多くあります。<ret>それにしても、ありえない。<ret><ret>もう、あなた手伝って頂く作業はありません。<ret>私はこれら全てを理解することができるまで考え<ret>瞑想し、答えを導き得られるよう祈る必要があります。<ret>いつか、ここに戻ってきてください。<ret>主ガネーシャが私を奮起させたならば、私が発見した<ret>結果をお教えいたします。
-sadhu_12_topandbottom_2_description_refuse=私はここで、<ret>$nameの心境が変わるよう祈りましょう。
-sadhu_12_topandbottom_2_listing=・あなたが到達できる最深部での調査結果を、<ret>苦行僧へ報告する。
-
-
-sadhu_13_conclusion_0_label=苦行僧(導師)の巻物
-sadhu_13_conclusion_0_description=私は断食をし、導きを得られるよう祈りました。<ret>そして神は私の耳に、いくつか知恵をささやきました。<ret>しかし私にはその側面を垣間見ても現実として理解でき<ret>るほどではありませんでした。<ret><ret>$name、私は話すのも疲れました。<ret>私はこの巻物に全ての結果を書き記しました。<ret>あなたの知識の探求のため、私の余沢を持って行って下<ret>さい。今私は、あなたのために何かを成すことができま<ret>せん。<ret>あなたはこれまでに出会った老齢の苦行僧(導師)よりも<ret>多くの知恵を必要とし得るかもしれませんね。
-sadhu_13_conclusion_0_description_success=この巻物にサンスクリット語の神聖な言語で書きました。<ret>それは、ほんの一部の僧侶だけが理解することができるで<ret>しょう。しかしどういうわけか私はあなたも理解すること<ret>ができると知っていました。たとえ、あなたが女神の話を<ret>聞くことができないとしても、女神はあなたの耳に囁くで<ret>しょう。
-sadhu_13_conclusion_0_description_refuse=あなたの心が変わるまで、<ret>私はこの巻物を持ち続けましょう。
+sadhu_13_conclusion_0_label=苦行僧の書
+sadhu_13_conclusion_0_description=私は導きのために断食して祈りを捧げました。そして、神々は私の耳にある知恵を囁いてくださいました。しかし、その一端を垣間見るだけで、真実を明らかにできるほどの価値はありませんでした。<ret><ret>私は疲れていて話すことができません。この巻物に発見したことを全て記しました。これを持って行き、あなたの知識の探求に対する私からの祝福だと思ってください。今のところ、これ以上の事が私に出来るとは思えません。あなたには年老いた苦行僧が持つ以上の知恵が必要なのかもしれません。
+sadhu_13_conclusion_0_description_success=私はこの巻物を聖なるサンスクリット語で書きました。今となっては数人の僧侶だけが習得しています。ですが、何となくあなたならこの言葉を理解できると思っていました。女神はいつもあなたの耳元で囁いていますよ。たとえあなたが彼女の声を聞くことができなくても...
+sadhu_13_conclusion_0_description_refuse=あなたの心が変わるまで、私はこの本を携えて待っていますよ。
 
 sadhu_leadership_0_label=指導者
-sadhu_leadership_0_description=新たにインド文化の自分の村を建設したいと<ret>聞きました。$name、<ret>あなたが私のためにしてくれたことは、あなたは道義を<ret>重んじる人であると確信せしめるものです。あなたが、<ret>それを望むのならばその計画に私の承認を与えます。
-sadhu_leadership_0_description_success=あなたの成功を祈りましょう。<ret>$nameに幸運を。
-sadhu_leadership_0_description_refuse=あなたは、真実を追い求めるほうを望むのですね？<ret>それは素晴らしいことです。<ret>しかしあなたの心が変わったときは、ここに戻って<ret>くると良いでしょう。
-
+sadhu_leadership_0_description=インドの村人たちを率いて、新しい村を拓こうという野望を聞いたことがあります。$name、色々と尽くしてくれたことを考えると、あなたの行いには正義があるのだろうと確信しています。望むならば、その計画に私の祝福を贈りましょう。
+sadhu_leadership_0_description_success=あなたの成功を祈ります。幸あれ、$name。
+sadhu_leadership_0_description_refuse=真実を探すことに集中したいのですか？それも賢明な判断です。もし気が変わったら、私のところに戻ってきてください。
