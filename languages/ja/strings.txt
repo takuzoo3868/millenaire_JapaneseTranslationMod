@@ -496,7 +496,7 @@ goal.minesand=砂を採掘中
 goal.minesandstone=砂岩を採掘中
 goal.mineredsandstone=赤土砂岩を採掘中
 goal.minestone=石を採掘中
-goal.minesnowbricks=雪塊を切り出し中
+goal.minesnowbricks=雪レンガを作成中
 goal.minesnowpaths=雪の道を作成中
 goal.mineicebricks=氷塊を切り出し中
 

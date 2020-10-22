@@ -308,7 +308,7 @@ tile.millenaire.sod_jungle.name=ジャングルの芝板
 tile.millenaire.sod_acacia.name=アカシアの芝板
 tile.millenaire.sod_dark_oak.name=ダークオークの芝板
 tile.millenaire.icebrick.name=氷塊
-tile.millenaire.snowbrick.name=雪塊
+tile.millenaire.snowbrick.name=雪レンガ
 tile.millenaire.inuitcarving.name=イヌイットの彫刻
 tile.millenaire.snowwall.name=雪の塀
 
@@ -592,7 +592,7 @@ advancements.sacrifice.desc=マヤの祈祷師に生贄の儀をしてもらう
 
 advancements.viking.name=ヴァイキングの帰還
 advancements.viking.desc=プレイヤーズヴィレッジによる村の襲撃を成功させる
-advancements.seljuk_istanbul.name=イスタンブールはコンスタンティノープルに非ず
+advancements.seljuk_istanbul.name=イスタンブールは帝都に非ず
 advancements.seljuk_istanbul.desc=セルジュークのプレイヤーズヴィレッジでビザンティンへの襲撃を成功させる
 advancements.byzantines_nottoday.name=今日じゃない！
 advancements.byzantines_nottoday.desc=ビザンティンのプレイヤーズヴィレッジでセルジュークからの襲撃を撃退する
